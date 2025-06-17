@@ -9,7 +9,7 @@ html {
 body {
   background: #f0f0f0;
   border-radius: 12px;
-  max-width: 795px;
+  max-width: 810px;
   margin: 100px auto;
   box-shadow:
     0 10px 15px rgba(0, 0, 0, 0.05),
@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 30px 60px;
   background: #f1f1f1;
 }
 
@@ -86,8 +86,8 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  font-size: 0.9rem;
-  color: #444;
+  font-size: 0.8rem;
+  color: #545454;
 }
 
 .contact-info div {
@@ -97,4 +97,212 @@ body {
 .contact-info .divider {
   color: #0052cc;
   font-weight: 400;
+}
+
+/* ========== PROFILE SUMMARY SECTION ========== */
+.profile-summary {
+  background-color: #f1f1f1;
+  padding: 15px 60px;
+  margin: 0px auto;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 15px;
+}
+
+.section-title h2 {
+  font-size: 1rem;
+  color: #0052cc;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.section-title .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #0052cc;
+}
+
+.profile-summary p {
+  font-size: 0.9rem;
+  color: #545454;
+  line-height: 1.6;
+  margin: 0;
+  text-align: justify;
+}
+
+/* ========== EDUCATION SECTION ========== */
+.education {
+  background-color: #f1f1f1;
+  padding: 15px 60px;
+  margin: 0px auto;
+}
+
+.education .section-title {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.education .section-title h2 {
+  font-size: 1rem;
+  color: #0052cc;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.education .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #0052cc;
+}
+
+.edu-entry {
+  margin-bottom: 20px;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.edu-header strong {
+  font-size: 0.9rem;
+  color: #545454;
+}
+
+.edu-time {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #0052cc;
+}
+
+.edu-entry ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #545454;
+  font-size: 0.9rem;
+}
+
+/* ========== WORK EXPERIENCE SECTION ========== */
+.work-experience {
+  background-color: #f1f1f1;
+  padding: 15px 60px;
+  margin: 0px auto;
+}
+
+.work-experience .section-title {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.work-experience .section-title h2 {
+  font-size: 1rem;
+  color: #0052cc;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.work-experience .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #0052cc;
+}
+
+.work-entry {
+  margin-bottom: 25px;
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+
+.work-header strong {
+  font-size: 0.9rem;
+  color: #545454;
+}
+
+.work-header .bar {
+  color: #545454;
+  margin: 0 6px;
+}
+
+.work-time {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #0052cc;
+}
+
+.work-entry ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #545454;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* ========== SKILLS & LANGUAGES SECTION ========== */
+.skills-languages {
+  background-color: #f1f1f1;
+  padding: 15px 60px 60px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-between;
+}
+
+.skill-block {
+  flex: 1 1 300px;
+}
+
+.skill-block .section-title {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 15px;
+}
+
+.skill-block h2 {
+  font-size: 1rem;
+  color: #0052cc;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.skill-block .line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #0052cc;
+}
+
+ul.two-columns {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+  font-size: 0.9rem;
+  color: #545454;
 }
