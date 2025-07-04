@@ -95,7 +95,10 @@ function App(props) {
       </div>
 
       <h2 className="mb-3" ref={headingRef} tabIndex="-1">
-        3 tasks remaining
+        {filteredTodos.length} tasks remaining
+        {filteredTodos.length === 0 && (
+          <span className="text-muted"> (No tasks available)</span>
+        )}
       </h2>
 
       <ul className="list-group">
