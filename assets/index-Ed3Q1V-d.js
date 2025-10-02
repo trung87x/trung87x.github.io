@@ -1,4 +1,4 @@
-(function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const i of e)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function o(e){const i={};return e.integrity&&(i.integrity=e.integrity),e.referrerPolicy&&(i.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?i.credentials="include":e.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(e){if(e.ep)return;e.ep=!0;const i=o(e);fetch(e.href,i)}})();function c(){return`
+(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const i of n)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function o(n){const i={};return n.integrity&&(i.integrity=n.integrity),n.referrerPolicy&&(i.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?i.credentials="include":n.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(n){if(n.ep)return;n.ep=!0;const i=o(n);fetch(n.href,i)}})();function c(){return`
   <!-- Hero -->
   <section class="text-center py-16 bg-blue-600 text-white">
     <h2 class="text-4xl font-bold mb-2">Xin chào 👋 Tôi là Developer</h2>
@@ -14,20 +14,12 @@
   <!-- Projects -->
   <section class="container mx-auto py-16 px-4">
     <h3 class="text-2xl font-semibold mb-8">Dự án</h3>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <article class="bg-white shadow p-4 rounded">
-        <h4 class="font-bold">Portfolio Website</h4>
-        <p class="text-gray-600">Trang web giới thiệu cá nhân.</p>
-      </article>
-      <article class="bg-white shadow p-4 rounded">
-        <h4 class="font-bold">Todo App</h4>
-        <p class="text-gray-600">Ứng dụng quản lý công việc.</p>
-      </article>
-      <article class="bg-white shadow p-4 rounded">
-        <h4 class="font-bold">Blog cá nhân</h4>
-        <p class="text-gray-600">Viết bài, chia sẻ kiến thức.</p>
-      </article>
-    </div>
+      <p class="text-gray-700 leading-relaxed">
+        Tôi đã thực hiện một số dự án cá nhân như 
+        <span class="font-semibold">Portfolio Website</span> để giới thiệu bản thân, 
+        <span class="font-semibold">Todo App</span> để quản lý công việc hằng ngày, 
+        và <span class="font-semibold">Blog cá nhân</span> dùng để viết bài và chia sẻ kiến thức.
+      </p>
   </section>
 
   <!-- Contact -->
@@ -64,7 +56,7 @@
           ${t.tags&&t.tags.length?`<p class="text-xs text-gray-500 mt-1">#${t.tags.join(" #")}</p>`:""}
         </article>`).join("")}
     </div>
-  </section>`}function h(){return`
+  </section>`}function u(){return`
   <section class="bg-gray-100 py-16">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-4">Liên hệ</h2>
@@ -75,9 +67,9 @@
         </a>
       </p>
     </div>
-  </section>`}function u(){return(location.hash||"#/").slice(1)||"/"}function g(t){document.querySelectorAll(".navlink").forEach(n=>{const o=n.getAttribute("href").slice(1)===t;n.classList.toggle("text-blue-600",o),n.classList.toggle("font-semibold",o),n.classList.toggle("underline",o)})}function p(){const t=document.getElementById("app-main");async function n(){const o=u();g(o);const e={"/":c,"/about":a,"/projects":d,"/contact":h}[o];if(!e){t.innerHTML=`
+  </section>`}function h(){return(location.hash||"#/").slice(1)||"/"}function g(t){document.querySelectorAll(".navlink").forEach(e=>{const o=e.getAttribute("href").slice(1)===t;e.classList.toggle("text-blue-600",o),e.classList.toggle("font-semibold",o),e.classList.toggle("underline",o)})}function p(){const t=document.getElementById("app-main");async function e(){const o=h();g(o);const n={"/":c,"/about":a,"/projects":d,"/contact":u}[o];if(!n){t.innerHTML=`
         <section class="container mx-auto py-16 px-4">
           <h2 class="text-2xl font-semibold mb-2">404</h2>
           <p class="text-gray-600">Trang bạn tìm không tồn tại.</p>
           <a class="text-blue-600 underline" href="#/">Quay về trang chủ</a>
-        </section>`,window.scrollTo({top:0,behavior:"instant"});return}t.innerHTML=await e(),window.scrollTo({top:0,behavior:"instant"})}window.addEventListener("hashchange",n),location.hash||(location.hash="#/"),n()}document.addEventListener("DOMContentLoaded",()=>{console.log("Portfolio loaded!");const t=document.createElement("button");t.textContent="🌙 Dark Mode",t.className="fixed bottom-4 right-4 px-3 py-2 rounded bg-gray-800 text-white",document.body.appendChild(t),t.onclick=()=>{document.documentElement.classList.toggle("dark")},p()});
+        </section>`,window.scrollTo({top:0,behavior:"instant"});return}t.innerHTML=await n(),window.scrollTo({top:0,behavior:"instant"})}window.addEventListener("hashchange",e),location.hash||(location.hash="#/"),e()}document.addEventListener("DOMContentLoaded",()=>{console.log("Portfolio loaded!");const t=document.createElement("button");t.textContent="🌙 Dark Mode",t.className="fixed bottom-4 right-4 px-3 py-2 rounded bg-gray-800 text-white",document.body.appendChild(t),t.onclick=()=>{document.documentElement.classList.toggle("dark")},p()});
