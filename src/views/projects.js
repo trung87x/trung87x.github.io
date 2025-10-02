@@ -1,6 +1,8 @@
+import projects from "../data/projects.json";
+
 export async function ProjectsView() {
-  const res = await fetch("/src/data/projects.json");
-  const projects = await res.json();
+  // const res = await fetch("/src/data/projects.json");
+  // const projects = await res.json();
 
   return `
   <section class="container mx-auto py-16 px-4">
