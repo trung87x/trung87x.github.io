@@ -4,3 +4,7 @@ a {
 a:hover {
   color: #2563eb;
 }
+
+.navlink {
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
