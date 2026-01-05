@@ -52,7 +52,7 @@ function App() {
 
           {/* TRANG 404 */}
           <Route
-            path="*"
+            path="*"  
             element={
               <div className="p-10 text-center text-red-500">
                 Trang không tồn tại
