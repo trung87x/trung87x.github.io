@@ -8,9 +8,6 @@ import About from "@/pages/About";
 import routes from "@/core/routing/autoRoutes";
 import TailwindV4Layout from "@/layouts/Layout";
 
-// Import động cho trang Blog
-// const DynamicPage = lazy(() => import("@/pages/Blog"));
-
 // Component loading xoay tròn
 const LoadingFallback = () => (
   <div className="flex min-h-screen items-center justify-center">
@@ -28,9 +25,6 @@ function App() {
         <Link to="/about" className="text-blue-600 hover:underline">
           Giới thiệu
         </Link>
-        {/* <Link to="/blog" className="text-blue-600 hover:underline">
-          Blog
-        </Link> */}
         <Link
           to="/tailwindv4/marketing/page-sections/hero-sections"
           className="font-medium text-indigo-600 hover:underline"
@@ -45,7 +39,6 @@ function App() {
           {/* CÁC ROUTE CỐ ĐỊNH (ƯU TIÊN CAO) */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/blog" element={<DynamicPage />} /> */}
 
           {/* 1. Nhóm các trang Marketing */}
           <Route element={<TailwindV4Layout />}>
