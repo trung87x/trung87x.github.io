@@ -9,7 +9,7 @@ import routes from "@/core/routing/autoRoutes";
 import TailwindV4Layout from "@/layouts/Layout";
 
 // Import động cho trang Blog
-const DynamicPage = lazy(() => import("@/pages/blog"));
+const DynamicPage = lazy(() => import("@/pages/Blog"));
 
 // Component loading xoay tròn
 const LoadingFallback = () => (
