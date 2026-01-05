@@ -1,0 +1,1 @@
+import{r as c}from"./index-BaldAqAP.js";import{c as f}from"./use-sync-refs-CKmdBV6A.js";function E(r,e,i,t){let n=f(i);c.useEffect(()=>{r=r??window;function o(s){n.current(s)}return r.addEventListener(e,o,t),()=>r.removeEventListener(e,o,t)},[r,e,t])}export{E};
