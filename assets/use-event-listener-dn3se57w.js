@@ -1,0 +1,1 @@
+import{r as c}from"./index-_abZp7Jz.js";import{c as f}from"./use-sync-refs-c_sb9ZsK.js";function E(r,e,i,t){let n=f(i);c.useEffect(()=>{r=r??window;function o(s){n.current(s)}return r.addEventListener(e,o,t),()=>r.removeEventListener(e,o,t)},[r,e,t])}export{E};
