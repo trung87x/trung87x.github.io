@@ -1,0 +1,101 @@
+import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+
+// ----------------------------------------------------------------------
+// IMPORTS (Sử dụng dấu gạch dưới _)
+// ----------------------------------------------------------------------
+
+// 01. Custom with avatar
+import CustomWithAvatar from "@/component-plus/application-ui/forms/select-menus/custom_with_avatar";
+import CustomWithAvatarRaw from "@/component-plus/application-ui/forms/select-menus/custom_with_avatar.jsx?raw";
+
+// 02. Simple native
+import SimpleNative from "@/component-plus/application-ui/forms/select-menus/simple_native";
+import SimpleNativeRaw from "@/component-plus/application-ui/forms/select-menus/simple_native.jsx?raw";
+
+// 03. Simple custom
+import SimpleCustom from "@/component-plus/application-ui/forms/select-menus/simple_custom";
+import SimpleCustomRaw from "@/component-plus/application-ui/forms/select-menus/simple_custom.jsx?raw";
+
+// 04. Custom with check on left
+import CustomWithCheckOnLeft from "@/component-plus/application-ui/forms/select-menus/custom_with_check_on_left";
+import CustomWithCheckOnLeftRaw from "@/component-plus/application-ui/forms/select-menus/custom_with_check_on_left.jsx?raw";
+
+// 05. Custom with status indicator
+import CustomWithStatusIndicator from "@/component-plus/application-ui/forms/select-menus/custom_with_status_indicator";
+import CustomWithStatusIndicatorRaw from "@/component-plus/application-ui/forms/select-menus/custom_with_status_indicator.jsx?raw";
+
+// 06. With secondary text
+import WithSecondaryText from "@/component-plus/application-ui/forms/select-menus/with_secondary_text";
+import WithSecondaryTextRaw from "@/component-plus/application-ui/forms/select-menus/with_secondary_text.jsx?raw";
+
+// 07. Branded with supported text
+import BrandedWithSupportedText from "@/component-plus/application-ui/forms/select-menus/branded_with_supported_text";
+import BrandedWithSupportedTextRaw from "@/component-plus/application-ui/forms/select-menus/branded_with_supported_text.jsx?raw";
+
+// ----------------------------------------------------------------------
+// COMPONENT
+// ----------------------------------------------------------------------
+
+const SelectMenusDemoPage = () => {
+  const layouts = [
+    {
+      id: "01",
+      name: "Custom with avatar",
+      component: <CustomWithAvatar />,
+      raw: CustomWithAvatarRaw,
+    },
+    {
+      id: "02",
+      name: "Simple native",
+      component: <SimpleNative />,
+      raw: SimpleNativeRaw,
+    },
+    {
+      id: "03",
+      name: "Simple custom",
+      component: <SimpleCustom />,
+      raw: SimpleCustomRaw,
+    },
+    {
+      id: "04",
+      name: "Custom with check on left",
+      component: <CustomWithCheckOnLeft />,
+      raw: CustomWithCheckOnLeftRaw,
+    },
+    {
+      id: "05",
+      name: "Custom with status indicator",
+      component: <CustomWithStatusIndicator />,
+      raw: CustomWithStatusIndicatorRaw,
+    },
+    {
+      id: "06",
+      name: "With secondary text",
+      component: <WithSecondaryText />,
+      raw: WithSecondaryTextRaw,
+    },
+    {
+      id: "07",
+      name: "Branded with supported text",
+      component: <BrandedWithSupportedText />,
+      raw: BrandedWithSupportedTextRaw,
+    },
+  ];
+
+  return (
+    <div className="space-y-10 pb-20">
+      {layouts.map((layout) => (
+        <section key={layout.id}>
+          <h2 className="mb-4 text-lg font-bold text-gray-800">
+            {layout.id}. {layout.name}
+          </h2>
+          <PreviewWrapper name={layout.name} code={layout.raw}>
+            {layout.component}
+          </PreviewWrapper>
+        </section>
+      ))}
+    </div>
+  );
+};
+
+export default SelectMenusDemoPage;

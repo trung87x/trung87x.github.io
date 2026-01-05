@@ -1,0 +1,91 @@
+import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+
+// ----------------------------------------------------------------------
+// IMPORTS (Sử dụng dấu gạch dưới _)
+// ----------------------------------------------------------------------
+
+// 01. Simple
+import Simple from "@/component-plus/application-ui/feedback/empty-states/simple";
+import SimpleRaw from "@/component-plus/application-ui/feedback/empty-states/simple.jsx?raw";
+
+// 02. With dashed border
+import WithDashedBorder from "@/component-plus/application-ui/feedback/empty-states/with_dashed_border";
+import WithDashedBorderRaw from "@/component-plus/application-ui/feedback/empty-states/with_dashed_border.jsx?raw";
+
+// 03. With starting points
+import WithStartingPoints from "@/component-plus/application-ui/feedback/empty-states/with_starting_points";
+import WithStartingPointsRaw from "@/component-plus/application-ui/feedback/empty-states/with_starting_points.jsx?raw";
+
+// 04. With recommendations
+import WithRecommendations from "@/component-plus/application-ui/feedback/empty-states/with_recommendations";
+import WithRecommendationsRaw from "@/component-plus/application-ui/feedback/empty-states/with_recommendations.jsx?raw";
+
+// 05. With templates
+import WithTemplates from "@/component-plus/application-ui/feedback/empty-states/with_templates";
+import WithTemplatesRaw from "@/component-plus/application-ui/feedback/empty-states/with_templates.jsx?raw";
+
+// 06. With recommendations grid
+import WithRecommendationsGrid from "@/component-plus/application-ui/feedback/empty-states/with_recommendations_grid";
+import WithRecommendationsGridRaw from "@/component-plus/application-ui/feedback/empty-states/with_recommendations_grid.jsx?raw";
+
+// ----------------------------------------------------------------------
+// COMPONENT
+// ----------------------------------------------------------------------
+
+const EmptyStatesDemoPage = () => {
+  const layouts = [
+    {
+      id: "01",
+      name: "Simple",
+      component: <Simple />,
+      raw: SimpleRaw,
+    },
+    {
+      id: "02",
+      name: "With dashed border",
+      component: <WithDashedBorder />,
+      raw: WithDashedBorderRaw,
+    },
+    {
+      id: "03",
+      name: "With starting points",
+      component: <WithStartingPoints />,
+      raw: WithStartingPointsRaw,
+    },
+    {
+      id: "04",
+      name: "With recommendations",
+      component: <WithRecommendations />,
+      raw: WithRecommendationsRaw,
+    },
+    {
+      id: "05",
+      name: "With templates",
+      component: <WithTemplates />,
+      raw: WithTemplatesRaw,
+    },
+    {
+      id: "06",
+      name: "With recommendations grid",
+      component: <WithRecommendationsGrid />,
+      raw: WithRecommendationsGridRaw,
+    },
+  ];
+
+  return (
+    <div className="space-y-10 pb-20">
+      {layouts.map((layout) => (
+        <section key={layout.id}>
+          <h2 className="mb-4 text-lg font-bold text-gray-800">
+            {layout.id}. {layout.name}
+          </h2>
+          <PreviewWrapper name={layout.name} code={layout.raw}>
+            {layout.component}
+          </PreviewWrapper>
+        </section>
+      ))}
+    </div>
+  );
+};
+
+export default EmptyStatesDemoPage;
