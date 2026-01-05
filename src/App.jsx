@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import routes from "@/core/routing/autoRoutes";
-import TailwindV4Layout from "@/layouts/TailwindV4Layout";
+import TailwindV4Layout from "@/layouts/Layout";
 
 // Import động cho trang Blog
 const DynamicPage = lazy(() => import("@/pages/blog"));
