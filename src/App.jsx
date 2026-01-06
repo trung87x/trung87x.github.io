@@ -3,10 +3,10 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 // Import tĩnh cho các trang quan trọng (tải ngay lập tức)
-import Home from "@/pages/Home";
-import About from "@/pages/About";
+import Home from "@/pages/home";
+import About from "@/pages/about";
 import routes from "@/core/routing/autoRoutes";
-import TailwindV4Layout from "@/layouts/Layout";
+import TailwindV4Layout from "@/layouts/tailwind-v4-layout";
 
 // Component loading xoay tròn
 const LoadingFallback = () => (
@@ -31,6 +31,9 @@ function App() {
         >
           Preview Hero
         </Link>
+        <Link to="/" className="font-medium text-indigo-600 hover:underline">
+          Alert
+        </Link>
       </nav>
 
       {/* 2. Sử dụng LoadingFallback ở đây để giao diện đồng bộ */}
@@ -52,7 +55,7 @@ function App() {
 
           {/* TRANG 404 */}
           <Route
-            path="*"  
+            path="*"
             element={
               <div className="p-10 text-center text-red-500">
                 Trang không tồn tại
