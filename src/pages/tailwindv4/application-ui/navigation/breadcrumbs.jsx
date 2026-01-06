@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Contained
-import Contained from "@/component-plus/application-ui/navigation/breadcrumbs/contained";
-import ContainedRaw from "@/component-plus/application-ui/navigation/breadcrumbs/contained.jsx?raw";
+import Contained from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/contained";
+import ContainedRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/contained.jsx?raw";
 
 // 02. Full-width bar
-import FullWidthBar from "@/component-plus/application-ui/navigation/breadcrumbs/full_width_bar";
-import FullWidthBarRaw from "@/component-plus/application-ui/navigation/breadcrumbs/full_width_bar.jsx?raw";
+import FullWidthBar from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/full_width_bar";
+import FullWidthBarRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/full_width_bar.jsx?raw";
 
 // 03. Simple with chevrons
-import SimpleWithChevrons from "@/component-plus/application-ui/navigation/breadcrumbs/simple_with_chevrons";
-import SimpleWithChevronsRaw from "@/component-plus/application-ui/navigation/breadcrumbs/simple_with_chevrons.jsx?raw";
+import SimpleWithChevrons from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_chevrons";
+import SimpleWithChevronsRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_chevrons.jsx?raw";
 
 // 04. Simple with slashes
-import SimpleWithSlashes from "@/component-plus/application-ui/navigation/breadcrumbs/simple_with_slashes";
-import SimpleWithSlashesRaw from "@/component-plus/application-ui/navigation/breadcrumbs/simple_with_slashes.jsx?raw";
+import SimpleWithSlashes from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_slashes";
+import SimpleWithSlashesRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_slashes.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

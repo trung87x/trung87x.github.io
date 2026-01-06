@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. List with description
-import ListWithDescription from "@/component-plus/application-ui/forms/checkboxes/list_with_description";
-import ListWithDescriptionRaw from "@/component-plus/application-ui/forms/checkboxes/list_with_description.jsx?raw";
+import ListWithDescription from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_description";
+import ListWithDescriptionRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_description.jsx?raw";
 
 // 02. List with inline description
-import ListWithInlineDescription from "@/component-plus/application-ui/forms/checkboxes/list_with_inline_description";
-import ListWithInlineDescriptionRaw from "@/component-plus/application-ui/forms/checkboxes/list_with_inline_description.jsx?raw";
+import ListWithInlineDescription from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_inline_description";
+import ListWithInlineDescriptionRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_inline_description.jsx?raw";
 
 // 03. List with checkbox on right
-import ListWithCheckboxOnRight from "@/component-plus/application-ui/forms/checkboxes/list_with_checkbox_on_right";
-import ListWithCheckboxOnRightRaw from "@/component-plus/application-ui/forms/checkboxes/list_with_checkbox_on_right.jsx?raw";
+import ListWithCheckboxOnRight from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_checkbox_on_right";
+import ListWithCheckboxOnRightRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_checkbox_on_right.jsx?raw";
 
 // 04. Simple list with heading
-import SimpleListWithHeading from "@/component-plus/application-ui/forms/checkboxes/simple_list_with_heading";
-import SimpleListWithHeadingRaw from "@/component-plus/application-ui/forms/checkboxes/simple_list_with_heading.jsx?raw";
+import SimpleListWithHeading from "@/components/ui-blocks/application-ui/forms/checkboxes/simple_list_with_heading";
+import SimpleListWithHeadingRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/simple_list_with_heading.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

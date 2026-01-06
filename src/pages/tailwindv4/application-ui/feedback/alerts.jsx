@@ -5,28 +5,28 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With description
-import WithDescription from "@/component-plus/application-ui/feedback/alerts/with_description";
-import WithDescriptionRaw from "@/component-plus/application-ui/feedback/alerts/with_description.jsx?raw";
+import WithDescription from "@/components/ui-blocks/application-ui/feedback/alerts/with_description";
+import WithDescriptionRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_description.jsx?raw";
 
 // 02. With list
-import WithList from "@/component-plus/application-ui/feedback/alerts/with_list";
-import WithListRaw from "@/component-plus/application-ui/feedback/alerts/with_list.jsx?raw";
+import WithList from "@/components/ui-blocks/application-ui/feedback/alerts/with_list";
+import WithListRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_list.jsx?raw";
 
 // 03. With actions
-import WithActions from "@/component-plus/application-ui/feedback/alerts/with_actions";
-import WithActionsRaw from "@/component-plus/application-ui/feedback/alerts/with_actions.jsx?raw";
+import WithActions from "@/components/ui-blocks/application-ui/feedback/alerts/with_actions";
+import WithActionsRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_actions.jsx?raw";
 
 // 04. With link on right
-import WithLinkOnRight from "@/component-plus/application-ui/feedback/alerts/with_link_on_right";
-import WithLinkOnRightRaw from "@/component-plus/application-ui/feedback/alerts/with_link_on_right.jsx?raw";
+import WithLinkOnRight from "@/components/ui-blocks/application-ui/feedback/alerts/with_link_on_right";
+import WithLinkOnRightRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_link_on_right.jsx?raw";
 
 // 05. With accent border
-import WithAccentBorder from "@/component-plus/application-ui/feedback/alerts/with_accent_border";
-import WithAccentBorderRaw from "@/component-plus/application-ui/feedback/alerts/with_accent_border.jsx?raw";
+import WithAccentBorder from "@/components/ui-blocks/application-ui/feedback/alerts/with_accent_border";
+import WithAccentBorderRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_accent_border.jsx?raw";
 
 // 06. With dismiss button
-import WithDismissButton from "@/component-plus/application-ui/feedback/alerts/with_dismiss_button";
-import WithDismissButtonRaw from "@/component-plus/application-ui/feedback/alerts/with_dismiss_button.jsx?raw";
+import WithDismissButton from "@/components/ui-blocks/application-ui/feedback/alerts/with_dismiss_button";
+import WithDismissButtonRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_dismiss_button.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

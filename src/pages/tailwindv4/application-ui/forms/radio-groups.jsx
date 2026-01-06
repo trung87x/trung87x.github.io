@@ -5,52 +5,52 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple list
-import SimpleList from "@/component-plus/application-ui/forms/radio-groups/simple_list";
-import SimpleListRaw from "@/component-plus/application-ui/forms/radio-groups/simple_list.jsx?raw";
+import SimpleList from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list";
+import SimpleListRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list.jsx?raw";
 
 // 02. Simple inline list
-import SimpleInlineList from "@/component-plus/application-ui/forms/radio-groups/simple_inline_list";
-import SimpleInlineListRaw from "@/component-plus/application-ui/forms/radio-groups/simple_inline_list.jsx?raw";
+import SimpleInlineList from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_inline_list";
+import SimpleInlineListRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_inline_list.jsx?raw";
 
 // 03. List with description
-import ListWithDescription from "@/component-plus/application-ui/forms/radio-groups/list_with_description";
-import ListWithDescriptionRaw from "@/component-plus/application-ui/forms/radio-groups/list_with_description.jsx?raw";
+import ListWithDescription from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_description";
+import ListWithDescriptionRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_description.jsx?raw";
 
 // 04. List with inline description
-import ListWithInlineDescription from "@/component-plus/application-ui/forms/radio-groups/list_with_inline_description";
-import ListWithInlineDescriptionRaw from "@/component-plus/application-ui/forms/radio-groups/list_with_inline_description.jsx?raw";
+import ListWithInlineDescription from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_inline_description";
+import ListWithInlineDescriptionRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_inline_description.jsx?raw";
 
 // 05. List with radio on right
-import ListWithRadioOnRight from "@/component-plus/application-ui/forms/radio-groups/list_with_radio_on_right";
-import ListWithRadioOnRightRaw from "@/component-plus/application-ui/forms/radio-groups/list_with_radio_on_right.jsx?raw";
+import ListWithRadioOnRight from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_radio_on_right";
+import ListWithRadioOnRightRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_radio_on_right.jsx?raw";
 
 // 06. Simple list with radio on right
-import SimpleListWithRadioOnRight from "@/component-plus/application-ui/forms/radio-groups/simple_list_with_radio_on_right";
-import SimpleListWithRadioOnRightRaw from "@/component-plus/application-ui/forms/radio-groups/simple_list_with_radio_on_right.jsx?raw";
+import SimpleListWithRadioOnRight from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list_with_radio_on_right";
+import SimpleListWithRadioOnRightRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list_with_radio_on_right.jsx?raw";
 
 // 07. Simple table
-import SimpleTable from "@/component-plus/application-ui/forms/radio-groups/simple_table";
-import SimpleTableRaw from "@/component-plus/application-ui/forms/radio-groups/simple_table.jsx?raw";
+import SimpleTable from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_table";
+import SimpleTableRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_table.jsx?raw";
 
 // 08. List with descriptions in panel
-import ListWithDescriptionsInPanel from "@/component-plus/application-ui/forms/radio-groups/list_with_descriptions_in_panel";
-import ListWithDescriptionsInPanelRaw from "@/component-plus/application-ui/forms/radio-groups/list_with_descriptions_in_panel.jsx?raw";
+import ListWithDescriptionsInPanel from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_descriptions_in_panel";
+import ListWithDescriptionsInPanelRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_descriptions_in_panel.jsx?raw";
 
 // 09. Color picker
-import ColorPicker from "@/component-plus/application-ui/forms/radio-groups/color_picker";
-import ColorPickerRaw from "@/component-plus/application-ui/forms/radio-groups/color_picker.jsx?raw";
+import ColorPicker from "@/components/ui-blocks/application-ui/forms/radio-groups/color_picker";
+import ColorPickerRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/color_picker.jsx?raw";
 
 // 10. Cards
-import Cards from "@/component-plus/application-ui/forms/radio-groups/cards";
-import CardsRaw from "@/component-plus/application-ui/forms/radio-groups/cards.jsx?raw";
+import Cards from "@/components/ui-blocks/application-ui/forms/radio-groups/cards";
+import CardsRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/cards.jsx?raw";
 
 // 11. Small cards
-import SmallCards from "@/component-plus/application-ui/forms/radio-groups/small_cards";
-import SmallCardsRaw from "@/component-plus/application-ui/forms/radio-groups/small_cards.jsx?raw";
+import SmallCards from "@/components/ui-blocks/application-ui/forms/radio-groups/small_cards";
+import SmallCardsRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/small_cards.jsx?raw";
 
 // 12. Stacked cards
-import StackedCards from "@/component-plus/application-ui/forms/radio-groups/stacked_cards";
-import StackedCardsRaw from "@/component-plus/application-ui/forms/radio-groups/stacked_cards.jsx?raw";
+import StackedCards from "@/components/ui-blocks/application-ui/forms/radio-groups/stacked_cards";
+import StackedCardsRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/stacked_cards.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

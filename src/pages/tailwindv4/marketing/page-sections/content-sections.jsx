@@ -1,32 +1,32 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With sticky product screenshot
-import WithStickyProductScreenshot from "@/component-plus/marketing/page-sections/content-sections/with_sticky_product_screenshot";
-import WithStickyProductScreenshotRaw from "@/component-plus/marketing/page-sections/content-sections/with_sticky_product_screenshot.jsx?raw";
+import WithStickyProductScreenshot from "@/components/ui-blocks/marketing/page-sections/content-sections/with_sticky_product_screenshot";
+import WithStickyProductScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_sticky_product_screenshot.jsx?raw";
 
 // 02. With testimonial
-import WithTestimonial from "@/component-plus/marketing/page-sections/content-sections/with_testimonial";
-import WithTestimonialRaw from "@/component-plus/marketing/page-sections/content-sections/with_testimonial.jsx?raw";
+import WithTestimonial from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial";
+import WithTestimonialRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial.jsx?raw";
 
 // 03. With image tiles
-import WithImageTitles from "@/component-plus/marketing/page-sections/content-sections/with_image_titles";
-import WithImageTitlesRaw from "@/component-plus/marketing/page-sections/content-sections/with_image_titles.jsx?raw";
+import WithImageTitles from "@/components/ui-blocks/marketing/page-sections/content-sections/with_image_titles";
+import WithImageTitlesRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_image_titles.jsx?raw";
 
 // 04. Two columns with screenshot
-import TwoColumnsWithScreenshot from "@/component-plus/marketing/page-sections/content-sections/two_columns_with_screenshot";
-import TwoColumnsWithScreenshotRaw from "@/component-plus/marketing/page-sections/content-sections/two_columns_with_screenshot.jsx?raw";
+import TwoColumnsWithScreenshot from "@/components/ui-blocks/marketing/page-sections/content-sections/two_columns_with_screenshot";
+import TwoColumnsWithScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/two_columns_with_screenshot.jsx?raw";
 
 // 05. With testimonial and stats
-import WithTestimonialAndStats from "@/component-plus/marketing/page-sections/content-sections/with_testimonial_and_stats";
-import WithTestimonialAndStatsRaw from "@/component-plus/marketing/page-sections/content-sections/with_testimonial_and_stats.jsx?raw";
+import WithTestimonialAndStats from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial_and_stats";
+import WithTestimonialAndStatsRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial_and_stats.jsx?raw";
 
 // 06. Split with image
-import SplitWithImage from "@/component-plus/marketing/page-sections/content-sections/split_with_image";
-import SplitWithImageRaw from "@/component-plus/marketing/page-sections/content-sections/split_with_image.jsx?raw";
+import SplitWithImage from "@/components/ui-blocks/marketing/page-sections/content-sections/split_with_image";
+import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/split_with_image.jsx?raw";
 
 // 07. Centered
-import Centered from "@/component-plus/marketing/page-sections/content-sections/centered";
-import CenteredRaw from "@/component-plus/marketing/page-sections/content-sections/centered.jsx?raw";
+import Centered from "@/components/ui-blocks/marketing/page-sections/content-sections/centered";
+import CenteredRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/centered.jsx?raw";
 
 const ContentSectionsDemoPage = () => {
   return (

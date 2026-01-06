@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/navigation/command-palettes/simple";
-import SimpleRaw from "@/component-plus/application-ui/navigation/command-palettes/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/navigation/command-palettes/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/simple.jsx?raw";
 
 // 02. Simple with padding
-import SimpleWithPadding from "@/component-plus/application-ui/navigation/command-palettes/simple_with_padding";
-import SimpleWithPaddingRaw from "@/component-plus/application-ui/navigation/command-palettes/simple_with_padding.jsx?raw";
+import SimpleWithPadding from "@/components/ui-blocks/application-ui/navigation/command-palettes/simple_with_padding";
+import SimpleWithPaddingRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/simple_with_padding.jsx?raw";
 
 // 03. With preview
-import WithPreview from "@/component-plus/application-ui/navigation/command-palettes/with_preview";
-import WithPreviewRaw from "@/component-plus/application-ui/navigation/command-palettes/with_preview.jsx?raw";
+import WithPreview from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_preview";
+import WithPreviewRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_preview.jsx?raw";
 
 // 04. With images and descriptions
-import WithImagesDescriptions from "@/component-plus/application-ui/navigation/command-palettes/with_images_and_descriptions";
-import WithImagesDescriptionsRaw from "@/component-plus/application-ui/navigation/command-palettes/with_images_and_descriptions.jsx?raw";
+import WithImagesDescriptions from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_images_and_descriptions";
+import WithImagesDescriptionsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_images_and_descriptions.jsx?raw";
 
 // 05. With icons
-import WithIcons from "@/component-plus/application-ui/navigation/command-palettes/with_icons";
-import WithIconsRaw from "@/component-plus/application-ui/navigation/command-palettes/with_icons.jsx?raw";
+import WithIcons from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_icons";
+import WithIconsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_icons.jsx?raw";
 
 // 06. Semi-transparent with icons
-import SemiTransparentWithIcons from "@/component-plus/application-ui/navigation/command-palettes/semi_transparent_with_icons";
-import SemiTransparentWithIconsRaw from "@/component-plus/application-ui/navigation/command-palettes/semi_transparent_with_icons.jsx?raw";
+import SemiTransparentWithIcons from "@/components/ui-blocks/application-ui/navigation/command-palettes/semi_transparent_with_icons";
+import SemiTransparentWithIconsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/semi_transparent_with_icons.jsx?raw";
 
 // 07. With groups
-import WithGroups from "@/component-plus/application-ui/navigation/command-palettes/with_groups";
-import WithGroupsRaw from "@/component-plus/application-ui/navigation/command-palettes/with_groups.jsx?raw";
+import WithGroups from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_groups";
+import WithGroupsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_groups.jsx?raw";
 
 // 08. With footer
-import WithFooter from "@/component-plus/application-ui/navigation/command-palettes/with_footer";
-import WithFooterRaw from "@/component-plus/application-ui/navigation/command-palettes/with_footer.jsx?raw";
+import WithFooter from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_footer";
+import WithFooterRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_footer.jsx?raw";
 
 const FlyoutMenusDemoPage = () => {
   const layouts = [

@@ -1,28 +1,28 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Simple with heading
-import SimpleWithHeading from "@/component-plus/marketing/page-sections/logo-clouds/simple_with_heading";
-import SimpleWithHeadingRaw from "@/component-plus/marketing/page-sections/logo-clouds/simple_with_heading.jsx?raw";
+import SimpleWithHeading from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_heading";
+import SimpleWithHeadingRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_heading.jsx?raw";
 
 // 02. Simple with call-to-action
-import SimpleWithCallToAction from "@/component-plus/marketing/page-sections/logo-clouds/simple_with_call_to_action";
-import SimpleWithCallToActionRaw from "@/component-plus/marketing/page-sections/logo-clouds/simple_with_call_to_action.jsx?raw";
+import SimpleWithCallToAction from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_call_to_action";
+import SimpleWithCallToActionRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_call_to_action.jsx?raw";
 
 // 03. Simple left-aligned
-import SimpleLeftAligned from "@/component-plus/marketing/page-sections/logo-clouds/simple_left_aligned";
-import SimpleLeftAlignedRaw from "@/component-plus/marketing/page-sections/logo-clouds/simple_left_aligned.jsx?raw";
+import SimpleLeftAligned from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_left_aligned";
+import SimpleLeftAlignedRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_left_aligned.jsx?raw";
 
 // 04. Split with logos on right
-import SplitWithLogosOnRight from "@/component-plus/marketing/page-sections/logo-clouds/split_with_logos_on_right";
-import SplitWithLogosOnRightRaw from "@/component-plus/marketing/page-sections/logo-clouds/split_with_logos_on_right.jsx?raw";
+import SplitWithLogosOnRight from "@/components/ui-blocks/marketing/page-sections/logo-clouds/split_with_logos_on_right";
+import SplitWithLogosOnRightRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/split_with_logos_on_right.jsx?raw";
 
 // 05. Simple
-import Simple from "@/component-plus/marketing/page-sections/logo-clouds/simple";
-import SimpleRaw from "@/component-plus/marketing/page-sections/logo-clouds/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple";
+import SimpleRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple.jsx?raw";
 
 // 06. Grid
-import Grid from "@/component-plus/marketing/page-sections/logo-clouds/grid";
-import GridRaw from "@/component-plus/marketing/page-sections/logo-clouds/grid.jsx?raw";
+import Grid from "@/components/ui-blocks/marketing/page-sections/logo-clouds/grid";
+import GridRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/grid.jsx?raw";
 
 const LogoCloudsDemoPage = () => {
   return (

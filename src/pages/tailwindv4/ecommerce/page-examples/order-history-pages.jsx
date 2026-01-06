@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/ecommerce/page-examples/order-history-pages/simple";
-import SimpleRaw from "@/component-plus/ecommerce/page-examples/order-history-pages/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/simple";
+import SimpleRaw from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/simple.jsx?raw";
 
 // 02. With invoice list and quick actions
-import WithInvoiceListAndQuickActions from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_list_and_quick_actions";
-import WithInvoiceListAndQuickActionsRaw from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_list_and_quick_actions.jsx?raw";
+import WithInvoiceListAndQuickActions from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_list_and_quick_actions";
+import WithInvoiceListAndQuickActionsRaw from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_list_and_quick_actions.jsx?raw";
 
 // 03. With invoice panels
-import WithInvoicePanels from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_panels";
-import WithInvoicePanelsRaw from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_panels.jsx?raw";
+import WithInvoicePanels from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_panels";
+import WithInvoicePanelsRaw from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_panels.jsx?raw";
 
 // 04. With invoice tables
-import WithInvoiceTables from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_tables";
-import WithInvoiceTablesRaw from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_tables.jsx?raw";
+import WithInvoiceTables from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_tables";
+import WithInvoiceTablesRaw from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_tables.jsx?raw";
 
 // 05. With invoice list
-import WithInvoiceList from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_list";
-import WithInvoiceListRaw from "@/component-plus/ecommerce/page-examples/order-history-pages/with_invoice_list.jsx?raw";
+import WithInvoiceList from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_list";
+import WithInvoiceListRaw from "@/components/ui-blocks/ecommerce/page-examples/order-history-pages/with_invoice_list.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

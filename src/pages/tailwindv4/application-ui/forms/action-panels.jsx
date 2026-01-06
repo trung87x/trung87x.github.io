@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/forms/action-panels/simple";
-import SimpleRaw from "@/component-plus/application-ui/forms/action-panels/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/forms/action-panels/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/forms/action-panels/simple.jsx?raw";
 
 // 02. With link
-import WithLink from "@/component-plus/application-ui/forms/action-panels/with_link";
-import WithLinkRaw from "@/component-plus/application-ui/forms/action-panels/with_link.jsx?raw";
+import WithLink from "@/components/ui-blocks/application-ui/forms/action-panels/with_link";
+import WithLinkRaw from "@/components/ui-blocks/application-ui/forms/action-panels/with_link.jsx?raw";
 
 // 03. With button on right
-import WithButtonOnRight from "@/component-plus/application-ui/forms/action-panels/with_button_on_right";
-import WithButtonOnRightRaw from "@/component-plus/application-ui/forms/action-panels/with_button_on_right.jsx?raw";
+import WithButtonOnRight from "@/components/ui-blocks/application-ui/forms/action-panels/with_button_on_right";
+import WithButtonOnRightRaw from "@/components/ui-blocks/application-ui/forms/action-panels/with_button_on_right.jsx?raw";
 
 // 04. With button at top right
-import WithButtonAtTopRight from "@/component-plus/application-ui/forms/action-panels/with_button_at_top_right";
-import WithButtonAtTopRightRaw from "@/component-plus/application-ui/forms/action-panels/with_button_at_top_right.jsx?raw";
+import WithButtonAtTopRight from "@/components/ui-blocks/application-ui/forms/action-panels/with_button_at_top_right";
+import WithButtonAtTopRightRaw from "@/components/ui-blocks/application-ui/forms/action-panels/with_button_at_top_right.jsx?raw";
 
 // 05. With toggle
-import WithToggle from "@/component-plus/application-ui/forms/action-panels/with_toggle";
-import WithToggleRaw from "@/component-plus/application-ui/forms/action-panels/with_toggle.jsx?raw";
+import WithToggle from "@/components/ui-blocks/application-ui/forms/action-panels/with_toggle";
+import WithToggleRaw from "@/components/ui-blocks/application-ui/forms/action-panels/with_toggle.jsx?raw";
 
 // 06. With input
-import WithInput from "@/component-plus/application-ui/forms/action-panels/with_input";
-import WithInputRaw from "@/component-plus/application-ui/forms/action-panels/with_input.jsx?raw";
+import WithInput from "@/components/ui-blocks/application-ui/forms/action-panels/with_input";
+import WithInputRaw from "@/components/ui-blocks/application-ui/forms/action-panels/with_input.jsx?raw";
 
 // 07. Simple well
-import SimpleWell from "@/component-plus/application-ui/forms/action-panels/simple_well";
-import SimpleWellRaw from "@/component-plus/application-ui/forms/action-panels/simple_well.jsx?raw";
+import SimpleWell from "@/components/ui-blocks/application-ui/forms/action-panels/simple_well";
+import SimpleWellRaw from "@/components/ui-blocks/application-ui/forms/action-panels/simple_well.jsx?raw";
 
 // 08. With well
-import WithWell from "@/component-plus/application-ui/forms/action-panels/with_well";
-import WithWellRaw from "@/component-plus/application-ui/forms/action-panels/with_well.jsx?raw";
+import WithWell from "@/components/ui-blocks/application-ui/forms/action-panels/with_well";
+import WithWellRaw from "@/components/ui-blocks/application-ui/forms/action-panels/with_well.jsx?raw";
 
 const ActionPanelsDemoPage = () => {
   const layouts = [

@@ -5,28 +5,28 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/overlays/notifications/simple";
-import SimpleRaw from "@/component-plus/application-ui/overlays/notifications/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/overlays/notifications/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/overlays/notifications/simple.jsx?raw";
 
 // 02. Condensed
-import Condensed from "@/component-plus/application-ui/overlays/notifications/condensed";
-import CondensedRaw from "@/component-plus/application-ui/overlays/notifications/condensed.jsx?raw";
+import Condensed from "@/components/ui-blocks/application-ui/overlays/notifications/condensed";
+import CondensedRaw from "@/components/ui-blocks/application-ui/overlays/notifications/condensed.jsx?raw";
 
 // 03. With actions below
-import WithActionsBelow from "@/component-plus/application-ui/overlays/notifications/with_actions_below";
-import WithActionsBelowRaw from "@/component-plus/application-ui/overlays/notifications/with_actions_below.jsx?raw";
+import WithActionsBelow from "@/components/ui-blocks/application-ui/overlays/notifications/with_actions_below";
+import WithActionsBelowRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_actions_below.jsx?raw";
 
 // 04. With avatar
-import WithAvatar from "@/component-plus/application-ui/overlays/notifications/with_avatar";
-import WithAvatarRaw from "@/component-plus/application-ui/overlays/notifications/with_avatar.jsx?raw";
+import WithAvatar from "@/components/ui-blocks/application-ui/overlays/notifications/with_avatar";
+import WithAvatarRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_avatar.jsx?raw";
 
 // 05. With split buttons
-import WithSplitButtons from "@/component-plus/application-ui/overlays/notifications/with_split_buttons";
-import WithSplitButtonsRaw from "@/component-plus/application-ui/overlays/notifications/with_split_buttons.jsx?raw";
+import WithSplitButtons from "@/components/ui-blocks/application-ui/overlays/notifications/with_split_buttons";
+import WithSplitButtonsRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_split_buttons.jsx?raw";
 
 // 06. With buttons below
-import WithButtonsBelow from "@/component-plus/application-ui/overlays/notifications/with_buttons_below";
-import WithButtonsBelowRaw from "@/component-plus/application-ui/overlays/notifications/with_buttons_below.jsx?raw";
+import WithButtonsBelow from "@/components/ui-blocks/application-ui/overlays/notifications/with_buttons_below";
+import WithButtonsBelowRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_buttons_below.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

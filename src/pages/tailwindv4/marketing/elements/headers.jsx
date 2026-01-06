@@ -1,48 +1,48 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With stacked flyout menu
-import WithStackedFlyoutMenu from "@/component-plus/marketing/elements/headers/with_stacked_flyout_menu";
-import WithStackedFlyoutMenuRaw from "@/component-plus/marketing/elements/headers/with_stacked_flyout_menu.jsx?raw";
+import WithStackedFlyoutMenu from "@/components/ui-blocks/marketing/elements/headers/with_stacked_flyout_menu";
+import WithStackedFlyoutMenuRaw from "@/components/ui-blocks/marketing/elements/headers/with_stacked_flyout_menu.jsx?raw";
 
 // 02. Constrained
-import Constrained from "@/component-plus/marketing/elements/headers/constrained";
-import ConstrainedRaw from "@/component-plus/marketing/elements/headers/constrained.jsx?raw";
+import Constrained from "@/components/ui-blocks/marketing/elements/headers/constrained";
+import ConstrainedRaw from "@/components/ui-blocks/marketing/elements/headers/constrained.jsx?raw";
 
 // 03. On brand background
-import OnBrandBackground from "@/component-plus/marketing/elements/headers/on_brand_background";
-import OnBrandBackgroundRaw from "@/component-plus/marketing/elements/headers/on_brand_background.jsx?raw";
+import OnBrandBackground from "@/components/ui-blocks/marketing/elements/headers/on_brand_background";
+import OnBrandBackgroundRaw from "@/components/ui-blocks/marketing/elements/headers/on_brand_background.jsx?raw";
 
 // 04. With full width flyout menu
-import WithFullWidthFlyoutMenu from "@/component-plus/marketing/elements/headers/with_full_width_flyout_menu";
-import WithFullWidthFlyoutMenuRaw from "@/component-plus/marketing/elements/headers/with_full_width_flyout_menu.jsx?raw";
+import WithFullWidthFlyoutMenu from "@/components/ui-blocks/marketing/elements/headers/with_full_width_flyout_menu";
+import WithFullWidthFlyoutMenuRaw from "@/components/ui-blocks/marketing/elements/headers/with_full_width_flyout_menu.jsx?raw";
 
 // 05. Full width
-import FullWidth from "@/component-plus/marketing/elements/headers/full_width";
-import FullWidthRaw from "@/component-plus/marketing/elements/headers/full_width.jsx?raw";
+import FullWidth from "@/components/ui-blocks/marketing/elements/headers/full_width";
+import FullWidthRaw from "@/components/ui-blocks/marketing/elements/headers/full_width.jsx?raw";
 
 // 06. With call-to-action
-import WithCallToAction from "@/component-plus/marketing/elements/headers/with_call_to_action";
-import WithCallToActionRaw from "@/component-plus/marketing/elements/headers/with_call_to_action.jsx?raw";
+import WithCallToAction from "@/components/ui-blocks/marketing/elements/headers/with_call_to_action";
+import WithCallToActionRaw from "@/components/ui-blocks/marketing/elements/headers/with_call_to_action.jsx?raw";
 
 // 07. With multiple flyout menus
-import WithMultipleFlyoutMenus from "@/component-plus/marketing/elements/headers/with_multiple_flyout_menus";
-import WithMultipleFlyoutMenusRaw from "@/component-plus/marketing/elements/headers/with_multiple_flyout_menus.jsx?raw";
+import WithMultipleFlyoutMenus from "@/components/ui-blocks/marketing/elements/headers/with_multiple_flyout_menus";
+import WithMultipleFlyoutMenusRaw from "@/components/ui-blocks/marketing/elements/headers/with_multiple_flyout_menus.jsx?raw";
 
 // 08. With icons in mobile menu
-import WithIconsInMobileMenu from "@/component-plus/marketing/elements/headers/with_icons_in_mobile_menu";
-import WithIconsInMobileMenuRaw from "@/component-plus/marketing/elements/headers/with_icons_in_mobile_menu.jsx?raw";
+import WithIconsInMobileMenu from "@/components/ui-blocks/marketing/elements/headers/with_icons_in_mobile_menu";
+import WithIconsInMobileMenuRaw from "@/components/ui-blocks/marketing/elements/headers/with_icons_in_mobile_menu.jsx?raw";
 
 // 09. With left-aligned nav
-import WithLeftAlignedNav from "@/component-plus/marketing/elements/headers/with_left_aligned_nav";
-import WithLeftAlignedNavRaw from "@/component-plus/marketing/elements/headers/with_left_aligned_nav.jsx?raw";
+import WithLeftAlignedNav from "@/components/ui-blocks/marketing/elements/headers/with_left_aligned_nav";
+import WithLeftAlignedNavRaw from "@/components/ui-blocks/marketing/elements/headers/with_left_aligned_nav.jsx?raw";
 
 // 10. With right-aligned nav
-import WithRightAlignedNav from "@/component-plus/marketing/elements/headers/with_right_aligned_nav";
-import WithRightAlignedNavRaw from "@/component-plus/marketing/elements/headers/with_right_aligned_nav.jsx?raw";
+import WithRightAlignedNav from "@/components/ui-blocks/marketing/elements/headers/with_right_aligned_nav";
+import WithRightAlignedNavRaw from "@/components/ui-blocks/marketing/elements/headers/with_right_aligned_nav.jsx?raw";
 
 // 11. With centered logo
-import WithCenteredLogo from "@/component-plus/marketing/elements/headers/with_centered_logo";
-import WithCenteredLogoRaw from "@/component-plus/marketing/elements/headers/with_centered_logo.jsx?raw";
+import WithCenteredLogo from "@/components/ui-blocks/marketing/elements/headers/with_centered_logo";
+import WithCenteredLogoRaw from "@/components/ui-blocks/marketing/elements/headers/with_centered_logo.jsx?raw";
 
 const HeadersDemoPage = () => {
   return (

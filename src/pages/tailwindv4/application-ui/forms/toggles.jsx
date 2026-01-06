@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple toggle
-import SimpleToggle from "@/component-plus/application-ui/forms/toggles/simple_toggle";
-import SimpleToggleRaw from "@/component-plus/application-ui/forms/toggles/simple_toggle.jsx?raw";
+import SimpleToggle from "@/components/ui-blocks/application-ui/forms/toggles/simple_toggle";
+import SimpleToggleRaw from "@/components/ui-blocks/application-ui/forms/toggles/simple_toggle.jsx?raw";
 
 // 02. Short toggle
-import ShortToggle from "@/component-plus/application-ui/forms/toggles/short_toggle";
-import ShortToggleRaw from "@/component-plus/application-ui/forms/toggles/short_toggle.jsx?raw";
+import ShortToggle from "@/components/ui-blocks/application-ui/forms/toggles/short_toggle";
+import ShortToggleRaw from "@/components/ui-blocks/application-ui/forms/toggles/short_toggle.jsx?raw";
 
 // 03. Toggle with icon
-import ToggleWithIcon from "@/component-plus/application-ui/forms/toggles/toggle_with_icon";
-import ToggleWithIconRaw from "@/component-plus/application-ui/forms/toggles/toggle_with_icon.jsx?raw";
+import ToggleWithIcon from "@/components/ui-blocks/application-ui/forms/toggles/toggle_with_icon";
+import ToggleWithIconRaw from "@/components/ui-blocks/application-ui/forms/toggles/toggle_with_icon.jsx?raw";
 
 // 04. With left label and description
-import WithLeftLabelAndDescription from "@/component-plus/application-ui/forms/toggles/with_left_label_and_description";
-import WithLeftLabelAndDescriptionRaw from "@/component-plus/application-ui/forms/toggles/with_left_label_and_description.jsx?raw";
+import WithLeftLabelAndDescription from "@/components/ui-blocks/application-ui/forms/toggles/with_left_label_and_description";
+import WithLeftLabelAndDescriptionRaw from "@/components/ui-blocks/application-ui/forms/toggles/with_left_label_and_description.jsx?raw";
 
 // 05. With right label
-import WithRightLabel from "@/component-plus/application-ui/forms/toggles/with_right_label";
-import WithRightLabelRaw from "@/component-plus/application-ui/forms/toggles/with_right_label.jsx?raw";
+import WithRightLabel from "@/components/ui-blocks/application-ui/forms/toggles/with_right_label";
+import WithRightLabelRaw from "@/components/ui-blocks/application-ui/forms/toggles/with_right_label.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With split image
-import WithSplitImage from "@/component-plus/ecommerce/components/order-summaries/with_split_image";
-import WithSplitImageRaw from "@/component-plus/ecommerce/components/order-summaries/with_split_image.jsx?raw";
+import WithSplitImage from "@/components/ui-blocks/ecommerce/components/order-summaries/with_split_image";
+import WithSplitImageRaw from "@/components/ui-blocks/ecommerce/components/order-summaries/with_split_image.jsx?raw";
 
 // 02. With progress bars
-import WithProgressBars from "@/component-plus/ecommerce/components/order-summaries/with_progress_bars";
-import WithProgressBarsRaw from "@/component-plus/ecommerce/components/order-summaries/with_progress_bars.jsx?raw";
+import WithProgressBars from "@/components/ui-blocks/ecommerce/components/order-summaries/with_progress_bars";
+import WithProgressBarsRaw from "@/components/ui-blocks/ecommerce/components/order-summaries/with_progress_bars.jsx?raw";
 
 // 03. With large images and progress bars
-import WithLargeImagesAndProgressBars from "@/component-plus/ecommerce/components/order-summaries/with_large_images_and_progress_bars";
-import WithLargeImagesAndProgressBarsRaw from "@/component-plus/ecommerce/components/order-summaries/with_large_images_and_progress_bars.jsx?raw";
+import WithLargeImagesAndProgressBars from "@/components/ui-blocks/ecommerce/components/order-summaries/with_large_images_and_progress_bars";
+import WithLargeImagesAndProgressBarsRaw from "@/components/ui-blocks/ecommerce/components/order-summaries/with_large_images_and_progress_bars.jsx?raw";
 
 // 04. Simple with full order details
-import SimpleWithFullOrderDetails from "@/component-plus/ecommerce/components/order-summaries/simple_with_full_order_details";
-import SimpleWithFullOrderDetailsRaw from "@/component-plus/ecommerce/components/order-summaries/simple_with_full_order_details.jsx?raw";
+import SimpleWithFullOrderDetails from "@/components/ui-blocks/ecommerce/components/order-summaries/simple_with_full_order_details";
+import SimpleWithFullOrderDetailsRaw from "@/components/ui-blocks/ecommerce/components/order-summaries/simple_with_full_order_details.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

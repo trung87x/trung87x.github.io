@@ -5,32 +5,32 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Contact cards with small portraits
-import ContactCardsWithSmallPortraits from "@/component-plus/application-ui/lists/grid-lists/contact_cards_with_small_portraits";
-import ContactCardsWithSmallPortraitsRaw from "@/component-plus/application-ui/lists/grid-lists/contact_cards_with_small_portraits.jsx?raw";
+import ContactCardsWithSmallPortraits from "@/components/ui-blocks/application-ui/lists/grid-lists/contact_cards_with_small_portraits";
+import ContactCardsWithSmallPortraitsRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/contact_cards_with_small_portraits.jsx?raw";
 
 // 02. Contact cards
-import ContactCards from "@/component-plus/application-ui/lists/grid-lists/contact_cards";
-import ContactCardsRaw from "@/component-plus/application-ui/lists/grid-lists/contact_cards.jsx?raw";
+import ContactCards from "@/components/ui-blocks/application-ui/lists/grid-lists/contact_cards";
+import ContactCardsRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/contact_cards.jsx?raw";
 
 // 03. Simple cards
-import SimpleCards from "@/component-plus/application-ui/lists/grid-lists/simple_cards";
-import SimpleCardsRaw from "@/component-plus/application-ui/lists/grid-lists/simple_cards.jsx?raw";
+import SimpleCards from "@/components/ui-blocks/application-ui/lists/grid-lists/simple_cards";
+import SimpleCardsRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/simple_cards.jsx?raw";
 
 // 04. Horizontal link cards
-import HorizontalLinkCards from "@/component-plus/application-ui/lists/grid-lists/horizontal_link_cards";
-import HorizontalLinkCardsRaw from "@/component-plus/application-ui/lists/grid-lists/horizontal_link_cards.jsx?raw";
+import HorizontalLinkCards from "@/components/ui-blocks/application-ui/lists/grid-lists/horizontal_link_cards";
+import HorizontalLinkCardsRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/horizontal_link_cards.jsx?raw";
 
 // 05. Actions with shared borders
-import ActionsWithSharedBorders from "@/component-plus/application-ui/lists/grid-lists/actions_with_shared_borders";
-import ActionsWithSharedBordersRaw from "@/component-plus/application-ui/lists/grid-lists/actions_with_shared_borders.jsx?raw";
+import ActionsWithSharedBorders from "@/components/ui-blocks/application-ui/lists/grid-lists/actions_with_shared_borders";
+import ActionsWithSharedBordersRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/actions_with_shared_borders.jsx?raw";
 
 // 06. Images with details
-import ImagesWithDetails from "@/component-plus/application-ui/lists/grid-lists/images_with_details";
-import ImagesWithDetailsRaw from "@/component-plus/application-ui/lists/grid-lists/images_with_details.jsx?raw";
+import ImagesWithDetails from "@/components/ui-blocks/application-ui/lists/grid-lists/images_with_details";
+import ImagesWithDetailsRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/images_with_details.jsx?raw";
 
 // 07. Logos cards with description list
-import LogosCardsWithDescriptionList from "@/component-plus/application-ui/lists/grid-lists/logos_cards_with_description_list";
-import LogosCardsWithDescriptionListRaw from "@/component-plus/application-ui/lists/grid-lists/logos_cards_with_description_list.jsx?raw";
+import LogosCardsWithDescriptionList from "@/components/ui-blocks/application-ui/lists/grid-lists/logos_cards_with_description_list";
+import LogosCardsWithDescriptionListRaw from "@/components/ui-blocks/application-ui/lists/grid-lists/logos_cards_with_description_list.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

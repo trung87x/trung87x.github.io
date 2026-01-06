@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Small with meetings
-import SmallWithMeetings from "@/component-plus/application-ui/data-display/calendars/small_with_meetings";
-import SmallWithMeetingsRaw from "@/component-plus/application-ui/data-display/calendars/small_with_meetings.jsx?raw";
+import SmallWithMeetings from "@/components/ui-blocks/application-ui/data-display/calendars/small_with_meetings";
+import SmallWithMeetingsRaw from "@/components/ui-blocks/application-ui/data-display/calendars/small_with_meetings.jsx?raw";
 
 // 02. Month view
-import MonthView from "@/component-plus/application-ui/data-display/calendars/month_view";
-import MonthViewRaw from "@/component-plus/application-ui/data-display/calendars/month_view.jsx?raw";
+import MonthView from "@/components/ui-blocks/application-ui/data-display/calendars/month_view";
+import MonthViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/month_view.jsx?raw";
 
 // 03. Week view
-import WeekView from "@/component-plus/application-ui/data-display/calendars/week_view";
-import WeekViewRaw from "@/component-plus/application-ui/data-display/calendars/week_view.jsx?raw";
+import WeekView from "@/components/ui-blocks/application-ui/data-display/calendars/week_view";
+import WeekViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/week_view.jsx?raw";
 
 // 04. Day view
-import DayView from "@/component-plus/application-ui/data-display/calendars/day_view";
-import DayViewRaw from "@/component-plus/application-ui/data-display/calendars/day_view.jsx?raw";
+import DayView from "@/components/ui-blocks/application-ui/data-display/calendars/day_view";
+import DayViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/day_view.jsx?raw";
 
 // 05. Year view
-import YearView from "@/component-plus/application-ui/data-display/calendars/year_view";
-import YearViewRaw from "@/component-plus/application-ui/data-display/calendars/year_view.jsx?raw";
+import YearView from "@/components/ui-blocks/application-ui/data-display/calendars/year_view";
+import YearViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/year_view.jsx?raw";
 
 // 06. Double
-import Double from "@/component-plus/application-ui/data-display/calendars/double";
-import DoubleRaw from "@/component-plus/application-ui/data-display/calendars/double.jsx?raw";
+import Double from "@/components/ui-blocks/application-ui/data-display/calendars/double";
+import DoubleRaw from "@/components/ui-blocks/application-ui/data-display/calendars/double.jsx?raw";
 
 // 07. Borderless stacked
-import BorderlessStacked from "@/component-plus/application-ui/data-display/calendars/borderless_stacked";
-import BorderlessStackedRaw from "@/component-plus/application-ui/data-display/calendars/borderless_stacked.jsx?raw";
+import BorderlessStacked from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_stacked";
+import BorderlessStackedRaw from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_stacked.jsx?raw";
 
 // 08. Borderless side-by-side
-import BorderlessSideBySide from "@/component-plus/application-ui/data-display/calendars/borderless_side_by_side";
-import BorderlessSideBySideRaw from "@/component-plus/application-ui/data-display/calendars/borderless_side_by_side.jsx?raw";
+import BorderlessSideBySide from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_side_by_side";
+import BorderlessSideBySideRaw from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_side_by_side.jsx?raw";
 
 const CalendarsDemoPage = () => {
   const layouts = [

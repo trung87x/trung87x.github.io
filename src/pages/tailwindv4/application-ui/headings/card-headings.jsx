@@ -5,28 +5,28 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/headings/card-headings/simple";
-import SimpleRaw from "@/component-plus/application-ui/headings/card-headings/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/headings/card-headings/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/headings/card-headings/simple.jsx?raw";
 
 // 02. With action
-import WithAction from "@/component-plus/application-ui/headings/card-headings/with_action";
-import WithActionRaw from "@/component-plus/application-ui/headings/card-headings/with_action.jsx?raw";
+import WithAction from "@/components/ui-blocks/application-ui/headings/card-headings/with_action";
+import WithActionRaw from "@/components/ui-blocks/application-ui/headings/card-headings/with_action.jsx?raw";
 
 // 03. With avatar and actions
-import WithAvatarAndActions from "@/component-plus/application-ui/headings/card-headings/with_avatar_and_actions";
-import WithAvatarAndActionsRaw from "@/component-plus/application-ui/headings/card-headings/with_avatar_and_actions.jsx?raw";
+import WithAvatarAndActions from "@/components/ui-blocks/application-ui/headings/card-headings/with_avatar_and_actions";
+import WithAvatarAndActionsRaw from "@/components/ui-blocks/application-ui/headings/card-headings/with_avatar_and_actions.jsx?raw";
 
 // 04. With description and action
-import WithDescriptionAndAction from "@/component-plus/application-ui/headings/card-headings/with_description_and_action";
-import WithDescriptionAndActionRaw from "@/component-plus/application-ui/headings/card-headings/with_description_and_action.jsx?raw";
+import WithDescriptionAndAction from "@/components/ui-blocks/application-ui/headings/card-headings/with_description_and_action";
+import WithDescriptionAndActionRaw from "@/components/ui-blocks/application-ui/headings/card-headings/with_description_and_action.jsx?raw";
 
 // 05. With description
-import WithDescription from "@/component-plus/application-ui/headings/card-headings/with_description";
-import WithDescriptionRaw from "@/component-plus/application-ui/headings/card-headings/with_description.jsx?raw";
+import WithDescription from "@/components/ui-blocks/application-ui/headings/card-headings/with_description";
+import WithDescriptionRaw from "@/components/ui-blocks/application-ui/headings/card-headings/with_description.jsx?raw";
 
 // 06. With avatar, meta, and dropdown
-import WithAvatarMetaAndDropdown from "@/component-plus/application-ui/headings/card-headings/with_avatar__meta__and_dropdown";
-import WithAvatarMetaAndDropdownRaw from "@/component-plus/application-ui/headings/card-headings/with_avatar__meta__and_dropdown.jsx?raw";
+import WithAvatarMetaAndDropdown from "@/components/ui-blocks/application-ui/headings/card-headings/with_avatar__meta__and_dropdown";
+import WithAvatarMetaAndDropdownRaw from "@/components/ui-blocks/application-ui/headings/card-headings/with_avatar__meta__and_dropdown.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

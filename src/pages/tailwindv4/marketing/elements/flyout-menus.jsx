@@ -1,32 +1,32 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Stacked with footer actions
-import StackedWithFooterActions from "@/component-plus/marketing/elements/flyout-menus/stacked_with_footer_actions";
-import StackedWithFooterActionsRaw from "@/component-plus/marketing/elements/flyout-menus/stacked_with_footer_actions.jsx?raw";
+import StackedWithFooterActions from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_actions";
+import StackedWithFooterActionsRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_actions.jsx?raw";
 
 // 02. Full-width two-columns
-import FullWidthTwoColumns from "@/component-plus/marketing/elements/flyout-menus/full_width_two_columns";
-import FullWidthTwoColumnsRaw from "@/component-plus/marketing/elements/flyout-menus/full_width_two_columns.jsx?raw";
+import FullWidthTwoColumns from "@/components/ui-blocks/marketing/elements/flyout-menus/full_width_two_columns";
+import FullWidthTwoColumnsRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/full_width_two_columns.jsx?raw";
 
 // 03. Stacked with footer list
-import StackedWithFooterList from "@/component-plus/marketing/elements/flyout-menus/stacked_with_footer_list";
-import StackedWithFooterListRaw from "@/component-plus/marketing/elements/flyout-menus/stacked_with_footer_list.jsx?raw";
+import StackedWithFooterList from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_list";
+import StackedWithFooterListRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_list.jsx?raw";
 
 // 04. Full-width
-import FullWidth from "@/component-plus/marketing/elements/flyout-menus/full_width";
-import FullWidthRaw from "@/component-plus/marketing/elements/flyout-menus/full_width.jsx?raw";
+import FullWidth from "@/components/ui-blocks/marketing/elements/flyout-menus/full_width";
+import FullWidthRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/full_width.jsx?raw";
 
 // 05. Simple with descriptions
-import SimpleWithDescriptions from "@/component-plus/marketing/elements/flyout-menus/simple_with_descriptions";
-import SimpleWithDescriptionsRaw from "@/component-plus/marketing/elements/flyout-menus/simple_with_descriptions.jsx?raw";
+import SimpleWithDescriptions from "@/components/ui-blocks/marketing/elements/flyout-menus/simple_with_descriptions";
+import SimpleWithDescriptionsRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/simple_with_descriptions.jsx?raw";
 
 // 06. Two-column
-import TwoColumn from "@/component-plus/marketing/elements/flyout-menus/two_column";
-import TwoColumnRaw from "@/component-plus/marketing/elements/flyout-menus/two_column.jsx?raw";
+import TwoColumn from "@/components/ui-blocks/marketing/elements/flyout-menus/two_column";
+import TwoColumnRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/two_column.jsx?raw";
 
 // 07. Simple
-import Simple from "@/component-plus/marketing/elements/flyout-menus/simple";
-import SimpleRaw from "@/component-plus/marketing/elements/flyout-menus/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/marketing/elements/flyout-menus/simple";
+import SimpleRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/simple.jsx?raw";
 
 const FlyoutMenusDemoPage = () => {
   return (

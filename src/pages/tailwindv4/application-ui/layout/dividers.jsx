@@ -5,36 +5,36 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With label
-import WithLabel from "@/component-plus/application-ui/layout/dividers/with_label";
-import WithLabelRaw from "@/component-plus/application-ui/layout/dividers/with_label.jsx?raw";
+import WithLabel from "@/components/ui-blocks/application-ui/layout/dividers/with_label";
+import WithLabelRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_label.jsx?raw";
 
 // 02. With icon
-import WithIcon from "@/component-plus/application-ui/layout/dividers/with_icon";
-import WithIconRaw from "@/component-plus/application-ui/layout/dividers/with_icon.jsx?raw";
+import WithIcon from "@/components/ui-blocks/application-ui/layout/dividers/with_icon";
+import WithIconRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_icon.jsx?raw";
 
 // 03. With label on left
-import WithLabelOnLeft from "@/component-plus/application-ui/layout/dividers/with_label_on_left";
-import WithLabelOnLeftRaw from "@/component-plus/application-ui/layout/dividers/with_label_on_left.jsx?raw";
+import WithLabelOnLeft from "@/components/ui-blocks/application-ui/layout/dividers/with_label_on_left";
+import WithLabelOnLeftRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_label_on_left.jsx?raw";
 
 // 04. With title
-import WithTitle from "@/component-plus/application-ui/layout/dividers/with_title";
-import WithTitleRaw from "@/component-plus/application-ui/layout/dividers/with_title.jsx?raw";
+import WithTitle from "@/components/ui-blocks/application-ui/layout/dividers/with_title";
+import WithTitleRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_title.jsx?raw";
 
 // 05. With title on left
-import WithTitleOnLeft from "@/component-plus/application-ui/layout/dividers/with_title_on_left";
-import WithTitleOnLeftRaw from "@/component-plus/application-ui/layout/dividers/with_title_on_left.jsx?raw";
+import WithTitleOnLeft from "@/components/ui-blocks/application-ui/layout/dividers/with_title_on_left";
+import WithTitleOnLeftRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_title_on_left.jsx?raw";
 
 // 06. With button
-import WithButton from "@/component-plus/application-ui/layout/dividers/with_button";
-import WithButtonRaw from "@/component-plus/application-ui/layout/dividers/with_button.jsx?raw";
+import WithButton from "@/components/ui-blocks/application-ui/layout/dividers/with_button";
+import WithButtonRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_button.jsx?raw";
 
 // 07. With title and button
-import WithTitleAndButton from "@/component-plus/application-ui/layout/dividers/with_title_and_button";
-import WithTitleAndButtonRaw from "@/component-plus/application-ui/layout/dividers/with_title_and_button.jsx?raw";
+import WithTitleAndButton from "@/components/ui-blocks/application-ui/layout/dividers/with_title_and_button";
+import WithTitleAndButtonRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_title_and_button.jsx?raw";
 
 // 08. With toolbar
-import WithToolbar from "@/component-plus/application-ui/layout/dividers/with_toolbar";
-import WithToolbarRaw from "@/component-plus/application-ui/layout/dividers/with_toolbar.jsx?raw";
+import WithToolbar from "@/components/ui-blocks/application-ui/layout/dividers/with_toolbar";
+import WithToolbarRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_toolbar.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

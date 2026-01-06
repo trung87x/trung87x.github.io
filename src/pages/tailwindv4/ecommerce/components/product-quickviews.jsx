@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With color and size selector
-import WithColorAndSizeSelector from "@/component-plus/ecommerce/components/product-quickviews/with_color_and_size_selector";
-import WithColorAndSizeSelectorRaw from "@/component-plus/ecommerce/components/product-quickviews/with_color_and_size_selector.jsx?raw";
+import WithColorAndSizeSelector from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_and_size_selector";
+import WithColorAndSizeSelectorRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_and_size_selector.jsx?raw";
 
 // 02. With color selector, size selector, and details link
-import WithColorSizeSelectorAndDetailsLink from "@/component-plus/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link";
-import WithColorSizeSelectorAndDetailsLinkRaw from "@/component-plus/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link.jsx?raw";
+import WithColorSizeSelectorAndDetailsLink from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link";
+import WithColorSizeSelectorAndDetailsLinkRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link.jsx?raw";
 
 // 03. With large size selector
-import WithLargeSizeSelector from "@/component-plus/ecommerce/components/product-quickviews/with_large_size_selector";
-import WithLargeSizeSelectorRaw from "@/component-plus/ecommerce/components/product-quickviews/with_large_size_selector.jsx?raw";
+import WithLargeSizeSelector from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_large_size_selector";
+import WithLargeSizeSelectorRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_large_size_selector.jsx?raw";
 
 // 04. With color selector and description
-import WithColorSelectorAndDescription from "@/component-plus/ecommerce/components/product-quickviews/with_color_selector_and_description";
-import WithColorSelectorAndDescriptionRaw from "@/component-plus/ecommerce/components/product-quickviews/with_color_selector_and_description.jsx?raw";
+import WithColorSelectorAndDescription from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector_and_description";
+import WithColorSelectorAndDescriptionRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector_and_description.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

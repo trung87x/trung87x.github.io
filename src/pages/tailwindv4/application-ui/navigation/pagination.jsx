@@ -5,16 +5,16 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Card footer with page buttons
-import CardFooterWithPageButtons from "@/component-plus/application-ui/navigation/pagination/card_footer_with_page_buttons";
-import CardFooterWithPageButtonsRaw from "@/component-plus/application-ui/navigation/pagination/card_footer_with_page_buttons.jsx?raw";
+import CardFooterWithPageButtons from "@/components/ui-blocks/application-ui/navigation/pagination/card_footer_with_page_buttons";
+import CardFooterWithPageButtonsRaw from "@/components/ui-blocks/application-ui/navigation/pagination/card_footer_with_page_buttons.jsx?raw";
 
 // 02. Centered page numbers
-import CenteredPageNumbers from "@/component-plus/application-ui/navigation/pagination/centered_page_numbers";
-import CenteredPageNumbersRaw from "@/component-plus/application-ui/navigation/pagination/centered_page_numbers.jsx?raw";
+import CenteredPageNumbers from "@/components/ui-blocks/application-ui/navigation/pagination/centered_page_numbers";
+import CenteredPageNumbersRaw from "@/components/ui-blocks/application-ui/navigation/pagination/centered_page_numbers.jsx?raw";
 
 // 03. Simple card footer
-import SimpleCardFooter from "@/component-plus/application-ui/navigation/pagination/simple_card_footer";
-import SimpleCardFooterRaw from "@/component-plus/application-ui/navigation/pagination/simple_card_footer.jsx?raw";
+import SimpleCardFooter from "@/components/ui-blocks/application-ui/navigation/pagination/simple_card_footer";
+import SimpleCardFooterRaw from "@/components/ui-blocks/application-ui/navigation/pagination/simple_card_footer.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

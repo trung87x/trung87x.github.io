@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/component-plus/application-ui/layout/media-objects/basic";
-import BasicRaw from "@/component-plus/application-ui/layout/media-objects/basic.jsx?raw";
+import Basic from "@/components/ui-blocks/application-ui/layout/media-objects/basic";
+import BasicRaw from "@/components/ui-blocks/application-ui/layout/media-objects/basic.jsx?raw";
 
 // 02. Aligned to center
-import AlignedToCenter from "@/component-plus/application-ui/layout/media-objects/aligned_to_center";
-import AlignedToCenterRaw from "@/component-plus/application-ui/layout/media-objects/aligned_to_center.jsx?raw";
+import AlignedToCenter from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_center";
+import AlignedToCenterRaw from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_center.jsx?raw";
 
 // 03. Aligned to bottom
-import AlignedToBottom from "@/component-plus/application-ui/layout/media-objects/aligned_to_bottom";
-import AlignedToBottomRaw from "@/component-plus/application-ui/layout/media-objects/aligned_to_bottom.jsx?raw";
+import AlignedToBottom from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_bottom";
+import AlignedToBottomRaw from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_bottom.jsx?raw";
 
 // 04. Stretched to fit
-import StretchedToFit from "@/component-plus/application-ui/layout/media-objects/stretched_to_fit";
-import StretchedToFitRaw from "@/component-plus/application-ui/layout/media-objects/stretched_to_fit.jsx?raw";
+import StretchedToFit from "@/components/ui-blocks/application-ui/layout/media-objects/stretched_to_fit";
+import StretchedToFitRaw from "@/components/ui-blocks/application-ui/layout/media-objects/stretched_to_fit.jsx?raw";
 
 // 05. Media on right
-import MediaOnRight from "@/component-plus/application-ui/layout/media-objects/media_on_right";
-import MediaOnRightRaw from "@/component-plus/application-ui/layout/media-objects/media_on_right.jsx?raw";
+import MediaOnRight from "@/components/ui-blocks/application-ui/layout/media-objects/media_on_right";
+import MediaOnRightRaw from "@/components/ui-blocks/application-ui/layout/media-objects/media_on_right.jsx?raw";
 
 // 06. Basic responsive
-import BasicResponsive from "@/component-plus/application-ui/layout/media-objects/basic_responsive";
-import BasicResponsiveRaw from "@/component-plus/application-ui/layout/media-objects/basic_responsive.jsx?raw";
+import BasicResponsive from "@/components/ui-blocks/application-ui/layout/media-objects/basic_responsive";
+import BasicResponsiveRaw from "@/components/ui-blocks/application-ui/layout/media-objects/basic_responsive.jsx?raw";
 
 // 07. Wide responsive
-import WideResponsive from "@/component-plus/application-ui/layout/media-objects/wide_responsive";
-import WideResponsiveRaw from "@/component-plus/application-ui/layout/media-objects/wide_responsive.jsx?raw";
+import WideResponsive from "@/components/ui-blocks/application-ui/layout/media-objects/wide_responsive";
+import WideResponsiveRaw from "@/components/ui-blocks/application-ui/layout/media-objects/wide_responsive.jsx?raw";
 
 // 08. Nested
-import Nested from "@/component-plus/application-ui/layout/media-objects/nested";
-import NestedRaw from "@/component-plus/application-ui/layout/media-objects/nested.jsx?raw";
+import Nested from "@/components/ui-blocks/application-ui/layout/media-objects/nested";
+import NestedRaw from "@/components/ui-blocks/application-ui/layout/media-objects/nested.jsx?raw";
 
 const MediaObjectsDemoPage = () => {
   const layouts = [

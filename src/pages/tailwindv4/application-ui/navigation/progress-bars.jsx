@@ -5,36 +5,36 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/navigation/progress-bars/simple";
-import SimpleRaw from "@/component-plus/application-ui/navigation/progress-bars/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/navigation/progress-bars/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/simple.jsx?raw";
 
 // 02. Panels
-import Panels from "@/component-plus/application-ui/navigation/progress-bars/panels";
-import PanelsRaw from "@/component-plus/application-ui/navigation/progress-bars/panels.jsx?raw";
+import Panels from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels";
+import PanelsRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels.jsx?raw";
 
 // 03. Bullets
-import Bullets from "@/component-plus/application-ui/navigation/progress-bars/bullets";
-import BulletsRaw from "@/component-plus/application-ui/navigation/progress-bars/bullets.jsx?raw";
+import Bullets from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets";
+import BulletsRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets.jsx?raw";
 
 // 04. Panels with border
-import PanelsWithBorder from "@/component-plus/application-ui/navigation/progress-bars/panels_with_border";
-import PanelsWithBorderRaw from "@/component-plus/application-ui/navigation/progress-bars/panels_with_border.jsx?raw";
+import PanelsWithBorder from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels_with_border";
+import PanelsWithBorderRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels_with_border.jsx?raw";
 
 // 05. Circles
-import Circles from "@/component-plus/application-ui/navigation/progress-bars/circles";
-import CirclesRaw from "@/component-plus/application-ui/navigation/progress-bars/circles.jsx?raw";
+import Circles from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles";
+import CirclesRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles.jsx?raw";
 
 // 06. Bullets and text
-import BulletsAndText from "@/component-plus/application-ui/navigation/progress-bars/bullets_and_text";
-import BulletsAndTextRaw from "@/component-plus/application-ui/navigation/progress-bars/bullets_and_text.jsx?raw";
+import BulletsAndText from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets_and_text";
+import BulletsAndTextRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets_and_text.jsx?raw";
 
 // 07. Circles with text
-import CirclesWithText from "@/component-plus/application-ui/navigation/progress-bars/circles_with_text";
-import CirclesWithTextRaw from "@/component-plus/application-ui/navigation/progress-bars/circles_with_text.jsx?raw";
+import CirclesWithText from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles_with_text";
+import CirclesWithTextRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles_with_text.jsx?raw";
 
 // 08. Progress bar
-import ProgressBar from "@/component-plus/application-ui/navigation/progress-bars/progress_bar";
-import ProgressBarRaw from "@/component-plus/application-ui/navigation/progress-bars/progress_bar.jsx?raw";
+import ProgressBar from "@/components/ui-blocks/application-ui/navigation/progress-bars/progress_bar";
+import ProgressBarRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/progress_bar.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

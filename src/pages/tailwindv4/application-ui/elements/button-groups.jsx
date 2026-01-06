@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Basic
-import Basic from "@/component-plus/application-ui/elements/button-groups/basic";
-import BasicRaw from "@/component-plus/application-ui/elements/button-groups/basic.jsx?raw";
+import Basic from "@/components/ui-blocks/application-ui/elements/button-groups/basic";
+import BasicRaw from "@/components/ui-blocks/application-ui/elements/button-groups/basic.jsx?raw";
 
 // 02. Icon only
-import IconOnly from "@/component-plus/application-ui/elements/button-groups/icon_only";
-import IconOnlyRaw from "@/component-plus/application-ui/elements/button-groups/icon_only.jsx?raw";
+import IconOnly from "@/components/ui-blocks/application-ui/elements/button-groups/icon_only";
+import IconOnlyRaw from "@/components/ui-blocks/application-ui/elements/button-groups/icon_only.jsx?raw";
 
 // 03. With stat
-import WithStat from "@/component-plus/application-ui/elements/button-groups/with_stat";
-import WithStatRaw from "@/component-plus/application-ui/elements/button-groups/with_stat.jsx?raw";
+import WithStat from "@/components/ui-blocks/application-ui/elements/button-groups/with_stat";
+import WithStatRaw from "@/components/ui-blocks/application-ui/elements/button-groups/with_stat.jsx?raw";
 
 // 04. With dropdown
-import WithDropdown from "@/component-plus/application-ui/elements/button-groups/with_dropdown";
-import WithDropdownRaw from "@/component-plus/application-ui/elements/button-groups/with_dropdown.jsx?raw";
+import WithDropdown from "@/components/ui-blocks/application-ui/elements/button-groups/with_dropdown";
+import WithDropdownRaw from "@/components/ui-blocks/application-ui/elements/button-groups/with_dropdown.jsx?raw";
 
 // 05. With checkbox and dropdown
-import WithCheckboxAndDropdown from "@/component-plus/application-ui/elements/button-groups/with_checkbox_and_dropdown";
-import WithCheckboxAndDropdownRaw from "@/component-plus/application-ui/elements/button-groups/with_checkbox_and_dropdown.jsx?raw";
+import WithCheckboxAndDropdown from "@/components/ui-blocks/application-ui/elements/button-groups/with_checkbox_and_dropdown";
+import WithCheckboxAndDropdownRaw from "@/components/ui-blocks/application-ui/elements/button-groups/with_checkbox_and_dropdown.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

@@ -5,28 +5,28 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Three-column
-import ThreeColumn from "@/component-plus/ecommerce/components/category-previews/three_column";
-import ThreeColumnRaw from "@/component-plus/ecommerce/components/category-previews/three_column.jsx?raw";
+import ThreeColumn from "@/components/ui-blocks/ecommerce/components/category-previews/three_column";
+import ThreeColumnRaw from "@/components/ui-blocks/ecommerce/components/category-previews/three_column.jsx?raw";
 
 // 02. With image backgrounds
-import WithImageBackgrounds from "@/component-plus/ecommerce/components/category-previews/with_image_backgrounds";
-import WithImageBackgroundsRaw from "@/component-plus/ecommerce/components/category-previews/with_image_backgrounds.jsx?raw";
+import WithImageBackgrounds from "@/components/ui-blocks/ecommerce/components/category-previews/with_image_backgrounds";
+import WithImageBackgroundsRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_image_backgrounds.jsx?raw";
 
 // 03. With background image and detail overlay
-import WithBackgroundImageAndDetailOverlay from "@/component-plus/ecommerce/components/category-previews/with_background_image_and_detail_overlay";
-import WithBackgroundImageAndDetailOverlayRaw from "@/component-plus/ecommerce/components/category-previews/with_background_image_and_detail_overlay.jsx?raw";
+import WithBackgroundImageAndDetailOverlay from "@/components/ui-blocks/ecommerce/components/category-previews/with_background_image_and_detail_overlay";
+import WithBackgroundImageAndDetailOverlayRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_background_image_and_detail_overlay.jsx?raw";
 
 // 04. Three-column with description
-import ThreeColumnWithDescription from "@/component-plus/ecommerce/components/category-previews/three_column_with_description";
-import ThreeColumnWithDescriptionRaw from "@/component-plus/ecommerce/components/category-previews/three_column_with_description.jsx?raw";
+import ThreeColumnWithDescription from "@/components/ui-blocks/ecommerce/components/category-previews/three_column_with_description";
+import ThreeColumnWithDescriptionRaw from "@/components/ui-blocks/ecommerce/components/category-previews/three_column_with_description.jsx?raw";
 
 // 05. With scrolling cards
-import WithScrollingCards from "@/component-plus/ecommerce/components/category-previews/with_scrolling_cards";
-import WithScrollingCardsRaw from "@/component-plus/ecommerce/components/category-previews/with_scrolling_cards.jsx?raw";
+import WithScrollingCards from "@/components/ui-blocks/ecommerce/components/category-previews/with_scrolling_cards";
+import WithScrollingCardsRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_scrolling_cards.jsx?raw";
 
 // 06. With split images
-import WithSplitImages from "@/component-plus/ecommerce/components/category-previews/with_split_images";
-import WithSplitImagesRaw from "@/component-plus/ecommerce/components/category-previews/with_split_images.jsx?raw";
+import WithSplitImages from "@/components/ui-blocks/ecommerce/components/category-previews/with_split_images";
+import WithSplitImagesRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_split_images.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

@@ -5,36 +5,36 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With image tiles
-import WithImageTiles from "@/component-plus/ecommerce/components/promo-sections/with_image_tiles";
-import WithImageTilesRaw from "@/component-plus/ecommerce/components/promo-sections/with_image_tiles.jsx?raw";
+import WithImageTiles from "@/components/ui-blocks/ecommerce/components/promo-sections/with_image_tiles";
+import WithImageTilesRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_image_tiles.jsx?raw";
 
 // 02. With fading background image and testimonials
-import WithFadingBackgroundAndTestimonials from "@/component-plus/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials";
-import WithFadingBackgroundAndTestimonialsRaw from "@/component-plus/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials.jsx?raw";
+import WithFadingBackgroundAndTestimonials from "@/components/ui-blocks/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials";
+import WithFadingBackgroundAndTestimonialsRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials.jsx?raw";
 
 // 03. Full-width with background image
-import FullWidthWithBackgroundImage from "@/component-plus/ecommerce/components/promo-sections/full_width_with_background_image";
-import FullWidthWithBackgroundImageRaw from "@/component-plus/ecommerce/components/promo-sections/full_width_with_background_image.jsx?raw";
+import FullWidthWithBackgroundImage from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image";
+import FullWidthWithBackgroundImageRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image.jsx?raw";
 
 // 04. Full-width with overlapping image tiles
-import FullWidthWithOverlappingImageTiles from "@/component-plus/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles";
-import FullWidthWithOverlappingImageTilesRaw from "@/component-plus/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles.jsx?raw";
+import FullWidthWithOverlappingImageTiles from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles";
+import FullWidthWithOverlappingImageTilesRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles.jsx?raw";
 
 // 05. With background image
-import WithBackgroundImage from "@/component-plus/ecommerce/components/promo-sections/with_background_image";
-import WithBackgroundImageRaw from "@/component-plus/ecommerce/components/promo-sections/with_background_image.jsx?raw";
+import WithBackgroundImage from "@/components/ui-blocks/ecommerce/components/promo-sections/with_background_image";
+import WithBackgroundImageRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_background_image.jsx?raw";
 
 // 06. With overlapping image tiles
-import WithOverlappingImageTiles from "@/component-plus/ecommerce/components/promo-sections/with_overlapping_image_tiles";
-import WithOverlappingImageTilesRaw from "@/component-plus/ecommerce/components/promo-sections/with_overlapping_image_tiles.jsx?raw";
+import WithOverlappingImageTiles from "@/components/ui-blocks/ecommerce/components/promo-sections/with_overlapping_image_tiles";
+import WithOverlappingImageTilesRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_overlapping_image_tiles.jsx?raw";
 
 // 07. With offers and split image
-import WithOffersAndSplitImage from "@/component-plus/ecommerce/components/promo-sections/with_offers_and_split_image";
-import WithOffersAndSplitImageRaw from "@/component-plus/ecommerce/components/promo-sections/with_offers_and_split_image.jsx?raw";
+import WithOffersAndSplitImage from "@/components/ui-blocks/ecommerce/components/promo-sections/with_offers_and_split_image";
+import WithOffersAndSplitImageRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_offers_and_split_image.jsx?raw";
 
 // 08. Full-width with background image and large content
-import FullWidthWithBackgroundImageAndLargeContent from "@/component-plus/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content";
-import FullWidthWithBackgroundImageAndLargeContentRaw from "@/component-plus/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content.jsx?raw";
+import FullWidthWithBackgroundImageAndLargeContent from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content";
+import FullWidthWithBackgroundImageAndLargeContentRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

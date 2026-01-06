@@ -5,28 +5,28 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Drawer
-import Drawer from "@/component-plus/ecommerce/components/shopping-carts/modal";
-import DrawerRaw from "@/component-plus/ecommerce/components/shopping-carts/modal.jsx?raw";
+import Drawer from "@/components/ui-blocks/ecommerce/components/shopping-carts/modal";
+import DrawerRaw from "@/components/ui-blocks/ecommerce/components/shopping-carts/modal.jsx?raw";
 
 // 02. Two column with quantity dropdown
-import TwoColumnWithQuantityDropdown from "@/component-plus/ecommerce/components/shopping-carts/two_column_with_quantity_dropdown";
-import TwoColumnWithQuantityDropdownRaw from "@/component-plus/ecommerce/components/shopping-carts/two_column_with_quantity_dropdown.jsx?raw";
+import TwoColumnWithQuantityDropdown from "@/components/ui-blocks/ecommerce/components/shopping-carts/two_column_with_quantity_dropdown";
+import TwoColumnWithQuantityDropdownRaw from "@/components/ui-blocks/ecommerce/components/shopping-carts/two_column_with_quantity_dropdown.jsx?raw";
 
 // 03. Single column
-import SingleColumn from "@/component-plus/ecommerce/components/shopping-carts/single_column";
-import SingleColumnRaw from "@/component-plus/ecommerce/components/shopping-carts/single_column.jsx?raw";
+import SingleColumn from "@/components/ui-blocks/ecommerce/components/shopping-carts/single_column";
+import SingleColumnRaw from "@/components/ui-blocks/ecommerce/components/shopping-carts/single_column.jsx?raw";
 
 // 04. With extended summary
-import WithExtendedSummary from "@/component-plus/ecommerce/components/shopping-carts/with_extended_summary";
-import WithExtendedSummaryRaw from "@/component-plus/ecommerce/components/shopping-carts/with_extended_summary.jsx?raw";
+import WithExtendedSummary from "@/components/ui-blocks/ecommerce/components/shopping-carts/with_extended_summary";
+import WithExtendedSummaryRaw from "@/components/ui-blocks/ecommerce/components/shopping-carts/with_extended_summary.jsx?raw";
 
 // 05. Dialog
-import Dialog from "@/component-plus/ecommerce/components/shopping-carts/slide_over";
-import DialogRaw from "@/component-plus/ecommerce/components/shopping-carts/slide_over.jsx?raw";
+import Dialog from "@/components/ui-blocks/ecommerce/components/shopping-carts/slide_over";
+import DialogRaw from "@/components/ui-blocks/ecommerce/components/shopping-carts/slide_over.jsx?raw";
 
 // 06. Popover
-import Popover from "@/component-plus/ecommerce/components/shopping-carts/popover";
-import PopoverRaw from "@/component-plus/ecommerce/components/shopping-carts/popover.jsx?raw";
+import Popover from "@/components/ui-blocks/ecommerce/components/shopping-carts/popover";
+import PopoverRaw from "@/components/ui-blocks/ecommerce/components/shopping-carts/popover.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

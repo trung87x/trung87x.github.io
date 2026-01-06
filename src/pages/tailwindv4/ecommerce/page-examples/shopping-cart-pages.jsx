@@ -5,16 +5,16 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With related products
-import WithRelatedProducts from "@/component-plus/ecommerce/page-examples/shopping-cart-pages/with_related_products";
-import WithRelatedProductsRaw from "@/component-plus/ecommerce/page-examples/shopping-cart-pages/with_related_products.jsx?raw";
+import WithRelatedProducts from "@/components/ui-blocks/ecommerce/page-examples/shopping-cart-pages/with_related_products";
+import WithRelatedProductsRaw from "@/components/ui-blocks/ecommerce/page-examples/shopping-cart-pages/with_related_products.jsx?raw";
 
 // 02. Simple with policy grid
-import SimpleWithPolicyGrid from "@/component-plus/ecommerce/page-examples/shopping-cart-pages/simple_with_policy_grid";
-import SimpleWithPolicyGridRaw from "@/component-plus/ecommerce/page-examples/shopping-cart-pages/simple_with_policy_grid.jsx?raw";
+import SimpleWithPolicyGrid from "@/components/ui-blocks/ecommerce/page-examples/shopping-cart-pages/simple_with_policy_grid";
+import SimpleWithPolicyGridRaw from "@/components/ui-blocks/ecommerce/page-examples/shopping-cart-pages/simple_with_policy_grid.jsx?raw";
 
 // 03. With policy grid and extended summary
-import WithPolicyGridAndExtendedSummary from "@/component-plus/ecommerce/page-examples/shopping-cart-pages/with_policy_grid_and_extended_summary";
-import WithPolicyGridAndExtendedSummaryRaw from "@/component-plus/ecommerce/page-examples/shopping-cart-pages/with_policy_grid_and_extended_summary.jsx?raw";
+import WithPolicyGridAndExtendedSummary from "@/components/ui-blocks/ecommerce/page-examples/shopping-cart-pages/with_policy_grid_and_extended_summary";
+import WithPolicyGridAndExtendedSummaryRaw from "@/components/ui-blocks/ecommerce/page-examples/shopping-cart-pages/with_policy_grid_and_extended_summary.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

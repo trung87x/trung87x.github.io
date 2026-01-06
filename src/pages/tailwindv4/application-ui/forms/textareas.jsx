@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/forms/textareas/simple";
-import SimpleRaw from "@/component-plus/application-ui/forms/textareas/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/forms/textareas/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/forms/textareas/simple.jsx?raw";
 
 // 02. With avatar and actions
-import WithAvatarAndActions from "@/component-plus/application-ui/forms/textareas/with_avatar_and_actions";
-import WithAvatarAndActionsRaw from "@/component-plus/application-ui/forms/textareas/with_avatar_and_actions.jsx?raw";
+import WithAvatarAndActions from "@/components/ui-blocks/application-ui/forms/textareas/with_avatar_and_actions";
+import WithAvatarAndActionsRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_avatar_and_actions.jsx?raw";
 
 // 03. With underline and actions
-import WithUnderlineAndActions from "@/component-plus/application-ui/forms/textareas/with_underline_and_actions";
-import WithUnderlineAndActionsRaw from "@/component-plus/application-ui/forms/textareas/with_underline_and_actions.jsx?raw";
+import WithUnderlineAndActions from "@/components/ui-blocks/application-ui/forms/textareas/with_underline_and_actions";
+import WithUnderlineAndActionsRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_underline_and_actions.jsx?raw";
 
 // 04. With title and pill actions
-import WithTitleAndPillActions from "@/component-plus/application-ui/forms/textareas/with_title_and_pill_actions";
-import WithTitleAndPillActionsRaw from "@/component-plus/application-ui/forms/textareas/with_title_and_pill_actions.jsx?raw";
+import WithTitleAndPillActions from "@/components/ui-blocks/application-ui/forms/textareas/with_title_and_pill_actions";
+import WithTitleAndPillActionsRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_title_and_pill_actions.jsx?raw";
 
 // 05. With preview button
-import WithPreviewButton from "@/component-plus/application-ui/forms/textareas/with_preview_button";
-import WithPreviewButtonRaw from "@/component-plus/application-ui/forms/textareas/with_preview_button.jsx?raw";
+import WithPreviewButton from "@/components/ui-blocks/application-ui/forms/textareas/with_preview_button";
+import WithPreviewButtonRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_preview_button.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

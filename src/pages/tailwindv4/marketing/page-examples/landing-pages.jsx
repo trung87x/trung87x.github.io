@@ -1,20 +1,20 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With screenshots and stats
-import WithScreenshotsAndStats from "@/component-plus/marketing/page-examples/landing-pages/with_screenshots_and_stats";
-import WithScreenshotsAndStatsRaw from "@/component-plus/marketing/page-examples/landing-pages/with_screenshots_and_stats.jsx?raw";
+import WithScreenshotsAndStats from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_screenshots_and_stats";
+import WithScreenshotsAndStatsRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_screenshots_and_stats.jsx?raw";
 
 // 02. With large screenshot and testimonial
-import WithLargeScreenshotAndTestimonial from "@/component-plus/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial";
-import WithLargeScreenshotAndTestimonialRaw from "@/component-plus/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial.jsx?raw";
+import WithLargeScreenshotAndTestimonial from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial";
+import WithLargeScreenshotAndTestimonialRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial.jsx?raw";
 
 // 03. With background image hero and pricing section
-import WithBackgroundImageHeroAndPricingSection from "@/component-plus/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section";
-import WithBackgroundImageHeroAndPricingSectionRaw from "@/component-plus/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section.jsx?raw";
+import WithBackgroundImageHeroAndPricingSection from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section";
+import WithBackgroundImageHeroAndPricingSectionRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section.jsx?raw";
 
 // 04. With mobile screenshot and testimonials grid
-import WithMobileScreenshotAndTestimonialsGrid from "@/component-plus/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid";
-import WithMobileScreenshotAndTestimonialsGridRaw from "@/component-plus/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid.jsx?raw";
+import WithMobileScreenshotAndTestimonialsGrid from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid";
+import WithMobileScreenshotAndTestimonialsGridRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid.jsx?raw";
 
 const LandingPagesDemoPage = () => {
   return (

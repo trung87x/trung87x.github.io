@@ -5,48 +5,48 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple dark with menu button on left
-import SimpleDarkWithMenuButtonOnLeft from "@/component-plus/application-ui/navigation/navbars/simple_dark_with_menu_button_on_left";
-import SimpleDarkWithMenuButtonOnLeftRaw from "@/component-plus/application-ui/navigation/navbars/simple_dark_with_menu_button_on_left.jsx?raw";
+import SimpleDarkWithMenuButtonOnLeft from "@/components/ui-blocks/application-ui/navigation/navbars/simple_dark_with_menu_button_on_left";
+import SimpleDarkWithMenuButtonOnLeftRaw from "@/components/ui-blocks/application-ui/navigation/navbars/simple_dark_with_menu_button_on_left.jsx?raw";
 
 // 02. Dark with quick action
-import DarkWithQuickAction from "@/component-plus/application-ui/navigation/navbars/dark_with_quick_action";
-import DarkWithQuickActionRaw from "@/component-plus/application-ui/navigation/navbars/dark_with_quick_action.jsx?raw";
+import DarkWithQuickAction from "@/components/ui-blocks/application-ui/navigation/navbars/dark_with_quick_action";
+import DarkWithQuickActionRaw from "@/components/ui-blocks/application-ui/navigation/navbars/dark_with_quick_action.jsx?raw";
 
 // 03. Simple dark
-import SimpleDark from "@/component-plus/application-ui/navigation/navbars/simple_dark";
-import SimpleDarkRaw from "@/component-plus/application-ui/navigation/navbars/simple_dark.jsx?raw";
+import SimpleDark from "@/components/ui-blocks/application-ui/navigation/navbars/simple_dark";
+import SimpleDarkRaw from "@/components/ui-blocks/application-ui/navigation/navbars/simple_dark.jsx?raw";
 
 // 04. Simple with menu button on left
-import SimpleWithMenuButtonOnLeft from "@/component-plus/application-ui/navigation/navbars/simple_with_menu_button_on_left";
-import SimpleWithMenuButtonOnLeftRaw from "@/component-plus/application-ui/navigation/navbars/simple_with_menu_button_on_left.jsx?raw";
+import SimpleWithMenuButtonOnLeft from "@/components/ui-blocks/application-ui/navigation/navbars/simple_with_menu_button_on_left";
+import SimpleWithMenuButtonOnLeftRaw from "@/components/ui-blocks/application-ui/navigation/navbars/simple_with_menu_button_on_left.jsx?raw";
 
 // 05. Simple
-import SimpleNavbar from "@/component-plus/application-ui/navigation/navbars/simple";
-import SimpleNavbarRaw from "@/component-plus/application-ui/navigation/navbars/simple.jsx?raw";
+import SimpleNavbar from "@/components/ui-blocks/application-ui/navigation/navbars/simple";
+import SimpleNavbarRaw from "@/components/ui-blocks/application-ui/navigation/navbars/simple.jsx?raw";
 
 // 06. With quick action
-import WithQuickAction from "@/component-plus/application-ui/navigation/navbars/with_quick_action";
-import WithQuickActionRaw from "@/component-plus/application-ui/navigation/navbars/with_quick_action.jsx?raw";
+import WithQuickAction from "@/components/ui-blocks/application-ui/navigation/navbars/with_quick_action";
+import WithQuickActionRaw from "@/components/ui-blocks/application-ui/navigation/navbars/with_quick_action.jsx?raw";
 
 // 07. Dark with search
-import DarkWithSearch from "@/component-plus/application-ui/navigation/navbars/dark_with_search";
-import DarkWithSearchRaw from "@/component-plus/application-ui/navigation/navbars/dark_with_search.jsx?raw";
+import DarkWithSearch from "@/components/ui-blocks/application-ui/navigation/navbars/dark_with_search";
+import DarkWithSearchRaw from "@/components/ui-blocks/application-ui/navigation/navbars/dark_with_search.jsx?raw";
 
 // 08. With search
-import WithSearch from "@/component-plus/application-ui/navigation/navbars/with_search";
-import WithSearchRaw from "@/component-plus/application-ui/navigation/navbars/with_search.jsx?raw";
+import WithSearch from "@/components/ui-blocks/application-ui/navigation/navbars/with_search";
+import WithSearchRaw from "@/components/ui-blocks/application-ui/navigation/navbars/with_search.jsx?raw";
 
 // 09. Dark with centered search and secondary links
-import DarkWithCenteredSearch from "@/component-plus/application-ui/navigation/navbars/with_centered_search_and_secondary_links_dark";
-import DarkWithCenteredSearchRaw from "@/component-plus/application-ui/navigation/navbars/with_centered_search_and_secondary_links_dark.jsx?raw";
+import DarkWithCenteredSearch from "@/components/ui-blocks/application-ui/navigation/navbars/with_centered_search_and_secondary_links_dark";
+import DarkWithCenteredSearchRaw from "@/components/ui-blocks/application-ui/navigation/navbars/with_centered_search_and_secondary_links_dark.jsx?raw";
 
 // 10. With centered search and secondary links
-import WithCenteredSearch from "@/component-plus/application-ui/navigation/navbars/with_centered_search_and_secondary_links";
-import WithCenteredSearchRaw from "@/component-plus/application-ui/navigation/navbars/with_centered_search_and_secondary_links.jsx?raw";
+import WithCenteredSearch from "@/components/ui-blocks/application-ui/navigation/navbars/with_centered_search_and_secondary_links";
+import WithCenteredSearchRaw from "@/components/ui-blocks/application-ui/navigation/navbars/with_centered_search_and_secondary_links.jsx?raw";
 
 // 11. With search in column layout
-import WithSearchInColumnLayout from "@/component-plus/application-ui/navigation/navbars/with_search_in_column_layout";
-import WithSearchInColumnLayoutRaw from "@/component-plus/application-ui/navigation/navbars/with_search_in_column_layout.jsx?raw";
+import WithSearchInColumnLayout from "@/components/ui-blocks/application-ui/navigation/navbars/with_search_in_column_layout";
+import WithSearchInColumnLayoutRaw from "@/components/ui-blocks/application-ui/navigation/navbars/with_search_in_column_layout.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

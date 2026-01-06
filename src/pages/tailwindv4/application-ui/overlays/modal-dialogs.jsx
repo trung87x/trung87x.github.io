@@ -5,28 +5,28 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple with gray footer
-import SimpleWithGrayFooter from "@/component-plus/application-ui/overlays/modal-dialogs/simple_with_gray_footer";
-import SimpleWithGrayFooterRaw from "@/component-plus/application-ui/overlays/modal-dialogs/simple_with_gray_footer.jsx?raw";
+import SimpleWithGrayFooter from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_with_gray_footer";
+import SimpleWithGrayFooterRaw from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_with_gray_footer.jsx?raw";
 
 // 02. Centered with single action
-import CenteredWithSingleAction from "@/component-plus/application-ui/overlays/modal-dialogs/centered_with_single_action";
-import CenteredWithSingleActionRaw from "@/component-plus/application-ui/overlays/modal-dialogs/centered_with_single_action.jsx?raw";
+import CenteredWithSingleAction from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/centered_with_single_action";
+import CenteredWithSingleActionRaw from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/centered_with_single_action.jsx?raw";
 
 // 03. Centered with wide buttons
-import CenteredWithWideButtons from "@/component-plus/application-ui/overlays/modal-dialogs/centered_with_wide_buttons";
-import CenteredWithWideButtonsRaw from "@/component-plus/application-ui/overlays/modal-dialogs/centered_with_wide_buttons.jsx?raw";
+import CenteredWithWideButtons from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/centered_with_wide_buttons";
+import CenteredWithWideButtonsRaw from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/centered_with_wide_buttons.jsx?raw";
 
 // 04. Simple alert
-import SimpleAlert from "@/component-plus/application-ui/overlays/modal-dialogs/simple_alert";
-import SimpleAlertRaw from "@/component-plus/application-ui/overlays/modal-dialogs/simple_alert.jsx?raw";
+import SimpleAlert from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_alert";
+import SimpleAlertRaw from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_alert.jsx?raw";
 
 // 05. Simple with dismiss button
-import SimpleWithDismissButton from "@/component-plus/application-ui/overlays/modal-dialogs/simple_with_dismiss_button";
-import SimpleWithDismissButtonRaw from "@/component-plus/application-ui/overlays/modal-dialogs/simple_with_dismiss_button.jsx?raw";
+import SimpleWithDismissButton from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_with_dismiss_button";
+import SimpleWithDismissButtonRaw from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_with_dismiss_button.jsx?raw";
 
 // 06. Simple alert with left-aligned buttons
-import SimpleAlertWithLeftAlignedButtons from "@/component-plus/application-ui/overlays/modal-dialogs/simple_alert_with_left_aligned_buttons";
-import SimpleAlertWithLeftAlignedButtonsRaw from "@/component-plus/application-ui/overlays/modal-dialogs/simple_alert_with_left_aligned_buttons.jsx?raw";
+import SimpleAlertWithLeftAlignedButtons from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_alert_with_left_aligned_buttons";
+import SimpleAlertWithLeftAlignedButtonsRaw from "@/components/ui-blocks/application-ui/overlays/modal-dialogs/simple_alert_with_left_aligned_buttons.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

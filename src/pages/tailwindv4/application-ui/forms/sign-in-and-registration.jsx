@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/forms/sign-in-forms/simple";
-import SimpleRaw from "@/component-plus/application-ui/forms/sign-in-forms/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple.jsx?raw";
 
 // 02. Simple no labels
-import SimpleNoLabels from "@/component-plus/application-ui/forms/sign-in-forms/simple_no_labels";
-import SimpleNoLabelsRaw from "@/component-plus/application-ui/forms/sign-in-forms/simple_no_labels.jsx?raw";
+import SimpleNoLabels from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_no_labels";
+import SimpleNoLabelsRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_no_labels.jsx?raw";
 
 // 03. Split screen
-import SplitScreen from "@/component-plus/application-ui/forms/sign-in-forms/split_screen";
-import SplitScreenRaw from "@/component-plus/application-ui/forms/sign-in-forms/split_screen.jsx?raw";
+import SplitScreen from "@/components/ui-blocks/application-ui/forms/sign-in-forms/split_screen";
+import SplitScreenRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/split_screen.jsx?raw";
 
 // 04. Simple card
-import SimpleCard from "@/component-plus/application-ui/forms/sign-in-forms/simple_card";
-import SimpleCardRaw from "@/component-plus/application-ui/forms/sign-in-forms/simple_card.jsx?raw";
+import SimpleCard from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_card";
+import SimpleCardRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_card.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

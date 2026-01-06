@@ -5,44 +5,44 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/headings/section-headings/simple";
-import SimpleRaw from "@/component-plus/application-ui/headings/section-headings/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/headings/section-headings/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/headings/section-headings/simple.jsx?raw";
 
 // 02. With description
-import WithDescription from "@/component-plus/application-ui/headings/section-headings/with_description";
-import WithDescriptionRaw from "@/component-plus/application-ui/headings/section-headings/with_description.jsx?raw";
+import WithDescription from "@/components/ui-blocks/application-ui/headings/section-headings/with_description";
+import WithDescriptionRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_description.jsx?raw";
 
 // 03. With actions
-import WithActions from "@/component-plus/application-ui/headings/section-headings/with_actions";
-import WithActionsRaw from "@/component-plus/application-ui/headings/section-headings/with_actions.jsx?raw";
+import WithActions from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions";
+import WithActionsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions.jsx?raw";
 
 // 04. With action
-import WithAction from "@/component-plus/application-ui/headings/section-headings/with_action";
-import WithActionRaw from "@/component-plus/application-ui/headings/section-headings/with_action.jsx?raw";
+import WithAction from "@/components/ui-blocks/application-ui/headings/section-headings/with_action";
+import WithActionRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_action.jsx?raw";
 
 // 05. With input group
-import WithInputGroup from "@/component-plus/application-ui/headings/section-headings/with_input_group";
-import WithInputGroupRaw from "@/component-plus/application-ui/headings/section-headings/with_input_group.jsx?raw";
+import WithInputGroup from "@/components/ui-blocks/application-ui/headings/section-headings/with_input_group";
+import WithInputGroupRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_input_group.jsx?raw";
 
 // 06. With tabs
-import WithTabs from "@/component-plus/application-ui/headings/section-headings/with_tabs";
-import WithTabsRaw from "@/component-plus/application-ui/headings/section-headings/with_tabs.jsx?raw";
+import WithTabs from "@/components/ui-blocks/application-ui/headings/section-headings/with_tabs";
+import WithTabsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_tabs.jsx?raw";
 
 // 07. With actions and tabs
-import WithActionsAndTabs from "@/component-plus/application-ui/headings/section-headings/with_actions_and_tabs";
-import WithActionsAndTabsRaw from "@/component-plus/application-ui/headings/section-headings/with_actions_and_tabs.jsx?raw";
+import WithActionsAndTabs from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions_and_tabs";
+import WithActionsAndTabsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions_and_tabs.jsx?raw";
 
 // 08. With inline tabs
-import WithInlineTabs from "@/component-plus/application-ui/headings/section-headings/with_inline_tabs";
-import WithInlineTabsRaw from "@/component-plus/application-ui/headings/section-headings/with_inline_tabs.jsx?raw";
+import WithInlineTabs from "@/components/ui-blocks/application-ui/headings/section-headings/with_inline_tabs";
+import WithInlineTabsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_inline_tabs.jsx?raw";
 
 // 09. With label
-import WithLabel from "@/component-plus/application-ui/headings/section-headings/with_label";
-import WithLabelRaw from "@/component-plus/application-ui/headings/section-headings/with_label.jsx?raw";
+import WithLabel from "@/components/ui-blocks/application-ui/headings/section-headings/with_label";
+import WithLabelRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_label.jsx?raw";
 
 // 10. With badge and dropdown
-import WithBadgeAndDropdown from "@/component-plus/application-ui/headings/section-headings/with_badge_and_dropdown";
-import WithBadgeAndDropdownRaw from "@/component-plus/application-ui/headings/section-headings/with_badge_and_dropdown.jsx?raw";
+import WithBadgeAndDropdown from "@/components/ui-blocks/application-ui/headings/section-headings/with_badge_and_dropdown";
+import WithBadgeAndDropdownRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_badge_and_dropdown.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

@@ -1,32 +1,32 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. 4-column with company mission on dark
-import FourColumnWithCompanyMissionOnDark from "@/component-plus/marketing/page-sections/footers/4_column_with_company_mission_on_dark";
-import FourColumnWithCompanyMissionOnDarkRaw from "@/component-plus/marketing/page-sections/footers/4_column_with_company_mission_on_dark.jsx?raw";
+import FourColumnWithCompanyMissionOnDark from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_company_mission_on_dark";
+import FourColumnWithCompanyMissionOnDarkRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_company_mission_on_dark.jsx?raw";
 
 // 02. 4-column with call-to-action
-import FourColumnWithCallToAction from "@/component-plus/marketing/page-sections/footers/4_column_with_call_to_action";
-import FourColumnWithCallToActionRaw from "@/component-plus/marketing/page-sections/footers/4_column_with_call_to_action.jsx?raw";
+import FourColumnWithCallToAction from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_call_to_action";
+import FourColumnWithCallToActionRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_call_to_action.jsx?raw";
 
 // 03. 4-column simple
-import FourColumnSimple from "@/component-plus/marketing/page-sections/footers/4_column_simple";
-import FourColumnSimpleRaw from "@/component-plus/marketing/page-sections/footers/4_column_simple.jsx?raw";
+import FourColumnSimple from "@/components/ui-blocks/marketing/page-sections/footers/4_column_simple";
+import FourColumnSimpleRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_simple.jsx?raw";
 
 // 04. 4-column with newsletter
-import FourColumnWithNewsletter from "@/component-plus/marketing/page-sections/footers/4_column_with_newsletter";
-import FourColumnWithNewsletterRaw from "@/component-plus/marketing/page-sections/footers/4_column_with_newsletter.jsx?raw";
+import FourColumnWithNewsletter from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter";
+import FourColumnWithNewsletterRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter.jsx?raw";
 
 // 05. 4-column with newsletter below
-import FourColumnWithNewsletterBelow from "@/component-plus/marketing/page-sections/footers/4_column_with_newsletter_below";
-import FourColumnWithNewsletterBelowRaw from "@/component-plus/marketing/page-sections/footers/4_column_with_newsletter_below.jsx?raw";
+import FourColumnWithNewsletterBelow from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter_below";
+import FourColumnWithNewsletterBelowRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter_below.jsx?raw";
 
 // 06. Simple centered
-import SimpleCentered from "@/component-plus/marketing/page-sections/footers/simple_centered";
-import SimpleCenteredRaw from "@/component-plus/marketing/page-sections/footers/simple_centered.jsx?raw";
+import SimpleCentered from "@/components/ui-blocks/marketing/page-sections/footers/simple_centered";
+import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/footers/simple_centered.jsx?raw";
 
 // 07. Simple with social links
-import SimpleWithSocialLinks from "@/component-plus/marketing/page-sections/footers/simple_with_social_links";
-import SimpleWithSocialLinksRaw from "@/component-plus/marketing/page-sections/footers/simple_with_social_links.jsx?raw";
+import SimpleWithSocialLinks from "@/components/ui-blocks/marketing/page-sections/footers/simple_with_social_links";
+import SimpleWithSocialLinksRaw from "@/components/ui-blocks/marketing/page-sections/footers/simple_with_social_links.jsx?raw";
 
 const FooterDemoPage = () => {
   return (

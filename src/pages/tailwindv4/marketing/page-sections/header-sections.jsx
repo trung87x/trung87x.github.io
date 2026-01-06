@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With stats
-import WithStats from "@/component-plus/marketing/page-sections/header-sections/with_stats";
-import WithStatsRaw from "@/component-plus/marketing/page-sections/header-sections/with_stats.jsx?raw";
+import WithStats from "@/components/ui-blocks/marketing/page-sections/header-sections/with_stats";
+import WithStatsRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/with_stats.jsx?raw";
 
 // 02. Centered
-import Centered from "@/component-plus/marketing/page-sections/header-sections/centered";
-import CenteredRaw from "@/component-plus/marketing/page-sections/header-sections/centered.jsx?raw";
+import Centered from "@/components/ui-blocks/marketing/page-sections/header-sections/centered";
+import CenteredRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/centered.jsx?raw";
 
 // 03. Centered with eyebrow
-import CenteredWithEyebrow from "@/component-plus/marketing/page-sections/header-sections/centered_with_eyebrow";
-import CenteredWithEyebrowRaw from "@/component-plus/marketing/page-sections/header-sections/centered_with_eyebrow.jsx?raw";
+import CenteredWithEyebrow from "@/components/ui-blocks/marketing/page-sections/header-sections/centered_with_eyebrow";
+import CenteredWithEyebrowRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/centered_with_eyebrow.jsx?raw";
 
 // 04. With cards
-import WithCards from "@/component-plus/marketing/page-sections/header-sections/with_cards";
-import WithCardsRaw from "@/component-plus/marketing/page-sections/header-sections/with_cards.jsx?raw";
+import WithCards from "@/components/ui-blocks/marketing/page-sections/header-sections/with_cards";
+import WithCardsRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/with_cards.jsx?raw";
 
 // 05. Simple
-import Simple from "@/component-plus/marketing/page-sections/header-sections/simple";
-import SimpleRaw from "@/component-plus/marketing/page-sections/header-sections/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/marketing/page-sections/header-sections/simple";
+import SimpleRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/simple.jsx?raw";
 
 // 06. Simple with eyebrow
-import SimpleWithEyebrow from "@/component-plus/marketing/page-sections/header-sections/simple_with_eyebrow";
-import SimpleWithEyebrowRaw from "@/component-plus/marketing/page-sections/header-sections/simple_with_eyebrow.jsx?raw";
+import SimpleWithEyebrow from "@/components/ui-blocks/marketing/page-sections/header-sections/simple_with_eyebrow";
+import SimpleWithEyebrowRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/simple_with_eyebrow.jsx?raw";
 
 // 07. Simple with background image
-import SimpleWithBackgroundImage from "@/component-plus/marketing/page-sections/header-sections/simple_with_background_image";
-import SimpleWithBackgroundImageRaw from "@/component-plus/marketing/page-sections/header-sections/simple_with_background_image.jsx?raw";
+import SimpleWithBackgroundImage from "@/components/ui-blocks/marketing/page-sections/header-sections/simple_with_background_image";
+import SimpleWithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/simple_with_background_image.jsx?raw";
 
 // 08. Centered with background image
-import CenteredWithBackgroundImage from "@/component-plus/marketing/page-sections/header-sections/centered_with_background_image";
-import CenteredWithBackgroundImageRaw from "@/component-plus/marketing/page-sections/header-sections/centered_with_background_image.jsx?raw";
+import CenteredWithBackgroundImage from "@/components/ui-blocks/marketing/page-sections/header-sections/centered_with_background_image";
+import CenteredWithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/centered_with_background_image.jsx?raw";
 
 const HeaderSectionsDemoPage = () => {
   return (

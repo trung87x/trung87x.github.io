@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With inline actions and expandable sidebar filters
-import WithInlineActionsAndExpandableSidebarFilters from "@/component-plus/ecommerce/components/category-filters/with_inline_actions_and_expandable_sidebar_filters";
-import WithInlineActionsAndExpandableSidebarFiltersRaw from "@/component-plus/ecommerce/components/category-filters/with_inline_actions_and_expandable_sidebar_filters.jsx?raw";
+import WithInlineActionsAndExpandableSidebarFilters from "@/components/ui-blocks/ecommerce/components/category-filters/with_inline_actions_and_expandable_sidebar_filters";
+import WithInlineActionsAndExpandableSidebarFiltersRaw from "@/components/ui-blocks/ecommerce/components/category-filters/with_inline_actions_and_expandable_sidebar_filters.jsx?raw";
 
 // 02. With centered text and dropdown product filters
-import WithCenteredTextAndDropdownProductFilters from "@/component-plus/ecommerce/components/category-filters/with_centered_text_and_dropdown_product_filters";
-import WithCenteredTextAndDropdownProductFiltersRaw from "@/component-plus/ecommerce/components/category-filters/with_centered_text_and_dropdown_product_filters.jsx?raw";
+import WithCenteredTextAndDropdownProductFilters from "@/components/ui-blocks/ecommerce/components/category-filters/with_centered_text_and_dropdown_product_filters";
+import WithCenteredTextAndDropdownProductFiltersRaw from "@/components/ui-blocks/ecommerce/components/category-filters/with_centered_text_and_dropdown_product_filters.jsx?raw";
 
 // 03. With dropdown product filters
-import WithDropdownProductFilters from "@/component-plus/ecommerce/components/category-filters/with_dropdown_product_filters";
-import WithDropdownProductFiltersRaw from "@/component-plus/ecommerce/components/category-filters/with_dropdown_product_filters.jsx?raw";
+import WithDropdownProductFilters from "@/components/ui-blocks/ecommerce/components/category-filters/with_dropdown_product_filters";
+import WithDropdownProductFiltersRaw from "@/components/ui-blocks/ecommerce/components/category-filters/with_dropdown_product_filters.jsx?raw";
 
 // 04. With expandable product filter panel
-import WithExpandableProductFilterPanel from "@/component-plus/ecommerce/components/category-filters/with_expandable_product_filter_panel";
-import WithExpandableProductFilterPanelRaw from "@/component-plus/ecommerce/components/category-filters/with_expandable_product_filter_panel.jsx?raw";
+import WithExpandableProductFilterPanel from "@/components/ui-blocks/ecommerce/components/category-filters/with_expandable_product_filter_panel";
+import WithExpandableProductFilterPanelRaw from "@/components/ui-blocks/ecommerce/components/category-filters/with_expandable_product_filter_panel.jsx?raw";
 
 // 05. Sidebar filters
-import SidebarFilters from "@/component-plus/ecommerce/components/category-filters/sidebar_filters";
-import SidebarFiltersRaw from "@/component-plus/ecommerce/components/category-filters/sidebar_filters.jsx?raw";
+import SidebarFilters from "@/components/ui-blocks/ecommerce/components/category-filters/sidebar_filters";
+import SidebarFiltersRaw from "@/components/ui-blocks/ecommerce/components/category-filters/sidebar_filters.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

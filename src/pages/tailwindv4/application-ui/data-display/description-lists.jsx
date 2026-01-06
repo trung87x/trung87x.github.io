@@ -1,28 +1,28 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Left-aligned
-import LeftAligned from "@/component-plus/application-ui/data-display/description-lists/left_aligned";
-import LeftAlignedRaw from "@/component-plus/application-ui/data-display/description-lists/left_aligned.jsx?raw";
+import LeftAligned from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned";
+import LeftAlignedRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned.jsx?raw";
 
 // 02. Left-aligned in card
-import LeftAlignedInCard from "@/component-plus/application-ui/data-display/description-lists/left_aligned_in_card";
-import LeftAlignedInCardRaw from "@/component-plus/application-ui/data-display/description-lists/left_aligned_in_card.jsx?raw";
+import LeftAlignedInCard from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_in_card";
+import LeftAlignedInCardRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_in_card.jsx?raw";
 
 // 03. Left-aligned striped
-import LeftAlignedStriped from "@/component-plus/application-ui/data-display/description-lists/left_aligned_striped";
-import LeftAlignedStripedRaw from "@/component-plus/application-ui/data-display/description-lists/left_aligned_striped.jsx?raw";
+import LeftAlignedStriped from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_striped";
+import LeftAlignedStripedRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_striped.jsx?raw";
 
 // 04. Two-column
-import TwoColumn from "@/component-plus/application-ui/data-display/description-lists/two_column";
-import TwoColumnRaw from "@/component-plus/application-ui/data-display/description-lists/two_column.jsx?raw";
+import TwoColumn from "@/components/ui-blocks/application-ui/data-display/description-lists/two_column";
+import TwoColumnRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/two_column.jsx?raw";
 
 // 05. Left-aligned with inline actions
-import LeftAlignedWithInlineActions from "@/component-plus/application-ui/data-display/description-lists/left_aligned_with_inline_actions";
-import LeftAlignedWithInlineActionsRaw from "@/component-plus/application-ui/data-display/description-lists/left_aligned_with_inline_actions.jsx?raw";
+import LeftAlignedWithInlineActions from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_with_inline_actions";
+import LeftAlignedWithInlineActionsRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_with_inline_actions.jsx?raw";
 
 // 06. Narrow with hidden labels
-import NarrowWithHiddenLabels from "@/component-plus/application-ui/data-display/description-lists/narrow_with_hidden_labels";
-import NarrowWithHiddenLabelsRaw from "@/component-plus/application-ui/data-display/description-lists/narrow_with_hidden_labels.jsx?raw";
+import NarrowWithHiddenLabels from "@/components/ui-blocks/application-ui/data-display/description-lists/narrow_with_hidden_labels";
+import NarrowWithHiddenLabelsRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/narrow_with_hidden_labels.jsx?raw";
 
 const DescriptionListsDemoPage = () => {
   const layouts = [

@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With order summary sidebar
-import WithOrderSummarySidebar from "@/component-plus/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar";
-import WithOrderSummarySidebarRaw from "@/component-plus/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar.jsx?raw";
+import WithOrderSummarySidebar from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar";
+import WithOrderSummarySidebarRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar.jsx?raw";
 
 // 02. Single step with order summary
-import SingleStepWithOrderSummary from "@/component-plus/ecommerce/page-examples/checkout-pages/single_step_with_order_summary";
-import SingleStepWithOrderSummaryRaw from "@/component-plus/ecommerce/page-examples/checkout-pages/single_step_with_order_summary.jsx?raw";
+import SingleStepWithOrderSummary from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/single_step_with_order_summary";
+import SingleStepWithOrderSummaryRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/single_step_with_order_summary.jsx?raw";
 
 // 03. With mobile order summary overlay
-import WithMobileOrderSummaryOverlay from "@/component-plus/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay";
-import WithMobileOrderSummaryOverlayRaw from "@/component-plus/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay.jsx?raw";
+import WithMobileOrderSummaryOverlay from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay";
+import WithMobileOrderSummaryOverlayRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay.jsx?raw";
 
 // 04. Multi-step
-import MultiStep from "@/component-plus/ecommerce/page-examples/checkout-pages/multi_step";
-import MultiStepRaw from "@/component-plus/ecommerce/page-examples/checkout-pages/multi_step.jsx?raw";
+import MultiStep from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/multi_step";
+import MultiStepRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/multi_step.jsx?raw";
 
 // 05. Split with order summary
-import SplitWithOrderSummary from "@/component-plus/ecommerce/page-examples/checkout-pages/split_with_order_summary";
-import SplitWithOrderSummaryRaw from "@/component-plus/ecommerce/page-examples/checkout-pages/split_with_order_summary.jsx?raw";
+import SplitWithOrderSummary from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/split_with_order_summary";
+import SplitWithOrderSummaryRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/split_with_order_summary.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

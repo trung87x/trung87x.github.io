@@ -1,28 +1,28 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Side-by-side with details
-import SideBySideWithDetails from "@/component-plus/marketing/page-sections/newsletter-sections/side_by_side_with_details";
-import SideBySideWithDetailsRaw from "@/component-plus/marketing/page-sections/newsletter-sections/side_by_side_with_details.jsx?raw";
+import SideBySideWithDetails from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_with_details";
+import SideBySideWithDetailsRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_with_details.jsx?raw";
 
 // 02. Simple side-by-side
-import SimpleSideBySide from "@/component-plus/marketing/page-sections/newsletter-sections/simple_side_by_side";
-import SimpleSideBySideRaw from "@/component-plus/marketing/page-sections/newsletter-sections/simple_side_by_side.jsx?raw";
+import SimpleSideBySide from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side";
+import SimpleSideBySideRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side.jsx?raw";
 
 // 03. Simple side-by-side on brand
-import SimpleSideBySideOnBrand from "@/component-plus/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand";
-import SimpleSideBySideOnBrandRaw from "@/component-plus/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand.jsx?raw";
+import SimpleSideBySideOnBrand from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand";
+import SimpleSideBySideOnBrandRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand.jsx?raw";
 
 // 04. Simple stacked
-import SimpleStacked from "@/component-plus/marketing/page-sections/newsletter-sections/simple_stacked";
-import SimpleStackedRaw from "@/component-plus/marketing/page-sections/newsletter-sections/simple_stacked.jsx?raw";
+import SimpleStacked from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_stacked";
+import SimpleStackedRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_stacked.jsx?raw";
 
 // 05. Centered card
-import CenteredCard from "@/component-plus/marketing/page-sections/newsletter-sections/centered_card";
-import CenteredCardRaw from "@/component-plus/marketing/page-sections/newsletter-sections/centered_card.jsx?raw";
+import CenteredCard from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/centered_card";
+import CenteredCardRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/centered_card.jsx?raw";
 
 // 06. Side-by-side on card
-import SideBySideOnCard from "@/component-plus/marketing/page-sections/newsletter-sections/side_by_side_on_card";
-import SideBySideOnCardRaw from "@/component-plus/marketing/page-sections/newsletter-sections/side_by_side_on_card.jsx?raw";
+import SideBySideOnCard from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_on_card";
+import SideBySideOnCardRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_on_card.jsx?raw";
 
 const NewsletterSectionsDemoPage = () => {
   return (

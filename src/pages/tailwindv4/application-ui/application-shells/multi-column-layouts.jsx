@@ -1,28 +1,28 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Full-width three-column
-import FullWidthThreeColumn from "@/component-plus/application-ui/application-shells/multi-column/full_width_three_column";
-import FullWidthThreeColumnRaw from "@/component-plus/application-ui/application-shells/multi-column/full_width_three_column.jsx?raw";
+import FullWidthThreeColumn from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_three_column";
+import FullWidthThreeColumnRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_three_column.jsx?raw";
 
 // 02. Full-width secondary column on right
-import FullWidthSecondaryRight from "@/component-plus/application-ui/application-shells/multi-column/full_width_secondary_column_on_right";
-import FullWidthSecondaryRightRaw from "@/component-plus/application-ui/application-shells/multi-column/full_width_secondary_column_on_right.jsx?raw";
+import FullWidthSecondaryRight from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_secondary_column_on_right";
+import FullWidthSecondaryRightRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_secondary_column_on_right.jsx?raw";
 
 // 03. Constrained three column
-import ConstrainedThreeColumn from "@/component-plus/application-ui/application-shells/multi-column/constrained_three_column";
-import ConstrainedThreeColumnRaw from "@/component-plus/application-ui/application-shells/multi-column/constrained_three_column.jsx?raw";
+import ConstrainedThreeColumn from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_three_column";
+import ConstrainedThreeColumnRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_three_column.jsx?raw";
 
 // 04. Constrained with sticky columns
-import ConstrainedStickyColumns from "@/component-plus/application-ui/application-shells/multi-column/constrained_with_sticky_columns";
-import ConstrainedStickyColumnsRaw from "@/component-plus/application-ui/application-shells/multi-column/constrained_with_sticky_columns.jsx?raw";
+import ConstrainedStickyColumns from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_with_sticky_columns";
+import ConstrainedStickyColumnsRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_with_sticky_columns.jsx?raw";
 
 // 05. Full-width with narrow sidebar
-import FullWidthNarrowSidebar from "@/component-plus/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar";
-import FullWidthNarrowSidebarRaw from "@/component-plus/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar.jsx?raw";
+import FullWidthNarrowSidebar from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar";
+import FullWidthNarrowSidebarRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar.jsx?raw";
 
 // 06. Full-width with narrow sidebar and header
-import FullWidthNarrowSidebarHeader from "@/component-plus/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header";
-import FullWidthNarrowSidebarHeaderRaw from "@/component-plus/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header.jsx?raw";
+import FullWidthNarrowSidebarHeader from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header";
+import FullWidthNarrowSidebarHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header.jsx?raw";
 
 const MultiColumnLayoutsDemoPage = () => {
   const layouts = [

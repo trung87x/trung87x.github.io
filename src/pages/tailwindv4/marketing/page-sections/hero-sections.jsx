@@ -1,52 +1,52 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 1. Simple centered
-import SimpleCentered from "@/component-plus/marketing/page-sections/hero-sections/simple_centered";
-import SimpleCenteredRaw from "@/component-plus/marketing/page-sections/hero-sections/simple_centered.jsx?raw";
+import SimpleCentered from "@/components/ui-blocks/marketing/page-sections/hero-sections/simple_centered";
+import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/simple_centered.jsx?raw";
 
 // 2. Split with screenshot
-import SplitWithScreenshot from "@/component-plus/marketing/page-sections/hero-sections/split_with_screenshot_on_dark";
-import SplitWithScreenshotRaw from "@/component-plus/marketing/page-sections/hero-sections/split_with_screenshot_on_dark.jsx?raw";
+import SplitWithScreenshot from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_screenshot_on_dark";
+import SplitWithScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_screenshot_on_dark.jsx?raw";
 
 // 3. Split with bordered screenshot
-import SplitWithBorderedScreenshot from "@/component-plus/marketing/page-sections/hero-sections/split_with_screenshot";
-import SplitWithBorderedScreenshotRaw from "@/component-plus/marketing/page-sections/hero-sections/split_with_screenshot.jsx?raw";
+import SplitWithBorderedScreenshot from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_screenshot";
+import SplitWithBorderedScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_screenshot.jsx?raw";
 
 // 4. Split with code example
-import SplitWithCodeExample from "@/component-plus/marketing/page-sections/hero-sections/split_with_code_example";
-import SplitWithCodeExampleRaw from "@/component-plus/marketing/page-sections/hero-sections/split_with_code_example.jsx?raw";
+import SplitWithCodeExample from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_code_example";
+import SplitWithCodeExampleRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_code_example.jsx?raw";
 
 // 5. Simple centered with background image
-import SimpleCenteredWithBackgroundImage from "@/component-plus/marketing/page-sections/hero-sections/simple_centered_with_background_image";
-import SimpleCenteredWithBackgroundImageRaw from "@/component-plus/marketing/page-sections/hero-sections/simple_centered_with_background_image.jsx?raw";
+import SimpleCenteredWithBackgroundImage from "@/components/ui-blocks/marketing/page-sections/hero-sections/simple_centered_with_background_image";
+import SimpleCenteredWithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/simple_centered_with_background_image.jsx?raw";
 
 // 6. With bordered app screenshot
-import WithBorderedAppScreenshot from "@/component-plus/marketing/page-sections/hero-sections/with_app_screenshot";
-import WithBorderedAppScreenshotRaw from "@/component-plus/marketing/page-sections/hero-sections/with_app_screenshot.jsx?raw";
+import WithBorderedAppScreenshot from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_app_screenshot";
+import WithBorderedAppScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_app_screenshot.jsx?raw";
 
 // 7. With app screenshot
-import WithAppScreenshot from "@/component-plus/marketing/page-sections/hero-sections/with_app_screenshot_on_dark";
-import WithAppScreenshotRaw from "@/component-plus/marketing/page-sections/hero-sections/with_app_screenshot_on_dark.jsx?raw";
+import WithAppScreenshot from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_app_screenshot_on_dark";
+import WithAppScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_app_screenshot_on_dark.jsx?raw";
 
 // 8. With phone mockup
-import WithPhoneMockup from "@/component-plus/marketing/page-sections/hero-sections/with_phone_mockup";
-import WithPhoneMockupRaw from "@/component-plus/marketing/page-sections/hero-sections/with_phone_mockup.jsx?raw";
+import WithPhoneMockup from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_phone_mockup";
+import WithPhoneMockupRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_phone_mockup.jsx?raw";
 
 // 9. Split with image
-import SplitWithImage from "@/component-plus/marketing/page-sections/hero-sections/split_with_image";
-import SplitWithImageRaw from "@/component-plus/marketing/page-sections/hero-sections/split_with_image.jsx?raw";
+import SplitWithImage from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_image";
+import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/split_with_image.jsx?raw";
 
 // 10. With angled image on right
-import WithAngledImageOnRight from "@/component-plus/marketing/page-sections/hero-sections/with_angled_image_on_right";
-import WithAngledImageOnRightRaw from "@/component-plus/marketing/page-sections/hero-sections/with_angled_image_on_right.jsx?raw";
+import WithAngledImageOnRight from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_angled_image_on_right";
+import WithAngledImageOnRightRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_angled_image_on_right.jsx?raw";
 
 // 11. With image tiles
-import WithImageTiles from "@/component-plus/marketing/page-sections/hero-sections/with_image_tiles";
-import WithImageTilesRaw from "@/component-plus/marketing/page-sections/hero-sections/with_image_tiles.jsx?raw";
+import WithImageTiles from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_image_tiles";
+import WithImageTilesRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_image_tiles.jsx?raw";
 
 // 12. With offset image
-import WithOffsetImage from "@/component-plus/marketing/page-sections/hero-sections/with_offset_image";
-import WithOffsetImageRaw from "@/component-plus/marketing/page-sections/hero-sections/with_offset_image.jsx?raw";
+import WithOffsetImage from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_offset_image";
+import WithOffsetImageRaw from "@/components/ui-blocks/marketing/page-sections/hero-sections/with_offset_image.jsx?raw";
 
 const HeroDemoPage = () => {
   return (

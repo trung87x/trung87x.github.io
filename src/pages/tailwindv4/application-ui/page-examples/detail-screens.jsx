@@ -5,12 +5,12 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Sidebar on dark
-import SidebarOnDark from "@/component-plus/application-ui/page-examples/detail-screens/sidebar_on_dark";
-import SidebarOnDarkRaw from "@/component-plus/application-ui/page-examples/detail-screens/sidebar_on_dark.jsx?raw";
+import SidebarOnDark from "@/components/ui-blocks/application-ui/page-examples/detail-screens/sidebar_on_dark";
+import SidebarOnDarkRaw from "@/components/ui-blocks/application-ui/page-examples/detail-screens/sidebar_on_dark.jsx?raw";
 
 // 02. Stacked
-import StackedLayout from "@/component-plus/application-ui/page-examples/detail-screens/stacked";
-import StackedLayoutRaw from "@/component-plus/application-ui/page-examples/detail-screens/stacked.jsx?raw";
+import StackedLayout from "@/components/ui-blocks/application-ui/page-examples/detail-screens/stacked";
+import StackedLayoutRaw from "@/components/ui-blocks/application-ui/page-examples/detail-screens/stacked.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

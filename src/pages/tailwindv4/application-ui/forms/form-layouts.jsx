@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Stacked
-import Stacked from "@/component-plus/application-ui/forms/form-layouts/stacked";
-import StackedRaw from "@/component-plus/application-ui/forms/form-layouts/stacked.jsx?raw";
+import Stacked from "@/components/ui-blocks/application-ui/forms/form-layouts/stacked";
+import StackedRaw from "@/components/ui-blocks/application-ui/forms/form-layouts/stacked.jsx?raw";
 
 // 02. Two-column
-import TwoColumn from "@/component-plus/application-ui/forms/form-layouts/two_column";
-import TwoColumnRaw from "@/component-plus/application-ui/forms/form-layouts/two_column.jsx?raw";
+import TwoColumn from "@/components/ui-blocks/application-ui/forms/form-layouts/two_column";
+import TwoColumnRaw from "@/components/ui-blocks/application-ui/forms/form-layouts/two_column.jsx?raw";
 
 // 03. Two-column with cards
-import TwoColumnWithCards from "@/component-plus/application-ui/forms/form-layouts/two_column_with_cards";
-import TwoColumnWithCardsRaw from "@/component-plus/application-ui/forms/form-layouts/two_column_with_cards.jsx?raw";
+import TwoColumnWithCards from "@/components/ui-blocks/application-ui/forms/form-layouts/two_column_with_cards";
+import TwoColumnWithCardsRaw from "@/components/ui-blocks/application-ui/forms/form-layouts/two_column_with_cards.jsx?raw";
 
 // 04. Labels on left
-import LabelsOnLeft from "@/component-plus/application-ui/forms/form-layouts/labels_on_left";
-import LabelsOnLeftRaw from "@/component-plus/application-ui/forms/form-layouts/labels_on_left.jsx?raw";
+import LabelsOnLeft from "@/components/ui-blocks/application-ui/forms/form-layouts/labels_on_left";
+import LabelsOnLeftRaw from "@/components/ui-blocks/application-ui/forms/form-layouts/labels_on_left.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

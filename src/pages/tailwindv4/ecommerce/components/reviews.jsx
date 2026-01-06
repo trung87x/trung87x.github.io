@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Multi-column
-import MultiColumn from "@/component-plus/ecommerce/components/reviews/multi_column";
-import MultiColumnRaw from "@/component-plus/ecommerce/components/reviews/multi_column.jsx?raw";
+import MultiColumn from "@/components/ui-blocks/ecommerce/components/reviews/multi_column";
+import MultiColumnRaw from "@/components/ui-blocks/ecommerce/components/reviews/multi_column.jsx?raw";
 
 // 02. With summary chart
-import WithSummaryChart from "@/component-plus/ecommerce/components/reviews/with_summary_chart";
-import WithSummaryChartRaw from "@/component-plus/ecommerce/components/reviews/with_summary_chart.jsx?raw";
+import WithSummaryChart from "@/components/ui-blocks/ecommerce/components/reviews/with_summary_chart";
+import WithSummaryChartRaw from "@/components/ui-blocks/ecommerce/components/reviews/with_summary_chart.jsx?raw";
 
 // 03. Avatars with separate description
-import AvatarsWithSeparateDescription from "@/component-plus/ecommerce/components/reviews/avatars_with_separate_description";
-import AvatarsWithSeparateDescriptionRaw from "@/component-plus/ecommerce/components/reviews/avatars_with_separate_description.jsx?raw";
+import AvatarsWithSeparateDescription from "@/components/ui-blocks/ecommerce/components/reviews/avatars_with_separate_description";
+import AvatarsWithSeparateDescriptionRaw from "@/components/ui-blocks/ecommerce/components/reviews/avatars_with_separate_description.jsx?raw";
 
 // 04. Simple with avatars
-import SimpleWithAvatars from "@/component-plus/ecommerce/components/reviews/simple_with_avatars";
-import SimpleWithAvatarsRaw from "@/component-plus/ecommerce/components/reviews/simple_with_avatars.jsx?raw";
+import SimpleWithAvatars from "@/components/ui-blocks/ecommerce/components/reviews/simple_with_avatars";
+import SimpleWithAvatarsRaw from "@/components/ui-blocks/ecommerce/components/reviews/simple_with_avatars.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

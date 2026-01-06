@@ -1,20 +1,20 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With dark nav and footer
-import WithDarkNavAndFooter from "@/component-plus/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer";
-import WithDarkNavAndFooterRaw from "@/component-plus/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer.jsx?raw";
+import WithDarkNavAndFooter from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer";
+import WithDarkNavAndFooterRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer.jsx?raw";
 
 // 02. With offers and testimonials
-import WithOffersAndTestimonials from "@/component-plus/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials";
-import WithOffersAndTestimonialsRaw from "@/component-plus/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials.jsx?raw";
+import WithOffersAndTestimonials from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials";
+import WithOffersAndTestimonialsRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials.jsx?raw";
 
 // 03. With image tiles and feature sections
-import WithImageTilesAndFeatureSections from "@/component-plus/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections";
-import WithImageTilesAndFeatureSectionsRaw from "@/component-plus/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections.jsx?raw";
+import WithImageTilesAndFeatureSections from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections";
+import WithImageTilesAndFeatureSectionsRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections.jsx?raw";
 
 // 04. With overlapping image tiles and perks
-import WithOverlappingImageTilesAndPerks from "@/component-plus/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks";
-import WithOverlappingImageTilesAndPerksRaw from "@/component-plus/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks.jsx?raw";
+import WithOverlappingImageTilesAndPerks from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks";
+import WithOverlappingImageTilesAndPerksRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks.jsx?raw";
 
 const StorefrontsDemoPage = () => {
   const layouts = [

@@ -5,40 +5,40 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With meta and actions
-import WithMetaAndActions from "@/component-plus/application-ui/headings/page-headings/with_meta_and_actions";
-import WithMetaAndActionsRaw from "@/component-plus/application-ui/headings/page-headings/with_meta_and_actions.jsx?raw";
+import WithMetaAndActions from "@/components/ui-blocks/application-ui/headings/page-headings/with_meta_and_actions";
+import WithMetaAndActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_meta_and_actions.jsx?raw";
 
 // 02. With actions
-import WithActions from "@/component-plus/application-ui/headings/page-headings/with_actions";
-import WithActionsRaw from "@/component-plus/application-ui/headings/page-headings/with_actions.jsx?raw";
+import WithActions from "@/components/ui-blocks/application-ui/headings/page-headings/with_actions";
+import WithActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_actions.jsx?raw";
 
 // 03. With actions and breadcrumbs
-import WithActionsAndBreadcrumbs from "@/component-plus/application-ui/headings/page-headings/with_actions_and_breadcrumbs";
-import WithActionsAndBreadcrumbsRaw from "@/component-plus/application-ui/headings/page-headings/with_actions_and_breadcrumbs.jsx?raw";
+import WithActionsAndBreadcrumbs from "@/components/ui-blocks/application-ui/headings/page-headings/with_actions_and_breadcrumbs";
+import WithActionsAndBreadcrumbsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_actions_and_breadcrumbs.jsx?raw";
 
 // 04. With banner image
-import WithBannerImage from "@/component-plus/application-ui/headings/page-headings/with_banner_image";
-import WithBannerImageRaw from "@/component-plus/application-ui/headings/page-headings/with_banner_image.jsx?raw";
+import WithBannerImage from "@/components/ui-blocks/application-ui/headings/page-headings/with_banner_image";
+import WithBannerImageRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_banner_image.jsx?raw";
 
 // 05. With avatar and actions
-import WithAvatarAndActions from "@/component-plus/application-ui/headings/page-headings/with_avatar_and_actions";
-import WithAvatarAndActionsRaw from "@/component-plus/application-ui/headings/page-headings/with_avatar_and_actions.jsx?raw";
+import WithAvatarAndActions from "@/components/ui-blocks/application-ui/headings/page-headings/with_avatar_and_actions";
+import WithAvatarAndActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_avatar_and_actions.jsx?raw";
 
 // 06. Card with avatar and stats
-import CardWithAvatarAndStats from "@/component-plus/application-ui/headings/page-headings/card_with_avatar_and_stats";
-import CardWithAvatarAndStatsRaw from "@/component-plus/application-ui/headings/page-headings/card_with_avatar_and_stats.jsx?raw";
+import CardWithAvatarAndStats from "@/components/ui-blocks/application-ui/headings/page-headings/card_with_avatar_and_stats";
+import CardWithAvatarAndStatsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/card_with_avatar_and_stats.jsx?raw";
 
 // 07. With meta, actions, and breadcrumbs
-import WithMetaActionsAndBreadcrumbs from "@/component-plus/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs";
-import WithMetaActionsAndBreadcrumbsRaw from "@/component-plus/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs.jsx?raw";
+import WithMetaActionsAndBreadcrumbs from "@/components/ui-blocks/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs";
+import WithMetaActionsAndBreadcrumbsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs.jsx?raw";
 
 // 08. With filters and action
-import WithFiltersAndAction from "@/component-plus/application-ui/headings/page-headings/with_filters_and_action";
-import WithFiltersAndActionRaw from "@/component-plus/application-ui/headings/page-headings/with_filters_and_action.jsx?raw";
+import WithFiltersAndAction from "@/components/ui-blocks/application-ui/headings/page-headings/with_filters_and_action";
+import WithFiltersAndActionRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_filters_and_action.jsx?raw";
 
 // 09. With logo, meta and actions
-import WithLogoMetaAndActions from "@/component-plus/application-ui/headings/page-headings/with_logo__meta_and_actions";
-import WithLogoMetaAndActionsRaw from "@/component-plus/application-ui/headings/page-headings/with_logo__meta_and_actions.jsx?raw";
+import WithLogoMetaAndActions from "@/components/ui-blocks/application-ui/headings/page-headings/with_logo__meta_and_actions";
+import WithLogoMetaAndActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_logo__meta_and_actions.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

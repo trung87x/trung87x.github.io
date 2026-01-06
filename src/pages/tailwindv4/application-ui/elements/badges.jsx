@@ -5,68 +5,68 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With border
-import WithBorder from "@/component-plus/application-ui/elements/badges/with_border";
-import WithBorderRaw from "@/component-plus/application-ui/elements/badges/with_border.jsx?raw";
+import WithBorder from "@/components/ui-blocks/application-ui/elements/badges/with_border";
+import WithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/with_border.jsx?raw";
 
 // 02. With border and dot
-import WithBorderAndDot from "@/component-plus/application-ui/elements/badges/with_border_and_dot";
-import WithBorderAndDotRaw from "@/component-plus/application-ui/elements/badges/with_border_and_dot.jsx?raw";
+import WithBorderAndDot from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_dot";
+import WithBorderAndDotRaw from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_dot.jsx?raw";
 
 // 03. Pill with border
-import PillWithBorder from "@/component-plus/application-ui/elements/badges/pill_with_border";
-import PillWithBorderRaw from "@/component-plus/application-ui/elements/badges/pill_with_border.jsx?raw";
+import PillWithBorder from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border";
+import PillWithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border.jsx?raw";
 
 // 04. Pill with border and dot
-import PillWithBorderAndDot from "@/component-plus/application-ui/elements/badges/pill_with_border_and_dot";
-import PillWithBorderAndDotRaw from "@/component-plus/application-ui/elements/badges/pill_with_border_and_dot.jsx?raw";
+import PillWithBorderAndDot from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border_and_dot";
+import PillWithBorderAndDotRaw from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border_and_dot.jsx?raw";
 
 // 05. With border and remove button
-import WithBorderAndRemoveButton from "@/component-plus/application-ui/elements/badges/with_border_and_remove_button";
-import WithBorderAndRemoveButtonRaw from "@/component-plus/application-ui/elements/badges/with_border_and_remove_button.jsx?raw";
+import WithBorderAndRemoveButton from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_remove_button";
+import WithBorderAndRemoveButtonRaw from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_remove_button.jsx?raw";
 
 // 06. Flat
-import Flat from "@/component-plus/application-ui/elements/badges/flat";
-import FlatRaw from "@/component-plus/application-ui/elements/badges/flat.jsx?raw";
+import Flat from "@/components/ui-blocks/application-ui/elements/badges/flat";
+import FlatRaw from "@/components/ui-blocks/application-ui/elements/badges/flat.jsx?raw";
 
 // 07. Flat pill
-import FlatPill from "@/component-plus/application-ui/elements/badges/flat_pill";
-import FlatPillRaw from "@/component-plus/application-ui/elements/badges/flat_pill.jsx?raw";
+import FlatPill from "@/components/ui-blocks/application-ui/elements/badges/flat_pill";
+import FlatPillRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_pill.jsx?raw";
 
 // 08. Flat with dot
-import FlatWithDot from "@/component-plus/application-ui/elements/badges/flat_with_dot";
-import FlatWithDotRaw from "@/component-plus/application-ui/elements/badges/flat_with_dot.jsx?raw";
+import FlatWithDot from "@/components/ui-blocks/application-ui/elements/badges/flat_with_dot";
+import FlatWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_with_dot.jsx?raw";
 
 // 09. Flat pill with dot
-import FlatPillWithDot from "@/component-plus/application-ui/elements/badges/flat_pill_with_dot";
-import FlatPillWithDotRaw from "@/component-plus/application-ui/elements/badges/flat_pill_with_dot.jsx?raw";
+import FlatPillWithDot from "@/components/ui-blocks/application-ui/elements/badges/flat_pill_with_dot";
+import FlatPillWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_pill_with_dot.jsx?raw";
 
 // 10. Flat with remove button
-import FlatWithRemoveButton from "@/component-plus/application-ui/elements/badges/flat_with_remove_button";
-import FlatWithRemoveButtonRaw from "@/component-plus/application-ui/elements/badges/flat_with_remove_button.jsx?raw";
+import FlatWithRemoveButton from "@/components/ui-blocks/application-ui/elements/badges/flat_with_remove_button";
+import FlatWithRemoveButtonRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_with_remove_button.jsx?raw";
 
 // 11. Small with border
-import SmallWithBorder from "@/component-plus/application-ui/elements/badges/small_with_border";
-import SmallWithBorderRaw from "@/component-plus/application-ui/elements/badges/small_with_border.jsx?raw";
+import SmallWithBorder from "@/components/ui-blocks/application-ui/elements/badges/small_with_border";
+import SmallWithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/small_with_border.jsx?raw";
 
 // 12. Small flat
-import SmallFlat from "@/component-plus/application-ui/elements/badges/small_flat";
-import SmallFlatRaw from "@/component-plus/application-ui/elements/badges/small_flat.jsx?raw";
+import SmallFlat from "@/components/ui-blocks/application-ui/elements/badges/small_flat";
+import SmallFlatRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat.jsx?raw";
 
 // 13. Small pill with border
-import SmallPillWithBorder from "@/component-plus/application-ui/elements/badges/small_pill_with_border";
-import SmallPillWithBorderRaw from "@/component-plus/application-ui/elements/badges/small_pill_with_border.jsx?raw";
+import SmallPillWithBorder from "@/components/ui-blocks/application-ui/elements/badges/small_pill_with_border";
+import SmallPillWithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/small_pill_with_border.jsx?raw";
 
 // 14. Small flat pill
-import SmallFlatPill from "@/component-plus/application-ui/elements/badges/small_flat_pill";
-import SmallFlatPillRaw from "@/component-plus/application-ui/elements/badges/small_flat_pill.jsx?raw";
+import SmallFlatPill from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill";
+import SmallFlatPillRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill.jsx?raw";
 
 // 15. Small flat with dot
-import SmallFlatWithDot from "@/component-plus/application-ui/elements/badges/small_flat_with_dot";
-import SmallFlatWithDotRaw from "@/component-plus/application-ui/elements/badges/small_flat_with_dot.jsx?raw";
+import SmallFlatWithDot from "@/components/ui-blocks/application-ui/elements/badges/small_flat_with_dot";
+import SmallFlatWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat_with_dot.jsx?raw";
 
 // 16. Small flat pill with dot
-import SmallFlatPillWithDot from "@/component-plus/application-ui/elements/badges/small_flat_pill_with_dot";
-import SmallFlatPillWithDotRaw from "@/component-plus/application-ui/elements/badges/small_flat_pill_with_dot.jsx?raw";
+import SmallFlatPillWithDot from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill_with_dot";
+import SmallFlatPillWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill_with_dot.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

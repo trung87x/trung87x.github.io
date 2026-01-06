@@ -5,32 +5,32 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple with dividers
-import SimpleWithDividers from "@/component-plus/application-ui/layout/list-containers/simple_with_dividers";
-import SimpleWithDividersRaw from "@/component-plus/application-ui/layout/list-containers/simple_with_dividers.jsx?raw";
+import SimpleWithDividers from "@/components/ui-blocks/application-ui/layout/list-containers/simple_with_dividers";
+import SimpleWithDividersRaw from "@/components/ui-blocks/application-ui/layout/list-containers/simple_with_dividers.jsx?raw";
 
 // 02. Card with dividers
-import CardWithDividers from "@/component-plus/application-ui/layout/list-containers/card_with_dividers";
-import CardWithDividersRaw from "@/component-plus/application-ui/layout/list-containers/card_with_dividers.jsx?raw";
+import CardWithDividers from "@/components/ui-blocks/application-ui/layout/list-containers/card_with_dividers";
+import CardWithDividersRaw from "@/components/ui-blocks/application-ui/layout/list-containers/card_with_dividers.jsx?raw";
 
 // 03. Card with dividers, full-width on mobile
-import CardWithDividersFullWidthOnMobile from "@/component-plus/application-ui/layout/list-containers/card_with_dividers__full_width_on_mobile";
-import CardWithDividersFullWidthOnMobileRaw from "@/component-plus/application-ui/layout/list-containers/card_with_dividers__full_width_on_mobile.jsx?raw";
+import CardWithDividersFullWidthOnMobile from "@/components/ui-blocks/application-ui/layout/list-containers/card_with_dividers__full_width_on_mobile";
+import CardWithDividersFullWidthOnMobileRaw from "@/components/ui-blocks/application-ui/layout/list-containers/card_with_dividers__full_width_on_mobile.jsx?raw";
 
 // 04. Separate cards
-import SeparateCards from "@/component-plus/application-ui/layout/list-containers/separate_cards";
-import SeparateCardsRaw from "@/component-plus/application-ui/layout/list-containers/separate_cards.jsx?raw";
+import SeparateCards from "@/components/ui-blocks/application-ui/layout/list-containers/separate_cards";
+import SeparateCardsRaw from "@/components/ui-blocks/application-ui/layout/list-containers/separate_cards.jsx?raw";
 
 // 05. Separate cards, full-width on mobile
-import SeparateCardsFullWidthOnMobile from "@/component-plus/application-ui/layout/list-containers/separate_cards__full_width_on_mobile";
-import SeparateCardsFullWidthOnMobileRaw from "@/component-plus/application-ui/layout/list-containers/separate_cards__full_width_on_mobile.jsx?raw";
+import SeparateCardsFullWidthOnMobile from "@/components/ui-blocks/application-ui/layout/list-containers/separate_cards__full_width_on_mobile";
+import SeparateCardsFullWidthOnMobileRaw from "@/components/ui-blocks/application-ui/layout/list-containers/separate_cards__full_width_on_mobile.jsx?raw";
 
 // 06. Flat card with dividers
-import FlatCardWithDividers from "@/component-plus/application-ui/layout/list-containers/flat_card_with_dividers";
-import FlatCardWithDividersRaw from "@/component-plus/application-ui/layout/list-containers/flat_card_with_dividers.jsx?raw";
+import FlatCardWithDividers from "@/components/ui-blocks/application-ui/layout/list-containers/flat_card_with_dividers";
+import FlatCardWithDividersRaw from "@/components/ui-blocks/application-ui/layout/list-containers/flat_card_with_dividers.jsx?raw";
 
 // 07. Simple with dividers, full-width on mobile
-import SimpleWithDividersFullWidthOnMobile from "@/component-plus/application-ui/layout/list-containers/simple_with_dividers__full_width_on_mobile";
-import SimpleWithDividersFullWidthOnMobileRaw from "@/component-plus/application-ui/layout/list-containers/simple_with_dividers__full_width_on_mobile.jsx?raw";
+import SimpleWithDividersFullWidthOnMobile from "@/components/ui-blocks/application-ui/layout/list-containers/simple_with_dividers__full_width_on_mobile";
+import SimpleWithDividersFullWidthOnMobileRaw from "@/components/ui-blocks/application-ui/layout/list-containers/simple_with_dividers__full_width_on_mobile.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

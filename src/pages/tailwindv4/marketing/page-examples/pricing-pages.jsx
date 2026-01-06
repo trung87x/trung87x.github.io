@@ -1,16 +1,16 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With four tiers
-import WithFourTiers from "@/component-plus/marketing/page-examples/pricing-pages/with_four_tiers";
-import WithFourTiersRaw from "@/component-plus/marketing/page-examples/pricing-pages/with_four_tiers.jsx?raw";
+import WithFourTiers from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_four_tiers";
+import WithFourTiersRaw from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_four_tiers.jsx?raw";
 
 // 02. With comparison table
-import WithComparisonTable from "@/component-plus/marketing/page-examples/pricing-pages/with_comparison_table";
-import WithComparisonTableRaw from "@/component-plus/marketing/page-examples/pricing-pages/with_comparison_table.jsx?raw";
+import WithComparisonTable from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_comparison_table";
+import WithComparisonTableRaw from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_comparison_table.jsx?raw";
 
 // 03. With three tiers and testimonials
-import WithThreeTiersAndTestimonials from "@/component-plus/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials";
-import WithThreeTiersAndTestimonialsRaw from "@/component-plus/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials.jsx?raw";
+import WithThreeTiersAndTestimonials from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials";
+import WithThreeTiersAndTestimonialsRaw from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials.jsx?raw";
 
 const PricingPagesDemoPage = () => {
   return (

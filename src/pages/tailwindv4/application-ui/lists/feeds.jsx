@@ -5,16 +5,16 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple with icons
-import SimpleWithIcons from "@/component-plus/application-ui/lists/feeds/simple_with_icons";
-import SimpleWithIconsRaw from "@/component-plus/application-ui/lists/feeds/simple_with_icons.jsx?raw";
+import SimpleWithIcons from "@/components/ui-blocks/application-ui/lists/feeds/simple_with_icons";
+import SimpleWithIconsRaw from "@/components/ui-blocks/application-ui/lists/feeds/simple_with_icons.jsx?raw";
 
 // 02. With comments
-import WithComments from "@/component-plus/application-ui/lists/feeds/with_comments";
-import WithCommentsRaw from "@/component-plus/application-ui/lists/feeds/with_comments.jsx?raw";
+import WithComments from "@/components/ui-blocks/application-ui/lists/feeds/with_comments";
+import WithCommentsRaw from "@/components/ui-blocks/application-ui/lists/feeds/with_comments.jsx?raw";
 
 // 03. With multiple item types
-import WithMultipleItemTypes from "@/component-plus/application-ui/lists/feeds/with_multiple_item_types";
-import WithMultipleItemTypesRaw from "@/component-plus/application-ui/lists/feeds/with_multiple_item_types.jsx?raw";
+import WithMultipleItemTypes from "@/components/ui-blocks/application-ui/lists/feeds/with_multiple_item_types";
+import WithMultipleItemTypesRaw from "@/components/ui-blocks/application-ui/lists/feeds/with_multiple_item_types.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

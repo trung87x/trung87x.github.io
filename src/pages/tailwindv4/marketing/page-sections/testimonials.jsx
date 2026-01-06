@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Simple centered
-import SimpleCentered from "@/component-plus/marketing/page-sections/testimonials/simple_centered";
-import SimpleCenteredRaw from "@/component-plus/marketing/page-sections/testimonials/simple_centered.jsx?raw";
+import SimpleCentered from "@/components/ui-blocks/marketing/page-sections/testimonials/simple_centered";
+import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/simple_centered.jsx?raw";
 
 // 02. With large avatar
-import WithLargeAvatar from "@/component-plus/marketing/page-sections/testimonials/with_large_avatar";
-import WithLargeAvatarRaw from "@/component-plus/marketing/page-sections/testimonials/with_large_avatar.jsx?raw";
+import WithLargeAvatar from "@/components/ui-blocks/marketing/page-sections/testimonials/with_large_avatar";
+import WithLargeAvatarRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_large_avatar.jsx?raw";
 
 // 03. With overlapping image
-import WithOverlappingImage from "@/component-plus/marketing/page-sections/testimonials/with_overlapping_image";
-import WithOverlappingImageRaw from "@/component-plus/marketing/page-sections/testimonials/with_overlapping_image.jsx?raw";
+import WithOverlappingImage from "@/components/ui-blocks/marketing/page-sections/testimonials/with_overlapping_image";
+import WithOverlappingImageRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_overlapping_image.jsx?raw";
 
 // 04. With background image
-import WithBackgroundImage from "@/component-plus/marketing/page-sections/testimonials/with_background_image";
-import WithBackgroundImageRaw from "@/component-plus/marketing/page-sections/testimonials/with_background_image.jsx?raw";
+import WithBackgroundImage from "@/components/ui-blocks/marketing/page-sections/testimonials/with_background_image";
+import WithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_background_image.jsx?raw";
 
 // 05. Side-by-side
-import SideBySide from "@/component-plus/marketing/page-sections/testimonials/side_by_side";
-import SideBySideRaw from "@/component-plus/marketing/page-sections/testimonials/side_by_side.jsx?raw";
+import SideBySide from "@/components/ui-blocks/marketing/page-sections/testimonials/side_by_side";
+import SideBySideRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/side_by_side.jsx?raw";
 
 // 06. With star rating
-import WithStarRating from "@/component-plus/marketing/page-sections/testimonials/with_star_rating";
-import WithStarRatingRaw from "@/component-plus/marketing/page-sections/testimonials/with_star_rating.jsx?raw";
+import WithStarRating from "@/components/ui-blocks/marketing/page-sections/testimonials/with_star_rating";
+import WithStarRatingRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_star_rating.jsx?raw";
 
 // 07. Grid
-import Grid from "@/component-plus/marketing/page-sections/testimonials/grid";
-import GridRaw from "@/component-plus/marketing/page-sections/testimonials/grid.jsx?raw";
+import Grid from "@/components/ui-blocks/marketing/page-sections/testimonials/grid";
+import GridRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/grid.jsx?raw";
 
 // 08. Subtle grid
-import OffWhiteGrid from "@/component-plus/marketing/page-sections/testimonials/off_white_grid";
-import OffWhiteGridRaw from "@/component-plus/marketing/page-sections/testimonials/off_white_grid.jsx?raw";
+import OffWhiteGrid from "@/components/ui-blocks/marketing/page-sections/testimonials/off_white_grid";
+import OffWhiteGridRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/off_white_grid.jsx?raw";
 
 const TestimonialsDemoPage = () => {
   return (

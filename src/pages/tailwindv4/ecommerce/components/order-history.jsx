@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Invoice panels
-import InvoicePanels from "@/component-plus/ecommerce/components/order-history/invoice_panels";
-import InvoicePanelsRaw from "@/component-plus/ecommerce/components/order-history/invoice_panels.jsx?raw";
+import InvoicePanels from "@/components/ui-blocks/ecommerce/components/order-history/invoice_panels";
+import InvoicePanelsRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_panels.jsx?raw";
 
 // 02. Invoice table
-import InvoiceTable from "@/component-plus/ecommerce/components/order-history/invoice_table";
-import InvoiceTableRaw from "@/component-plus/ecommerce/components/order-history/invoice_table.jsx?raw";
+import InvoiceTable from "@/components/ui-blocks/ecommerce/components/order-history/invoice_table";
+import InvoiceTableRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_table.jsx?raw";
 
 // 03. Invoice list
-import InvoiceList from "@/component-plus/ecommerce/components/order-history/invoice_list";
-import InvoiceListRaw from "@/component-plus/ecommerce/components/order-history/invoice_list.jsx?raw";
+import InvoiceList from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list";
+import InvoiceListRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list.jsx?raw";
 
 // 04. Invoice list with quick actions
-import InvoiceListWithQuickActions from "@/component-plus/ecommerce/components/order-history/invoice_list_with_quick_actions";
-import InvoiceListWithQuickActionsRaw from "@/component-plus/ecommerce/components/order-history/invoice_list_with_quick_actions.jsx?raw";
+import InvoiceListWithQuickActions from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list_with_quick_actions";
+import InvoiceListWithQuickActionsRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list_with_quick_actions.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

@@ -1,36 +1,36 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Simple
-import Simple from "@/component-plus/marketing/page-sections/stats-sections/simple";
-import SimpleRaw from "@/component-plus/marketing/page-sections/stats-sections/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/marketing/page-sections/stats-sections/simple";
+import SimpleRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/simple.jsx?raw";
 
 // 02. Simple grid
-import SimpleGrid from "@/component-plus/marketing/page-sections/stats-sections/simple_grid";
-import SimpleGridRaw from "@/component-plus/marketing/page-sections/stats-sections/simple_grid.jsx?raw";
+import SimpleGrid from "@/components/ui-blocks/marketing/page-sections/stats-sections/simple_grid";
+import SimpleGridRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/simple_grid.jsx?raw";
 
 // 03. With background image
-import WithBackgroundImage from "@/component-plus/marketing/page-sections/stats-sections/with_background_image";
-import WithBackgroundImageRaw from "@/component-plus/marketing/page-sections/stats-sections/with_background_image.jsx?raw";
+import WithBackgroundImage from "@/components/ui-blocks/marketing/page-sections/stats-sections/with_background_image";
+import WithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/with_background_image.jsx?raw";
 
 // 04. Split with image
-import SplitWithImage from "@/component-plus/marketing/page-sections/stats-sections/split_with_image";
-import SplitWithImageRaw from "@/component-plus/marketing/page-sections/stats-sections/split_with_image.jsx?raw";
+import SplitWithImage from "@/components/ui-blocks/marketing/page-sections/stats-sections/split_with_image";
+import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/split_with_image.jsx?raw";
 
 // 05. Timeline
-import Timeline from "@/component-plus/marketing/page-sections/stats-sections/timeline";
-import TimelineRaw from "@/component-plus/marketing/page-sections/stats-sections/timeline.jsx?raw";
+import Timeline from "@/components/ui-blocks/marketing/page-sections/stats-sections/timeline";
+import TimelineRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/timeline.jsx?raw";
 
 // 06. Stepped
-import Stepped from "@/component-plus/marketing/page-sections/stats-sections/stepped";
-import SteppedRaw from "@/component-plus/marketing/page-sections/stats-sections/stepped.jsx?raw";
+import Stepped from "@/components/ui-blocks/marketing/page-sections/stats-sections/stepped";
+import SteppedRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/stepped.jsx?raw";
 
 // 07. With two column description
-import WithTwoColumnDescription from "@/component-plus/marketing/page-sections/stats-sections/with_two_column_description_on_dark";
-import WithTwoColumnDescriptionRaw from "@/component-plus/marketing/page-sections/stats-sections/with_two_column_description_on_dark.jsx?raw";
+import WithTwoColumnDescription from "@/components/ui-blocks/marketing/page-sections/stats-sections/with_two_column_description_on_dark";
+import WithTwoColumnDescriptionRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/with_two_column_description_on_dark.jsx?raw";
 
 // 08. With description
-import WithDescription from "@/component-plus/marketing/page-sections/stats-sections/with_description";
-import WithDescriptionRaw from "@/component-plus/marketing/page-sections/stats-sections/with_description.jsx?raw";
+import WithDescription from "@/components/ui-blocks/marketing/page-sections/stats-sections/with_description";
+import WithDescriptionRaw from "@/components/ui-blocks/marketing/page-sections/stats-sections/with_description.jsx?raw";
 
 const StatsSectionsDemoPage = () => {
   return (

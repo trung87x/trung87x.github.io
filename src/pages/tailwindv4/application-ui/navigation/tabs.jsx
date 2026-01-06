@@ -5,40 +5,40 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Tabs with underline
-import TabsWithUnderline from "@/component-plus/application-ui/navigation/tabs/tabs_with_underline";
-import TabsWithUnderlineRaw from "@/component-plus/application-ui/navigation/tabs/tabs_with_underline.jsx?raw";
+import TabsWithUnderline from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline";
+import TabsWithUnderlineRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline.jsx?raw";
 
 // 02. Tabs with underline and icons
-import TabsWithUnderlineAndIcons from "@/component-plus/application-ui/navigation/tabs/tabs_with_underline_and_icons";
-import TabsWithUnderlineAndIconsRaw from "@/component-plus/application-ui/navigation/tabs/tabs_with_underline_and_icons.jsx?raw";
+import TabsWithUnderlineAndIcons from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_icons";
+import TabsWithUnderlineAndIconsRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_icons.jsx?raw";
 
 // 03. Tabs in pills
-import TabsInPills from "@/component-plus/application-ui/navigation/tabs/tabs_in_pills";
-import TabsInPillsRaw from "@/component-plus/application-ui/navigation/tabs/tabs_in_pills.jsx?raw";
+import TabsInPills from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills";
+import TabsInPillsRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills.jsx?raw";
 
 // 04. Tabs in pills on gray
-import TabsInPillsOnGray from "@/component-plus/application-ui/navigation/tabs/tabs_in_pills_on_gray";
-import TabsInPillsOnGrayRaw from "@/component-plus/application-ui/navigation/tabs/tabs_in_pills_on_gray.jsx?raw";
+import TabsInPillsOnGray from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_on_gray";
+import TabsInPillsOnGrayRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_on_gray.jsx?raw";
 
 // 05. Tabs in pills with brand color
-import TabsInPillsWithBrandColor from "@/component-plus/application-ui/navigation/tabs/tabs_in_pills_with_brand_color";
-import TabsInPillsWithBrandColorRaw from "@/component-plus/application-ui/navigation/tabs/tabs_in_pills_with_brand_color.jsx?raw";
+import TabsInPillsWithBrandColor from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_with_brand_color";
+import TabsInPillsWithBrandColorRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_with_brand_color.jsx?raw";
 
 // 06. Full-width tabs with underline
-import FullWidthTabsWithUnderline from "@/component-plus/application-ui/navigation/tabs/full_width_tabs_with_underline";
-import FullWidthTabsWithUnderlineRaw from "@/component-plus/application-ui/navigation/tabs/full_width_tabs_with_underline.jsx?raw";
+import FullWidthTabsWithUnderline from "@/components/ui-blocks/application-ui/navigation/tabs/full_width_tabs_with_underline";
+import FullWidthTabsWithUnderlineRaw from "@/components/ui-blocks/application-ui/navigation/tabs/full_width_tabs_with_underline.jsx?raw";
 
 // 07. Bar with underline
-import BarWithUnderline from "@/component-plus/application-ui/navigation/tabs/bar_with_underline";
-import BarWithUnderlineRaw from "@/component-plus/application-ui/navigation/tabs/bar_with_underline.jsx?raw";
+import BarWithUnderline from "@/components/ui-blocks/application-ui/navigation/tabs/bar_with_underline";
+import BarWithUnderlineRaw from "@/components/ui-blocks/application-ui/navigation/tabs/bar_with_underline.jsx?raw";
 
 // 08. Tabs with underline and badges
-import TabsWithUnderlineAndBadges from "@/component-plus/application-ui/navigation/tabs/tabs_with_underline_and_badges";
-import TabsWithUnderlineAndBadgesRaw from "@/component-plus/application-ui/navigation/tabs/tabs_with_underline_and_badges.jsx?raw";
+import TabsWithUnderlineAndBadges from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_badges";
+import TabsWithUnderlineAndBadgesRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_badges.jsx?raw";
 
 // 09. Simple
-import SimpleTabs from "@/component-plus/application-ui/navigation/tabs/simple_on_dark";
-import SimpleTabsRaw from "@/component-plus/application-ui/navigation/tabs/simple_on_dark.jsx?raw";
+import SimpleTabs from "@/components/ui-blocks/application-ui/navigation/tabs/simple_on_dark";
+import SimpleTabsRaw from "@/components/ui-blocks/application-ui/navigation/tabs/simple_on_dark.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

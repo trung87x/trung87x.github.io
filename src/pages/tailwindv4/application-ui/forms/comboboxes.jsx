@@ -5,20 +5,20 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/component-plus/application-ui/forms/comboboxes/simple";
-import SimpleRaw from "@/component-plus/application-ui/forms/comboboxes/simple.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/forms/comboboxes/simple";
+import SimpleRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/simple.jsx?raw";
 
 // 02. With status indicator
-import WithStatusIndicator from "@/component-plus/application-ui/forms/comboboxes/with_status_indicator";
-import WithStatusIndicatorRaw from "@/component-plus/application-ui/forms/comboboxes/with_status_indicator.jsx?raw";
+import WithStatusIndicator from "@/components/ui-blocks/application-ui/forms/comboboxes/with_status_indicator";
+import WithStatusIndicatorRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/with_status_indicator.jsx?raw";
 
 // 03. With image
-import WithImage from "@/component-plus/application-ui/forms/comboboxes/with_image";
-import WithImageRaw from "@/component-plus/application-ui/forms/comboboxes/with_image.jsx?raw";
+import WithImage from "@/components/ui-blocks/application-ui/forms/comboboxes/with_image";
+import WithImageRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/with_image.jsx?raw";
 
 // 04. With secondary text
-import WithSecondaryText from "@/component-plus/application-ui/forms/comboboxes/with_secondary_text";
-import WithSecondaryTextRaw from "@/component-plus/application-ui/forms/comboboxes/with_secondary_text.jsx?raw";
+import WithSecondaryText from "@/components/ui-blocks/application-ui/forms/comboboxes/with_secondary_text";
+import WithSecondaryTextRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/with_secondary_text.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

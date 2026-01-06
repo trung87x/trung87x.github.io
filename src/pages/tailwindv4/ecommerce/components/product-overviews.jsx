@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With image grid
-import WithImageGrid from "@/component-plus/ecommerce/components/product-overviews/with_image_grid";
-import WithImageGridRaw from "@/component-plus/ecommerce/components/product-overviews/with_image_grid.jsx?raw";
+import WithImageGrid from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_grid";
+import WithImageGridRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_grid.jsx?raw";
 
 // 02. With tiered images
-import WithTieredImages from "@/component-plus/ecommerce/components/product-overviews/with_tiered_images";
-import WithTieredImagesRaw from "@/component-plus/ecommerce/components/product-overviews/with_tiered_images.jsx?raw";
+import WithTieredImages from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tiered_images";
+import WithTieredImagesRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tiered_images.jsx?raw";
 
 // 03. With image gallery and expandable details
-import WithImageGalleryAndExpandableDetails from "@/component-plus/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details";
-import WithImageGalleryAndExpandableDetailsRaw from "@/component-plus/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details.jsx?raw";
+import WithImageGalleryAndExpandableDetails from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details";
+import WithImageGalleryAndExpandableDetailsRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details.jsx?raw";
 
 // 04. Split with image
-import SplitWithImage from "@/component-plus/ecommerce/components/product-overviews/split_with_image";
-import SplitWithImageRaw from "@/component-plus/ecommerce/components/product-overviews/split_with_image.jsx?raw";
+import SplitWithImage from "@/components/ui-blocks/ecommerce/components/product-overviews/split_with_image";
+import SplitWithImageRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/split_with_image.jsx?raw";
 
 // 05. With tabs
-import WithTabs from "@/component-plus/ecommerce/components/product-overviews/with_tabs";
-import WithTabsRaw from "@/component-plus/ecommerce/components/product-overviews/with_tabs.jsx?raw";
+import WithTabs from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tabs";
+import WithTabsRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tabs.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

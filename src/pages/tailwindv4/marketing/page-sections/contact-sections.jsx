@@ -1,32 +1,32 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Centered
-import Centered from "@/component-plus/marketing/page-sections/contact-sections/centered";
-import CenteredRaw from "@/component-plus/marketing/page-sections/contact-sections/centered.jsx?raw";
+import Centered from "@/components/ui-blocks/marketing/page-sections/contact-sections/centered";
+import CenteredRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/centered.jsx?raw";
 
 // 02. Side-by-side grid
-import SideBySideGrid from "@/component-plus/marketing/page-sections/contact-sections/side_by_side_grid";
-import SideBySideGridRaw from "@/component-plus/marketing/page-sections/contact-sections/side_by_side_grid.jsx?raw";
+import SideBySideGrid from "@/components/ui-blocks/marketing/page-sections/contact-sections/side_by_side_grid";
+import SideBySideGridRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/side_by_side_grid.jsx?raw";
 
 // 03. Split with pattern
-import SplitWithPattern from "@/component-plus/marketing/page-sections/contact-sections/split_with_pattern";
-import SplitWithPatternRaw from "@/component-plus/marketing/page-sections/contact-sections/split_with_pattern.jsx?raw";
+import SplitWithPattern from "@/components/ui-blocks/marketing/page-sections/contact-sections/split_with_pattern";
+import SplitWithPatternRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/split_with_pattern.jsx?raw";
 
 // 04. Simple four-column
-import SimpleFourColumn from "@/component-plus/marketing/page-sections/contact-sections/simple_four_column";
-import SimpleFourColumnRaw from "@/component-plus/marketing/page-sections/contact-sections/simple_four_column.jsx?raw";
+import SimpleFourColumn from "@/components/ui-blocks/marketing/page-sections/contact-sections/simple_four_column";
+import SimpleFourColumnRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/simple_four_column.jsx?raw";
 
 // 05. Simple centered
-import SimpleCentered from "@/component-plus/marketing/page-sections/contact-sections/simple_centered";
-import SimpleCenteredRaw from "@/component-plus/marketing/page-sections/contact-sections/simple_centered.jsx?raw";
+import SimpleCentered from "@/components/ui-blocks/marketing/page-sections/contact-sections/simple_centered";
+import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/simple_centered.jsx?raw";
 
 // 06. With testimonial
-import WithTestimonial from "@/component-plus/marketing/page-sections/contact-sections/with_testimonial";
-import WithTestimonialRaw from "@/component-plus/marketing/page-sections/contact-sections/with_testimonial.jsx?raw";
+import WithTestimonial from "@/components/ui-blocks/marketing/page-sections/contact-sections/with_testimonial";
+import WithTestimonialRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/with_testimonial.jsx?raw";
 
 // 07. Split with image
-import SplitWithImage from "@/component-plus/marketing/page-sections/contact-sections/split_with_image";
-import SplitWithImageRaw from "@/component-plus/marketing/page-sections/contact-sections/split_with_image.jsx?raw";
+import SplitWithImage from "@/components/ui-blocks/marketing/page-sections/contact-sections/split_with_image";
+import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/split_with_image.jsx?raw";
 
 const ContactSectionsDemoPage = () => {
   return (

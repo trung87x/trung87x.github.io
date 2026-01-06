@@ -1,24 +1,24 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. With trending
-import WithTrending from "@/component-plus/application-ui/data-display/stats/with_trending";
-import WithTrendingRaw from "@/component-plus/application-ui/data-display/stats/with_trending.jsx?raw";
+import WithTrending from "@/components/ui-blocks/application-ui/data-display/stats/with_trending";
+import WithTrendingRaw from "@/components/ui-blocks/application-ui/data-display/stats/with_trending.jsx?raw";
 
 // 02. Simple
-import Simple from "@/component-plus/application-ui/data-display/stats/simple_on_dark";
-import SimpleRaw from "@/component-plus/application-ui/data-display/stats/simple_on_dark.jsx?raw";
+import Simple from "@/components/ui-blocks/application-ui/data-display/stats/simple_on_dark";
+import SimpleRaw from "@/components/ui-blocks/application-ui/data-display/stats/simple_on_dark.jsx?raw";
 
 // 03. Simple in cards
-import SimpleInCards from "@/component-plus/application-ui/data-display/stats/simple_in_cards";
-import SimpleInCardsRaw from "@/component-plus/application-ui/data-display/stats/simple_in_cards.jsx?raw";
+import SimpleInCards from "@/components/ui-blocks/application-ui/data-display/stats/simple_in_cards";
+import SimpleInCardsRaw from "@/components/ui-blocks/application-ui/data-display/stats/simple_in_cards.jsx?raw";
 
 // 04. With brand icon
-import WithBrandIcon from "@/component-plus/application-ui/data-display/stats/with_brand_icon";
-import WithBrandIconRaw from "@/component-plus/application-ui/data-display/stats/with_brand_icon.jsx?raw";
+import WithBrandIcon from "@/components/ui-blocks/application-ui/data-display/stats/with_brand_icon";
+import WithBrandIconRaw from "@/components/ui-blocks/application-ui/data-display/stats/with_brand_icon.jsx?raw";
 
 // 05. With shared borders
-import WithSharedBorders from "@/component-plus/application-ui/data-display/stats/with_shared_borders";
-import WithSharedBordersRaw from "@/component-plus/application-ui/data-display/stats/with_shared_borders.jsx?raw";
+import WithSharedBorders from "@/components/ui-blocks/application-ui/data-display/stats/with_shared_borders";
+import WithSharedBordersRaw from "@/components/ui-blocks/application-ui/data-display/stats/with_shared_borders.jsx?raw";
 
 const StatsDemoPage = () => {
   const layouts = [

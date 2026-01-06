@@ -5,24 +5,24 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With related products
-import WithRelatedProducts from "@/component-plus/ecommerce/page-examples/product-pages/with_related_products";
-import WithRelatedProductsRaw from "@/component-plus/ecommerce/page-examples/product-pages/with_related_products.jsx?raw";
+import WithRelatedProducts from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_related_products";
+import WithRelatedProductsRaw from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_related_products.jsx?raw";
 
 // 02. With image grid
-import WithImageGrid from "@/component-plus/ecommerce/page-examples/product-pages/with_image_grid";
-import WithImageGridRaw from "@/component-plus/ecommerce/page-examples/product-pages/with_image_grid.jsx?raw";
+import WithImageGrid from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_image_grid";
+import WithImageGridRaw from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_image_grid.jsx?raw";
 
 // 03. With expandable product details
-import WithExpandableProductDetails from "@/component-plus/ecommerce/page-examples/product-pages/with_expandable_product_details";
-import WithExpandableProductDetailsRaw from "@/component-plus/ecommerce/page-examples/product-pages/with_expandable_product_details.jsx?raw";
+import WithExpandableProductDetails from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_expandable_product_details";
+import WithExpandableProductDetailsRaw from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_expandable_product_details.jsx?raw";
 
 // 04. With featured details
-import WithFeaturedDetails from "@/component-plus/ecommerce/page-examples/product-pages/with_featured_details";
-import WithFeaturedDetailsRaw from "@/component-plus/ecommerce/page-examples/product-pages/with_featured_details.jsx?raw";
+import WithFeaturedDetails from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_featured_details";
+import WithFeaturedDetailsRaw from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_featured_details.jsx?raw";
 
 // 05. With tabs and related products
-import WithTabsAndRelatedProducts from "@/component-plus/ecommerce/page-examples/product-pages/with_tabs_and_related_products";
-import WithTabsAndRelatedProductsRaw from "@/component-plus/ecommerce/page-examples/product-pages/with_tabs_and_related_products.jsx?raw";
+import WithTabsAndRelatedProducts from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_tabs_and_related_products";
+import WithTabsAndRelatedProductsRaw from "@/components/ui-blocks/ecommerce/page-examples/product-pages/with_tabs_and_related_products.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT
