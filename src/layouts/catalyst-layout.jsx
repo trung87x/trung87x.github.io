@@ -18,7 +18,20 @@ const TailwindV4Layout = () => {
       icon: <SparklesIcon className="h-4 w-4" />,
       sections: [
         {
-          label: "PAGE SECTIONS",
+          label: "Layouts",
+          items: [
+            {
+              name: "Sidebar layout",
+              path: "/catalyst/sidebar-layout",
+            },
+            {
+              name: "Stacked layout",
+              path: "/catalyst/stacked-layout",
+            },
+          ],
+        },
+        {
+          label: "Components",
           items: [
             {
               name: "Alert",
