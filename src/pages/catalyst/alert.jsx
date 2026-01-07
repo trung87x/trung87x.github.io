@@ -1,0 +1,66 @@
+import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+
+// 01. Basic
+import Basic from "@/components/blocks/alert/basic";
+import BasicRaw from "@/components/blocks/alert/basic.jsx?raw";
+
+// 02. Alert width
+import AlertWidth from "@/components/blocks/alert/alert-width";
+import AlertWidthRaw from "@/components/blocks/alert/alert-width.jsx?raw";
+
+// 03. With body
+import WithBody from "@/components/blocks/alert/with-body";
+import WithBodyRaw from "@/components/blocks/alert/with-body.jsx?raw";
+
+// 04. Auto-focusing elements
+import AutoFocus from "@/components/blocks/alert/auto-focusing";
+import AutoFocusRaw from "@/components/blocks/alert/auto-focusing.jsx?raw";
+
+const Page = () => {
+  const layouts = [
+    {
+      id: "01",
+      name: "Basic",
+      component: <Basic />,
+      raw: BasicRaw,
+    },
+    {
+      id: "02",
+      name: "Alert Width",
+      component: <AlertWidth />,
+      raw: AlertWidthRaw,
+    },
+    {
+      id: "03",
+      name: "With Body",
+      component: <WithBody />,
+      raw: WithBodyRaw,
+    },
+    {
+      id: "04",
+      name: "Auto-focusing Elements",
+      component: <AutoFocus />,
+      raw: AutoFocusRaw,
+    },
+  ];
+
+  return (
+    <div className="space-y-10 pb-20">
+      {layouts.map((layout) => (
+        <section
+          key={layout.id}
+          className="border-b border-gray-100 pb-10 last:border-0"
+        >
+          <h2 className="mb-4 text-lg font-bold text-gray-800">
+            {layout.id}. {layout.name}
+          </h2>
+          <PreviewWrapper name={layout.name} code={layout.raw}>
+            {layout.component}
+          </PreviewWrapper>
+        </section>
+      ))}
+    </div>
+  );
+};
+
+export default Page;

@@ -1,0 +1,195 @@
+import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+
+// 01. Basic
+import Basic from "@/components/blocks/listbox/basic";
+import BasicRaw from "@/components/blocks/listbox/basic.jsx?raw";
+
+// 02. With label
+import WithLabel from "@/components/blocks/listbox/with-label";
+import WithLabelRaw from "@/components/blocks/listbox/with-label.jsx?raw";
+
+// 03. With description
+import WithDescription from "@/components/blocks/listbox/with-description";
+import WithDescriptionRaw from "@/components/blocks/listbox/with-description.jsx?raw";
+
+// 04. With placeholder
+import WithPlaceholder from "@/components/blocks/listbox/with-placeholder";
+import WithPlaceholderRaw from "@/components/blocks/listbox/with-placeholder.jsx?raw";
+
+// 05. With avatars
+import WithAvatars from "@/components/blocks/listbox/with-avatars";
+import WithAvatarsRaw from "@/components/blocks/listbox/with-avatars.jsx?raw";
+
+// 06. With icons
+import WithIcons from "@/components/blocks/listbox/with-icons";
+import WithIconsRaw from "@/components/blocks/listbox/with-icons.jsx?raw";
+
+// 07. With flags
+import WithFlags from "@/components/blocks/listbox/with-flags";
+import WithFlagsRaw from "@/components/blocks/listbox/with-flags.jsx?raw";
+
+// 08. With secondary text
+import SecondaryText from "@/components/blocks/listbox/secondary-text";
+import SecondaryTextRaw from "@/components/blocks/listbox/secondary-text.jsx?raw";
+
+// 09. Disabled state
+import DisabledState from "@/components/blocks/listbox/disabled";
+import DisabledStateRaw from "@/components/blocks/listbox/disabled.jsx?raw";
+
+// 10. Validation errors
+import ValidationErrors from "@/components/blocks/listbox/validation-errors";
+import ValidationErrorsRaw from "@/components/blocks/listbox/validation-errors.jsx?raw";
+
+// 11. Constraining width
+import ConstrainingWidth from "@/components/blocks/listbox/constraining-width";
+import ConstrainingWidthRaw from "@/components/blocks/listbox/constraining-width.jsx?raw";
+
+// 12. With custom layout
+import CustomLayout from "@/components/blocks/listbox/custom-layout";
+import CustomLayoutRaw from "@/components/blocks/listbox/custom-layout.jsx?raw";
+
+// 13. Controlled component
+import Controlled from "@/components/blocks/listbox/controlled";
+import ControlledRaw from "@/components/blocks/listbox/controlled.jsx?raw";
+
+const mockUsers = [
+  {
+    id: 1,
+    name: "Đinh Trung",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    initials: "DT",
+  },
+  {
+    id: 2,
+    name: "Erica Hancock",
+    avatarUrl: null, // Test trường hợp không có ảnh để hiện Initials
+    initials: "EH",
+  },
+  {
+    id: 3,
+    name: "Giao Giao",
+    avatarUrl:
+      "https://images.unsplash.com/photo-1550525811-e5869dd03032?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    initials: "GG",
+  },
+];
+
+const mockCountries = [
+  { code: "VN", name: "Vietnam" },
+  { code: "US", name: "United States" },
+  { code: "CA", name: "Canada" },
+  { code: "FR", name: "France" },
+  { code: "JP", name: "Japan" },
+];
+
+const defaultCountry = "VN";
+
+const mockErrors = new Map([
+  ["status", "Vui lòng chọn trạng thái dự án để tiếp tục."],
+]);
+
+const Page = () => {
+  const layouts = [
+    { id: "01", name: "Basic", component: <Basic />, raw: BasicRaw },
+    {
+      id: "02",
+      name: "With Label",
+      component: <WithLabel />,
+      raw: WithLabelRaw,
+    },
+    {
+      id: "03",
+      name: "With Description",
+      component: <WithDescription />,
+      raw: WithDescriptionRaw,
+    },
+    {
+      id: "04",
+      name: "With Placeholder",
+      component: <WithPlaceholder />,
+      raw: WithPlaceholderRaw,
+    },
+    {
+      id: "05",
+      name: "With Avatars",
+      component: <WithAvatars users={mockUsers} />,
+      raw: WithAvatarsRaw,
+    },
+    {
+      id: "06",
+      name: "With Icons",
+      component: <WithIcons />,
+      raw: WithIconsRaw,
+    },
+    {
+      id: "07",
+      name: "With Flags",
+      component: (
+        <WithFlags currentCountry={defaultCountry} countries={mockCountries} />
+      ),
+      raw: WithFlagsRaw,
+    },
+    {
+      id: "08",
+      name: "With Secondary Text",
+      component: <SecondaryText users={mockUsers} />,
+      raw: SecondaryTextRaw,
+    },
+    {
+      id: "09",
+      name: "Disabled State",
+      component: <DisabledState />,
+      raw: DisabledStateRaw,
+    },
+    {
+      id: "10",
+      name: "Validation Errors",
+      component: <ValidationErrors errors={mockErrors} />,
+      raw: ValidationErrorsRaw,
+    },
+    {
+      id: "11",
+      name: "Constraining Width",
+      component: <ConstrainingWidth />,
+      raw: ConstrainingWidthRaw,
+    },
+    {
+      id: "12",
+      name: "With Custom Layout",
+      component: <CustomLayout />,
+      raw: CustomLayoutRaw,
+    },
+    {
+      id: "13",
+      name: "Controlled Component",
+      component: <Controlled />,
+      raw: ControlledRaw,
+    },
+  ];
+
+  return (
+    <div className="space-y-10 pb-20">
+      {layouts.map((layout) => (
+        <section
+          key={layout.id}
+          className="border-b border-gray-100 pb-10 last:border-0"
+        >
+          <div className="mb-4">
+            <h2 className="text-lg font-bold text-gray-800">
+              {layout.id}. {layout.name}
+            </h2>
+          </div>
+          <PreviewWrapper name={layout.name} code={layout.raw}>
+            {/* Thêm div bọc để căn giữa và tạo không gian cho dropdown mở ra */}
+            <div className="flex min-h-[300px] justify-center pt-10">
+              <div className="w-full max-w-xs">{layout.component}</div>
+            </div>
+          </PreviewWrapper>
+        </section>
+      ))}
+    </div>
+  );
+};
+
+export default Page;

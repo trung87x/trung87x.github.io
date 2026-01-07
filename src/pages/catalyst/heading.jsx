@@ -1,0 +1,56 @@
+import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+
+// 01. Basic heading
+import BasicHeading from "@/components/blocks/heading/basic-heading";
+import BasicHeadingRaw from "@/components/blocks/heading/basic-heading.jsx?raw";
+
+// 02. Basic subheading
+import BasicSubheading from "@/components/blocks/heading/basic-subheading";
+import BasicSubheadingRaw from "@/components/blocks/heading/basic-subheading.jsx?raw";
+
+// 03. With custom level
+import CustomLevel from "@/components/blocks/heading/custom-level";
+import CustomLevelRaw from "@/components/blocks/heading/custom-level.jsx?raw";
+
+const Page = () => {
+  const layouts = [
+    {
+      id: "01",
+      name: "Basic Heading",
+      component: <BasicHeading />,
+      raw: BasicHeadingRaw,
+    },
+    {
+      id: "02",
+      name: "Basic Subheading",
+      component: <BasicSubheading />,
+      raw: BasicSubheadingRaw,
+    },
+    {
+      id: "03",
+      name: "With Custom Level",
+      component: <CustomLevel />,
+      raw: CustomLevelRaw,
+    },
+  ];
+
+  return (
+    <div className="space-y-10 pb-20">
+      {layouts.map((layout) => (
+        <section
+          key={layout.id}
+          className="border-b border-gray-100 pb-10 last:border-0"
+        >
+          <h2 className="mb-4 text-lg font-bold text-gray-800">
+            {layout.id}. {layout.name}
+          </h2>
+          <PreviewWrapper name={layout.name} code={layout.raw}>
+            {layout.component}
+          </PreviewWrapper>
+        </section>
+      ))}
+    </div>
+  );
+};
+
+export default Page;

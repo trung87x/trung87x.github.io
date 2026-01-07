@@ -7,6 +7,7 @@ import Home from "@/pages/home";
 import About from "@/pages/about";
 import routes from "@/core/routing/autoRoutes";
 import TailwindV4Layout from "@/layouts/tailwind-v4-layout";
+import CatalystLayout from "@/layouts/catalyst-layout";
 
 // Component loading xoay tròn
 const LoadingFallback = () => (
@@ -31,7 +32,10 @@ function App() {
         >
           Preview Hero
         </Link>
-        <Link to="/" className="font-medium text-indigo-600 hover:underline">
+        <Link
+          to="/catalyst/alert"
+          className="font-medium text-indigo-600 hover:underline"
+        >
           Alert
         </Link>
       </nav>
@@ -43,11 +47,21 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
 
-          {/* 1. Nhóm các trang Marketing */}
+          {/* Nhóm các trang Marketing */}
           <Route element={<TailwindV4Layout />}>
             {/* CÁC ROUTE TỰ ĐỘNG (QUÉT TỪ THƯ MỤC) */}
             {routes
               .filter((r) => r.path.startsWith("/tailwindv4"))
+              .map(({ path, component: Component }) => (
+                <Route key={path} path={path} element={<Component />} />
+              ))}
+          </Route>
+
+          {/* Nhóm các trang Catalyst */}
+          <Route element={<CatalystLayout />}>
+            {/* CÁC ROUTE TỰ ĐỘNG (QUÉT TỪ THƯ MỤC) */}
+            {routes
+              .filter((r) => r.path.startsWith("/catalyst"))
               .map(({ path, component: Component }) => (
                 <Route key={path} path={path} element={<Component />} />
               ))}

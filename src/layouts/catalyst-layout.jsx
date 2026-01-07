@@ -13,462 +13,100 @@ const TailwindV4Layout = () => {
   // DỮ LIỆU ĐÃ ĐỒNG NHẤT
   const navigation = [
     {
-      id: "marketing",
-      title: "Marketing",
+      id: "ui-kit",
+      title: "UI Kit",
       icon: <SparklesIcon className="h-4 w-4" />,
       sections: [
         {
           label: "PAGE SECTIONS",
           items: [
             {
-              name: "Hero Sections",
-              path: "/tailwindv4/marketing/page-sections/hero-sections",
+              name: "Alert",
+              path: "/catalyst/alert",
             },
             {
-              name: "Feature Sections",
-              path: "/tailwindv4/marketing/page-sections/feature-sections",
+              name: "Avatar",
+              path: "/catalyst/avatar",
             },
             {
-              name: "CTA Sections",
-              path: "/tailwindv4/marketing/page-sections/cta-sections",
+              name: "Badge",
+              path: "/catalyst/badge",
             },
             {
-              name: "Bento Grids",
-              path: "/tailwindv4/marketing/page-sections/bento-grids",
+              name: "Button",
+              path: "/catalyst/button",
             },
             {
-              name: "Pricing Sections",
-              path: "/tailwindv4/marketing/page-sections/pricing-sections",
+              name: "Checkbox",
+              path: "/catalyst/checkbox",
             },
             {
-              name: "Header Sections",
-              path: "/tailwindv4/marketing/page-sections/header-sections",
+              name: "Description list",
+              path: "/catalyst/description-list",
             },
             {
-              name: "Newsletter Sections",
-              path: "/tailwindv4/marketing/page-sections/newsletter-sections",
+              name: "Dialog",
+              path: "/catalyst/dialog",
             },
             {
-              name: "Stats",
-              path: "/tailwindv4/marketing/page-sections/stats",
+              name: "Divider",
+              path: "/catalyst/divider",
             },
             {
-              name: "Testimonials",
-              path: "/tailwindv4/marketing/page-sections/testimonials",
+              name: "Dropdown",
+              path: "/catalyst/dropdown",
             },
             {
-              name: "Blog Sections",
-              path: "/tailwindv4/marketing/page-sections/blog-sections",
+              name: "Fieldset",
+              path: "/catalyst/fieldset",
             },
             {
-              name: "Contact Sections",
-              path: "/tailwindv4/marketing/page-sections/contact-sections",
+              name: "Heading",
+              path: "/catalyst/heading",
             },
             {
-              name: "Team Sections",
-              path: "/tailwindv4/marketing/page-sections/team-sections",
+              name: "Input",
+              path: "/catalyst/input",
             },
             {
-              name: "Content Sections",
-              path: "/tailwindv4/marketing/page-sections/content-sections",
+              name: "Listbox",
+              path: "/catalyst/listbox",
             },
             {
-              name: "Logo Clouds",
-              path: "/tailwindv4/marketing/page-sections/logo-clouds",
-            },
-            { name: "FAQs", path: "/tailwindv4/marketing/page-sections/faqs" },
-            {
-              name: "Footers",
-              path: "/tailwindv4/marketing/page-sections/footers",
-            },
-          ],
-        },
-        {
-          label: "ELEMENTS",
-          items: [
-            { name: "Headers", path: "/tailwindv4/marketing/elements/headers" },
-            {
-              name: "Flyout Menus",
-              path: "/tailwindv4/marketing/elements/flyout-menus",
-            },
-            { name: "Banners", path: "/tailwindv4/marketing/elements/banners" },
-          ],
-        },
-        ,
-        {
-          label: "FEEDBACK",
-          items: [
-            {
-              name: "Headers",
-              path: "/tailwindv4/marketing/feedback/404-pages",
-            },
-          ],
-        },
-        ,
-        {
-          label: "PAGE EXAMPLES",
-          items: [
-            {
-              name: "Landing Pages",
-              path: "/tailwindv4/marketing/page-examples/landing-pages",
-            },
-            {
-              name: "Pricing Pages",
-              path: "/tailwindv4/marketing/page-examples/pricing-pages",
-            },
-            {
-              name: "About Pages",
-              path: "/tailwindv4/marketing/page-examples/about-pages",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: "application-ui",
-      title: "Application UI",
-      icon: <ComputerDesktopIcon className="h-4 w-4" />,
-      sections: [
-        {
-          label: "APPLICATION SHELLS",
-          items: [
-            {
-              name: "Stacked Layouts",
-              path: "/tailwindv4/application-ui/application-shells/stacked-layouts",
-            },
-            {
-              name: "Sidebar Layouts",
-              path: "/tailwindv4/application-ui/application-shells/sidebar-layouts",
-            },
-            {
-              name: "Multi-Column Layouts",
-              path: "/tailwindv4/application-ui/application-shells/multi-column-layouts",
-            },
-          ],
-        },
-        {
-          label: "HEADINGS",
-          items: [
-            {
-              name: "Page Headings",
-              path: "/tailwindv4/application-ui/headings/page-headings",
-            },
-            {
-              name: "Card Headings",
-              path: "/tailwindv4/application-ui/headings/card-headings",
-            },
-            {
-              name: "Section Headings",
-              path: "/tailwindv4/application-ui/headings/section-headings",
-            },
-          ],
-        },
-        {
-          label: "DATA DISPLAY",
-          items: [
-            {
-              name: "Description Lists",
-              path: "/tailwindv4/application-ui/data-display/description-lists",
-            },
-            {
-              name: "Stats",
-              path: "/tailwindv4/application-ui/data-display/stats",
-            },
-            {
-              name: "Calendars",
-              path: "/tailwindv4/application-ui/data-display/calendars",
-            },
-          ],
-        },
-        {
-          label: "LISTS",
-          items: [
-            {
-              name: "Stacked Lists",
-              path: "/tailwindv4/application-ui/lists/stacked-lists",
-            },
-            { name: "Tables", path: "/tailwindv4/application-ui/lists/tables" },
-            {
-              name: "Grid Lists",
-              path: "/tailwindv4/application-ui/lists/grid-lists",
-            },
-            { name: "Feeds", path: "/tailwindv4/application-ui/lists/feeds" },
-          ],
-        },
-        {
-          label: "FORMS",
-          items: [
-            {
-              name: "Form Layouts",
-              path: "/tailwindv4/application-ui/forms/form-layouts",
-            },
-            {
-              name: "Input Groups",
-              path: "/tailwindv4/application-ui/forms/input-groups",
-            },
-            {
-              name: "Select Menus",
-              path: "/tailwindv4/application-ui/forms/select-menus",
-            },
-            {
-              name: "Sign-in and Registration",
-              path: "/tailwindv4/application-ui/forms/sign-in-and-registration",
-            },
-            {
-              name: "Textareas",
-              path: "/tailwindv4/application-ui/forms/textareas",
-            },
-            {
-              name: "Radio Groups",
-              path: "/tailwindv4/application-ui/forms/radio-groups",
-            },
-            {
-              name: "Checkboxes",
-              path: "/tailwindv4/application-ui/forms/checkboxes",
-            },
-            {
-              name: "Toggles",
-              path: "/tailwindv4/application-ui/forms/toggles",
-            },
-            {
-              name: "Action Panels",
-              path: "/tailwindv4/application-ui/forms/action-panels",
-            },
-            {
-              name: "Comboboxes",
-              path: "/tailwindv4/application-ui/forms/comboboxes",
-            },
-          ],
-        },
-        {
-          label: "FEEDBACK",
-          items: [
-            {
-              name: "Alerts",
-              path: "/tailwindv4/application-ui/feedback/alerts",
-            },
-            {
-              name: "Empty States",
-              path: "/tailwindv4/application-ui/feedback/empty-states",
-            },
-          ],
-        },
-        {
-          label: "NAVIGATION",
-          items: [
-            {
-              name: "Navbars",
-              path: "/tailwindv4/application-ui/navigation/navbars",
+              name: "Navbar",
+              path: "/catalyst/navbar",
             },
             {
               name: "Pagination",
-              path: "/tailwindv4/application-ui/navigation/pagination",
+              path: "/catalyst/pagination",
             },
             {
-              name: "Tabs",
-              path: "/tailwindv4/application-ui/navigation/tabs",
+              name: "Radio Button",
+              path: "/catalyst/radio-button",
             },
             {
-              name: "Vertical Navigation",
-              path: "/tailwindv4/application-ui/navigation/vertical-navigation",
+              name: "Select",
+              path: "/catalyst/select",
             },
             {
-              name: "Sidebar Navigation",
-              path: "/tailwindv4/application-ui/navigation/sidebar-navigation",
+              name: "Sidebar",
+              path: "/catalyst/sidebar",
             },
             {
-              name: "Breadcrumbs",
-              path: "/tailwindv4/application-ui/navigation/breadcrumbs",
+              name: "Switch",
+              path: "/catalyst/switch",
             },
             {
-              name: "Progress Bars",
-              path: "/tailwindv4/application-ui/navigation/progress-bars",
+              name: "Table",
+              path: "/catalyst/table",
             },
             {
-              name: "Command Palettes",
-              path: "/tailwindv4/application-ui/navigation/command-palettes",
-            },
-          ],
-        },
-        {
-          label: "OVERLAYS",
-          items: [
-            {
-              name: "Modal Dialogs",
-              path: "/tailwindv4/application-ui/overlays/modal-dialogs",
+              name: "Text",
+              path: "/catalyst/text",
             },
             {
-              name: "Drawers",
-              path: "/tailwindv4/application-ui/overlays/drawers",
-            },
-            {
-              name: "Notifications",
-              path: "/tailwindv4/application-ui/overlays/notifications",
-            },
-          ],
-        },
-        {
-          label: "ELEMENTS",
-          items: [
-            {
-              name: "Avatars",
-              path: "/tailwindv4/application-ui/elements/avatars",
-            },
-            {
-              name: "Badges",
-              path: "/tailwindv4/application-ui/elements/badges",
-            },
-            {
-              name: "Dropdowns",
-              path: "/tailwindv4/application-ui/elements/dropdowns",
-            },
-            {
-              name: "Buttons",
-              path: "/tailwindv4/application-ui/elements/buttons",
-            },
-            {
-              name: "Button Groups",
-              path: "/tailwindv4/application-ui/elements/button-groups",
-            },
-          ],
-        },
-        {
-          label: "LAYOUT",
-          items: [
-            {
-              name: "Containers",
-              path: "/tailwindv4/application-ui/layout/containers",
-            },
-            { name: "Cards", path: "/tailwindv4/application-ui/layout/cards" },
-            {
-              name: "List containers",
-              path: "/tailwindv4/application-ui/layout/list-containers",
-            },
-            {
-              name: "Media Objects",
-              path: "/tailwindv4/application-ui/layout/media-objects",
-            },
-            {
-              name: "Dividers",
-              path: "/tailwindv4/application-ui/layout/dividers",
-            },
-          ],
-        },
-        {
-          label: "PAGE EXAMPLES",
-          items: [
-            {
-              name: "Home Screens",
-              path: "/tailwindv4/application-ui/page-examples/home-screens",
-            },
-            {
-              name: "Detail Screens",
-              path: "/tailwindv4/application-ui/page-examples/detail-screens",
-            },
-            {
-              name: "Settings Screens",
-              path: "/tailwindv4/application-ui/page-examples/settings-screens",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: "ecommerce",
-      title: "Ecommerce",
-      icon: <ShoppingBagIcon className="h-4 w-4" />,
-      sections: [
-        {
-          label: "COMPONENTS",
-          items: [
-            {
-              name: "Product Overviews",
-              path: "/tailwindv4/ecommerce/components/product-overviews",
-            },
-            {
-              name: "Product Lists",
-              path: "/tailwindv4/ecommerce/components/product-lists",
-            },
-            {
-              name: "Category Previews",
-              path: "/tailwindv4/ecommerce/components/category-previews",
-            },
-            {
-              name: "Shopping Carts",
-              path: "/tailwindv4/ecommerce/components/shopping-carts",
-            },
-            {
-              name: "Category Filters",
-              path: "/tailwindv4/ecommerce/components/category-filters",
-            },
-            {
-              name: "Product Quickviews",
-              path: "/tailwindv4/ecommerce/components/product-quickviews",
-            },
-            {
-              name: "Product Features",
-              path: "/tailwindv4/ecommerce/components/product-features",
-            },
-            {
-              name: "Store Navigation",
-              path: "/tailwindv4/ecommerce/components/store-navigation",
-            },
-            {
-              name: "Promo Sections",
-              path: "/tailwindv4/ecommerce/components/promo-sections",
-            },
-            {
-              name: "Checkout Forms",
-              path: "/tailwindv4/ecommerce/components/checkout-forms",
-            },
-            {
-              name: "Reviews",
-              path: "/tailwindv4/ecommerce/components/reviews",
-            },
-            {
-              name: "Order Summaries",
-              path: "/tailwindv4/ecommerce/components/order-summaries",
-            },
-            {
-              name: "Order History",
-              path: "/tailwindv4/ecommerce/components/order-history",
-            },
-            {
-              name: "Incentives",
-              path: "/tailwindv4/ecommerce/components/incentives",
-            },
-          ],
-        },
-        {
-          label: "PAGE EXAMPLES",
-          items: [
-            {
-              name: "Storefront Pages",
-              path: "/tailwindv4/ecommerce/page-examples/storefront-pages",
-            },
-            {
-              name: "Product Pages",
-              path: "/tailwindv4/ecommerce/page-examples/product-pages",
-            },
-            {
-              name: "Category Pages",
-              path: "/tailwindv4/ecommerce/page-examples/category-pages",
-            },
-            {
-              name: "Shopping Cart Pages",
-              path: "/tailwindv4/ecommerce/page-examples/shopping-cart-pages",
-            },
-            {
-              name: "Checkout Pages",
-              path: "/tailwindv4/ecommerce/page-examples/checkout-pages",
-            },
-            {
-              name: "Order Detail Pages",
-              path: "/tailwindv4/ecommerce/page-examples/order-detail-pages",
-            },
-            {
-              name: "Order History Pages",
-              path: "/tailwindv4/ecommerce/page-examples/order-history-pages",
+              name: "Textarea",
+              path: "/catalyst/textarea",
             },
           ],
         },
