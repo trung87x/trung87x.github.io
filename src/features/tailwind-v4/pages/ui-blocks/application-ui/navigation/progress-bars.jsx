@@ -5,35 +5,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/components/ui-blocks/application-ui/navigation/progress-bars/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/simple";
 import SimpleRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/simple.jsx?raw";
 
 // 02. Panels
-import Panels from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels";
+import Panels from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/panels";
 import PanelsRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels.jsx?raw";
 
 // 03. Bullets
-import Bullets from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets";
+import Bullets from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/bullets";
 import BulletsRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets.jsx?raw";
 
 // 04. Panels with border
-import PanelsWithBorder from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels_with_border";
+import PanelsWithBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/panels_with_border";
 import PanelsWithBorderRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/panels_with_border.jsx?raw";
 
 // 05. Circles
-import Circles from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles";
+import Circles from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/circles";
 import CirclesRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles.jsx?raw";
 
 // 06. Bullets and text
-import BulletsAndText from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets_and_text";
+import BulletsAndText from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/bullets_and_text";
 import BulletsAndTextRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/bullets_and_text.jsx?raw";
 
 // 07. Circles with text
-import CirclesWithText from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles_with_text";
+import CirclesWithText from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/circles_with_text";
 import CirclesWithTextRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/circles_with_text.jsx?raw";
 
 // 08. Progress bar
-import ProgressBar from "@/components/ui-blocks/application-ui/navigation/progress-bars/progress_bar";
+import ProgressBar from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/progress-bars/progress_bar";
 import ProgressBarRaw from "@/components/ui-blocks/application-ui/navigation/progress-bars/progress_bar.jsx?raw";
 
 // ----------------------------------------------------------------------

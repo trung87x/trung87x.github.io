@@ -1,47 +1,47 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Dark panel with app screenshot
-import DarkPanelWithAppScreenshot from "@/components/ui-blocks/marketing/page-sections/cta-sections/dark_panel_with_app_screenshot";
+import DarkPanelWithAppScreenshot from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/dark_panel_with_app_screenshot";
 import DarkPanelWithAppScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/dark_panel_with_app_screenshot.jsx?raw";
 
 // 02. Simple stacked
-import SimpleStacked from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_stacked";
+import SimpleStacked from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/simple_stacked";
 import SimpleStackedRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_stacked.jsx?raw";
 
 // 03. Centered on dark panel
-import CenteredOnDarkPanel from "@/components/ui-blocks/marketing/page-sections/cta-sections/centered_on_dark_panel";
+import CenteredOnDarkPanel from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/centered_on_dark_panel";
 import CenteredOnDarkPanelRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/centered_on_dark_panel.jsx?raw";
 
 // 04. Simple centered
-import SimpleCentered from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered";
+import SimpleCentered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered";
 import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered.jsx?raw";
 
 // 05. Simple centered with gradient
-import SimpleCenteredWithGradient from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered_on_dark";
+import SimpleCenteredWithGradient from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered_on_dark";
 import SimpleCenteredWithGradientRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered_on_dark.jsx?raw";
 
 // 06. Simple centered on brand
-import SimpleCenteredOnBrand from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered_on_brand";
+import SimpleCenteredOnBrand from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered_on_brand";
 import SimpleCenteredOnBrandRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_centered_on_brand.jsx?raw";
 
 // 07. Simple justified
-import SimpleJustified from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_justified";
+import SimpleJustified from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/simple_justified";
 import SimpleJustifiedRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_justified.jsx?raw";
 
 // 08. Simple justified on subtle brand
-import SimpleJustifiedOnSubtleBrand from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_justified_on_light_brand";
+import SimpleJustifiedOnSubtleBrand from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/simple_justified_on_light_brand";
 import SimpleJustifiedOnSubtleBrandRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/simple_justified_on_light_brand.jsx?raw";
 
 // 09. Split with image
-import SplitWithImage from "@/components/ui-blocks/marketing/page-sections/cta-sections/split_with_image";
+import SplitWithImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/split_with_image";
 import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/split_with_image.jsx?raw";
 
 // 10. Two columns with photo
-import TwoColumnsWithPhoto from "@/components/ui-blocks/marketing/page-sections/cta-sections/two_columns_with_photo_on_dark";
+import TwoColumnsWithPhoto from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/two_columns_with_photo_on_dark";
 import TwoColumnsWithPhotoRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/two_columns_with_photo_on_dark.jsx?raw";
 
 // 11. With image tiles
-import WithImageTiles from "@/components/ui-blocks/marketing/page-sections/cta-sections/with_image_tiles";
+import WithImageTiles from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/cta-sections/with_image_tiles";
 import WithImageTilesRaw from "@/components/ui-blocks/marketing/page-sections/cta-sections/with_image_tiles.jsx?raw";
 
 const CtaDemoPage = () => {

@@ -1,27 +1,27 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple with heading
-import SimpleWithHeading from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_heading";
+import SimpleWithHeading from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_heading";
 import SimpleWithHeadingRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_heading.jsx?raw";
 
 // 02. Simple with call-to-action
-import SimpleWithCallToAction from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_call_to_action";
+import SimpleWithCallToAction from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_call_to_action";
 import SimpleWithCallToActionRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_call_to_action.jsx?raw";
 
 // 03. Simple left-aligned
-import SimpleLeftAligned from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_left_aligned";
+import SimpleLeftAligned from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/logo-clouds/simple_left_aligned";
 import SimpleLeftAlignedRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_left_aligned.jsx?raw";
 
 // 04. Split with logos on right
-import SplitWithLogosOnRight from "@/components/ui-blocks/marketing/page-sections/logo-clouds/split_with_logos_on_right";
+import SplitWithLogosOnRight from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/logo-clouds/split_with_logos_on_right";
 import SplitWithLogosOnRightRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/split_with_logos_on_right.jsx?raw";
 
 // 05. Simple
-import Simple from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/logo-clouds/simple";
 import SimpleRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple.jsx?raw";
 
 // 06. Grid
-import Grid from "@/components/ui-blocks/marketing/page-sections/logo-clouds/grid";
+import Grid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/logo-clouds/grid";
 import GridRaw from "@/components/ui-blocks/marketing/page-sections/logo-clouds/grid.jsx?raw";
 
 const LogoCloudsDemoPage = () => {

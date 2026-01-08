@@ -5,35 +5,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With image tiles
-import WithImageTiles from "@/components/ui-blocks/ecommerce/components/promo-sections/with_image_tiles";
+import WithImageTiles from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/with_image_tiles";
 import WithImageTilesRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_image_tiles.jsx?raw";
 
 // 02. With fading background image and testimonials
-import WithFadingBackgroundAndTestimonials from "@/components/ui-blocks/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials";
+import WithFadingBackgroundAndTestimonials from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials";
 import WithFadingBackgroundAndTestimonialsRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_fading_background_image_and_testimonials.jsx?raw";
 
 // 03. Full-width with background image
-import FullWidthWithBackgroundImage from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image";
+import FullWidthWithBackgroundImage from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image";
 import FullWidthWithBackgroundImageRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image.jsx?raw";
 
 // 04. Full-width with overlapping image tiles
-import FullWidthWithOverlappingImageTiles from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles";
+import FullWidthWithOverlappingImageTiles from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles";
 import FullWidthWithOverlappingImageTilesRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_overlapping_image_tiles.jsx?raw";
 
 // 05. With background image
-import WithBackgroundImage from "@/components/ui-blocks/ecommerce/components/promo-sections/with_background_image";
+import WithBackgroundImage from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/with_background_image";
 import WithBackgroundImageRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_background_image.jsx?raw";
 
 // 06. With overlapping image tiles
-import WithOverlappingImageTiles from "@/components/ui-blocks/ecommerce/components/promo-sections/with_overlapping_image_tiles";
+import WithOverlappingImageTiles from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/with_overlapping_image_tiles";
 import WithOverlappingImageTilesRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_overlapping_image_tiles.jsx?raw";
 
 // 07. With offers and split image
-import WithOffersAndSplitImage from "@/components/ui-blocks/ecommerce/components/promo-sections/with_offers_and_split_image";
+import WithOffersAndSplitImage from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/with_offers_and_split_image";
 import WithOffersAndSplitImageRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/with_offers_and_split_image.jsx?raw";
 
 // 08. Full-width with background image and large content
-import FullWidthWithBackgroundImageAndLargeContent from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content";
+import FullWidthWithBackgroundImageAndLargeContent from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content";
 import FullWidthWithBackgroundImageAndLargeContentRaw from "@/components/ui-blocks/ecommerce/components/promo-sections/full_width_with_background_image_and_large_content.jsx?raw";
 
 // ----------------------------------------------------------------------

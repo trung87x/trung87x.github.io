@@ -5,23 +5,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With image grid
-import WithImageGrid from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_grid";
+import WithImageGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-overviews/with_image_grid";
 import WithImageGridRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_grid.jsx?raw";
 
 // 02. With tiered images
-import WithTieredImages from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tiered_images";
+import WithTieredImages from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-overviews/with_tiered_images";
 import WithTieredImagesRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tiered_images.jsx?raw";
 
 // 03. With image gallery and expandable details
-import WithImageGalleryAndExpandableDetails from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details";
+import WithImageGalleryAndExpandableDetails from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details";
 import WithImageGalleryAndExpandableDetailsRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_image_gallery_and_expandable_details.jsx?raw";
 
 // 04. Split with image
-import SplitWithImage from "@/components/ui-blocks/ecommerce/components/product-overviews/split_with_image";
+import SplitWithImage from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-overviews/split_with_image";
 import SplitWithImageRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/split_with_image.jsx?raw";
 
 // 05. With tabs
-import WithTabs from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tabs";
+import WithTabs from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-overviews/with_tabs";
 import WithTabsRaw from "@/components/ui-blocks/ecommerce/components/product-overviews/with_tabs.jsx?raw";
 
 // ----------------------------------------------------------------------

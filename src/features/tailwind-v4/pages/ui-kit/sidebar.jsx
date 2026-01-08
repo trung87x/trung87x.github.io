@@ -1,43 +1,43 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/sidebar/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/sidebar/basic";
 import BasicRaw from "@/components/ui-kit/sidebar/basic.jsx?raw";
 
 // 02. With logo
-import WithLogo from "@/components/ui-kit/sidebar/with-logo";
+import WithLogo from "@/features/tailwind-v4/components/ui-kit/sidebar/with-logo";
 import WithLogoRaw from "@/components/ui-kit/sidebar/with-logo.jsx?raw";
 
 // 03. With icons
-import WithIcons from "@/components/ui-kit/sidebar/with-icons";
+import WithIcons from "@/features/tailwind-v4/components/ui-kit/sidebar/with-icons";
 import WithIconsRaw from "@/components/ui-kit/sidebar/with-icons.jsx?raw";
 
 // 04. With active state
-import ActiveState from "@/components/ui-kit/sidebar/active-state";
+import ActiveState from "@/features/tailwind-v4/components/ui-kit/sidebar/active-state";
 import ActiveStateRaw from "@/components/ui-kit/sidebar/active-state.jsx?raw";
 
 // 05. With sticky header
-import StickyHeader from "@/components/ui-kit/sidebar/sticky-header";
+import StickyHeader from "@/features/tailwind-v4/components/ui-kit/sidebar/sticky-header";
 import StickyHeaderRaw from "@/components/ui-kit/sidebar/sticky-header.jsx?raw";
 
 // 06. With sticky footer
-import StickyFooter from "@/components/ui-kit/sidebar/sticky-footer";
+import StickyFooter from "@/features/tailwind-v4/components/ui-kit/sidebar/sticky-footer";
 import StickyFooterRaw from "@/components/ui-kit/sidebar/sticky-footer.jsx?raw";
 
 // 07. With section headings
-import SectionHeadings from "@/components/ui-kit/sidebar/section-headings";
+import SectionHeadings from "@/features/tailwind-v4/components/ui-kit/sidebar/section-headings";
 import SectionHeadingsRaw from "@/components/ui-kit/sidebar/section-headings.jsx?raw";
 
 // 08. With space between sections
-import SpaceBetween from "@/components/ui-kit/sidebar/space-between";
+import SpaceBetween from "@/features/tailwind-v4/components/ui-kit/sidebar/space-between";
 import SpaceBetweenRaw from "@/components/ui-kit/sidebar/space-between.jsx?raw";
 
 // 09. With divider
-import WithDivider from "@/components/ui-kit/sidebar/with-divider";
+import WithDivider from "@/features/tailwind-v4/components/ui-kit/sidebar/with-divider";
 import WithDividerRaw from "@/components/ui-kit/sidebar/with-divider.jsx?raw";
 
 // 10. With dropdown
-import WithDropdown from "@/components/ui-kit/sidebar/with-dropdown";
+import WithDropdown from "@/features/tailwind-v4/components/ui-kit/sidebar/with-dropdown";
 import WithDropdownRaw from "@/components/ui-kit/sidebar/with-dropdown.jsx?raw";
 
 const Page = () => {

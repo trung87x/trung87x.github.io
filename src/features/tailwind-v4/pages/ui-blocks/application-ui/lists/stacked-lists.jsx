@@ -5,63 +5,63 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/components/ui-blocks/application-ui/lists/stacked-lists/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/simple";
 import SimpleRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/simple.jsx?raw";
 
 // 02. With links
-import WithLinks from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_links";
+import WithLinks from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/with_links";
 import WithLinksRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_links.jsx?raw";
 
 // 03. With inline links and avatar group
-import WithInlineLinksAvatarGroup from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_inline_links_and_avatar_group";
+import WithInlineLinksAvatarGroup from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/with_inline_links_and_avatar_group";
 import WithInlineLinksAvatarGroupRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_inline_links_and_avatar_group.jsx?raw";
 
 // 04. With inline links and actions menu
-import WithInlineLinksActionsMenu from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_inline_links_and_actions_menu";
+import WithInlineLinksActionsMenu from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/with_inline_links_and_actions_menu";
 import WithInlineLinksActionsMenuRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_inline_links_and_actions_menu.jsx?raw";
 
 // 05. With badges, button, and actions menu
-import WithBadgesButtonActions from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_badges__button__and_actions_menu";
+import WithBadgesButtonActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/with_badges__button__and_actions_menu";
 import WithBadgesButtonActionsRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/with_badges__button__and_actions_menu.jsx?raw";
 
 // 06. In card with links
-import InCardWithLinks from "@/components/ui-blocks/application-ui/lists/stacked-lists/in_card_with_links";
+import InCardWithLinks from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/in_card_with_links";
 import InCardWithLinksRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/in_card_with_links.jsx?raw";
 
 // 07. Two columns with links
-import TwoColumnsWithLinks from "@/components/ui-blocks/application-ui/lists/stacked-lists/two_columns_with_links";
+import TwoColumnsWithLinks from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/two_columns_with_links";
 import TwoColumnsWithLinksRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/two_columns_with_links.jsx?raw";
 
 // 08. Full width with links
-import FullWidthWithLinks from "@/components/ui-blocks/application-ui/lists/stacked-lists/full_width_with_links";
+import FullWidthWithLinks from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/full_width_with_links";
 import FullWidthWithLinksRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/full_width_with_links.jsx?raw";
 
 // 09. Full-width with constrained content
-import FullWidthConstrained from "@/components/ui-blocks/application-ui/lists/stacked-lists/full_width_with_constrained_content";
+import FullWidthConstrained from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/full_width_with_constrained_content";
 import FullWidthConstrainedRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/full_width_with_constrained_content.jsx?raw";
 
 // 10. Narrow
-import Narrow from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow";
+import Narrow from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/narrow";
 import NarrowRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow.jsx?raw";
 
 // 11. Narrow with sticky headings
-import NarrowStickyHeadings from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_sticky_headings";
+import NarrowStickyHeadings from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_sticky_headings";
 import NarrowStickyHeadingsRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_sticky_headings.jsx?raw";
 
 // 12. Narrow with actions
-import NarrowWithActions from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_actions";
+import NarrowWithActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_actions";
 import NarrowWithActionsRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_actions.jsx?raw";
 
 // 13. Narrow with truncated content
-import NarrowTruncated from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_truncated_content";
+import NarrowTruncated from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_truncated_content";
 import NarrowTruncatedRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_truncated_content.jsx?raw";
 
 // 14. Narrow with small avatars
-import NarrowSmallAvatars from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_small_avatars";
+import NarrowSmallAvatars from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_small_avatars";
 import NarrowSmallAvatarsRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_small_avatars.jsx?raw";
 
 // 15. Narrow with badges
-import NarrowWithBadges from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_badges_on_dark";
+import NarrowWithBadges from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_badges_on_dark";
 import NarrowWithBadgesRaw from "@/components/ui-blocks/application-ui/lists/stacked-lists/narrow_with_badges_on_dark.jsx?raw";
 
 // ----------------------------------------------------------------------

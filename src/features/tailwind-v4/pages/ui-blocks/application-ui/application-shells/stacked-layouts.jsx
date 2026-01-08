@@ -1,39 +1,39 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Branded nav with white page header
-import WithLighterPageHeader from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_white_page_header";
+import WithLighterPageHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_white_page_header";
 import WithLighterPageHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_white_page_header.jsx?raw";
 
 // 02. With bottom border
-import WithBottomBorder from "@/components/ui-blocks/application-ui/application-shells/stacked/light_nav_with_bottom_border";
+import WithBottomBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/light_nav_with_bottom_border";
 import WithBottomBorderRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/light_nav_with_bottom_border.jsx?raw";
 
 // 03. On subtle background
-import OnSubtleBackground from "@/components/ui-blocks/application-ui/application-shells/stacked/light_nav_on_gray_background";
+import OnSubtleBackground from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/light_nav_on_gray_background";
 import OnSubtleBackgroundRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/light_nav_on_gray_background.jsx?raw";
 
 // 04. Branded nav with compact lighter page header
-import BrandedNavCompactLighter from "@/components/ui-blocks/application-ui/application-shells/stacked/branded_nav_with_compact_white_page_header";
+import BrandedNavCompactLighter from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/branded_nav_with_compact_white_page_header";
 import BrandedNavCompactLighterRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/branded_nav_with_compact_white_page_header.jsx?raw";
 
 // 05. With overlap
-import WithOverlap from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_overlap";
+import WithOverlap from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_overlap";
 import WithOverlapRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_overlap.jsx?raw";
 
 // 06. Brand nav with overlap
-import BrandNavWithOverlap from "@/components/ui-blocks/application-ui/application-shells/stacked/brand_nav_with_overlap";
+import BrandNavWithOverlap from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/brand_nav_with_overlap";
 import BrandNavWithOverlapRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/brand_nav_with_overlap.jsx?raw";
 
 // 07. Branded nav with lighter page header
-import BrandedNavLighterHeader from "@/components/ui-blocks/application-ui/application-shells/stacked/branded_nav_with_white_page_header";
+import BrandedNavLighterHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/branded_nav_with_white_page_header";
 import BrandedNavLighterHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/branded_nav_with_white_page_header.jsx?raw";
 
 // 08. With compact lighter page header
-import WithCompactLighterHeader from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_compact_white_page_header";
+import WithCompactLighterHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_compact_white_page_header";
 import WithCompactLighterHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_compact_white_page_header.jsx?raw";
 
 // 09. Two-row navigation with overlap
-import TwoRowNavWithOverlap from "@/components/ui-blocks/application-ui/application-shells/stacked/two_row_navigation_with_overlap";
+import TwoRowNavWithOverlap from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/stacked/two_row_navigation_with_overlap";
 import TwoRowNavWithOverlapRaw from "@/components/ui-blocks/application-ui/application-shells/stacked/two_row_navigation_with_overlap.jsx?raw";
 
 const BentoGridsDemoPage = () => {

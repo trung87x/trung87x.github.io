@@ -5,23 +5,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With text header and image product grid
-import WithTextHeaderAndImageProductGrid from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_text_header_and_image_product_grid";
+import WithTextHeaderAndImageProductGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/category-pages/with_text_header_and_image_product_grid";
 import WithTextHeaderAndImageProductGridRaw from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_text_header_and_image_product_grid.jsx?raw";
 
 // 02. With image header and detail product grid
-import WithImageHeaderAndDetailProductGrid from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_image_header_and_detail_product_grid";
+import WithImageHeaderAndDetailProductGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/category-pages/with_image_header_and_detail_product_grid";
 import WithImageHeaderAndDetailProductGridRaw from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_image_header_and_detail_product_grid.jsx?raw";
 
 // 03. With text header and simple product grid
-import WithTextHeaderAndSimpleProductGrid from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_text_header_and_simple_product_grid";
+import WithTextHeaderAndSimpleProductGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/category-pages/with_text_header_and_simple_product_grid";
 import WithTextHeaderAndSimpleProductGridRaw from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_text_header_and_simple_product_grid.jsx?raw";
 
 // 04. With product grid and pagination
-import WithProductGridAndPagination from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_product_grid_and_pagination";
+import WithProductGridAndPagination from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/category-pages/with_product_grid_and_pagination";
 import WithProductGridAndPaginationRaw from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_product_grid_and_pagination.jsx?raw";
 
 // 05. With large images and filters sidebar
-import WithLargeImagesAndFiltersSidebar from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_large_images_and_filters_sidebar";
+import WithLargeImagesAndFiltersSidebar from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/category-pages/with_large_images_and_filters_sidebar";
 import WithLargeImagesAndFiltersSidebarRaw from "@/components/ui-blocks/ecommerce/page-examples/category-pages/with_large_images_and_filters_sidebar.jsx?raw";
 
 // ----------------------------------------------------------------------

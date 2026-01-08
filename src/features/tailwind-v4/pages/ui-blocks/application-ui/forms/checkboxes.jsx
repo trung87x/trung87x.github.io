@@ -5,19 +5,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. List with description
-import ListWithDescription from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_description";
+import ListWithDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/checkboxes/list_with_description";
 import ListWithDescriptionRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_description.jsx?raw";
 
 // 02. List with inline description
-import ListWithInlineDescription from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_inline_description";
+import ListWithInlineDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/checkboxes/list_with_inline_description";
 import ListWithInlineDescriptionRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_inline_description.jsx?raw";
 
 // 03. List with checkbox on right
-import ListWithCheckboxOnRight from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_checkbox_on_right";
+import ListWithCheckboxOnRight from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/checkboxes/list_with_checkbox_on_right";
 import ListWithCheckboxOnRightRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/list_with_checkbox_on_right.jsx?raw";
 
 // 04. Simple list with heading
-import SimpleListWithHeading from "@/components/ui-blocks/application-ui/forms/checkboxes/simple_list_with_heading";
+import SimpleListWithHeading from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/checkboxes/simple_list_with_heading";
 import SimpleListWithHeadingRaw from "@/components/ui-blocks/application-ui/forms/checkboxes/simple_list_with_heading.jsx?raw";
 
 // ----------------------------------------------------------------------

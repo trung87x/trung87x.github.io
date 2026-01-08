@@ -1,15 +1,15 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With image tiles
-import WithImageTiles from "@/components/ui-blocks/marketing/page-examples/about-pages/with_image_tiles";
+import WithImageTiles from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/about-pages/with_image_tiles";
 import WithImageTilesRaw from "@/components/ui-blocks/marketing/page-examples/about-pages/with_image_tiles.jsx?raw";
 
 // 02. With timeline and stats
-import WithTimelineAndStats from "@/components/ui-blocks/marketing/page-examples/about-pages/with_timeline_and_stats";
+import WithTimelineAndStats from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/about-pages/with_timeline_and_stats";
 import WithTimelineAndStatsRaw from "@/components/ui-blocks/marketing/page-examples/about-pages/with_timeline_and_stats.jsx?raw";
 
 // 03. With two column description
-import WithTwoColumnDescription from "@/components/ui-blocks/marketing/page-examples/about-pages/dark";
+import WithTwoColumnDescription from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/about-pages/dark";
 import WithTwoColumnDescriptionRaw from "@/components/ui-blocks/marketing/page-examples/about-pages/dark.jsx?raw";
 
 const AboutPagesDemoPage = () => {

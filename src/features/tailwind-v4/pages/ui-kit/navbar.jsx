@@ -1,43 +1,43 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/navbar/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/navbar/basic";
 import BasicRaw from "@/components/ui-kit/navbar/basic.jsx?raw";
 
 // 02. With logo
-import WithLogo from "@/components/ui-kit/navbar/with-logo";
+import WithLogo from "@/features/tailwind-v4/components/ui-kit/navbar/with-logo";
 import WithLogoRaw from "@/components/ui-kit/navbar/with-logo.jsx?raw";
 
 // 03. With active state
-import ActiveState from "@/components/ui-kit/navbar/active-state";
+import ActiveState from "@/features/tailwind-v4/components/ui-kit/navbar/active-state";
 import ActiveStateRaw from "@/components/ui-kit/navbar/active-state.jsx?raw";
 
 // 04. With icon links
-import IconLinks from "@/components/ui-kit/navbar/icon-links";
+import IconLinks from "@/features/tailwind-v4/components/ui-kit/navbar/icon-links";
 import IconLinksRaw from "@/components/ui-kit/navbar/icon-links.jsx?raw";
 
 // 05. With space between items
-import SpaceBetween from "@/components/ui-kit/navbar/space-between";
+import SpaceBetween from "@/features/tailwind-v4/components/ui-kit/navbar/space-between";
 import SpaceBetweenRaw from "@/components/ui-kit/navbar/space-between.jsx?raw";
 
 // 06. With divider
-import WithDivider from "@/components/ui-kit/navbar/with-divider";
+import WithDivider from "@/features/tailwind-v4/components/ui-kit/navbar/with-divider";
 import WithDividerRaw from "@/components/ui-kit/navbar/with-divider.jsx?raw";
 
 // 07. With dropdown
-import WithDropdown from "@/components/ui-kit/navbar/with-dropdown";
+import WithDropdown from "@/features/tailwind-v4/components/ui-kit/navbar/with-dropdown";
 import WithDropdownRaw from "@/components/ui-kit/navbar/with-dropdown.jsx?raw";
 
 // 08. With avatar dropdown
-import AvatarDropdown from "@/components/ui-kit/navbar/avatar-dropdown";
+import AvatarDropdown from "@/features/tailwind-v4/components/ui-kit/navbar/avatar-dropdown";
 import AvatarDropdownRaw from "@/components/ui-kit/navbar/avatar-dropdown.jsx?raw";
 
 // 09. With mobile menu
-import MobileMenu from "@/components/ui-kit/navbar/mobile-menu";
+import MobileMenu from "@/features/tailwind-v4/components/ui-kit/navbar/mobile-menu";
 import MobileMenuRaw from "@/components/ui-kit/navbar/mobile-menu.jsx?raw";
 
 // 10. Hiding items on mobile
-import HidingMobile from "@/components/ui-kit/navbar/hiding-mobile";
+import HidingMobile from "@/features/tailwind-v4/components/ui-kit/navbar/hiding-mobile";
 import HidingMobileRaw from "@/components/ui-kit/navbar/hiding-mobile.jsx?raw";
 
 const Page = () => {

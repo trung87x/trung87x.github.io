@@ -1,15 +1,15 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With four tiers
-import WithFourTiers from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_four_tiers";
+import WithFourTiers from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/pricing-pages/with_four_tiers";
 import WithFourTiersRaw from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_four_tiers.jsx?raw";
 
 // 02. With comparison table
-import WithComparisonTable from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_comparison_table";
+import WithComparisonTable from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/pricing-pages/with_comparison_table";
 import WithComparisonTableRaw from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_comparison_table.jsx?raw";
 
 // 03. With three tiers and testimonials
-import WithThreeTiersAndTestimonials from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials";
+import WithThreeTiersAndTestimonials from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials";
 import WithThreeTiersAndTestimonialsRaw from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_three_tiers_and_testimonials.jsx?raw";
 
 const PricingPagesDemoPage = () => {

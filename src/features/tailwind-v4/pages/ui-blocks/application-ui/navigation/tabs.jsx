@@ -5,39 +5,39 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Tabs with underline
-import TabsWithUnderline from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline";
+import TabsWithUnderline from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline";
 import TabsWithUnderlineRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline.jsx?raw";
 
 // 02. Tabs with underline and icons
-import TabsWithUnderlineAndIcons from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_icons";
+import TabsWithUnderlineAndIcons from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_icons";
 import TabsWithUnderlineAndIconsRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_icons.jsx?raw";
 
 // 03. Tabs in pills
-import TabsInPills from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills";
+import TabsInPills from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills";
 import TabsInPillsRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills.jsx?raw";
 
 // 04. Tabs in pills on gray
-import TabsInPillsOnGray from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_on_gray";
+import TabsInPillsOnGray from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_on_gray";
 import TabsInPillsOnGrayRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_on_gray.jsx?raw";
 
 // 05. Tabs in pills with brand color
-import TabsInPillsWithBrandColor from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_with_brand_color";
+import TabsInPillsWithBrandColor from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_with_brand_color";
 import TabsInPillsWithBrandColorRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_in_pills_with_brand_color.jsx?raw";
 
 // 06. Full-width tabs with underline
-import FullWidthTabsWithUnderline from "@/components/ui-blocks/application-ui/navigation/tabs/full_width_tabs_with_underline";
+import FullWidthTabsWithUnderline from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/full_width_tabs_with_underline";
 import FullWidthTabsWithUnderlineRaw from "@/components/ui-blocks/application-ui/navigation/tabs/full_width_tabs_with_underline.jsx?raw";
 
 // 07. Bar with underline
-import BarWithUnderline from "@/components/ui-blocks/application-ui/navigation/tabs/bar_with_underline";
+import BarWithUnderline from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/bar_with_underline";
 import BarWithUnderlineRaw from "@/components/ui-blocks/application-ui/navigation/tabs/bar_with_underline.jsx?raw";
 
 // 08. Tabs with underline and badges
-import TabsWithUnderlineAndBadges from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_badges";
+import TabsWithUnderlineAndBadges from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_badges";
 import TabsWithUnderlineAndBadgesRaw from "@/components/ui-blocks/application-ui/navigation/tabs/tabs_with_underline_and_badges.jsx?raw";
 
 // 09. Simple
-import SimpleTabs from "@/components/ui-blocks/application-ui/navigation/tabs/simple_on_dark";
+import SimpleTabs from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/tabs/simple_on_dark";
 import SimpleTabsRaw from "@/components/ui-blocks/application-ui/navigation/tabs/simple_on_dark.jsx?raw";
 
 // ----------------------------------------------------------------------

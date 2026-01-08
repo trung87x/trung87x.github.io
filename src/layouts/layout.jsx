@@ -1,6 +1,6 @@
-import { Navbar } from "@/components/ui-kit/navbar";
-import { Sidebar } from "@/components/ui-kit/sidebar";
-import { StackedLayout } from "@/components/ui-kit/stacked-layout";
+import { Navbar } from "@/features/tailwind-v4/components/ui-kit/navbar";
+import { Sidebar } from "@/features/tailwind-v4/components/ui-kit/sidebar";
+import { StackedLayout } from "@/features/tailwind-v4/components/ui-kit/stacked-layout";
 import { Link, Outlet } from "react-router-dom";
 
 const Layout = () => {

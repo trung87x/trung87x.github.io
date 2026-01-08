@@ -1,11 +1,11 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 00. Stacked layout
-import StackedLayout from "@/components/ui-kit/stacked-layout/stacked-layout";
+import StackedLayout from "@/features/tailwind-v4/components/ui-kit/stacked-layout/stacked-layout";
 import StackedLayoutRaw from "@/components/ui-kit/stacked-layout/stacked-layout.jsx?raw";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/stacked-layout/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/stacked-layout/basic";
 import BasicRaw from "@/components/ui-kit/stacked-layout/basic.jsx?raw";
 
 const Page = () => {

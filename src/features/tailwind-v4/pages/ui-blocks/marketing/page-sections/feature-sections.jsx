@@ -1,63 +1,63 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With product screenshot
-import WithProductScreenshot from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot";
+import WithProductScreenshot from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot";
 import WithProductScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot.jsx?raw";
 
 // 02. Centered 2x2 grid
-import Centered2x2Grid from "@/components/ui-blocks/marketing/page-sections/feature-sections/centered_2x2_grid";
+import Centered2x2Grid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/centered_2x2_grid";
 import Centered2x2GridRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/centered_2x2_grid.jsx?raw";
 
 // 03. With large screenshot
-import WithLargeScreenshot from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_large_screenshot";
+import WithLargeScreenshot from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_large_screenshot";
 import WithLargeScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_large_screenshot.jsx?raw";
 
 // 04. With large bordered screenshot
-import WithLargeBorderedScreenshot from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_large_bordered_screenshot";
+import WithLargeBorderedScreenshot from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_large_bordered_screenshot";
 import WithLargeBorderedScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_large_bordered_screenshot.jsx?raw";
 
 // 05. Simple three column with small icons
-import SimpleThreeColumnSmallIcons from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple_three_column_with_small_icons";
+import SimpleThreeColumnSmallIcons from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/simple_three_column_with_small_icons";
 import SimpleThreeColumnSmallIconsRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple_three_column_with_small_icons.jsx?raw";
 
 // 06. With product screenshot on left
-import WithProductScreenshotOnLeft from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot_on_left";
+import WithProductScreenshotOnLeft from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot_on_left";
 import WithProductScreenshotOnLeftRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot_on_left.jsx?raw";
 
 // 07. Simple three column with large icons
-import SimpleThreeColumnLargeIcons from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple_three_column_with_large_icons";
+import SimpleThreeColumnLargeIcons from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/simple_three_column_with_large_icons";
 import SimpleThreeColumnLargeIconsRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple_three_column_with_large_icons.jsx?raw";
 
 // 08. Contained in panel
-import ContainedInPanel from "@/components/ui-blocks/marketing/page-sections/feature-sections/contained_in_panel";
+import ContainedInPanel from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/contained_in_panel";
 import ContainedInPanelRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/contained_in_panel.jsx?raw";
 
 // 09. With product screenshot panel
-import WithProductScreenshotPanel from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot_panel";
+import WithProductScreenshotPanel from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot_panel";
 import WithProductScreenshotPanelRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot_panel.jsx?raw";
 
 // 10. With testimonial
-import WithTestimonial from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_testimonial";
+import WithTestimonial from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_testimonial";
 import WithTestimonialRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_testimonial.jsx?raw";
 
 // 11. Offset 2x2 grid
-import Offset2x2Grid from "@/components/ui-blocks/marketing/page-sections/feature-sections/offset_2x2_grid";
+import Offset2x2Grid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/offset_2x2_grid";
 import Offset2x2GridRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/offset_2x2_grid.jsx?raw";
 
 // 12. With code example panel
-import WithCodeExamplePanel from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_code_example_panel";
+import WithCodeExamplePanel from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/with_code_example_panel";
 import WithCodeExamplePanelRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_code_example_panel.jsx?raw";
 
 // 13. Offset with feature list
-import OffsetWithFeatureList from "@/components/ui-blocks/marketing/page-sections/feature-sections/offset_with_feature_list";
+import OffsetWithFeatureList from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/offset_with_feature_list";
 import OffsetWithFeatureListRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/offset_with_feature_list.jsx?raw";
 
 // 14. Simple
-import Simple from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/simple";
 import SimpleRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple.jsx?raw";
 
 // 15. Simple 3x2 grid
-import Simple3x2Grid from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple_3x2_on_dark";
+import Simple3x2Grid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/feature-sections/simple_3x2_on_dark";
 import Simple3x2GridRaw from "@/components/ui-blocks/marketing/page-sections/feature-sections/simple_3x2_on_dark.jsx?raw";
 
 const FeatureDemoPage = () => {

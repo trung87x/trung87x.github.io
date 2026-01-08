@@ -1,27 +1,27 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Button colors
-import ButtonColors from "@/components/ui-kit/button/button-colors";
+import ButtonColors from "@/features/tailwind-v4/components/ui-kit/button/button-colors";
 import ButtonColorsRaw from "@/components/ui-kit/button/button-colors.jsx?raw";
 
 // 02. Outline buttons
-import OutlineButtons from "@/components/ui-kit/button/outline-buttons";
+import OutlineButtons from "@/features/tailwind-v4/components/ui-kit/button/outline-buttons";
 import OutlineButtonsRaw from "@/components/ui-kit/button/outline-buttons.jsx?raw";
 
 // 03. Plain buttons
-import PlainButtons from "@/components/ui-kit/button/plain-buttons";
+import PlainButtons from "@/features/tailwind-v4/components/ui-kit/button/plain-buttons";
 import PlainButtonsRaw from "@/components/ui-kit/button/plain-buttons.jsx?raw";
 
 // 04. Disabled states
-import DisabledStates from "@/components/ui-kit/button/disabled-states";
+import DisabledStates from "@/features/tailwind-v4/components/ui-kit/button/disabled-states";
 import DisabledStatesRaw from "@/components/ui-kit/button/disabled-states.jsx?raw";
 
 // 05. With icon
-import ButtonWithIcon from "@/components/ui-kit/button/with-icon";
+import ButtonWithIcon from "@/features/tailwind-v4/components/ui-kit/button/with-icon";
 import ButtonWithIconRaw from "@/components/ui-kit/button/with-icon.jsx?raw";
 
 // 06. Using as a link
-import ButtonAsLink from "@/components/ui-kit/button/as-link";
+import ButtonAsLink from "@/features/tailwind-v4/components/ui-kit/button/as-link";
 import ButtonAsLinkRaw from "@/components/ui-kit/button/as-link.jsx?raw";
 
 const Page = () => {

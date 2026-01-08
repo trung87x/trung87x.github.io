@@ -5,11 +5,11 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With sidebar
-import WithSidebar from "@/components/ui-blocks/application-ui/page-examples/settings-screens/sidebar_on_dark";
+import WithSidebar from "@/features/tailwind-v4/components/ui-blocks/application-ui/page-examples/settings-screens/sidebar_on_dark";
 import WithSidebarRaw from "@/components/ui-blocks/application-ui/page-examples/settings-screens/sidebar_on_dark.jsx?raw";
 
 // 02. Stacked
-import Stacked from "@/components/ui-blocks/application-ui/page-examples/settings-screens/stacked";
+import Stacked from "@/features/tailwind-v4/components/ui-blocks/application-ui/page-examples/settings-screens/stacked";
 import StackedRaw from "@/components/ui-blocks/application-ui/page-examples/settings-screens/stacked.jsx?raw";
 
 // ----------------------------------------------------------------------

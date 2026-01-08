@@ -1,15 +1,15 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic heading
-import BasicHeading from "@/components/ui-kit/heading/basic-heading";
+import BasicHeading from "@/features/tailwind-v4/components/ui-kit/heading/basic-heading";
 import BasicHeadingRaw from "@/components/ui-kit/heading/basic-heading.jsx?raw";
 
 // 02. Basic subheading
-import BasicSubheading from "@/components/ui-kit/heading/basic-subheading";
+import BasicSubheading from "@/features/tailwind-v4/components/ui-kit/heading/basic-subheading";
 import BasicSubheadingRaw from "@/components/ui-kit/heading/basic-subheading.jsx?raw";
 
 // 03. With custom level
-import CustomLevel from "@/components/ui-kit/heading/custom-level";
+import CustomLevel from "@/features/tailwind-v4/components/ui-kit/heading/custom-level";
 import CustomLevelRaw from "@/components/ui-kit/heading/custom-level.jsx?raw";
 
 const Page = () => {

@@ -1,15 +1,15 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Three column bento grid
-import ThreeColumnBentoGrid from "@/components/ui-blocks/marketing/page-sections/bento-grids/three_column_bento_grid";
+import ThreeColumnBentoGrid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/bento-grids/three_column_bento_grid";
 import ThreeColumnBentoGridRaw from "@/components/ui-blocks/marketing/page-sections/bento-grids/three_column_bento_grid.jsx?raw";
 
 // 02. Two row bento grid
-import TwoRowBentoGridOnDark from "@/components/ui-blocks/marketing/page-sections/bento-grids/two_row_bento_grid_on_dark";
+import TwoRowBentoGridOnDark from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/bento-grids/two_row_bento_grid_on_dark";
 import TwoRowBentoGridOnDarkRaw from "@/components/ui-blocks/marketing/page-sections/bento-grids/two_row_bento_grid_on_dark.jsx?raw";
 
 // 03. Two row bento grid with three column second row
-import TwoRowBentoGrid from "@/components/ui-blocks/marketing/page-sections/bento-grids/two_row_bento_grid";
+import TwoRowBentoGrid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/bento-grids/two_row_bento_grid";
 import TwoRowBentoGridRaw from "@/components/ui-blocks/marketing/page-sections/bento-grids/two_row_bento_grid.jsx?raw";
 
 const BentoGridsDemoPage = () => {

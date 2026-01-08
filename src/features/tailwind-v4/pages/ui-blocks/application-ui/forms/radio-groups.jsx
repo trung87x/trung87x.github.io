@@ -5,51 +5,51 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple list
-import SimpleList from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list";
+import SimpleList from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/simple_list";
 import SimpleListRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list.jsx?raw";
 
 // 02. Simple inline list
-import SimpleInlineList from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_inline_list";
+import SimpleInlineList from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/simple_inline_list";
 import SimpleInlineListRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_inline_list.jsx?raw";
 
 // 03. List with description
-import ListWithDescription from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_description";
+import ListWithDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/list_with_description";
 import ListWithDescriptionRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_description.jsx?raw";
 
 // 04. List with inline description
-import ListWithInlineDescription from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_inline_description";
+import ListWithInlineDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/list_with_inline_description";
 import ListWithInlineDescriptionRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_inline_description.jsx?raw";
 
 // 05. List with radio on right
-import ListWithRadioOnRight from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_radio_on_right";
+import ListWithRadioOnRight from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/list_with_radio_on_right";
 import ListWithRadioOnRightRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_radio_on_right.jsx?raw";
 
 // 06. Simple list with radio on right
-import SimpleListWithRadioOnRight from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list_with_radio_on_right";
+import SimpleListWithRadioOnRight from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/simple_list_with_radio_on_right";
 import SimpleListWithRadioOnRightRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_list_with_radio_on_right.jsx?raw";
 
 // 07. Simple table
-import SimpleTable from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_table";
+import SimpleTable from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/simple_table";
 import SimpleTableRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/simple_table.jsx?raw";
 
 // 08. List with descriptions in panel
-import ListWithDescriptionsInPanel from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_descriptions_in_panel";
+import ListWithDescriptionsInPanel from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/list_with_descriptions_in_panel";
 import ListWithDescriptionsInPanelRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/list_with_descriptions_in_panel.jsx?raw";
 
 // 09. Color picker
-import ColorPicker from "@/components/ui-blocks/application-ui/forms/radio-groups/color_picker";
+import ColorPicker from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/color_picker";
 import ColorPickerRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/color_picker.jsx?raw";
 
 // 10. Cards
-import Cards from "@/components/ui-blocks/application-ui/forms/radio-groups/cards";
+import Cards from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/cards";
 import CardsRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/cards.jsx?raw";
 
 // 11. Small cards
-import SmallCards from "@/components/ui-blocks/application-ui/forms/radio-groups/small_cards";
+import SmallCards from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/small_cards";
 import SmallCardsRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/small_cards.jsx?raw";
 
 // 12. Stacked cards
-import StackedCards from "@/components/ui-blocks/application-ui/forms/radio-groups/stacked_cards";
+import StackedCards from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/radio-groups/stacked_cards";
 import StackedCardsRaw from "@/components/ui-blocks/application-ui/forms/radio-groups/stacked_cards.jsx?raw";
 
 // ----------------------------------------------------------------------

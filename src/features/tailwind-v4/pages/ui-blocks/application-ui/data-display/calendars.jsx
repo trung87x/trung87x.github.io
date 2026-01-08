@@ -1,35 +1,35 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Small with meetings
-import SmallWithMeetings from "@/components/ui-blocks/application-ui/data-display/calendars/small_with_meetings";
+import SmallWithMeetings from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/small_with_meetings";
 import SmallWithMeetingsRaw from "@/components/ui-blocks/application-ui/data-display/calendars/small_with_meetings.jsx?raw";
 
 // 02. Month view
-import MonthView from "@/components/ui-blocks/application-ui/data-display/calendars/month_view";
+import MonthView from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/month_view";
 import MonthViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/month_view.jsx?raw";
 
 // 03. Week view
-import WeekView from "@/components/ui-blocks/application-ui/data-display/calendars/week_view";
+import WeekView from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/week_view";
 import WeekViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/week_view.jsx?raw";
 
 // 04. Day view
-import DayView from "@/components/ui-blocks/application-ui/data-display/calendars/day_view";
+import DayView from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/day_view";
 import DayViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/day_view.jsx?raw";
 
 // 05. Year view
-import YearView from "@/components/ui-blocks/application-ui/data-display/calendars/year_view";
+import YearView from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/year_view";
 import YearViewRaw from "@/components/ui-blocks/application-ui/data-display/calendars/year_view.jsx?raw";
 
 // 06. Double
-import Double from "@/components/ui-blocks/application-ui/data-display/calendars/double";
+import Double from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/double";
 import DoubleRaw from "@/components/ui-blocks/application-ui/data-display/calendars/double.jsx?raw";
 
 // 07. Borderless stacked
-import BorderlessStacked from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_stacked";
+import BorderlessStacked from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/borderless_stacked";
 import BorderlessStackedRaw from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_stacked.jsx?raw";
 
 // 08. Borderless side-by-side
-import BorderlessSideBySide from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_side_by_side";
+import BorderlessSideBySide from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/calendars/borderless_side_by_side";
 import BorderlessSideBySideRaw from "@/components/ui-blocks/application-ui/data-display/calendars/borderless_side_by_side.jsx?raw";
 
 const CalendarsDemoPage = () => {

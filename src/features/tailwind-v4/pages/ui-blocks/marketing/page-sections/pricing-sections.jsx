@@ -1,51 +1,51 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Two tiers with emphasized right tier
-import TwoTiersWithEmphasizedTier from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_emphasized_tier";
+import TwoTiersWithEmphasizedTier from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_emphasized_tier";
 import TwoTiersWithEmphasizedTierRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_emphasized_tier.jsx?raw";
 
 // 02. Two tiers with emphasized left tier
-import TwoTiersWithEmphasizedLeftTier from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers";
+import TwoTiersWithEmphasizedLeftTier from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers";
 import TwoTiersWithEmphasizedLeftTierRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers.jsx?raw";
 
 // 03. Three tiers with logos and feature comparison
-import ThreeTiersWithLogosAndFeatureComparison from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_logos_and_feature_comparison";
+import ThreeTiersWithLogosAndFeatureComparison from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_logos_and_feature_comparison";
 import ThreeTiersWithLogosAndFeatureComparisonRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_logos_and_feature_comparison.jsx?raw";
 
 // 04. Two tiers with extra tier
-import TwoTiersWithExtraTier from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_extra_tier";
+import TwoTiersWithExtraTier from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_extra_tier";
 import TwoTiersWithExtraTierRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_extra_tier.jsx?raw";
 
 // 05. Single price with details
-import SinglePriceWithDetails from "@/components/ui-blocks/marketing/page-sections/pricing-sections/single_price_with_details";
+import SinglePriceWithDetails from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/single_price_with_details";
 import SinglePriceWithDetailsRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/single_price_with_details.jsx?raw";
 
 // 06. Three tiers
-import ThreeTiers from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers";
+import ThreeTiers from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers";
 import ThreeTiersRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers.jsx?raw";
 
 // 07. Three tiers with dividers
-import ThreeTiersWithDividers from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_dividers";
+import ThreeTiersWithDividers from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_dividers";
 import ThreeTiersWithDividersRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_dividers.jsx?raw";
 
 // 08. Three tiers with emphasized tier
-import ThreeTiersWithEmphasizedTier from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_emphasized_tier";
+import ThreeTiersWithEmphasizedTier from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_emphasized_tier";
 import ThreeTiersWithEmphasizedTierRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_emphasized_tier.jsx?raw";
 
 // 09. Three tiers with toggle
-import ThreeTiersWithToggle from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_toggle";
+import ThreeTiersWithToggle from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_toggle";
 import ThreeTiersWithToggleRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_toggle.jsx?raw";
 
 // 10. Four tiers with toggle
-import FourTiersWithToggle from "@/components/ui-blocks/marketing/page-sections/pricing-sections/four_tiers_with_toggle";
+import FourTiersWithToggle from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/four_tiers_with_toggle";
 import FourTiersWithToggleRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/four_tiers_with_toggle.jsx?raw";
 
 // 11. With comparison table
-import WithComparisonTable from "@/components/ui-blocks/marketing/page-sections/pricing-sections/with_comparison_table";
+import WithComparisonTable from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/with_comparison_table";
 import WithComparisonTableRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/with_comparison_table.jsx?raw";
 
 // 12. Three tiers with feature comparison
-import ThreeTiersWithFeatureComparison from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_feature_comparison";
+import ThreeTiersWithFeatureComparison from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_feature_comparison";
 import ThreeTiersWithFeatureComparisonRaw from "@/components/ui-blocks/marketing/page-sections/pricing-sections/three_tiers_with_feature_comparison.jsx?raw";
 
 const PricingDemoPage = () => {

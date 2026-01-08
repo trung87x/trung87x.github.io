@@ -1,55 +1,55 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/listbox/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/listbox/basic";
 import BasicRaw from "@/components/ui-kit/listbox/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/ui-kit/listbox/with-label";
+import WithLabel from "@/features/tailwind-v4/components/ui-kit/listbox/with-label";
 import WithLabelRaw from "@/components/ui-kit/listbox/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/ui-kit/listbox/with-description";
+import WithDescription from "@/features/tailwind-v4/components/ui-kit/listbox/with-description";
 import WithDescriptionRaw from "@/components/ui-kit/listbox/with-description.jsx?raw";
 
 // 04. With placeholder
-import WithPlaceholder from "@/components/ui-kit/listbox/with-placeholder";
+import WithPlaceholder from "@/features/tailwind-v4/components/ui-kit/listbox/with-placeholder";
 import WithPlaceholderRaw from "@/components/ui-kit/listbox/with-placeholder.jsx?raw";
 
 // 05. With avatars
-import WithAvatars from "@/components/ui-kit/listbox/with-avatars";
+import WithAvatars from "@/features/tailwind-v4/components/ui-kit/listbox/with-avatars";
 import WithAvatarsRaw from "@/components/ui-kit/listbox/with-avatars.jsx?raw";
 
 // 06. With icons
-import WithIcons from "@/components/ui-kit/listbox/with-icons";
+import WithIcons from "@/features/tailwind-v4/components/ui-kit/listbox/with-icons";
 import WithIconsRaw from "@/components/ui-kit/listbox/with-icons.jsx?raw";
 
 // 07. With flags
-import WithFlags from "@/components/ui-kit/listbox/with-flags";
+import WithFlags from "@/features/tailwind-v4/components/ui-kit/listbox/with-flags";
 import WithFlagsRaw from "@/components/ui-kit/listbox/with-flags.jsx?raw";
 
 // 08. With secondary text
-import SecondaryText from "@/components/ui-kit/listbox/secondary-text";
+import SecondaryText from "@/features/tailwind-v4/components/ui-kit/listbox/secondary-text";
 import SecondaryTextRaw from "@/components/ui-kit/listbox/secondary-text.jsx?raw";
 
 // 09. Disabled state
-import DisabledState from "@/components/ui-kit/listbox/disabled";
+import DisabledState from "@/features/tailwind-v4/components/ui-kit/listbox/disabled";
 import DisabledStateRaw from "@/components/ui-kit/listbox/disabled.jsx?raw";
 
 // 10. Validation errors
-import ValidationErrors from "@/components/ui-kit/listbox/validation-errors";
+import ValidationErrors from "@/features/tailwind-v4/components/ui-kit/listbox/validation-errors";
 import ValidationErrorsRaw from "@/components/ui-kit/listbox/validation-errors.jsx?raw";
 
 // 11. Constraining width
-import ConstrainingWidth from "@/components/ui-kit/listbox/constraining-width";
+import ConstrainingWidth from "@/features/tailwind-v4/components/ui-kit/listbox/constraining-width";
 import ConstrainingWidthRaw from "@/components/ui-kit/listbox/constraining-width.jsx?raw";
 
 // 12. With custom layout
-import CustomLayout from "@/components/ui-kit/listbox/custom-layout";
+import CustomLayout from "@/features/tailwind-v4/components/ui-kit/listbox/custom-layout";
 import CustomLayoutRaw from "@/components/ui-kit/listbox/custom-layout.jsx?raw";
 
 // 13. Controlled component
-import Controlled from "@/components/ui-kit/listbox/controlled";
+import Controlled from "@/features/tailwind-v4/components/ui-kit/listbox/controlled";
 import ControlledRaw from "@/components/ui-kit/listbox/controlled.jsx?raw";
 
 const mockUsers = [

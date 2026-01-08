@@ -5,39 +5,39 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With image grid
-import WithImageGrid from "@/components/ui-blocks/ecommerce/components/product-features/with_image_grid";
+import WithImageGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_image_grid";
 import WithImageGridRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_image_grid.jsx?raw";
 
 // 02. With header, images, and descriptions
-import WithHeaderImagesAndDescriptions from "@/components/ui-blocks/ecommerce/components/product-features/with_header__images__and_descriptions";
+import WithHeaderImagesAndDescriptions from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_header__images__and_descriptions";
 import WithHeaderImagesAndDescriptionsRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_header__images__and_descriptions.jsx?raw";
 
 // 03. With fading image
-import WithFadingImage from "@/components/ui-blocks/ecommerce/components/product-features/with_fading_image";
+import WithFadingImage from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_fading_image";
 import WithFadingImageRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_fading_image.jsx?raw";
 
 // 04. With wide images
-import WithWideImages from "@/components/ui-blocks/ecommerce/components/product-features/with_wide_images";
+import WithWideImages from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_wide_images";
 import WithWideImagesRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_wide_images.jsx?raw";
 
 // 05. With split image
-import WithSplitImage from "@/components/ui-blocks/ecommerce/components/product-features/with_split_image";
+import WithSplitImage from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_split_image";
 import WithSplitImageRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_split_image.jsx?raw";
 
 // 06. With tabs
-import WithTabs from "@/components/ui-blocks/ecommerce/components/product-features/with_tabs";
+import WithTabs from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_tabs";
 import WithTabsRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_tabs.jsx?raw";
 
 // 07. With alternating sections
-import WithAlternatingSections from "@/components/ui-blocks/ecommerce/components/product-features/with_alternating_sections";
+import WithAlternatingSections from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_alternating_sections";
 import WithAlternatingSectionsRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_alternating_sections.jsx?raw";
 
 // 08. With square images
-import WithSquareImages from "@/components/ui-blocks/ecommerce/components/product-features/with_square_images";
+import WithSquareImages from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_square_images";
 import WithSquareImagesRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_square_images.jsx?raw";
 
 // 09. With tiered images
-import WithTieredImages from "@/components/ui-blocks/ecommerce/components/product-features/with_tiered_images";
+import WithTieredImages from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-features/with_tiered_images";
 import WithTieredImagesRaw from "@/components/ui-blocks/ecommerce/components/product-features/with_tiered_images.jsx?raw";
 
 // ----------------------------------------------------------------------

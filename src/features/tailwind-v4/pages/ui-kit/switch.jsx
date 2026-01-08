@@ -1,47 +1,47 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/switch/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/switch/basic";
 import BasicRaw from "@/components/ui-kit/switch/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/ui-kit/switch/with-label";
+import WithLabel from "@/features/tailwind-v4/components/ui-kit/switch/with-label";
 import WithLabelRaw from "@/components/ui-kit/switch/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/ui-kit/switch/with-description";
+import WithDescription from "@/features/tailwind-v4/components/ui-kit/switch/with-description";
 import WithDescriptionRaw from "@/components/ui-kit/switch/with-description.jsx?raw";
 
 // 04. With custom layout
-import CustomLayout from "@/components/ui-kit/switch/custom-layout";
+import CustomLayout from "@/features/tailwind-v4/components/ui-kit/switch/custom-layout";
 import CustomLayoutRaw from "@/components/ui-kit/switch/custom-layout.jsx?raw";
 
 // 05. With accent color
-import AccentColor from "@/components/ui-kit/switch/accent-color";
+import AccentColor from "@/features/tailwind-v4/components/ui-kit/switch/accent-color";
 import AccentColorRaw from "@/components/ui-kit/switch/accent-color.jsx?raw";
 
 // 06. With custom value
-import CustomValue from "@/components/ui-kit/switch/custom-value";
+import CustomValue from "@/features/tailwind-v4/components/ui-kit/switch/custom-value";
 import CustomValueRaw from "@/components/ui-kit/switch/custom-value.jsx?raw";
 
 // 07. Default checked state
-import DefaultChecked from "@/components/ui-kit/switch/default-checked";
+import DefaultChecked from "@/features/tailwind-v4/components/ui-kit/switch/default-checked";
 import DefaultCheckedRaw from "@/components/ui-kit/switch/default-checked.jsx?raw";
 
 // 08. Controlled component
-import Controlled from "@/components/ui-kit/switch/controlled";
+import Controlled from "@/features/tailwind-v4/components/ui-kit/switch/controlled";
 import ControlledRaw from "@/components/ui-kit/switch/controlled.jsx?raw";
 
 // 09. Multiple switches
-import MultipleSwitches from "@/components/ui-kit/switch/multiple";
+import MultipleSwitches from "@/features/tailwind-v4/components/ui-kit/switch/multiple";
 import MultipleSwitchesRaw from "@/components/ui-kit/switch/multiple.jsx?raw";
 
 // 10. With fieldset
-import WithFieldset from "@/components/ui-kit/switch/with-fieldset";
+import WithFieldset from "@/features/tailwind-v4/components/ui-kit/switch/with-fieldset";
 import WithFieldsetRaw from "@/components/ui-kit/switch/with-fieldset.jsx?raw";
 
 // 11. Disabled state
-import DisabledState from "@/components/ui-kit/switch/disabled";
+import DisabledState from "@/features/tailwind-v4/components/ui-kit/switch/disabled";
 import DisabledStateRaw from "@/components/ui-kit/switch/disabled.jsx?raw";
 
 const Page = () => {

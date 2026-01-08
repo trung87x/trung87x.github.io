@@ -1,11 +1,11 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 00. Sidebar layout
-import SidebarLayout from "@/components/ui-kit/sidebar-layout/sidebar-layout";
+import SidebarLayout from "@/features/tailwind-v4/components/ui-kit/sidebar-layout/sidebar-layout";
 import SidebarLayoutRaw from "@/components/ui-kit/sidebar-layout/sidebar-layout.jsx?raw";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/sidebar-layout/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/sidebar-layout/basic";
 import BasicRaw from "@/components/ui-kit/sidebar-layout/basic.jsx?raw";
 
 const Page = () => {

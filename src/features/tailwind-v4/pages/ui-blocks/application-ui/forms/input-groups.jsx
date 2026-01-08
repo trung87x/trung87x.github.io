@@ -5,87 +5,87 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Input with inline leading add-on and trailing dropdown
-import InputWithInlineLeadingAddOnAndTrailingDropdown from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_add_on_and_trailing_dropdown";
+import InputWithInlineLeadingAddOnAndTrailingDropdown from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_add_on_and_trailing_dropdown";
 import InputWithInlineLeadingAddOnAndTrailingDropdownRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_add_on_and_trailing_dropdown.jsx?raw";
 
 // 02. Input with label
-import InputWithLabel from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_label";
+import InputWithLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_label";
 import InputWithLabelRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_label.jsx?raw";
 
 // 03. Input with label and help text
-import InputWithLabelAndHelpText from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_label_and_help_text";
+import InputWithLabelAndHelpText from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_label_and_help_text";
 import InputWithLabelAndHelpTextRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_label_and_help_text.jsx?raw";
 
 // 04. Input with validation error
-import InputWithValidationError from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_validation_error";
+import InputWithValidationError from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_validation_error";
 import InputWithValidationErrorRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_validation_error.jsx?raw";
 
 // 05. Input with disabled state
-import InputWithDisabledState from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_disabled_state";
+import InputWithDisabledState from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_disabled_state";
 import InputWithDisabledStateRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_disabled_state.jsx?raw";
 
 // 06. Input with hidden label
-import InputWithHiddenLabel from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_hidden_label";
+import InputWithHiddenLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_hidden_label";
 import InputWithHiddenLabelRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_hidden_label.jsx?raw";
 
 // 07. Input with corner hint
-import InputWithCornerHint from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_corner_hint";
+import InputWithCornerHint from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_corner_hint";
 import InputWithCornerHintRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_corner_hint.jsx?raw";
 
 // 08. Input with leading icon
-import InputWithLeadingIcon from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_leading_icon";
+import InputWithLeadingIcon from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_leading_icon";
 import InputWithLeadingIconRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_leading_icon.jsx?raw";
 
 // 09. Input with trailing icon
-import InputWithTrailingIcon from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_trailing_icon";
+import InputWithTrailingIcon from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_trailing_icon";
 import InputWithTrailingIconRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_trailing_icon.jsx?raw";
 
 // 10. Input with add-on
-import InputWithAddOn from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_add_on";
+import InputWithAddOn from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_add_on";
 import InputWithAddOnRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_add_on.jsx?raw";
 
 // 11. Input with inline add-on
-import InputWithInlineAddOn from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_add_on";
+import InputWithInlineAddOn from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_add_on";
 import InputWithInlineAddOnRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_add_on.jsx?raw";
 
 // 12. Input with inline leading and trailing add-ons
-import InputWithInlineLeadingAndTrailingAddOns from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_and_trailing_add_ons";
+import InputWithInlineLeadingAndTrailingAddOns from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_and_trailing_add_ons";
 import InputWithInlineLeadingAndTrailingAddOnsRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_and_trailing_add_ons.jsx?raw";
 
 // 13. Input with inline leading dropdown
-import InputWithInlineLeadingDropdown from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_dropdown";
+import InputWithInlineLeadingDropdown from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_dropdown";
 import InputWithInlineLeadingDropdownRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inline_leading_dropdown.jsx?raw";
 
 // 14. Input with leading icon and trailing button
-import InputWithLeadingIconAndTrailingButton from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_leading_icon_and_trailing_button";
+import InputWithLeadingIconAndTrailingButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_leading_icon_and_trailing_button";
 import InputWithLeadingIconAndTrailingButtonRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_leading_icon_and_trailing_button.jsx?raw";
 
 // 15. Inputs with shared borders
-import InputsWithSharedBorders from "@/components/ui-blocks/application-ui/forms/input-groups/inputs_with_shared_borders";
+import InputsWithSharedBorders from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/inputs_with_shared_borders";
 import InputsWithSharedBordersRaw from "@/components/ui-blocks/application-ui/forms/input-groups/inputs_with_shared_borders.jsx?raw";
 
 // 16. Input with inset label
-import InputWithInsetLabel from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inset_label";
+import InputWithInsetLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_inset_label";
 import InputWithInsetLabelRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_inset_label.jsx?raw";
 
 // 17. Inputs with inset labels and shared borders
-import InputsWithInsetLabelsAndSharedBorders from "@/components/ui-blocks/application-ui/forms/input-groups/inputs_with_inset_labels_and_shared_borders";
+import InputsWithInsetLabelsAndSharedBorders from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/inputs_with_inset_labels_and_shared_borders";
 import InputsWithInsetLabelsAndSharedBordersRaw from "@/components/ui-blocks/application-ui/forms/input-groups/inputs_with_inset_labels_and_shared_borders.jsx?raw";
 
 // 18. Input with overlapping label
-import InputWithOverlappingLabel from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_overlapping_label";
+import InputWithOverlappingLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_overlapping_label";
 import InputWithOverlappingLabelRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_overlapping_label.jsx?raw";
 
 // 19. Input with pill shape
-import InputWithPillShape from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_pill_shape";
+import InputWithPillShape from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_pill_shape";
 import InputWithPillShapeRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_pill_shape.jsx?raw";
 
 // 20. Input with gray background and bottom border
-import InputWithGrayBackgroundAndBottomBorder from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_gray_background_and_bottom_border";
+import InputWithGrayBackgroundAndBottomBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_gray_background_and_bottom_border";
 import InputWithGrayBackgroundAndBottomBorderRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_gray_background_and_bottom_border.jsx?raw";
 
 // 21. Input with keyboard shortcut
-import InputWithKeyboardShortcut from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_keyboard_shortcut";
+import InputWithKeyboardShortcut from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/input-groups/input_with_keyboard_shortcut";
 import InputWithKeyboardShortcutRaw from "@/components/ui-blocks/application-ui/forms/input-groups/input_with_keyboard_shortcut.jsx?raw";
 
 // ----------------------------------------------------------------------

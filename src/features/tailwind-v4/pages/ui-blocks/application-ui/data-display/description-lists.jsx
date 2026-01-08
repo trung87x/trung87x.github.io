@@ -1,27 +1,27 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Left-aligned
-import LeftAligned from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned";
+import LeftAligned from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/description-lists/left_aligned";
 import LeftAlignedRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned.jsx?raw";
 
 // 02. Left-aligned in card
-import LeftAlignedInCard from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_in_card";
+import LeftAlignedInCard from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_in_card";
 import LeftAlignedInCardRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_in_card.jsx?raw";
 
 // 03. Left-aligned striped
-import LeftAlignedStriped from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_striped";
+import LeftAlignedStriped from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_striped";
 import LeftAlignedStripedRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_striped.jsx?raw";
 
 // 04. Two-column
-import TwoColumn from "@/components/ui-blocks/application-ui/data-display/description-lists/two_column";
+import TwoColumn from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/description-lists/two_column";
 import TwoColumnRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/two_column.jsx?raw";
 
 // 05. Left-aligned with inline actions
-import LeftAlignedWithInlineActions from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_with_inline_actions";
+import LeftAlignedWithInlineActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_with_inline_actions";
 import LeftAlignedWithInlineActionsRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned_with_inline_actions.jsx?raw";
 
 // 06. Narrow with hidden labels
-import NarrowWithHiddenLabels from "@/components/ui-blocks/application-ui/data-display/description-lists/narrow_with_hidden_labels";
+import NarrowWithHiddenLabels from "@/features/tailwind-v4/components/ui-blocks/application-ui/data-display/description-lists/narrow_with_hidden_labels";
 import NarrowWithHiddenLabelsRaw from "@/components/ui-blocks/application-ui/data-display/description-lists/narrow_with_hidden_labels.jsx?raw";
 
 const DescriptionListsDemoPage = () => {

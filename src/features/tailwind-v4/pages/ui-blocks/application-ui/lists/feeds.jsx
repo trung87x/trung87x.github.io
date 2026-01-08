@@ -5,15 +5,15 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple with icons
-import SimpleWithIcons from "@/components/ui-blocks/application-ui/lists/feeds/simple_with_icons";
+import SimpleWithIcons from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/feeds/simple_with_icons";
 import SimpleWithIconsRaw from "@/components/ui-blocks/application-ui/lists/feeds/simple_with_icons.jsx?raw";
 
 // 02. With comments
-import WithComments from "@/components/ui-blocks/application-ui/lists/feeds/with_comments";
+import WithComments from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/feeds/with_comments";
 import WithCommentsRaw from "@/components/ui-blocks/application-ui/lists/feeds/with_comments.jsx?raw";
 
 // 03. With multiple item types
-import WithMultipleItemTypes from "@/components/ui-blocks/application-ui/lists/feeds/with_multiple_item_types";
+import WithMultipleItemTypes from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/feeds/with_multiple_item_types";
 import WithMultipleItemTypesRaw from "@/components/ui-blocks/application-ui/lists/feeds/with_multiple_item_types.jsx?raw";
 
 // ----------------------------------------------------------------------

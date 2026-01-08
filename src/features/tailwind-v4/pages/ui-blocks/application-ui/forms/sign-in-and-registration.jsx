@@ -5,19 +5,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/sign-in-forms/simple";
 import SimpleRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple.jsx?raw";
 
 // 02. Simple no labels
-import SimpleNoLabels from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_no_labels";
+import SimpleNoLabels from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/sign-in-forms/simple_no_labels";
 import SimpleNoLabelsRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_no_labels.jsx?raw";
 
 // 03. Split screen
-import SplitScreen from "@/components/ui-blocks/application-ui/forms/sign-in-forms/split_screen";
+import SplitScreen from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/sign-in-forms/split_screen";
 import SplitScreenRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/split_screen.jsx?raw";
 
 // 04. Simple card
-import SimpleCard from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_card";
+import SimpleCard from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/sign-in-forms/simple_card";
 import SimpleCardRaw from "@/components/ui-blocks/application-ui/forms/sign-in-forms/simple_card.jsx?raw";
 
 // ----------------------------------------------------------------------

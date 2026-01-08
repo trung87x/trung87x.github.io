@@ -1,31 +1,31 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With sticky product screenshot
-import WithStickyProductScreenshot from "@/components/ui-blocks/marketing/page-sections/content-sections/with_sticky_product_screenshot";
+import WithStickyProductScreenshot from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/with_sticky_product_screenshot";
 import WithStickyProductScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_sticky_product_screenshot.jsx?raw";
 
 // 02. With testimonial
-import WithTestimonial from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial";
+import WithTestimonial from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial";
 import WithTestimonialRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial.jsx?raw";
 
 // 03. With image tiles
-import WithImageTitles from "@/components/ui-blocks/marketing/page-sections/content-sections/with_image_titles";
+import WithImageTitles from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/with_image_titles";
 import WithImageTitlesRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_image_titles.jsx?raw";
 
 // 04. Two columns with screenshot
-import TwoColumnsWithScreenshot from "@/components/ui-blocks/marketing/page-sections/content-sections/two_columns_with_screenshot";
+import TwoColumnsWithScreenshot from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/two_columns_with_screenshot";
 import TwoColumnsWithScreenshotRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/two_columns_with_screenshot.jsx?raw";
 
 // 05. With testimonial and stats
-import WithTestimonialAndStats from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial_and_stats";
+import WithTestimonialAndStats from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial_and_stats";
 import WithTestimonialAndStatsRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/with_testimonial_and_stats.jsx?raw";
 
 // 06. Split with image
-import SplitWithImage from "@/components/ui-blocks/marketing/page-sections/content-sections/split_with_image";
+import SplitWithImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/split_with_image";
 import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/split_with_image.jsx?raw";
 
 // 07. Centered
-import Centered from "@/components/ui-blocks/marketing/page-sections/content-sections/centered";
+import Centered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/content-sections/centered";
 import CenteredRaw from "@/components/ui-blocks/marketing/page-sections/content-sections/centered.jsx?raw";
 
 const ContentSectionsDemoPage = () => {

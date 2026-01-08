@@ -1,19 +1,19 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With screenshots and stats
-import WithScreenshotsAndStats from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_screenshots_and_stats";
+import WithScreenshotsAndStats from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/landing-pages/with_screenshots_and_stats";
 import WithScreenshotsAndStatsRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_screenshots_and_stats.jsx?raw";
 
 // 02. With large screenshot and testimonial
-import WithLargeScreenshotAndTestimonial from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial";
+import WithLargeScreenshotAndTestimonial from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial";
 import WithLargeScreenshotAndTestimonialRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_large_screenshot_and_testimonial.jsx?raw";
 
 // 03. With background image hero and pricing section
-import WithBackgroundImageHeroAndPricingSection from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section";
+import WithBackgroundImageHeroAndPricingSection from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section";
 import WithBackgroundImageHeroAndPricingSectionRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_background_image_hero_and_pricing_section.jsx?raw";
 
 // 04. With mobile screenshot and testimonials grid
-import WithMobileScreenshotAndTestimonialsGrid from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid";
+import WithMobileScreenshotAndTestimonialsGrid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid";
 import WithMobileScreenshotAndTestimonialsGridRaw from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_mobile_screenshot_and_testimonials_grid.jsx?raw";
 
 const LandingPagesDemoPage = () => {

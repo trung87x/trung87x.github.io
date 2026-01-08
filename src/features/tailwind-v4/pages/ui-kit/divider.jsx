@@ -1,15 +1,15 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/divider/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/divider/basic";
 import BasicRaw from "@/components/ui-kit/divider/basic.jsx?raw";
 
 // 02. With reduced contrast
-import ReducedContrast from "@/components/ui-kit/divider/reduced-contrast";
+import ReducedContrast from "@/features/tailwind-v4/components/ui-kit/divider/reduced-contrast";
 import ReducedContrastRaw from "@/components/ui-kit/divider/reduced-contrast.jsx?raw";
 
 // 03. With spacing
-import WithSpacing from "@/components/ui-kit/divider/with-spacing";
+import WithSpacing from "@/features/tailwind-v4/components/ui-kit/divider/with-spacing";
 import WithSpacingRaw from "@/components/ui-kit/divider/with-spacing.jsx?raw";
 
 const Page = () => {

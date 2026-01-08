@@ -5,23 +5,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Full-width on mobile, constrained with padded content above
-import FullWidthMobileConstrained from "@/components/ui-blocks/application-ui/layout/containers/full_width_on_mobile__constrained_with_padded_content_above";
+import FullWidthMobileConstrained from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/containers/full_width_on_mobile__constrained_with_padded_content_above";
 import FullWidthMobileConstrainedRaw from "@/components/ui-blocks/application-ui/layout/containers/full_width_on_mobile__constrained_with_padded_content_above.jsx?raw";
 
 // 02. Constrained with padded content
-import ConstrainedWithPaddedContent from "@/components/ui-blocks/application-ui/layout/containers/constrained_with_padded_content";
+import ConstrainedWithPaddedContent from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/containers/constrained_with_padded_content";
 import ConstrainedWithPaddedContentRaw from "@/components/ui-blocks/application-ui/layout/containers/constrained_with_padded_content.jsx?raw";
 
 // 03. Full-width on mobile, constrained to breakpoint with padded content above mobile
-import FullWidthMobileConstrainedToBreakpoint from "@/components/ui-blocks/application-ui/layout/containers/full_width_on_mobile__constrained_to_breakpoint_with_padded_content_above_mobile";
+import FullWidthMobileConstrainedToBreakpoint from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/containers/full_width_on_mobile__constrained_to_breakpoint_with_padded_content_above_mobile";
 import FullWidthMobileConstrainedToBreakpointRaw from "@/components/ui-blocks/application-ui/layout/containers/full_width_on_mobile__constrained_to_breakpoint_with_padded_content_above_mobile.jsx?raw";
 
 // 04. Constrained to breakpoint with padded content
-import ConstrainedToBreakpointWithPaddedContent from "@/components/ui-blocks/application-ui/layout/containers/constrained_to_breakpoint_with_padded_content";
+import ConstrainedToBreakpointWithPaddedContent from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/containers/constrained_to_breakpoint_with_padded_content";
 import ConstrainedToBreakpointWithPaddedContentRaw from "@/components/ui-blocks/application-ui/layout/containers/constrained_to_breakpoint_with_padded_content.jsx?raw";
 
 // 05. Narrow constrained with padded content
-import NarrowConstrainedWithPaddedContent from "@/components/ui-blocks/application-ui/layout/containers/narrow_constrained_with_padded_content";
+import NarrowConstrainedWithPaddedContent from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/containers/narrow_constrained_with_padded_content";
 import NarrowConstrainedWithPaddedContentRaw from "@/components/ui-blocks/application-ui/layout/containers/narrow_constrained_with_padded_content.jsx?raw";
 
 // ----------------------------------------------------------------------

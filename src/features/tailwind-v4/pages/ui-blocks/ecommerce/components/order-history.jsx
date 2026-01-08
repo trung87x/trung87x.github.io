@@ -5,19 +5,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Invoice panels
-import InvoicePanels from "@/components/ui-blocks/ecommerce/components/order-history/invoice_panels";
+import InvoicePanels from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/order-history/invoice_panels";
 import InvoicePanelsRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_panels.jsx?raw";
 
 // 02. Invoice table
-import InvoiceTable from "@/components/ui-blocks/ecommerce/components/order-history/invoice_table";
+import InvoiceTable from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/order-history/invoice_table";
 import InvoiceTableRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_table.jsx?raw";
 
 // 03. Invoice list
-import InvoiceList from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list";
+import InvoiceList from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/order-history/invoice_list";
 import InvoiceListRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list.jsx?raw";
 
 // 04. Invoice list with quick actions
-import InvoiceListWithQuickActions from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list_with_quick_actions";
+import InvoiceListWithQuickActions from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/order-history/invoice_list_with_quick_actions";
 import InvoiceListWithQuickActionsRaw from "@/components/ui-blocks/ecommerce/components/order-history/invoice_list_with_quick_actions.jsx?raw";
 
 // ----------------------------------------------------------------------

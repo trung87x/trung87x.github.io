@@ -5,23 +5,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/components/ui-blocks/application-ui/forms/textareas/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/textareas/simple";
 import SimpleRaw from "@/components/ui-blocks/application-ui/forms/textareas/simple.jsx?raw";
 
 // 02. With avatar and actions
-import WithAvatarAndActions from "@/components/ui-blocks/application-ui/forms/textareas/with_avatar_and_actions";
+import WithAvatarAndActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/textareas/with_avatar_and_actions";
 import WithAvatarAndActionsRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_avatar_and_actions.jsx?raw";
 
 // 03. With underline and actions
-import WithUnderlineAndActions from "@/components/ui-blocks/application-ui/forms/textareas/with_underline_and_actions";
+import WithUnderlineAndActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/textareas/with_underline_and_actions";
 import WithUnderlineAndActionsRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_underline_and_actions.jsx?raw";
 
 // 04. With title and pill actions
-import WithTitleAndPillActions from "@/components/ui-blocks/application-ui/forms/textareas/with_title_and_pill_actions";
+import WithTitleAndPillActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/textareas/with_title_and_pill_actions";
 import WithTitleAndPillActionsRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_title_and_pill_actions.jsx?raw";
 
 // 05. With preview button
-import WithPreviewButton from "@/components/ui-blocks/application-ui/forms/textareas/with_preview_button";
+import WithPreviewButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/textareas/with_preview_button";
 import WithPreviewButtonRaw from "@/components/ui-blocks/application-ui/forms/textareas/with_preview_button.jsx?raw";
 
 // ----------------------------------------------------------------------

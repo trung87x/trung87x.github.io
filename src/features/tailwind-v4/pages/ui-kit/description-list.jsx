@@ -1,11 +1,11 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/description-list/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/description-list/basic";
 import BasicRaw from "@/components/ui-kit/description-list/basic.jsx?raw";
 
 // 02. With heading
-import WithHeading from "@/components/ui-kit/description-list/with-heading";
+import WithHeading from "@/features/tailwind-v4/components/ui-kit/description-list/with-heading";
 import WithHeadingRaw from "@/components/ui-kit/description-list/with-heading.jsx?raw";
 
 const Page = () => {

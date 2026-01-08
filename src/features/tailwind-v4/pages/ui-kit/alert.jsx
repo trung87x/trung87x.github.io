@@ -1,19 +1,19 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-kit/alert/basic";
+import Basic from "@/features/tailwind-v4/components/ui-kit/alert/basic";
 import BasicRaw from "@/components/ui-kit/alert/basic.jsx?raw";
 
 // 02. Alert width
-import AlertWidth from "@/components/ui-kit/alert/alert-width";
+import AlertWidth from "@/features/tailwind-v4/components/ui-kit/alert/alert-width";
 import AlertWidthRaw from "@/components/ui-kit/alert/alert-width.jsx?raw";
 
 // 03. With body
-import WithBody from "@/components/ui-kit/alert/with-body";
+import WithBody from "@/features/tailwind-v4/components/ui-kit/alert/with-body";
 import WithBodyRaw from "@/components/ui-kit/alert/with-body.jsx?raw";
 
 // 04. Auto-focusing elements
-import AutoFocus from "@/components/ui-kit/alert/auto-focusing";
+import AutoFocus from "@/features/tailwind-v4/components/ui-kit/alert/auto-focusing";
 import AutoFocusRaw from "@/components/ui-kit/alert/auto-focusing.jsx?raw";
 
 const Page = () => {

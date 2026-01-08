@@ -1,35 +1,35 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. 3-column with illustrations and split header
-import ThreeColIllustrationsSplitHeader from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_split_header";
+import ThreeColIllustrationsSplitHeader from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_split_header";
 import ThreeColIllustrationsSplitHeaderRaw from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_split_header.jsx?raw";
 
 // 02. 4-column with illustrations
-import FourColIllustrations from "@/components/ui-blocks/ecommerce/components/incentives/4_column_with_illustrations";
+import FourColIllustrations from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/4_column_with_illustrations";
 import FourColIllustrationsRaw from "@/components/ui-blocks/ecommerce/components/incentives/4_column_with_illustrations.jsx?raw";
 
 // 03. 3-column with illustrations and header
-import ThreeColIllustrationsHeader from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_header";
+import ThreeColIllustrationsHeader from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_header";
 import ThreeColIllustrationsHeaderRaw from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_header.jsx?raw";
 
 // 04. 3-column with illustrations and centered text
-import ThreeColIllustrationsCenteredText from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_centered_text";
+import ThreeColIllustrationsCenteredText from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_centered_text";
 import ThreeColIllustrationsCenteredTextRaw from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_centered_text.jsx?raw";
 
 // 05. 3-column with illustrations and heading
-import ThreeColIllustrationsHeading from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_heading";
+import ThreeColIllustrationsHeading from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_heading";
 import ThreeColIllustrationsHeadingRaw from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_heading.jsx?raw";
 
 // 06. 2x2 grid with illustrations
-import TwoByTwoGridIllustrations from "@/components/ui-blocks/ecommerce/components/incentives/2x2_grid_with_illustrations";
+import TwoByTwoGridIllustrations from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/2x2_grid_with_illustrations";
 import TwoByTwoGridIllustrationsRaw from "@/components/ui-blocks/ecommerce/components/incentives/2x2_grid_with_illustrations.jsx?raw";
 
 // 07. 3-column with icons and supporting text
-import ThreeColIconsSupportingText from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_icons_and_supporting_text";
+import ThreeColIconsSupportingText from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/3_column_with_icons_and_supporting_text";
 import ThreeColIconsSupportingTextRaw from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_icons_and_supporting_text.jsx?raw";
 
 // 08. 3-column with icons
-import ThreeColIcons from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_icons";
+import ThreeColIcons from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/incentives/3_column_with_icons";
 import ThreeColIconsRaw from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_icons.jsx?raw";
 
 const IncentivesDemoPage = () => {

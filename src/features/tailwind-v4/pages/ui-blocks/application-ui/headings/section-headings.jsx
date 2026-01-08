@@ -5,43 +5,43 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/components/ui-blocks/application-ui/headings/section-headings/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/simple";
 import SimpleRaw from "@/components/ui-blocks/application-ui/headings/section-headings/simple.jsx?raw";
 
 // 02. With description
-import WithDescription from "@/components/ui-blocks/application-ui/headings/section-headings/with_description";
+import WithDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_description";
 import WithDescriptionRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_description.jsx?raw";
 
 // 03. With actions
-import WithActions from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions";
+import WithActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_actions";
 import WithActionsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions.jsx?raw";
 
 // 04. With action
-import WithAction from "@/components/ui-blocks/application-ui/headings/section-headings/with_action";
+import WithAction from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_action";
 import WithActionRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_action.jsx?raw";
 
 // 05. With input group
-import WithInputGroup from "@/components/ui-blocks/application-ui/headings/section-headings/with_input_group";
+import WithInputGroup from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_input_group";
 import WithInputGroupRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_input_group.jsx?raw";
 
 // 06. With tabs
-import WithTabs from "@/components/ui-blocks/application-ui/headings/section-headings/with_tabs";
+import WithTabs from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_tabs";
 import WithTabsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_tabs.jsx?raw";
 
 // 07. With actions and tabs
-import WithActionsAndTabs from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions_and_tabs";
+import WithActionsAndTabs from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_actions_and_tabs";
 import WithActionsAndTabsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_actions_and_tabs.jsx?raw";
 
 // 08. With inline tabs
-import WithInlineTabs from "@/components/ui-blocks/application-ui/headings/section-headings/with_inline_tabs";
+import WithInlineTabs from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_inline_tabs";
 import WithInlineTabsRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_inline_tabs.jsx?raw";
 
 // 09. With label
-import WithLabel from "@/components/ui-blocks/application-ui/headings/section-headings/with_label";
+import WithLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_label";
 import WithLabelRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_label.jsx?raw";
 
 // 10. With badge and dropdown
-import WithBadgeAndDropdown from "@/components/ui-blocks/application-ui/headings/section-headings/with_badge_and_dropdown";
+import WithBadgeAndDropdown from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/section-headings/with_badge_and_dropdown";
 import WithBadgeAndDropdownRaw from "@/components/ui-blocks/application-ui/headings/section-headings/with_badge_and_dropdown.jsx?raw";
 
 // ----------------------------------------------------------------------

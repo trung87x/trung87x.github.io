@@ -5,43 +5,43 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Basic card
-import BasicCard from "@/components/ui-blocks/application-ui/layout/cards/basic_card";
+import BasicCard from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/basic_card";
 import BasicCardRaw from "@/components/ui-blocks/application-ui/layout/cards/basic_card.jsx?raw";
 
 // 02. Card, edge-to-edge on mobile
-import CardEdgeToEdgeOnMobile from "@/components/ui-blocks/application-ui/layout/cards/card__edge_to_edge_on_mobile";
+import CardEdgeToEdgeOnMobile from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/card__edge_to_edge_on_mobile";
 import CardEdgeToEdgeOnMobileRaw from "@/components/ui-blocks/application-ui/layout/cards/card__edge_to_edge_on_mobile.jsx?raw";
 
 // 03. Card with header
-import CardWithHeader from "@/components/ui-blocks/application-ui/layout/cards/card_with_header";
+import CardWithHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/card_with_header";
 import CardWithHeaderRaw from "@/components/ui-blocks/application-ui/layout/cards/card_with_header.jsx?raw";
 
 // 04. Card with footer
-import CardWithFooter from "@/components/ui-blocks/application-ui/layout/cards/card_with_footer";
+import CardWithFooter from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/card_with_footer";
 import CardWithFooterRaw from "@/components/ui-blocks/application-ui/layout/cards/card_with_footer.jsx?raw";
 
 // 05. Card with header and footer
-import CardWithHeaderAndFooter from "@/components/ui-blocks/application-ui/layout/cards/card_with_header_and_footer";
+import CardWithHeaderAndFooter from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/card_with_header_and_footer";
 import CardWithHeaderAndFooterRaw from "@/components/ui-blocks/application-ui/layout/cards/card_with_header_and_footer.jsx?raw";
 
 // 06. Card with gray footer
-import CardWithGrayFooter from "@/components/ui-blocks/application-ui/layout/cards/card_with_gray_footer";
+import CardWithGrayFooter from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/card_with_gray_footer";
 import CardWithGrayFooterRaw from "@/components/ui-blocks/application-ui/layout/cards/card_with_gray_footer.jsx?raw";
 
 // 07. Card with gray body
-import CardWithGrayBody from "@/components/ui-blocks/application-ui/layout/cards/card_with_gray_body";
+import CardWithGrayBody from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/card_with_gray_body";
 import CardWithGrayBodyRaw from "@/components/ui-blocks/application-ui/layout/cards/card_with_gray_body.jsx?raw";
 
 // 08. Well
-import Well from "@/components/ui-blocks/application-ui/layout/cards/well";
+import Well from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/well";
 import WellRaw from "@/components/ui-blocks/application-ui/layout/cards/well.jsx?raw";
 
 // 09. Well on gray
-import WellOnGray from "@/components/ui-blocks/application-ui/layout/cards/well_on_gray";
+import WellOnGray from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/well_on_gray";
 import WellOnGrayRaw from "@/components/ui-blocks/application-ui/layout/cards/well_on_gray.jsx?raw";
 
 // 10. Well, edge-to-edge on mobile
-import WellEdgeToEdgeOnMobile from "@/components/ui-blocks/application-ui/layout/cards/well__edge_to_edge_on_mobile";
+import WellEdgeToEdgeOnMobile from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/cards/well__edge_to_edge_on_mobile";
 import WellEdgeToEdgeOnMobileRaw from "@/components/ui-blocks/application-ui/layout/cards/well__edge_to_edge_on_mobile.jsx?raw";
 
 // ----------------------------------------------------------------------

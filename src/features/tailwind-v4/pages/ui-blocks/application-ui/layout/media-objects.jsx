@@ -1,35 +1,35 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/ui-blocks/application-ui/layout/media-objects/basic";
+import Basic from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/basic";
 import BasicRaw from "@/components/ui-blocks/application-ui/layout/media-objects/basic.jsx?raw";
 
 // 02. Aligned to center
-import AlignedToCenter from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_center";
+import AlignedToCenter from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/aligned_to_center";
 import AlignedToCenterRaw from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_center.jsx?raw";
 
 // 03. Aligned to bottom
-import AlignedToBottom from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_bottom";
+import AlignedToBottom from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/aligned_to_bottom";
 import AlignedToBottomRaw from "@/components/ui-blocks/application-ui/layout/media-objects/aligned_to_bottom.jsx?raw";
 
 // 04. Stretched to fit
-import StretchedToFit from "@/components/ui-blocks/application-ui/layout/media-objects/stretched_to_fit";
+import StretchedToFit from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/stretched_to_fit";
 import StretchedToFitRaw from "@/components/ui-blocks/application-ui/layout/media-objects/stretched_to_fit.jsx?raw";
 
 // 05. Media on right
-import MediaOnRight from "@/components/ui-blocks/application-ui/layout/media-objects/media_on_right";
+import MediaOnRight from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/media_on_right";
 import MediaOnRightRaw from "@/components/ui-blocks/application-ui/layout/media-objects/media_on_right.jsx?raw";
 
 // 06. Basic responsive
-import BasicResponsive from "@/components/ui-blocks/application-ui/layout/media-objects/basic_responsive";
+import BasicResponsive from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/basic_responsive";
 import BasicResponsiveRaw from "@/components/ui-blocks/application-ui/layout/media-objects/basic_responsive.jsx?raw";
 
 // 07. Wide responsive
-import WideResponsive from "@/components/ui-blocks/application-ui/layout/media-objects/wide_responsive";
+import WideResponsive from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/wide_responsive";
 import WideResponsiveRaw from "@/components/ui-blocks/application-ui/layout/media-objects/wide_responsive.jsx?raw";
 
 // 08. Nested
-import Nested from "@/components/ui-blocks/application-ui/layout/media-objects/nested";
+import Nested from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/media-objects/nested";
 import NestedRaw from "@/components/ui-blocks/application-ui/layout/media-objects/nested.jsx?raw";
 
 const MediaObjectsDemoPage = () => {

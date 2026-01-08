@@ -5,23 +5,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With featured categories
-import WithFeaturedCategories from "@/components/ui-blocks/ecommerce/components/store-navigation/with_featured_categories";
+import WithFeaturedCategories from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/store-navigation/with_featured_categories";
 import WithFeaturedCategoriesRaw from "@/components/ui-blocks/ecommerce/components/store-navigation/with_featured_categories.jsx?raw";
 
 // 02. With image grid
-import WithImageGrid from "@/components/ui-blocks/ecommerce/components/store-navigation/with_image_grid";
+import WithImageGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/store-navigation/with_image_grid";
 import WithImageGridRaw from "@/components/ui-blocks/ecommerce/components/store-navigation/with_image_grid.jsx?raw";
 
 // 03. With simple menu and promo
-import WithSimpleMenuAndPromo from "@/components/ui-blocks/ecommerce/components/store-navigation/with_simple_menu_and_promo";
+import WithSimpleMenuAndPromo from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/store-navigation/with_simple_menu_and_promo";
 import WithSimpleMenuAndPromoRaw from "@/components/ui-blocks/ecommerce/components/store-navigation/with_simple_menu_and_promo.jsx?raw";
 
 // 04. With centered logo and featured categories
-import WithCenteredLogoAndFeaturedCategories from "@/components/ui-blocks/ecommerce/components/store-navigation/with_centered_logo_and_featured_categories";
+import WithCenteredLogoAndFeaturedCategories from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/store-navigation/with_centered_logo_and_featured_categories";
 import WithCenteredLogoAndFeaturedCategoriesRaw from "@/components/ui-blocks/ecommerce/components/store-navigation/with_centered_logo_and_featured_categories.jsx?raw";
 
 // 05. With double column and persistent mobile nav
-import WithDoubleColumnAndPersistentMobileNav from "@/components/ui-blocks/ecommerce/components/store-navigation/with_double_column_and_persistent_mobile_nav";
+import WithDoubleColumnAndPersistentMobileNav from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/store-navigation/with_double_column_and_persistent_mobile_nav";
 import WithDoubleColumnAndPersistentMobileNavRaw from "@/components/ui-blocks/ecommerce/components/store-navigation/with_double_column_and_persistent_mobile_nav.jsx?raw";
 
 // ----------------------------------------------------------------------

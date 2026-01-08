@@ -1,27 +1,27 @@
 import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Full-width three-column
-import FullWidthThreeColumn from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_three_column";
+import FullWidthThreeColumn from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/multi-column/full_width_three_column";
 import FullWidthThreeColumnRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_three_column.jsx?raw";
 
 // 02. Full-width secondary column on right
-import FullWidthSecondaryRight from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_secondary_column_on_right";
+import FullWidthSecondaryRight from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/multi-column/full_width_secondary_column_on_right";
 import FullWidthSecondaryRightRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_secondary_column_on_right.jsx?raw";
 
 // 03. Constrained three column
-import ConstrainedThreeColumn from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_three_column";
+import ConstrainedThreeColumn from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/multi-column/constrained_three_column";
 import ConstrainedThreeColumnRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_three_column.jsx?raw";
 
 // 04. Constrained with sticky columns
-import ConstrainedStickyColumns from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_with_sticky_columns";
+import ConstrainedStickyColumns from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/multi-column/constrained_with_sticky_columns";
 import ConstrainedStickyColumnsRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/constrained_with_sticky_columns.jsx?raw";
 
 // 05. Full-width with narrow sidebar
-import FullWidthNarrowSidebar from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar";
+import FullWidthNarrowSidebar from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar";
 import FullWidthNarrowSidebarRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar.jsx?raw";
 
 // 06. Full-width with narrow sidebar and header
-import FullWidthNarrowSidebarHeader from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header";
+import FullWidthNarrowSidebarHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header";
 import FullWidthNarrowSidebarHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_with_narrow_sidebar_and_header.jsx?raw";
 
 const MultiColumnLayoutsDemoPage = () => {

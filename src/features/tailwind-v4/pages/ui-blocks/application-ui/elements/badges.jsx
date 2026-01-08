@@ -5,67 +5,67 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. With border
-import WithBorder from "@/components/ui-blocks/application-ui/elements/badges/with_border";
+import WithBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/with_border";
 import WithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/with_border.jsx?raw";
 
 // 02. With border and dot
-import WithBorderAndDot from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_dot";
+import WithBorderAndDot from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/with_border_and_dot";
 import WithBorderAndDotRaw from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_dot.jsx?raw";
 
 // 03. Pill with border
-import PillWithBorder from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border";
+import PillWithBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/pill_with_border";
 import PillWithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border.jsx?raw";
 
 // 04. Pill with border and dot
-import PillWithBorderAndDot from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border_and_dot";
+import PillWithBorderAndDot from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/pill_with_border_and_dot";
 import PillWithBorderAndDotRaw from "@/components/ui-blocks/application-ui/elements/badges/pill_with_border_and_dot.jsx?raw";
 
 // 05. With border and remove button
-import WithBorderAndRemoveButton from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_remove_button";
+import WithBorderAndRemoveButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/with_border_and_remove_button";
 import WithBorderAndRemoveButtonRaw from "@/components/ui-blocks/application-ui/elements/badges/with_border_and_remove_button.jsx?raw";
 
 // 06. Flat
-import Flat from "@/components/ui-blocks/application-ui/elements/badges/flat";
+import Flat from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/flat";
 import FlatRaw from "@/components/ui-blocks/application-ui/elements/badges/flat.jsx?raw";
 
 // 07. Flat pill
-import FlatPill from "@/components/ui-blocks/application-ui/elements/badges/flat_pill";
+import FlatPill from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/flat_pill";
 import FlatPillRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_pill.jsx?raw";
 
 // 08. Flat with dot
-import FlatWithDot from "@/components/ui-blocks/application-ui/elements/badges/flat_with_dot";
+import FlatWithDot from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/flat_with_dot";
 import FlatWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_with_dot.jsx?raw";
 
 // 09. Flat pill with dot
-import FlatPillWithDot from "@/components/ui-blocks/application-ui/elements/badges/flat_pill_with_dot";
+import FlatPillWithDot from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/flat_pill_with_dot";
 import FlatPillWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_pill_with_dot.jsx?raw";
 
 // 10. Flat with remove button
-import FlatWithRemoveButton from "@/components/ui-blocks/application-ui/elements/badges/flat_with_remove_button";
+import FlatWithRemoveButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/flat_with_remove_button";
 import FlatWithRemoveButtonRaw from "@/components/ui-blocks/application-ui/elements/badges/flat_with_remove_button.jsx?raw";
 
 // 11. Small with border
-import SmallWithBorder from "@/components/ui-blocks/application-ui/elements/badges/small_with_border";
+import SmallWithBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/small_with_border";
 import SmallWithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/small_with_border.jsx?raw";
 
 // 12. Small flat
-import SmallFlat from "@/components/ui-blocks/application-ui/elements/badges/small_flat";
+import SmallFlat from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/small_flat";
 import SmallFlatRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat.jsx?raw";
 
 // 13. Small pill with border
-import SmallPillWithBorder from "@/components/ui-blocks/application-ui/elements/badges/small_pill_with_border";
+import SmallPillWithBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/small_pill_with_border";
 import SmallPillWithBorderRaw from "@/components/ui-blocks/application-ui/elements/badges/small_pill_with_border.jsx?raw";
 
 // 14. Small flat pill
-import SmallFlatPill from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill";
+import SmallFlatPill from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/small_flat_pill";
 import SmallFlatPillRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill.jsx?raw";
 
 // 15. Small flat with dot
-import SmallFlatWithDot from "@/components/ui-blocks/application-ui/elements/badges/small_flat_with_dot";
+import SmallFlatWithDot from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/small_flat_with_dot";
 import SmallFlatWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat_with_dot.jsx?raw";
 
 // 16. Small flat pill with dot
-import SmallFlatPillWithDot from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill_with_dot";
+import SmallFlatPillWithDot from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/badges/small_flat_pill_with_dot";
 import SmallFlatPillWithDotRaw from "@/components/ui-blocks/application-ui/elements/badges/small_flat_pill_with_dot.jsx?raw";
 
 // ----------------------------------------------------------------------

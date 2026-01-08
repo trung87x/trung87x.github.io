@@ -5,27 +5,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 // ----------------------------------------------------------------------
 
 // 01. Simple
-import Simple from "@/components/ui-blocks/application-ui/feedback/empty-states/simple";
+import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/empty-states/simple";
 import SimpleRaw from "@/components/ui-blocks/application-ui/feedback/empty-states/simple.jsx?raw";
 
 // 02. With dashed border
-import WithDashedBorder from "@/components/ui-blocks/application-ui/feedback/empty-states/with_dashed_border";
+import WithDashedBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/empty-states/with_dashed_border";
 import WithDashedBorderRaw from "@/components/ui-blocks/application-ui/feedback/empty-states/with_dashed_border.jsx?raw";
 
 // 03. With starting points
-import WithStartingPoints from "@/components/ui-blocks/application-ui/feedback/empty-states/with_starting_points";
+import WithStartingPoints from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/empty-states/with_starting_points";
 import WithStartingPointsRaw from "@/components/ui-blocks/application-ui/feedback/empty-states/with_starting_points.jsx?raw";
 
 // 04. With recommendations
-import WithRecommendations from "@/components/ui-blocks/application-ui/feedback/empty-states/with_recommendations";
+import WithRecommendations from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/empty-states/with_recommendations";
 import WithRecommendationsRaw from "@/components/ui-blocks/application-ui/feedback/empty-states/with_recommendations.jsx?raw";
 
 // 05. With templates
-import WithTemplates from "@/components/ui-blocks/application-ui/feedback/empty-states/with_templates";
+import WithTemplates from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/empty-states/with_templates";
 import WithTemplatesRaw from "@/components/ui-blocks/application-ui/feedback/empty-states/with_templates.jsx?raw";
 
 // 06. With recommendations grid
-import WithRecommendationsGrid from "@/components/ui-blocks/application-ui/feedback/empty-states/with_recommendations_grid";
+import WithRecommendationsGrid from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/empty-states/with_recommendations_grid";
 import WithRecommendationsGridRaw from "@/components/ui-blocks/application-ui/feedback/empty-states/with_recommendations_grid.jsx?raw";
 
 // ----------------------------------------------------------------------
