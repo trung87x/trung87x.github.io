@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Sidebar on dark
 import SidebarOnDark from "@/components/ui-blocks/application-ui/page-examples/home-screens/sidebar_on_dark";

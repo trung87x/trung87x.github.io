@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Branded nav with white page header
 import WithLighterPageHeader from "@/components/ui-blocks/application-ui/application-shells/stacked/dark_nav_with_white_page_header";

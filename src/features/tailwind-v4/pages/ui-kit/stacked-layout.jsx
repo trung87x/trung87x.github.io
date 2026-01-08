@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 00. Stacked layout
 import StackedLayout from "@/components/ui-kit/stacked-layout/stacked-layout";

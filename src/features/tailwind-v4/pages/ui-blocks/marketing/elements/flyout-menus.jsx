@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Stacked with footer actions
 import StackedWithFooterActions from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_actions";

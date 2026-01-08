@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. 3-column with illustrations and split header
 import ThreeColIllustrationsSplitHeader from "@/components/ui-blocks/ecommerce/components/incentives/3_column_with_illustrations_and_split_header";

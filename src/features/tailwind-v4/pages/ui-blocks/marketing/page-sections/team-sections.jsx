@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With small images
 import WithSmallImages from "@/components/ui-blocks/marketing/page-sections/team-sections/with_small_images";

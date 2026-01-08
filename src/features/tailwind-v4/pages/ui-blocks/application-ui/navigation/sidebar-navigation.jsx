@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Light
 import Light from "@/components/ui-blocks/application-ui/navigation/sidebar-navigation/light";

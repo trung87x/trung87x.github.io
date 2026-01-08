@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple with heading
 import SimpleWithHeading from "@/components/ui-blocks/marketing/page-sections/logo-clouds/simple_with_heading";

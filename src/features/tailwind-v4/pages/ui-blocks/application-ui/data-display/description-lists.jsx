@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Left-aligned
 import LeftAligned from "@/components/ui-blocks/application-ui/data-display/description-lists/left_aligned";

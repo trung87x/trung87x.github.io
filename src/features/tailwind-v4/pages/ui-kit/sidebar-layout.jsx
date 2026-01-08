@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 00. Sidebar layout
 import SidebarLayout from "@/components/ui-kit/sidebar-layout/sidebar-layout";

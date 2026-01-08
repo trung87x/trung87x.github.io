@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With product screenshot
 import WithProductScreenshot from "@/components/ui-blocks/marketing/page-sections/feature-sections/with_product_screenshot";

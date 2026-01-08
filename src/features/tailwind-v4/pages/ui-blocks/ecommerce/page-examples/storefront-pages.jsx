@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With dark nav and footer
 import WithDarkNavAndFooter from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer";

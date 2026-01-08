@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Dark panel with app screenshot
 import DarkPanelWithAppScreenshot from "@/components/ui-blocks/marketing/page-sections/cta-sections/dark_panel_with_app_screenshot";

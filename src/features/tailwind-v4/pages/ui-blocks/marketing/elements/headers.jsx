@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With stacked flyout menu
 import WithStackedFlyoutMenu from "@/components/ui-blocks/marketing/elements/headers/with_stacked_flyout_menu";

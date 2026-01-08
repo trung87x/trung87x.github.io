@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With sticky product screenshot
 import WithStickyProductScreenshot from "@/components/ui-blocks/marketing/page-sections/content-sections/with_sticky_product_screenshot";

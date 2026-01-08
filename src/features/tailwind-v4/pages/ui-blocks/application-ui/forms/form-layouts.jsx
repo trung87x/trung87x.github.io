@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // ----------------------------------------------------------------------
 // IMPORTS (Sử dụng dấu gạch dưới _)

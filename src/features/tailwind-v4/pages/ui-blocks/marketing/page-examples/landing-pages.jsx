@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With screenshots and stats
 import WithScreenshotsAndStats from "@/components/ui-blocks/marketing/page-examples/landing-pages/with_screenshots_and_stats";

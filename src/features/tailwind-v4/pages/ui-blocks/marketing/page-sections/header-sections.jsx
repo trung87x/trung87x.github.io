@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With stats
 import WithStats from "@/components/ui-blocks/marketing/page-sections/header-sections/with_stats";

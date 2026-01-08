@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With four tiers
 import WithFourTiers from "@/components/ui-blocks/marketing/page-examples/pricing-pages/with_four_tiers";

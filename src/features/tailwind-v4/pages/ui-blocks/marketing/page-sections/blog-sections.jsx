@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Three-column
 import ThreeColumn from "@/components/ui-blocks/marketing/page-sections/blog-sections/three_column";

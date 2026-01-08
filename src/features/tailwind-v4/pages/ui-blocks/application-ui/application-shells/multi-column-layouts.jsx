@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Full-width three-column
 import FullWidthThreeColumn from "@/components/ui-blocks/application-ui/application-shells/multi-column/full_width_three_column";

@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With image tiles
 import WithImageTiles from "@/components/ui-blocks/marketing/page-examples/about-pages/with_image_tiles";

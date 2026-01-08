@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. 4-column with company mission on dark
 import FourColumnWithCompanyMissionOnDark from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_company_mission_on_dark";

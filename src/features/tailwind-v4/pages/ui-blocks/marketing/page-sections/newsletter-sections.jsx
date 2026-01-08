@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Side-by-side with details
 import SideBySideWithDetails from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_with_details";

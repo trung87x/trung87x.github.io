@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Offset with supporting text
 import OffsetWithSupportingText from "@/components/ui-blocks/marketing/page-sections/faqs/offset_with_supporting_text";

@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Centered
 import Centered from "@/components/ui-blocks/marketing/page-sections/contact-sections/centered";

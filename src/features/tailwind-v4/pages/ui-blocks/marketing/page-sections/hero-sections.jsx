@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 1. Simple centered
 import SimpleCentered from "@/components/ui-blocks/marketing/page-sections/hero-sections/simple_centered";

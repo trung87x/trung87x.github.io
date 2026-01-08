@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Two tiers with emphasized right tier
 import TwoTiersWithEmphasizedTier from "@/components/ui-blocks/marketing/page-sections/pricing-sections/two_tiers_with_emphasized_tier";

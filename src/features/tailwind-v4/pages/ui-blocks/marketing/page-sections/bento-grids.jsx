@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Three column bento grid
 import ThreeColumnBentoGrid from "@/components/ui-blocks/marketing/page-sections/bento-grids/three_column_bento_grid";

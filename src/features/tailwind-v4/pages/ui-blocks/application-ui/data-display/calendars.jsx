@@ -1,4 +1,4 @@
-import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
+import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Small with meetings
 import SmallWithMeetings from "@/components/ui-blocks/application-ui/data-display/calendars/small_with_meetings";
