@@ -2,11 +2,11 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 00. Stacked layout
 import StackedLayout from "@/components/ui-kit/stacked-layout/stacked-layout";
-import StackedLayoutRaw from "@/components/blocks/stacked-layout/stacked-layout.jsx?raw";
+import StackedLayoutRaw from "@/components/ui-kit/stacked-layout/stacked-layout.jsx?raw";
 
 // 01. Basic
 import Basic from "@/components/ui-kit/stacked-layout/basic";
-import BasicRaw from "@/components/blocks/stacked-layout/basic.jsx?raw";
+import BasicRaw from "@/components/ui-kit/stacked-layout/basic.jsx?raw";
 
 const Page = () => {
   // Hàm helper để tạo nội dung giả cho phần children của Layout

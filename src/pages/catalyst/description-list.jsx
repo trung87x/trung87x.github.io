@@ -2,11 +2,11 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/components/ui-kit/description-list/basic";
-import BasicRaw from "@/components/blocks/description-list/basic.jsx?raw";
+import BasicRaw from "@/components/ui-kit/description-list/basic.jsx?raw";
 
 // 02. With heading
 import WithHeading from "@/components/ui-kit/description-list/with-heading";
-import WithHeadingRaw from "@/components/blocks/description-list/with-heading.jsx?raw";
+import WithHeadingRaw from "@/components/ui-kit/description-list/with-heading.jsx?raw";
 
 const Page = () => {
   const layouts = [

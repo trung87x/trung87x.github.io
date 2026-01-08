@@ -2,15 +2,15 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Badge colors
 import BadgeColors from "@/components/ui-kit/badge/badge-colors";
-import BadgeColorsRaw from "@/components/blocks/badge/badge-colors.jsx?raw";
+import BadgeColorsRaw from "@/components/ui-kit/badge/badge-colors.jsx?raw";
 
 // 02. Using as buttons
 import BadgeButtons from "@/components/ui-kit/badge/badge-button";
-import BadgeButtonsRaw from "@/components/blocks/badge/badge-button.jsx?raw";
+import BadgeButtonsRaw from "@/components/ui-kit/badge/badge-button.jsx?raw";
 
 // 03. Using as links
 import BadgeLinks from "@/components/ui-kit/badge/badge-link";
-import BadgeLinksRaw from "@/components/blocks/badge/badge-link.jsx?raw";
+import BadgeLinksRaw from "@/components/ui-kit/badge/badge-link.jsx?raw";
 
 const Page = () => {
   const layouts = [

@@ -2,11 +2,11 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 00. Sidebar layout
 import SidebarLayout from "@/components/ui-kit/sidebar-layout/sidebar-layout";
-import SidebarLayoutRaw from "@/components/blocks/sidebar-layout/sidebar-layout.jsx?raw";
+import SidebarLayoutRaw from "@/components/ui-kit/sidebar-layout/sidebar-layout.jsx?raw";
 
 // 01. Basic
 import Basic from "@/components/ui-kit/sidebar-layout/basic";
-import BasicRaw from "@/components/blocks/sidebar-layout/basic.jsx?raw";
+import BasicRaw from "@/components/ui-kit/sidebar-layout/basic.jsx?raw";
 
 const Page = () => {
   // Hàm helper để tạo nội dung giả cho phần children của Layout

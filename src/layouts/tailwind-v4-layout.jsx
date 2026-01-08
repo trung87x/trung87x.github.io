@@ -99,7 +99,7 @@ const TailwindV4Layout = () => {
           label: "FEEDBACK",
           items: [
             {
-              name: "Headers",
+              name: "404 Pages",
               path: "/tailwindv4/marketing/feedback/404-pages",
             },
           ],

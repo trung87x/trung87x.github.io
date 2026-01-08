@@ -2,19 +2,19 @@ import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/components/ui-kit/pagination/basic";
-import BasicRaw from "@/components/blocks/pagination/basic.jsx?raw";
+import BasicRaw from "@/components/ui-kit/pagination/basic.jsx?raw";
 
 // 02. Disabling previous/next links
 import DisabledLinks from "@/components/ui-kit/pagination/disabled-links";
-import DisabledLinksRaw from "@/components/blocks/pagination/disabled-links.jsx?raw";
+import DisabledLinksRaw from "@/components/ui-kit/pagination/disabled-links.jsx?raw";
 
 // 03. Current page active state
 import ActiveState from "@/components/ui-kit/pagination/active-state";
-import ActiveStateRaw from "@/components/blocks/pagination/active-state.jsx?raw";
+import ActiveStateRaw from "@/components/ui-kit/pagination/active-state.jsx?raw";
 
 // 04. Without page links
 import WithoutPageLinks from "@/components/ui-kit/pagination/no-page-links";
-import WithoutPageLinksRaw from "@/components/blocks/pagination/no-page-links.jsx?raw";
+import WithoutPageLinksRaw from "@/components/ui-kit/pagination/no-page-links.jsx?raw";
 
 const Page = () => {
   const layouts = [
