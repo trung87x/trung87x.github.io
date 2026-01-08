@@ -1,31 +1,31 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/avatar/basic";
+import Basic from "@/components/ui-kit/avatar/basic";
 import BasicRaw from "@/components/blocks/avatar/basic.jsx?raw";
 
 // 02. With initials
-import WithInitials from "@/components/blocks/avatar/with-initials";
+import WithInitials from "@/components/ui-kit/avatar/with-initials";
 import WithInitialsRaw from "@/components/blocks/avatar/with-initials.jsx?raw";
 
 // 03. With initials as fallback
-import InitialsFallback from "@/components/blocks/avatar/initials-fallback";
+import InitialsFallback from "@/components/ui-kit/avatar/initials-fallback";
 import InitialsFallbackRaw from "@/components/blocks/avatar/initials-fallback.jsx?raw";
 
 // 04. Square avatars
-import SquareAvatars from "@/components/blocks/avatar/square";
+import SquareAvatars from "@/components/ui-kit/avatar/square";
 import SquareAvatarsRaw from "@/components/blocks/avatar/square.jsx?raw";
 
 // 05. Avatar groups
-import AvatarGroups from "@/components/blocks/avatar/avatar-groups";
+import AvatarGroups from "@/components/ui-kit/avatar/avatar-groups";
 import AvatarGroupsRaw from "@/components/blocks/avatar/avatar-groups.jsx?raw";
 
 // 06. Using as buttons
-import AvatarButtons from "@/components/blocks/avatar/avatar-button";
+import AvatarButtons from "@/components/ui-kit/avatar/avatar-button";
 import AvatarButtonsRaw from "@/components/blocks/avatar/avatar-button.jsx?raw";
 
 // 07. Using as links
-import AvatarLinks from "@/components/blocks/avatar/avatar-link";
+import AvatarLinks from "@/components/ui-kit/avatar/avatar-link";
 import AvatarLinksRaw from "@/components/blocks/avatar/avatar-link.jsx?raw";
 
 const mockUser = {

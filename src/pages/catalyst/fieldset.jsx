@@ -1,27 +1,27 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/fieldset/basic";
+import Basic from "@/components/ui-kit/fieldset/basic";
 import BasicRaw from "@/components/blocks/fieldset/basic.jsx?raw";
 
 // 02. Without legend
-import WithoutLegend from "@/components/blocks/fieldset/without-legend";
+import WithoutLegend from "@/components/ui-kit/fieldset/without-legend";
 import WithoutLegendRaw from "@/components/blocks/fieldset/without-legend.jsx?raw";
 
 // 03. Without role
-import WithoutRole from "@/components/blocks/fieldset/without-role";
+import WithoutRole from "@/components/ui-kit/fieldset/without-role";
 import WithoutRoleRaw from "@/components/blocks/fieldset/without-role.jsx?raw";
 
 // 04. With grid layout
-import GridLayout from "@/components/blocks/fieldset/grid-layout";
+import GridLayout from "@/components/ui-kit/fieldset/grid-layout";
 import GridLayoutRaw from "@/components/blocks/fieldset/grid-layout.jsx?raw";
 
 // 05. With custom layout
-import CustomLayout from "@/components/blocks/fieldset/custom-layout";
+import CustomLayout from "@/components/ui-kit/fieldset/custom-layout";
 import CustomLayoutRaw from "@/components/blocks/fieldset/custom-layout.jsx?raw";
 
 // 06. Disabled state
-import DisabledState from "@/components/blocks/fieldset/disabled";
+import DisabledState from "@/components/ui-kit/fieldset/disabled";
 import DisabledStateRaw from "@/components/blocks/fieldset/disabled.jsx?raw";
 
 const Page = () => {

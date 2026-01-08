@@ -1,31 +1,31 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/textarea/basic";
+import Basic from "@/components/ui-kit/textarea/basic";
 import BasicRaw from "@/components/blocks/textarea/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/blocks/textarea/with-label";
+import WithLabel from "@/components/ui-kit/textarea/with-label";
 import WithLabelRaw from "@/components/blocks/textarea/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/blocks/textarea/with-description";
+import WithDescription from "@/components/ui-kit/textarea/with-description";
 import WithDescriptionRaw from "@/components/blocks/textarea/with-description.jsx?raw";
 
 // 04. Disabled state
-import DisabledState from "@/components/blocks/textarea/disabled";
+import DisabledState from "@/components/ui-kit/textarea/disabled";
 import DisabledStateRaw from "@/components/blocks/textarea/disabled.jsx?raw";
 
 // 05. Validation errors
-import ValidationErrors from "@/components/blocks/textarea/validation-errors";
+import ValidationErrors from "@/components/ui-kit/textarea/validation-errors";
 import ValidationErrorsRaw from "@/components/blocks/textarea/validation-errors.jsx?raw";
 
 // 06. With custom layout
-import CustomLayout from "@/components/blocks/textarea/custom-layout";
+import CustomLayout from "@/components/ui-kit/textarea/custom-layout";
 import CustomLayoutRaw from "@/components/blocks/textarea/custom-layout.jsx?raw";
 
 // 07. Controlled component
-import Controlled from "@/components/blocks/textarea/controlled";
+import Controlled from "@/components/ui-kit/textarea/controlled";
 import ControlledRaw from "@/components/blocks/textarea/controlled.jsx?raw";
 
 const mockErrors = new Map([

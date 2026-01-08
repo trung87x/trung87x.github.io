@@ -1,43 +1,43 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/input/basic";
+import Basic from "@/components/ui-kit/input/basic";
 import BasicRaw from "@/components/blocks/input/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/blocks/input/with-label";
+import WithLabel from "@/components/ui-kit/input/with-label";
 import WithLabelRaw from "@/components/blocks/input/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/blocks/input/with-description";
+import WithDescription from "@/components/ui-kit/input/with-description";
 import WithDescriptionRaw from "@/components/blocks/input/with-description.jsx?raw";
 
 // 04. With icon
-import WithIcon from "@/components/blocks/input/with-icon";
+import WithIcon from "@/components/ui-kit/input/with-icon";
 import WithIconRaw from "@/components/blocks/input/with-icon.jsx?raw";
 
 // 05. Setting the type
-import SettingType from "@/components/blocks/input/setting-type";
+import SettingType from "@/components/ui-kit/input/setting-type";
 import SettingTypeRaw from "@/components/blocks/input/setting-type.jsx?raw";
 
 // 06. Disabled state
-import DisabledState from "@/components/blocks/input/disabled";
+import DisabledState from "@/components/ui-kit/input/disabled";
 import DisabledStateRaw from "@/components/blocks/input/disabled.jsx?raw";
 
 // 07. Validation errors
-import ValidationErrors from "@/components/blocks/input/validation-errors";
+import ValidationErrors from "@/components/ui-kit/input/validation-errors";
 import ValidationErrorsRaw from "@/components/blocks/input/validation-errors.jsx?raw";
 
 // 08. Constraining width
-import ConstrainingWidth from "@/components/blocks/input/constraining-width";
+import ConstrainingWidth from "@/components/ui-kit/input/constraining-width";
 import ConstrainingWidthRaw from "@/components/blocks/input/constraining-width.jsx?raw";
 
 // 09. With custom layout
-import CustomLayout from "@/components/blocks/input/custom-layout";
+import CustomLayout from "@/components/ui-kit/input/custom-layout";
 import CustomLayoutRaw from "@/components/blocks/input/custom-layout.jsx?raw";
 
 // 10. Controlled component
-import ControlledComponent from "@/components/blocks/input/controlled";
+import ControlledComponent from "@/components/ui-kit/input/controlled";
 import ControlledComponentRaw from "@/components/blocks/input/controlled.jsx?raw";
 
 const mockErrors = new Map([

@@ -1,47 +1,47 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/switch/basic";
+import Basic from "@/components/ui-kit/switch/basic";
 import BasicRaw from "@/components/blocks/switch/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/blocks/switch/with-label";
+import WithLabel from "@/components/ui-kit/switch/with-label";
 import WithLabelRaw from "@/components/blocks/switch/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/blocks/switch/with-description";
+import WithDescription from "@/components/ui-kit/switch/with-description";
 import WithDescriptionRaw from "@/components/blocks/switch/with-description.jsx?raw";
 
 // 04. With custom layout
-import CustomLayout from "@/components/blocks/switch/custom-layout";
+import CustomLayout from "@/components/ui-kit/switch/custom-layout";
 import CustomLayoutRaw from "@/components/blocks/switch/custom-layout.jsx?raw";
 
 // 05. With accent color
-import AccentColor from "@/components/blocks/switch/accent-color";
+import AccentColor from "@/components/ui-kit/switch/accent-color";
 import AccentColorRaw from "@/components/blocks/switch/accent-color.jsx?raw";
 
 // 06. With custom value
-import CustomValue from "@/components/blocks/switch/custom-value";
+import CustomValue from "@/components/ui-kit/switch/custom-value";
 import CustomValueRaw from "@/components/blocks/switch/custom-value.jsx?raw";
 
 // 07. Default checked state
-import DefaultChecked from "@/components/blocks/switch/default-checked";
+import DefaultChecked from "@/components/ui-kit/switch/default-checked";
 import DefaultCheckedRaw from "@/components/blocks/switch/default-checked.jsx?raw";
 
 // 08. Controlled component
-import Controlled from "@/components/blocks/switch/controlled";
+import Controlled from "@/components/ui-kit/switch/controlled";
 import ControlledRaw from "@/components/blocks/switch/controlled.jsx?raw";
 
 // 09. Multiple switches
-import MultipleSwitches from "@/components/blocks/switch/multiple";
+import MultipleSwitches from "@/components/ui-kit/switch/multiple";
 import MultipleSwitchesRaw from "@/components/blocks/switch/multiple.jsx?raw";
 
 // 10. With fieldset
-import WithFieldset from "@/components/blocks/switch/with-fieldset";
+import WithFieldset from "@/components/ui-kit/switch/with-fieldset";
 import WithFieldsetRaw from "@/components/blocks/switch/with-fieldset.jsx?raw";
 
 // 11. Disabled state
-import DisabledState from "@/components/blocks/switch/disabled";
+import DisabledState from "@/components/ui-kit/switch/disabled";
 import DisabledStateRaw from "@/components/blocks/switch/disabled.jsx?raw";
 
 const Page = () => {

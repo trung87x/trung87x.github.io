@@ -1,35 +1,35 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/select/basic";
+import Basic from "@/components/ui-kit/select/basic";
 import BasicRaw from "@/components/blocks/select/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/blocks/select/with-label";
+import WithLabel from "@/components/ui-kit/select/with-label";
 import WithLabelRaw from "@/components/blocks/select/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/blocks/select/with-description";
+import WithDescription from "@/components/ui-kit/select/with-description";
 import WithDescriptionRaw from "@/components/blocks/select/with-description.jsx?raw";
 
 // 04. Disabled state
-import DisabledState from "@/components/blocks/select/disabled";
+import DisabledState from "@/components/ui-kit/select/disabled";
 import DisabledStateRaw from "@/components/blocks/select/disabled.jsx?raw";
 
 // 05. Validation errors
-import ValidationErrors from "@/components/blocks/select/validation-errors";
+import ValidationErrors from "@/components/ui-kit/select/validation-errors";
 import ValidationErrorsRaw from "@/components/blocks/select/validation-errors.jsx?raw";
 
 // 06. Constraining width
-import ConstrainingWidth from "@/components/blocks/select/constraining-width";
+import ConstrainingWidth from "@/components/ui-kit/select/constraining-width";
 import ConstrainingWidthRaw from "@/components/blocks/select/constraining-width.jsx?raw";
 
 // 07. With custom layout
-import CustomLayout from "@/components/blocks/select/custom-layout";
+import CustomLayout from "@/components/ui-kit/select/custom-layout";
 import CustomLayoutRaw from "@/components/blocks/select/custom-layout.jsx?raw";
 
 // 08. Controlled component
-import Controlled from "@/components/blocks/select/controlled";
+import Controlled from "@/components/ui-kit/select/controlled";
 import ControlledRaw from "@/components/blocks/select/controlled.jsx?raw";
 
 const mockErrors = {

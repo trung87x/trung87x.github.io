@@ -1,19 +1,19 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/alert/basic";
+import Basic from "@/components/ui-kit/alert/basic";
 import BasicRaw from "@/components/blocks/alert/basic.jsx?raw";
 
 // 02. Alert width
-import AlertWidth from "@/components/blocks/alert/alert-width";
+import AlertWidth from "@/components/ui-kit/alert/alert-width";
 import AlertWidthRaw from "@/components/blocks/alert/alert-width.jsx?raw";
 
 // 03. With body
-import WithBody from "@/components/blocks/alert/with-body";
+import WithBody from "@/components/ui-kit/alert/with-body";
 import WithBodyRaw from "@/components/blocks/alert/with-body.jsx?raw";
 
 // 04. Auto-focusing elements
-import AutoFocus from "@/components/blocks/alert/auto-focusing";
+import AutoFocus from "@/components/ui-kit/alert/auto-focusing";
 import AutoFocusRaw from "@/components/blocks/alert/auto-focusing.jsx?raw";
 
 const Page = () => {

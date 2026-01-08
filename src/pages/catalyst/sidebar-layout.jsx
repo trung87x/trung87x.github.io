@@ -1,11 +1,11 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 00. Sidebar layout
-import SidebarLayout from "@/components/blocks/sidebar-layout/sidebar-layout";
+import SidebarLayout from "@/components/ui-kit/sidebar-layout/sidebar-layout";
 import SidebarLayoutRaw from "@/components/blocks/sidebar-layout/sidebar-layout.jsx?raw";
 
 // 01. Basic
-import Basic from "@/components/blocks/sidebar-layout/basic";
+import Basic from "@/components/ui-kit/sidebar-layout/basic";
 import BasicRaw from "@/components/blocks/sidebar-layout/basic.jsx?raw";
 
 const Page = () => {

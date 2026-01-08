@@ -1,23 +1,23 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/dialog/basic";
+import Basic from "@/components/ui-kit/dialog/basic";
 import BasicRaw from "@/components/blocks/dialog/basic.jsx?raw";
 
 // 02. Dialog width
-import DialogWidth from "@/components/blocks/dialog/dialog-width";
+import DialogWidth from "@/components/ui-kit/dialog/dialog-width";
 import DialogWidthRaw from "@/components/blocks/dialog/dialog-width.jsx?raw";
 
 // 03. Opening from dropdown
-import FromDropdown from "@/components/blocks/dialog/from-dropdown";
+import FromDropdown from "@/components/ui-kit/dialog/from-dropdown";
 import FromDropdownRaw from "@/components/blocks/dialog/from-dropdown.jsx?raw";
 
 // 04. Auto-focusing elements
-import AutoFocus from "@/components/blocks/dialog/auto-focus";
+import AutoFocus from "@/components/ui-kit/dialog/auto-focus";
 import AutoFocusRaw from "@/components/blocks/dialog/auto-focus.jsx?raw";
 
 // 05. With scrolling content
-import ScrollingContent from "@/components/blocks/dialog/scrolling-content";
+import ScrollingContent from "@/components/ui-kit/dialog/scrolling-content";
 import ScrollingContentRaw from "@/components/blocks/dialog/scrolling-content.jsx?raw";
 
 const Page = () => {

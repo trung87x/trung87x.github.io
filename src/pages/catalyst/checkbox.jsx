@@ -1,51 +1,51 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic example
-import Basic from "@/components/blocks/checkbox/basic";
+import Basic from "@/components/ui-kit/checkbox/basic";
 import BasicRaw from "@/components/blocks/checkbox/basic.jsx?raw";
 
 // 02. With label
-import WithLabel from "@/components/blocks/checkbox/with-label";
+import WithLabel from "@/components/ui-kit/checkbox/with-label";
 import WithLabelRaw from "@/components/blocks/checkbox/with-label.jsx?raw";
 
 // 03. With description
-import WithDescription from "@/components/blocks/checkbox/with-description";
+import WithDescription from "@/components/ui-kit/checkbox/with-description";
 import WithDescriptionRaw from "@/components/blocks/checkbox/with-description.jsx?raw";
 
 // 04. With custom layout
-import CustomLayout from "@/components/blocks/checkbox/custom-layout";
+import CustomLayout from "@/components/ui-kit/checkbox/custom-layout";
 import CustomLayoutRaw from "@/components/blocks/checkbox/custom-layout.jsx?raw";
 
 // 05. With accent color
-import AccentColor from "@/components/blocks/checkbox/accent-color";
+import AccentColor from "@/components/ui-kit/checkbox/accent-color";
 import AccentColorRaw from "@/components/blocks/checkbox/accent-color.jsx?raw";
 
 // 06. With custom value
-import CustomValue from "@/components/blocks/checkbox/custom-value";
+import CustomValue from "@/components/ui-kit/checkbox/custom-value";
 import CustomValueRaw from "@/components/blocks/checkbox/custom-value.jsx?raw";
 
 // 07. Default checked state
-import DefaultChecked from "@/components/blocks/checkbox/default-checked";
+import DefaultChecked from "@/components/ui-kit/checkbox/default-checked";
 import DefaultCheckedRaw from "@/components/blocks/checkbox/default-checked.jsx?raw";
 
 // 08. Indeterminate state
-import Indeterminate from "@/components/blocks/checkbox/indeterminate";
+import Indeterminate from "@/components/ui-kit/checkbox/indeterminate";
 import IndeterminateRaw from "@/components/blocks/checkbox/indeterminate.jsx?raw";
 
 // 09. Controlled component
-import Controlled from "@/components/blocks/checkbox/controlled";
+import Controlled from "@/components/ui-kit/checkbox/controlled";
 import ControlledRaw from "@/components/blocks/checkbox/controlled.jsx?raw";
 
 // 10. Multiple checkboxes
-import MultipleCheckboxes from "@/components/blocks/checkbox/multiple";
+import MultipleCheckboxes from "@/components/ui-kit/checkbox/multiple";
 import MultipleCheckboxesRaw from "@/components/blocks/checkbox/multiple.jsx?raw";
 
 // 11. With fieldset
-import WithFieldset from "@/components/blocks/checkbox/with-fieldset";
+import WithFieldset from "@/components/ui-kit/checkbox/with-fieldset";
 import WithFieldsetRaw from "@/components/blocks/checkbox/with-fieldset.jsx?raw";
 
 // 12. Disabled state
-import DisabledState from "@/components/blocks/checkbox/disabled";
+import DisabledState from "@/components/ui-kit/checkbox/disabled";
 import DisabledStateRaw from "@/components/blocks/checkbox/disabled.jsx?raw";
 
 const Page = () => {

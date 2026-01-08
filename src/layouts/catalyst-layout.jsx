@@ -7,7 +7,7 @@ import {
   ShoppingBagIcon,
 } from "@heroicons/react/24/outline";
 
-const TailwindV4Layout = () => {
+const CatalystLayout = () => {
   const { pathname } = useLocation();
 
   // DỮ LIỆU ĐÃ ĐỒNG NHẤT
@@ -228,4 +228,4 @@ const TailwindV4Layout = () => {
   );
 };
 
-export default TailwindV4Layout;
+export default CatalystLayout;

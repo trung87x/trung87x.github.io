@@ -1,15 +1,15 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/divider/basic";
+import Basic from "@/components/ui-kit/divider/basic";
 import BasicRaw from "@/components/blocks/divider/basic.jsx?raw";
 
 // 02. With reduced contrast
-import ReducedContrast from "@/components/blocks/divider/reduced-contrast";
+import ReducedContrast from "@/components/ui-kit/divider/reduced-contrast";
 import ReducedContrastRaw from "@/components/blocks/divider/reduced-contrast.jsx?raw";
 
 // 03. With spacing
-import WithSpacing from "@/components/blocks/divider/with-spacing";
+import WithSpacing from "@/components/ui-kit/divider/with-spacing";
 import WithSpacingRaw from "@/components/blocks/divider/with-spacing.jsx?raw";
 
 const Page = () => {

@@ -1,59 +1,59 @@
 import PreviewWrapper from "@/features/preview-system/PreviewWrapper";
 
 // 01. Basic
-import Basic from "@/components/blocks/dropdown/basic";
+import Basic from "@/components/ui-kit/dropdown/basic";
 import BasicRaw from "@/components/blocks/dropdown/basic.jsx?raw";
 
 // 02. Button style
-import ButtonStyle from "@/components/blocks/dropdown/button-style";
+import ButtonStyle from "@/components/ui-kit/dropdown/button-style";
 import ButtonStyleRaw from "@/components/blocks/dropdown/button-style.jsx?raw";
 
 // 03. Menu placement
-import MenuPlacement from "@/components/blocks/dropdown/menu-placement";
+import MenuPlacement from "@/components/ui-kit/dropdown/menu-placement";
 import MenuPlacementRaw from "@/components/blocks/dropdown/menu-placement.jsx?raw";
 
 // 04. With disabled items
-import WithDisabled from "@/components/blocks/dropdown/with-disabled";
+import WithDisabled from "@/components/ui-kit/dropdown/with-disabled";
 import WithDisabledRaw from "@/components/blocks/dropdown/with-disabled.jsx?raw";
 
 // 05. With sections
-import WithSections from "@/components/blocks/dropdown/with-sections";
+import WithSections from "@/components/ui-kit/dropdown/with-sections";
 import WithSectionsRaw from "@/components/blocks/dropdown/with-sections.jsx?raw";
 
 // 06. With descriptions
-import WithDescriptions from "@/components/blocks/dropdown/with-descriptions";
+import WithDescriptions from "@/components/ui-kit/dropdown/with-descriptions";
 import WithDescriptionsRaw from "@/components/blocks/dropdown/with-descriptions.jsx?raw";
 
 // 07. With icons
-import WithIcons from "@/components/blocks/dropdown/with-icons";
+import WithIcons from "@/components/ui-kit/dropdown/with-icons";
 import WithIconsRaw from "@/components/blocks/dropdown/with-icons.jsx?raw";
 
 // 08. With keyboard shortcuts
-import WithShortcuts from "@/components/blocks/dropdown/with-shortcuts";
+import WithShortcuts from "@/components/ui-kit/dropdown/with-shortcuts";
 import WithShortcutsRaw from "@/components/blocks/dropdown/with-shortcuts.jsx?raw";
 
 // 09. With header
-import WithHeader from "@/components/blocks/dropdown/with-header";
+import WithHeader from "@/components/ui-kit/dropdown/with-header";
 import WithHeaderRaw from "@/components/blocks/dropdown/with-header.jsx?raw";
 
 // 10. With disabled button
-import DisabledButton from "@/components/blocks/dropdown/disabled-button";
+import DisabledButton from "@/components/ui-kit/dropdown/disabled-button";
 import DisabledButtonRaw from "@/components/blocks/dropdown/disabled-button.jsx?raw";
 
 // 11. With icon trigger
-import IconTrigger from "@/components/blocks/dropdown/icon-trigger";
+import IconTrigger from "@/components/ui-kit/dropdown/icon-trigger";
 import IconTriggerRaw from "@/components/blocks/dropdown/icon-trigger.jsx?raw";
 
 // 12. With avatar trigger
-import AvatarTrigger from "@/components/blocks/dropdown/avatar-trigger";
+import AvatarTrigger from "@/components/ui-kit/dropdown/avatar-trigger";
 import AvatarTriggerRaw from "@/components/blocks/dropdown/avatar-trigger.jsx?raw";
 
 // 13. With custom trigger
-import CustomTrigger from "@/components/blocks/dropdown/custom-trigger";
+import CustomTrigger from "@/components/ui-kit/dropdown/custom-trigger";
 import CustomTriggerRaw from "@/components/blocks/dropdown/custom-trigger.jsx?raw";
 
 // 14. With custom menu width
-import CustomMenuWidth from "@/components/blocks/dropdown/custom-width";
+import CustomMenuWidth from "@/components/ui-kit/dropdown/custom-width";
 import CustomMenuWidthRaw from "@/components/blocks/dropdown/custom-width.jsx?raw";
 
 const currentUser = {

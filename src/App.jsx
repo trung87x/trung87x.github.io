@@ -1,15 +1,16 @@
-// 1. Phải thêm lazy và Suspense vào đây
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-// Import tĩnh cho các trang quan trọng (tải ngay lập tức)
 import Home from "@/pages/home";
 import About from "@/pages/about";
+import NotFound from "@/pages/not-found";
+
 import routes from "@/core/routing/autoRoutes";
+
 import TailwindV4Layout from "@/layouts/tailwind-v4-layout";
 import CatalystLayout from "@/layouts/catalyst-layout";
+import Layout from "@/layouts/layout";
 
-// Component loading xoay tròn
 const LoadingFallback = () => (
   <div className="flex min-h-screen items-center justify-center">
     <div className="h-12 w-12 animate-spin rounded-full border-t-2 border-b-2 border-blue-500"></div>
@@ -40,16 +41,9 @@ function App() {
         </Link>
       </nav>
 
-      {/* 2. Sử dụng LoadingFallback ở đây để giao diện đồng bộ */}
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
-          {/* CÁC ROUTE CỐ ĐỊNH (ƯU TIÊN CAO) */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-
-          {/* Nhóm các trang Marketing */}
           <Route element={<TailwindV4Layout />}>
-            {/* CÁC ROUTE TỰ ĐỘNG (QUÉT TỪ THƯ MỤC) */}
             {routes
               .filter((r) => r.path.startsWith("/tailwindv4"))
               .map(({ path, component: Component }) => (
@@ -57,9 +51,7 @@ function App() {
               ))}
           </Route>
 
-          {/* Nhóm các trang Catalyst */}
           <Route element={<CatalystLayout />}>
-            {/* CÁC ROUTE TỰ ĐỘNG (QUÉT TỪ THƯ MỤC) */}
             {routes
               .filter((r) => r.path.startsWith("/catalyst"))
               .map(({ path, component: Component }) => (
@@ -67,15 +59,12 @@ function App() {
               ))}
           </Route>
 
-          {/* TRANG 404 */}
-          <Route
-            path="*"
-            element={
-              <div className="p-10 text-center text-red-500">
-                Trang không tồn tại
-              </div>
-            }
-          />
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Route>
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
