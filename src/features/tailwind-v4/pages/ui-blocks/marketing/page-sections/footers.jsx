@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. 4-column with company mission on dark
 import FourColumnWithCompanyMissionOnDark from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_company_mission_on_dark";
-import FourColumnWithCompanyMissionOnDarkRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_company_mission_on_dark.jsx?raw";
+import FourColumnWithCompanyMissionOnDarkRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_company_mission_on_dark.jsx?raw";
 
 // 02. 4-column with call-to-action
 import FourColumnWithCallToAction from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_call_to_action";
-import FourColumnWithCallToActionRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_call_to_action.jsx?raw";
+import FourColumnWithCallToActionRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_call_to_action.jsx?raw";
 
 // 03. 4-column simple
 import FourColumnSimple from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_simple";
-import FourColumnSimpleRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_simple.jsx?raw";
+import FourColumnSimpleRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_simple.jsx?raw";
 
 // 04. 4-column with newsletter
 import FourColumnWithNewsletter from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter";
-import FourColumnWithNewsletterRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter.jsx?raw";
+import FourColumnWithNewsletterRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter.jsx?raw";
 
 // 05. 4-column with newsletter below
 import FourColumnWithNewsletterBelow from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter_below";
-import FourColumnWithNewsletterBelowRaw from "@/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter_below.jsx?raw";
+import FourColumnWithNewsletterBelowRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/4_column_with_newsletter_below.jsx?raw";
 
 // 06. Simple centered
 import SimpleCentered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/simple_centered";
-import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/footers/simple_centered.jsx?raw";
+import SimpleCenteredRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/simple_centered.jsx?raw";
 
 // 07. Simple with social links
 import SimpleWithSocialLinks from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/simple_with_social_links";
-import SimpleWithSocialLinksRaw from "@/components/ui-blocks/marketing/page-sections/footers/simple_with_social_links.jsx?raw";
+import SimpleWithSocialLinksRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/footers/simple_with_social_links.jsx?raw";
 
 const FooterDemoPage = () => {
   return (

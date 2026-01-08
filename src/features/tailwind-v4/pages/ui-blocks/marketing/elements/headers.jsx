@@ -2,47 +2,47 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With stacked flyout menu
 import WithStackedFlyoutMenu from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_stacked_flyout_menu";
-import WithStackedFlyoutMenuRaw from "@/components/ui-blocks/marketing/elements/headers/with_stacked_flyout_menu.jsx?raw";
+import WithStackedFlyoutMenuRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_stacked_flyout_menu.jsx?raw";
 
 // 02. Constrained
 import Constrained from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/constrained";
-import ConstrainedRaw from "@/components/ui-blocks/marketing/elements/headers/constrained.jsx?raw";
+import ConstrainedRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/constrained.jsx?raw";
 
 // 03. On brand background
 import OnBrandBackground from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/on_brand_background";
-import OnBrandBackgroundRaw from "@/components/ui-blocks/marketing/elements/headers/on_brand_background.jsx?raw";
+import OnBrandBackgroundRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/on_brand_background.jsx?raw";
 
 // 04. With full width flyout menu
 import WithFullWidthFlyoutMenu from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_full_width_flyout_menu";
-import WithFullWidthFlyoutMenuRaw from "@/components/ui-blocks/marketing/elements/headers/with_full_width_flyout_menu.jsx?raw";
+import WithFullWidthFlyoutMenuRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_full_width_flyout_menu.jsx?raw";
 
 // 05. Full width
 import FullWidth from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/full_width";
-import FullWidthRaw from "@/components/ui-blocks/marketing/elements/headers/full_width.jsx?raw";
+import FullWidthRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/full_width.jsx?raw";
 
 // 06. With call-to-action
 import WithCallToAction from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_call_to_action";
-import WithCallToActionRaw from "@/components/ui-blocks/marketing/elements/headers/with_call_to_action.jsx?raw";
+import WithCallToActionRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_call_to_action.jsx?raw";
 
 // 07. With multiple flyout menus
 import WithMultipleFlyoutMenus from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_multiple_flyout_menus";
-import WithMultipleFlyoutMenusRaw from "@/components/ui-blocks/marketing/elements/headers/with_multiple_flyout_menus.jsx?raw";
+import WithMultipleFlyoutMenusRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_multiple_flyout_menus.jsx?raw";
 
 // 08. With icons in mobile menu
 import WithIconsInMobileMenu from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_icons_in_mobile_menu";
-import WithIconsInMobileMenuRaw from "@/components/ui-blocks/marketing/elements/headers/with_icons_in_mobile_menu.jsx?raw";
+import WithIconsInMobileMenuRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_icons_in_mobile_menu.jsx?raw";
 
 // 09. With left-aligned nav
 import WithLeftAlignedNav from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_left_aligned_nav";
-import WithLeftAlignedNavRaw from "@/components/ui-blocks/marketing/elements/headers/with_left_aligned_nav.jsx?raw";
+import WithLeftAlignedNavRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_left_aligned_nav.jsx?raw";
 
 // 10. With right-aligned nav
 import WithRightAlignedNav from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_right_aligned_nav";
-import WithRightAlignedNavRaw from "@/components/ui-blocks/marketing/elements/headers/with_right_aligned_nav.jsx?raw";
+import WithRightAlignedNavRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_right_aligned_nav.jsx?raw";
 
 // 11. With centered logo
 import WithCenteredLogo from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_centered_logo";
-import WithCenteredLogoRaw from "@/components/ui-blocks/marketing/elements/headers/with_centered_logo.jsx?raw";
+import WithCenteredLogoRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/headers/with_centered_logo.jsx?raw";
 
 const HeadersDemoPage = () => {
   return (

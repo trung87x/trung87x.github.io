@@ -2,11 +2,11 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Sidebar on dark
 import SidebarOnDark from "@/features/tailwind-v4/components/ui-blocks/application-ui/page-examples/home-screens/sidebar_on_dark";
-import SidebarOnDarkRaw from "@/components/ui-blocks/application-ui/page-examples/home-screens/sidebar_on_dark.jsx?raw";
+import SidebarOnDarkRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/page-examples/home-screens/sidebar_on_dark.jsx?raw";
 
 // 02. Stacked
 import Stacked from "@/features/tailwind-v4/components/ui-blocks/application-ui/page-examples/home-screens/stacked";
-import StackedRaw from "@/components/ui-blocks/application-ui/page-examples/home-screens/stacked.jsx?raw";
+import StackedRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/page-examples/home-screens/stacked.jsx?raw";
 
 const HomeScreensDemoPage = () => {
   const layouts = [

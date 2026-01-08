@@ -6,27 +6,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/simple";
-import SimpleRaw from "@/components/ui-blocks/application-ui/overlays/notifications/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/simple.jsx?raw";
 
 // 02. Condensed
 import Condensed from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/condensed";
-import CondensedRaw from "@/components/ui-blocks/application-ui/overlays/notifications/condensed.jsx?raw";
+import CondensedRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/condensed.jsx?raw";
 
 // 03. With actions below
 import WithActionsBelow from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_actions_below";
-import WithActionsBelowRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_actions_below.jsx?raw";
+import WithActionsBelowRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_actions_below.jsx?raw";
 
 // 04. With avatar
 import WithAvatar from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_avatar";
-import WithAvatarRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_avatar.jsx?raw";
+import WithAvatarRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_avatar.jsx?raw";
 
 // 05. With split buttons
 import WithSplitButtons from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_split_buttons";
-import WithSplitButtonsRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_split_buttons.jsx?raw";
+import WithSplitButtonsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_split_buttons.jsx?raw";
 
 // 06. With buttons below
 import WithButtonsBelow from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_buttons_below";
-import WithButtonsBelowRaw from "@/components/ui-blocks/application-ui/overlays/notifications/with_buttons_below.jsx?raw";
+import WithButtonsBelowRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/notifications/with_buttons_below.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

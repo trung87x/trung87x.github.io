@@ -2,43 +2,43 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/input/basic";
-import BasicRaw from "@/components/ui-kit/input/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/input/basic.jsx?raw";
 
 // 02. With label
 import WithLabel from "@/features/tailwind-v4/components/ui-kit/input/with-label";
-import WithLabelRaw from "@/components/ui-kit/input/with-label.jsx?raw";
+import WithLabelRaw from "@/features/tailwind-v4/components/ui-kit/input/with-label.jsx?raw";
 
 // 03. With description
 import WithDescription from "@/features/tailwind-v4/components/ui-kit/input/with-description";
-import WithDescriptionRaw from "@/components/ui-kit/input/with-description.jsx?raw";
+import WithDescriptionRaw from "@/features/tailwind-v4/components/ui-kit/input/with-description.jsx?raw";
 
 // 04. With icon
 import WithIcon from "@/features/tailwind-v4/components/ui-kit/input/with-icon";
-import WithIconRaw from "@/components/ui-kit/input/with-icon.jsx?raw";
+import WithIconRaw from "@/features/tailwind-v4/components/ui-kit/input/with-icon.jsx?raw";
 
 // 05. Setting the type
 import SettingType from "@/features/tailwind-v4/components/ui-kit/input/setting-type";
-import SettingTypeRaw from "@/components/ui-kit/input/setting-type.jsx?raw";
+import SettingTypeRaw from "@/features/tailwind-v4/components/ui-kit/input/setting-type.jsx?raw";
 
 // 06. Disabled state
 import DisabledState from "@/features/tailwind-v4/components/ui-kit/input/disabled";
-import DisabledStateRaw from "@/components/ui-kit/input/disabled.jsx?raw";
+import DisabledStateRaw from "@/features/tailwind-v4/components/ui-kit/input/disabled.jsx?raw";
 
 // 07. Validation errors
 import ValidationErrors from "@/features/tailwind-v4/components/ui-kit/input/validation-errors";
-import ValidationErrorsRaw from "@/components/ui-kit/input/validation-errors.jsx?raw";
+import ValidationErrorsRaw from "@/features/tailwind-v4/components/ui-kit/input/validation-errors.jsx?raw";
 
 // 08. Constraining width
 import ConstrainingWidth from "@/features/tailwind-v4/components/ui-kit/input/constraining-width";
-import ConstrainingWidthRaw from "@/components/ui-kit/input/constraining-width.jsx?raw";
+import ConstrainingWidthRaw from "@/features/tailwind-v4/components/ui-kit/input/constraining-width.jsx?raw";
 
 // 09. With custom layout
 import CustomLayout from "@/features/tailwind-v4/components/ui-kit/input/custom-layout";
-import CustomLayoutRaw from "@/components/ui-kit/input/custom-layout.jsx?raw";
+import CustomLayoutRaw from "@/features/tailwind-v4/components/ui-kit/input/custom-layout.jsx?raw";
 
 // 10. Controlled component
 import ControlledComponent from "@/features/tailwind-v4/components/ui-kit/input/controlled";
-import ControlledComponentRaw from "@/components/ui-kit/input/controlled.jsx?raw";
+import ControlledComponentRaw from "@/features/tailwind-v4/components/ui-kit/input/controlled.jsx?raw";
 
 const mockErrors = new Map([
   ["full_name", "Họ và tên là bắt buộc và không được để trống."],

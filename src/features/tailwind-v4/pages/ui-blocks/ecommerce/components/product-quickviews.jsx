@@ -6,19 +6,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With color and size selector
 import WithColorAndSizeSelector from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_color_and_size_selector";
-import WithColorAndSizeSelectorRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_and_size_selector.jsx?raw";
+import WithColorAndSizeSelectorRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_color_and_size_selector.jsx?raw";
 
 // 02. With color selector, size selector, and details link
 import WithColorSizeSelectorAndDetailsLink from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link";
-import WithColorSizeSelectorAndDetailsLinkRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link.jsx?raw";
+import WithColorSizeSelectorAndDetailsLinkRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector__size_selector__and_details_link.jsx?raw";
 
 // 03. With large size selector
 import WithLargeSizeSelector from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_large_size_selector";
-import WithLargeSizeSelectorRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_large_size_selector.jsx?raw";
+import WithLargeSizeSelectorRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_large_size_selector.jsx?raw";
 
 // 04. With color selector and description
 import WithColorSelectorAndDescription from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector_and_description";
-import WithColorSelectorAndDescriptionRaw from "@/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector_and_description.jsx?raw";
+import WithColorSelectorAndDescriptionRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-quickviews/with_color_selector_and_description.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

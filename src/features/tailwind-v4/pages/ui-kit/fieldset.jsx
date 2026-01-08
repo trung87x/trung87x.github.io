@@ -2,27 +2,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/fieldset/basic";
-import BasicRaw from "@/components/ui-kit/fieldset/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/fieldset/basic.jsx?raw";
 
 // 02. Without legend
 import WithoutLegend from "@/features/tailwind-v4/components/ui-kit/fieldset/without-legend";
-import WithoutLegendRaw from "@/components/ui-kit/fieldset/without-legend.jsx?raw";
+import WithoutLegendRaw from "@/features/tailwind-v4/components/ui-kit/fieldset/without-legend.jsx?raw";
 
 // 03. Without role
 import WithoutRole from "@/features/tailwind-v4/components/ui-kit/fieldset/without-role";
-import WithoutRoleRaw from "@/components/ui-kit/fieldset/without-role.jsx?raw";
+import WithoutRoleRaw from "@/features/tailwind-v4/components/ui-kit/fieldset/without-role.jsx?raw";
 
 // 04. With grid layout
 import GridLayout from "@/features/tailwind-v4/components/ui-kit/fieldset/grid-layout";
-import GridLayoutRaw from "@/components/ui-kit/fieldset/grid-layout.jsx?raw";
+import GridLayoutRaw from "@/features/tailwind-v4/components/ui-kit/fieldset/grid-layout.jsx?raw";
 
 // 05. With custom layout
 import CustomLayout from "@/features/tailwind-v4/components/ui-kit/fieldset/custom-layout";
-import CustomLayoutRaw from "@/components/ui-kit/fieldset/custom-layout.jsx?raw";
+import CustomLayoutRaw from "@/features/tailwind-v4/components/ui-kit/fieldset/custom-layout.jsx?raw";
 
 // 06. Disabled state
 import DisabledState from "@/features/tailwind-v4/components/ui-kit/fieldset/disabled";
-import DisabledStateRaw from "@/components/ui-kit/fieldset/disabled.jsx?raw";
+import DisabledStateRaw from "@/features/tailwind-v4/components/ui-kit/fieldset/disabled.jsx?raw";
 
 const Page = () => {
   const layouts = [

@@ -2,27 +2,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/simple";
-import SimpleRaw from "@/components/ui-blocks/application-ui/navigation/vertical-navigation/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/simple.jsx?raw";
 
 // 02. With badges
 import WithBadges from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_badges";
-import WithBadgesRaw from "@/components/ui-blocks/application-ui/navigation/vertical-navigation/with_badges.jsx?raw";
+import WithBadgesRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_badges.jsx?raw";
 
 // 03. With icons and badges
 import WithIconsAndBadges from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_icons_and_badges";
-import WithIconsAndBadgesRaw from "@/components/ui-blocks/application-ui/navigation/vertical-navigation/with_icons_and_badges.jsx?raw";
+import WithIconsAndBadgesRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_icons_and_badges.jsx?raw";
 
 // 04. With icons
 import WithIcons from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_icons";
-import WithIconsRaw from "@/components/ui-blocks/application-ui/navigation/vertical-navigation/with_icons.jsx?raw";
+import WithIconsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_icons.jsx?raw";
 
 // 05. With secondary navigation
 import WithSecondaryNavigation from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_secondary_navigation";
-import WithSecondaryNavigationRaw from "@/components/ui-blocks/application-ui/navigation/vertical-navigation/with_secondary_navigation.jsx?raw";
+import WithSecondaryNavigationRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/with_secondary_navigation.jsx?raw";
 
 // 06. On gray
 import OnGray from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/on_gray";
-import OnGrayRaw from "@/components/ui-blocks/application-ui/navigation/vertical-navigation/on_gray.jsx?raw";
+import OnGrayRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/vertical-navigation/on_gray.jsx?raw";
 
 const VerticalNavigationDemoPage = () => {
   const layouts = [

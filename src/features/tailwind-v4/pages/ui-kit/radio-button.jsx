@@ -2,35 +2,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/radio-button/basic";
-import BasicRaw from "@/components/ui-kit/radio-button/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/basic.jsx?raw";
 
 // 02. With description
 import WithDescription from "@/features/tailwind-v4/components/ui-kit/radio-button/with-description";
-import WithDescriptionRaw from "@/components/ui-kit/radio-button/with-description.jsx?raw";
+import WithDescriptionRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/with-description.jsx?raw";
 
 // 03. With custom layout
 import CustomLayout from "@/features/tailwind-v4/components/ui-kit/radio-button/custom-layout";
-import CustomLayoutRaw from "@/components/ui-kit/radio-button/custom-layout.jsx?raw";
+import CustomLayoutRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/custom-layout.jsx?raw";
 
 // 04. With accent color
 import AccentColor from "@/features/tailwind-v4/components/ui-kit/radio-button/accent-color";
-import AccentColorRaw from "@/components/ui-kit/radio-button/accent-color.jsx?raw";
+import AccentColorRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/accent-color.jsx?raw";
 
 // 05. Default selected state
 import DefaultSelected from "@/features/tailwind-v4/components/ui-kit/radio-button/default-selected";
-import DefaultSelectedRaw from "@/components/ui-kit/radio-button/default-selected.jsx?raw";
+import DefaultSelectedRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/default-selected.jsx?raw";
 
 // 06. Controlled component
 import Controlled from "@/features/tailwind-v4/components/ui-kit/radio-button/controlled";
-import ControlledRaw from "@/components/ui-kit/radio-button/controlled.jsx?raw";
+import ControlledRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/controlled.jsx?raw";
 
 // 07. With fieldset
 import WithFieldset from "@/features/tailwind-v4/components/ui-kit/radio-button/with-fieldset";
-import WithFieldsetRaw from "@/components/ui-kit/radio-button/with-fieldset.jsx?raw";
+import WithFieldsetRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/with-fieldset.jsx?raw";
 
 // 08. Disabled state
 import DisabledState from "@/features/tailwind-v4/components/ui-kit/radio-button/disabled";
-import DisabledStateRaw from "@/components/ui-kit/radio-button/disabled.jsx?raw";
+import DisabledStateRaw from "@/features/tailwind-v4/components/ui-kit/radio-button/disabled.jsx?raw";
 
 const Page = () => {
   const layouts = [

@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Stacked with footer actions
 import StackedWithFooterActions from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_actions";
-import StackedWithFooterActionsRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_actions.jsx?raw";
+import StackedWithFooterActionsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_actions.jsx?raw";
 
 // 02. Full-width two-columns
 import FullWidthTwoColumns from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/full_width_two_columns";
-import FullWidthTwoColumnsRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/full_width_two_columns.jsx?raw";
+import FullWidthTwoColumnsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/full_width_two_columns.jsx?raw";
 
 // 03. Stacked with footer list
 import StackedWithFooterList from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_list";
-import StackedWithFooterListRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_list.jsx?raw";
+import StackedWithFooterListRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/stacked_with_footer_list.jsx?raw";
 
 // 04. Full-width
 import FullWidth from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/full_width";
-import FullWidthRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/full_width.jsx?raw";
+import FullWidthRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/full_width.jsx?raw";
 
 // 05. Simple with descriptions
 import SimpleWithDescriptions from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/simple_with_descriptions";
-import SimpleWithDescriptionsRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/simple_with_descriptions.jsx?raw";
+import SimpleWithDescriptionsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/simple_with_descriptions.jsx?raw";
 
 // 06. Two-column
 import TwoColumn from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/two_column";
-import TwoColumnRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/two_column.jsx?raw";
+import TwoColumnRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/two_column.jsx?raw";
 
 // 07. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/simple";
-import SimpleRaw from "@/components/ui-blocks/marketing/elements/flyout-menus/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/elements/flyout-menus/simple.jsx?raw";
 
 const FlyoutMenusDemoPage = () => {
   return (

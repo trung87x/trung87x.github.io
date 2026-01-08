@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/avatar/basic";
-import BasicRaw from "@/components/ui-kit/avatar/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/avatar/basic.jsx?raw";
 
 // 02. With initials
 import WithInitials from "@/features/tailwind-v4/components/ui-kit/avatar/with-initials";
-import WithInitialsRaw from "@/components/ui-kit/avatar/with-initials.jsx?raw";
+import WithInitialsRaw from "@/features/tailwind-v4/components/ui-kit/avatar/with-initials.jsx?raw";
 
 // 03. With initials as fallback
 import InitialsFallback from "@/features/tailwind-v4/components/ui-kit/avatar/initials-fallback";
-import InitialsFallbackRaw from "@/components/ui-kit/avatar/initials-fallback.jsx?raw";
+import InitialsFallbackRaw from "@/features/tailwind-v4/components/ui-kit/avatar/initials-fallback.jsx?raw";
 
 // 04. Square avatars
 import SquareAvatars from "@/features/tailwind-v4/components/ui-kit/avatar/square";
-import SquareAvatarsRaw from "@/components/ui-kit/avatar/square.jsx?raw";
+import SquareAvatarsRaw from "@/features/tailwind-v4/components/ui-kit/avatar/square.jsx?raw";
 
 // 05. Avatar groups
 import AvatarGroups from "@/features/tailwind-v4/components/ui-kit/avatar/avatar-groups";
-import AvatarGroupsRaw from "@/components/ui-kit/avatar/avatar-groups.jsx?raw";
+import AvatarGroupsRaw from "@/features/tailwind-v4/components/ui-kit/avatar/avatar-groups.jsx?raw";
 
 // 06. Using as buttons
 import AvatarButtons from "@/features/tailwind-v4/components/ui-kit/avatar/avatar-button";
-import AvatarButtonsRaw from "@/components/ui-kit/avatar/avatar-button.jsx?raw";
+import AvatarButtonsRaw from "@/features/tailwind-v4/components/ui-kit/avatar/avatar-button.jsx?raw";
 
 // 07. Using as links
 import AvatarLinks from "@/features/tailwind-v4/components/ui-kit/avatar/avatar-link";
-import AvatarLinksRaw from "@/components/ui-kit/avatar/avatar-link.jsx?raw";
+import AvatarLinksRaw from "@/features/tailwind-v4/components/ui-kit/avatar/avatar-link.jsx?raw";
 
 const mockUser = {
   name: "Erica",

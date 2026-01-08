@@ -2,11 +2,11 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 00. Sidebar layout
 import SidebarLayout from "@/features/tailwind-v4/components/ui-kit/sidebar-layout/sidebar-layout";
-import SidebarLayoutRaw from "@/components/ui-kit/sidebar-layout/sidebar-layout.jsx?raw";
+import SidebarLayoutRaw from "@/features/tailwind-v4/components/ui-kit/sidebar-layout/sidebar-layout.jsx?raw";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/sidebar-layout/basic";
-import BasicRaw from "@/components/ui-kit/sidebar-layout/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/sidebar-layout/basic.jsx?raw";
 
 const Page = () => {
   // Hàm helper để tạo nội dung giả cho phần children của Layout

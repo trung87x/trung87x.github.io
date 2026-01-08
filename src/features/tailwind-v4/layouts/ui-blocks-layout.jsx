@@ -22,76 +22,85 @@ const Layout = () => {
           items: [
             {
               name: "Hero Sections",
-              path: "/tailwindv4/marketing/page-sections/hero-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/hero-sections",
             },
             {
               name: "Feature Sections",
-              path: "/tailwindv4/marketing/page-sections/feature-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/feature-sections",
             },
             {
               name: "CTA Sections",
-              path: "/tailwindv4/marketing/page-sections/cta-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/cta-sections",
             },
             {
               name: "Bento Grids",
-              path: "/tailwindv4/marketing/page-sections/bento-grids",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/bento-grids",
             },
             {
               name: "Pricing Sections",
-              path: "/tailwindv4/marketing/page-sections/pricing-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/pricing-sections",
             },
             {
               name: "Header Sections",
-              path: "/tailwindv4/marketing/page-sections/header-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/header-sections",
             },
             {
               name: "Newsletter Sections",
-              path: "/tailwindv4/marketing/page-sections/newsletter-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/newsletter-sections",
             },
             {
               name: "Stats",
-              path: "/tailwindv4/marketing/page-sections/stats",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/stats",
             },
             {
               name: "Testimonials",
-              path: "/tailwindv4/marketing/page-sections/testimonials",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/testimonials",
             },
             {
               name: "Blog Sections",
-              path: "/tailwindv4/marketing/page-sections/blog-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/blog-sections",
             },
             {
               name: "Contact Sections",
-              path: "/tailwindv4/marketing/page-sections/contact-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/contact-sections",
             },
             {
               name: "Team Sections",
-              path: "/tailwindv4/marketing/page-sections/team-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/team-sections",
             },
             {
               name: "Content Sections",
-              path: "/tailwindv4/marketing/page-sections/content-sections",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/content-sections",
             },
             {
               name: "Logo Clouds",
-              path: "/tailwindv4/marketing/page-sections/logo-clouds",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/logo-clouds",
             },
-            { name: "FAQs", path: "/tailwindv4/marketing/page-sections/faqs" },
+            {
+              name: "FAQs",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/faqs",
+            },
             {
               name: "Footers",
-              path: "/tailwindv4/marketing/page-sections/footers",
+              path: "/tailwind-v4/ui-blocks/marketing/page-sections/footers",
             },
           ],
         },
         {
           label: "ELEMENTS",
           items: [
-            { name: "Headers", path: "/tailwindv4/marketing/elements/headers" },
+            {
+              name: "Headers",
+              path: "/tailwind-v4/ui-blocks/marketing/elements/headers",
+            },
             {
               name: "Flyout Menus",
-              path: "/tailwindv4/marketing/elements/flyout-menus",
+              path: "/tailwind-v4/ui-blocks/marketing/elements/flyout-menus",
             },
-            { name: "Banners", path: "/tailwindv4/marketing/elements/banners" },
+            {
+              name: "Banners",
+              path: "/tailwind-v4/ui-blocks/marketing/elements/banners",
+            },
           ],
         },
         ,
@@ -100,7 +109,7 @@ const Layout = () => {
           items: [
             {
               name: "404 Pages",
-              path: "/tailwindv4/marketing/feedback/404-pages",
+              path: "/tailwind-v4/ui-blocks/marketing/feedback/404-pages",
             },
           ],
         },
@@ -110,15 +119,15 @@ const Layout = () => {
           items: [
             {
               name: "Landing Pages",
-              path: "/tailwindv4/marketing/page-examples/landing-pages",
+              path: "/tailwind-v4/ui-blocks/marketing/page-examples/landing-pages",
             },
             {
               name: "Pricing Pages",
-              path: "/tailwindv4/marketing/page-examples/pricing-pages",
+              path: "/tailwind-v4/ui-blocks/marketing/page-examples/pricing-pages",
             },
             {
               name: "About Pages",
-              path: "/tailwindv4/marketing/page-examples/about-pages",
+              path: "/tailwind-v4/ui-blocks/marketing/page-examples/about-pages",
             },
           ],
         },
@@ -134,15 +143,15 @@ const Layout = () => {
           items: [
             {
               name: "Stacked Layouts",
-              path: "/tailwindv4/application-ui/application-shells/stacked-layouts",
+              path: "/tailwind-v4/ui-blocks/application-ui/application-shells/stacked-layouts",
             },
             {
               name: "Sidebar Layouts",
-              path: "/tailwindv4/application-ui/application-shells/sidebar-layouts",
+              path: "/tailwind-v4/ui-blocks/application-ui/application-shells/sidebar-layouts",
             },
             {
               name: "Multi-Column Layouts",
-              path: "/tailwindv4/application-ui/application-shells/multi-column-layouts",
+              path: "/tailwind-v4/ui-blocks/application-ui/application-shells/multi-column-layouts",
             },
           ],
         },
@@ -151,15 +160,15 @@ const Layout = () => {
           items: [
             {
               name: "Page Headings",
-              path: "/tailwindv4/application-ui/headings/page-headings",
+              path: "/tailwind-v4/ui-blocks/application-ui/headings/page-headings",
             },
             {
               name: "Card Headings",
-              path: "/tailwindv4/application-ui/headings/card-headings",
+              path: "/tailwind-v4/ui-blocks/application-ui/headings/card-headings",
             },
             {
               name: "Section Headings",
-              path: "/tailwindv4/application-ui/headings/section-headings",
+              path: "/tailwind-v4/ui-blocks/application-ui/headings/section-headings",
             },
           ],
         },
@@ -168,15 +177,15 @@ const Layout = () => {
           items: [
             {
               name: "Description Lists",
-              path: "/tailwindv4/application-ui/data-display/description-lists",
+              path: "/tailwind-v4/ui-blocks/application-ui/data-display/description-lists",
             },
             {
               name: "Stats",
-              path: "/tailwindv4/application-ui/data-display/stats",
+              path: "/tailwind-v4/ui-blocks/application-ui/data-display/stats",
             },
             {
               name: "Calendars",
-              path: "/tailwindv4/application-ui/data-display/calendars",
+              path: "/tailwind-v4/ui-blocks/application-ui/data-display/calendars",
             },
           ],
         },
@@ -185,14 +194,20 @@ const Layout = () => {
           items: [
             {
               name: "Stacked Lists",
-              path: "/tailwindv4/application-ui/lists/stacked-lists",
+              path: "/tailwind-v4/ui-blocks/application-ui/lists/stacked-lists",
             },
-            { name: "Tables", path: "/tailwindv4/application-ui/lists/tables" },
+            {
+              name: "Tables",
+              path: "/tailwind-v4/ui-blocks/application-ui/lists/tables",
+            },
             {
               name: "Grid Lists",
-              path: "/tailwindv4/application-ui/lists/grid-lists",
+              path: "/tailwind-v4/ui-blocks/application-ui/lists/grid-lists",
             },
-            { name: "Feeds", path: "/tailwindv4/application-ui/lists/feeds" },
+            {
+              name: "Feeds",
+              path: "/tailwind-v4/ui-blocks/application-ui/lists/feeds",
+            },
           ],
         },
         {
@@ -200,43 +215,43 @@ const Layout = () => {
           items: [
             {
               name: "Form Layouts",
-              path: "/tailwindv4/application-ui/forms/form-layouts",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/form-layouts",
             },
             {
               name: "Input Groups",
-              path: "/tailwindv4/application-ui/forms/input-groups",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/input-groups",
             },
             {
               name: "Select Menus",
-              path: "/tailwindv4/application-ui/forms/select-menus",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/select-menus",
             },
             {
               name: "Sign-in and Registration",
-              path: "/tailwindv4/application-ui/forms/sign-in-and-registration",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/sign-in-and-registration",
             },
             {
               name: "Textareas",
-              path: "/tailwindv4/application-ui/forms/textareas",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/textareas",
             },
             {
               name: "Radio Groups",
-              path: "/tailwindv4/application-ui/forms/radio-groups",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/radio-groups",
             },
             {
               name: "Checkboxes",
-              path: "/tailwindv4/application-ui/forms/checkboxes",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/checkboxes",
             },
             {
               name: "Toggles",
-              path: "/tailwindv4/application-ui/forms/toggles",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/toggles",
             },
             {
               name: "Action Panels",
-              path: "/tailwindv4/application-ui/forms/action-panels",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/action-panels",
             },
             {
               name: "Comboboxes",
-              path: "/tailwindv4/application-ui/forms/comboboxes",
+              path: "/tailwind-v4/ui-blocks/application-ui/forms/comboboxes",
             },
           ],
         },
@@ -245,11 +260,11 @@ const Layout = () => {
           items: [
             {
               name: "Alerts",
-              path: "/tailwindv4/application-ui/feedback/alerts",
+              path: "/tailwind-v4/ui-blocks/application-ui/feedback/alerts",
             },
             {
               name: "Empty States",
-              path: "/tailwindv4/application-ui/feedback/empty-states",
+              path: "/tailwind-v4/ui-blocks/application-ui/feedback/empty-states",
             },
           ],
         },
@@ -258,35 +273,35 @@ const Layout = () => {
           items: [
             {
               name: "Navbars",
-              path: "/tailwindv4/application-ui/navigation/navbars",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/navbars",
             },
             {
               name: "Pagination",
-              path: "/tailwindv4/application-ui/navigation/pagination",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/pagination",
             },
             {
               name: "Tabs",
-              path: "/tailwindv4/application-ui/navigation/tabs",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/tabs",
             },
             {
               name: "Vertical Navigation",
-              path: "/tailwindv4/application-ui/navigation/vertical-navigation",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/vertical-navigation",
             },
             {
               name: "Sidebar Navigation",
-              path: "/tailwindv4/application-ui/navigation/sidebar-navigation",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/sidebar-navigation",
             },
             {
               name: "Breadcrumbs",
-              path: "/tailwindv4/application-ui/navigation/breadcrumbs",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/breadcrumbs",
             },
             {
               name: "Progress Bars",
-              path: "/tailwindv4/application-ui/navigation/progress-bars",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/progress-bars",
             },
             {
               name: "Command Palettes",
-              path: "/tailwindv4/application-ui/navigation/command-palettes",
+              path: "/tailwind-v4/ui-blocks/application-ui/navigation/command-palettes",
             },
           ],
         },
@@ -295,15 +310,15 @@ const Layout = () => {
           items: [
             {
               name: "Modal Dialogs",
-              path: "/tailwindv4/application-ui/overlays/modal-dialogs",
+              path: "/tailwind-v4/ui-blocks/application-ui/overlays/modal-dialogs",
             },
             {
               name: "Drawers",
-              path: "/tailwindv4/application-ui/overlays/drawers",
+              path: "/tailwind-v4/ui-blocks/application-ui/overlays/drawers",
             },
             {
               name: "Notifications",
-              path: "/tailwindv4/application-ui/overlays/notifications",
+              path: "/tailwind-v4/ui-blocks/application-ui/overlays/notifications",
             },
           ],
         },
@@ -312,23 +327,23 @@ const Layout = () => {
           items: [
             {
               name: "Avatars",
-              path: "/tailwindv4/application-ui/elements/avatars",
+              path: "/tailwind-v4/ui-blocks/application-ui/elements/avatars",
             },
             {
               name: "Badges",
-              path: "/tailwindv4/application-ui/elements/badges",
+              path: "/tailwind-v4/ui-blocks/application-ui/elements/badges",
             },
             {
               name: "Dropdowns",
-              path: "/tailwindv4/application-ui/elements/dropdowns",
+              path: "/tailwind-v4/ui-blocks/application-ui/elements/dropdowns",
             },
             {
               name: "Buttons",
-              path: "/tailwindv4/application-ui/elements/buttons",
+              path: "/tailwind-v4/ui-blocks/application-ui/elements/buttons",
             },
             {
               name: "Button Groups",
-              path: "/tailwindv4/application-ui/elements/button-groups",
+              path: "/tailwind-v4/ui-blocks/application-ui/elements/button-groups",
             },
           ],
         },
@@ -337,20 +352,23 @@ const Layout = () => {
           items: [
             {
               name: "Containers",
-              path: "/tailwindv4/application-ui/layout/containers",
+              path: "/tailwind-v4/ui-blocks/application-ui/layout/containers",
             },
-            { name: "Cards", path: "/tailwindv4/application-ui/layout/cards" },
+            {
+              name: "Cards",
+              path: "/tailwind-v4/ui-blocks/application-ui/layout/cards",
+            },
             {
               name: "List containers",
-              path: "/tailwindv4/application-ui/layout/list-containers",
+              path: "/tailwind-v4/ui-blocks/application-ui/layout/list-containers",
             },
             {
               name: "Media Objects",
-              path: "/tailwindv4/application-ui/layout/media-objects",
+              path: "/tailwind-v4/ui-blocks/application-ui/layout/media-objects",
             },
             {
               name: "Dividers",
-              path: "/tailwindv4/application-ui/layout/dividers",
+              path: "/tailwind-v4/ui-blocks/application-ui/layout/dividers",
             },
           ],
         },
@@ -359,15 +377,15 @@ const Layout = () => {
           items: [
             {
               name: "Home Screens",
-              path: "/tailwindv4/application-ui/page-examples/home-screens",
+              path: "/tailwind-v4/ui-blocks/application-ui/page-examples/home-screens",
             },
             {
               name: "Detail Screens",
-              path: "/tailwindv4/application-ui/page-examples/detail-screens",
+              path: "/tailwind-v4/ui-blocks/application-ui/page-examples/detail-screens",
             },
             {
               name: "Settings Screens",
-              path: "/tailwindv4/application-ui/page-examples/settings-screens",
+              path: "/tailwind-v4/ui-blocks/application-ui/page-examples/settings-screens",
             },
           ],
         },
@@ -383,59 +401,59 @@ const Layout = () => {
           items: [
             {
               name: "Product Overviews",
-              path: "/tailwindv4/ecommerce/components/product-overviews",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/product-overviews",
             },
             {
               name: "Product Lists",
-              path: "/tailwindv4/ecommerce/components/product-lists",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/product-lists",
             },
             {
               name: "Category Previews",
-              path: "/tailwindv4/ecommerce/components/category-previews",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/category-previews",
             },
             {
               name: "Shopping Carts",
-              path: "/tailwindv4/ecommerce/components/shopping-carts",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/shopping-carts",
             },
             {
               name: "Category Filters",
-              path: "/tailwindv4/ecommerce/components/category-filters",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/category-filters",
             },
             {
               name: "Product Quickviews",
-              path: "/tailwindv4/ecommerce/components/product-quickviews",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/product-quickviews",
             },
             {
               name: "Product Features",
-              path: "/tailwindv4/ecommerce/components/product-features",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/product-features",
             },
             {
               name: "Store Navigation",
-              path: "/tailwindv4/ecommerce/components/store-navigation",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/store-navigation",
             },
             {
               name: "Promo Sections",
-              path: "/tailwindv4/ecommerce/components/promo-sections",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/promo-sections",
             },
             {
               name: "Checkout Forms",
-              path: "/tailwindv4/ecommerce/components/checkout-forms",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/checkout-forms",
             },
             {
               name: "Reviews",
-              path: "/tailwindv4/ecommerce/components/reviews",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/reviews",
             },
             {
               name: "Order Summaries",
-              path: "/tailwindv4/ecommerce/components/order-summaries",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/order-summaries",
             },
             {
               name: "Order History",
-              path: "/tailwindv4/ecommerce/components/order-history",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/order-history",
             },
             {
               name: "Incentives",
-              path: "/tailwindv4/ecommerce/components/incentives",
+              path: "/tailwind-v4/ui-blocks/ecommerce/components/incentives",
             },
           ],
         },
@@ -444,31 +462,31 @@ const Layout = () => {
           items: [
             {
               name: "Storefront Pages",
-              path: "/tailwindv4/ecommerce/page-examples/storefront-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/storefront-pages",
             },
             {
               name: "Product Pages",
-              path: "/tailwindv4/ecommerce/page-examples/product-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/product-pages",
             },
             {
               name: "Category Pages",
-              path: "/tailwindv4/ecommerce/page-examples/category-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/category-pages",
             },
             {
               name: "Shopping Cart Pages",
-              path: "/tailwindv4/ecommerce/page-examples/shopping-cart-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/shopping-cart-pages",
             },
             {
               name: "Checkout Pages",
-              path: "/tailwindv4/ecommerce/page-examples/checkout-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/checkout-pages",
             },
             {
               name: "Order Detail Pages",
-              path: "/tailwindv4/ecommerce/page-examples/order-detail-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/order-detail-pages",
             },
             {
               name: "Order History Pages",
-              path: "/tailwindv4/ecommerce/page-examples/order-history-pages",
+              path: "/tailwind-v4/ui-blocks/ecommerce/page-examples/order-history-pages",
             },
           ],
         },

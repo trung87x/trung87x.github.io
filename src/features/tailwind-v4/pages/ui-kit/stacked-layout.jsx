@@ -2,11 +2,11 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 00. Stacked layout
 import StackedLayout from "@/features/tailwind-v4/components/ui-kit/stacked-layout/stacked-layout";
-import StackedLayoutRaw from "@/components/ui-kit/stacked-layout/stacked-layout.jsx?raw";
+import StackedLayoutRaw from "@/features/tailwind-v4/components/ui-kit/stacked-layout/stacked-layout.jsx?raw";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/stacked-layout/basic";
-import BasicRaw from "@/components/ui-kit/stacked-layout/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/stacked-layout/basic.jsx?raw";
 
 const Page = () => {
   // Hàm helper để tạo nội dung giả cho phần children của Layout

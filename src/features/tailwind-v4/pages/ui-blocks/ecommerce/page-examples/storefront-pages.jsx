@@ -2,19 +2,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With dark nav and footer
 import WithDarkNavAndFooter from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer";
-import WithDarkNavAndFooterRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer.jsx?raw";
+import WithDarkNavAndFooterRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_dark_nav_and_footer.jsx?raw";
 
 // 02. With offers and testimonials
 import WithOffersAndTestimonials from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials";
-import WithOffersAndTestimonialsRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials.jsx?raw";
+import WithOffersAndTestimonialsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_offers_and_testimonials.jsx?raw";
 
 // 03. With image tiles and feature sections
 import WithImageTilesAndFeatureSections from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections";
-import WithImageTilesAndFeatureSectionsRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections.jsx?raw";
+import WithImageTilesAndFeatureSectionsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_image_tiles_and_feature_sections.jsx?raw";
 
 // 04. With overlapping image tiles and perks
 import WithOverlappingImageTilesAndPerks from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks";
-import WithOverlappingImageTilesAndPerksRaw from "@/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks.jsx?raw";
+import WithOverlappingImageTilesAndPerksRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/storefront-pages/with_overlapping_image_tiles_and_perks.jsx?raw";
 
 const StorefrontsDemoPage = () => {
   const layouts = [

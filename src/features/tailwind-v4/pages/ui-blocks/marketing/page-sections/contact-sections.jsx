@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Centered
 import Centered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/centered";
-import CenteredRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/centered.jsx?raw";
+import CenteredRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/centered.jsx?raw";
 
 // 02. Side-by-side grid
 import SideBySideGrid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/side_by_side_grid";
-import SideBySideGridRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/side_by_side_grid.jsx?raw";
+import SideBySideGridRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/side_by_side_grid.jsx?raw";
 
 // 03. Split with pattern
 import SplitWithPattern from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/split_with_pattern";
-import SplitWithPatternRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/split_with_pattern.jsx?raw";
+import SplitWithPatternRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/split_with_pattern.jsx?raw";
 
 // 04. Simple four-column
 import SimpleFourColumn from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/simple_four_column";
-import SimpleFourColumnRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/simple_four_column.jsx?raw";
+import SimpleFourColumnRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/simple_four_column.jsx?raw";
 
 // 05. Simple centered
 import SimpleCentered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/simple_centered";
-import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/simple_centered.jsx?raw";
+import SimpleCenteredRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/simple_centered.jsx?raw";
 
 // 06. With testimonial
 import WithTestimonial from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/with_testimonial";
-import WithTestimonialRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/with_testimonial.jsx?raw";
+import WithTestimonialRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/with_testimonial.jsx?raw";
 
 // 07. Split with image
 import SplitWithImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/split_with_image";
-import SplitWithImageRaw from "@/components/ui-blocks/marketing/page-sections/contact-sections/split_with_image.jsx?raw";
+import SplitWithImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/contact-sections/split_with_image.jsx?raw";
 
 const ContactSectionsDemoPage = () => {
   return (

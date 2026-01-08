@@ -6,47 +6,47 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With inline price
 import WithInlinePrice from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_inline_price";
-import WithInlinePriceRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_inline_price.jsx?raw";
+import WithInlinePriceRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_inline_price.jsx?raw";
 
 // 02. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/simple";
-import SimpleRaw from "@/components/ui-blocks/ecommerce/components/product-lists/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/simple.jsx?raw";
 
 // 03. With CTA link
 import WithCtaLink from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_cta_link";
-import WithCtaLinkRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_cta_link.jsx?raw";
+import WithCtaLinkRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_cta_link.jsx?raw";
 
 // 04. With color swatches and horizontal scrolling
 import WithColorSwatchesAndHorizontalScrolling from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_color_swatches_and_horizontal_scrolling";
-import WithColorSwatchesAndHorizontalScrollingRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_color_swatches_and_horizontal_scrolling.jsx?raw";
+import WithColorSwatchesAndHorizontalScrollingRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_color_swatches_and_horizontal_scrolling.jsx?raw";
 
 // 05. With tall images
 import WithTallImages from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_tall_images";
-import WithTallImagesRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_tall_images.jsx?raw";
+import WithTallImagesRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_tall_images.jsx?raw";
 
 // 06. With image overlay and add button
 import WithImageOverlayAndAddButton from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_image_overlay_and_add_button";
-import WithImageOverlayAndAddButtonRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_image_overlay_and_add_button.jsx?raw";
+import WithImageOverlayAndAddButtonRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_image_overlay_and_add_button.jsx?raw";
 
 // 07. With tall images and CTA link
 import WithTallImagesAndCtaLink from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_tall_images_and_cta_link";
-import WithTallImagesAndCtaLinkRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_tall_images_and_cta_link.jsx?raw";
+import WithTallImagesAndCtaLinkRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_tall_images_and_cta_link.jsx?raw";
 
 // 08. With border grid
 import WithBorderGrid from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_border_grid";
-import WithBorderGridRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_border_grid.jsx?raw";
+import WithBorderGridRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_border_grid.jsx?raw";
 
 // 09. With supporting text
 import WithSupportingText from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_supporting_text";
-import WithSupportingTextRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_supporting_text.jsx?raw";
+import WithSupportingTextRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_supporting_text.jsx?raw";
 
 // 10. With inline price and CTA link
 import WithInlinePriceAndCtaLink from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_inline_price_and_cta_link";
-import WithInlinePriceAndCtaLinkRaw from "@/components/ui-blocks/ecommerce/components/product-lists/with_inline_price_and_cta_link.jsx?raw";
+import WithInlinePriceAndCtaLinkRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/with_inline_price_and_cta_link.jsx?raw";
 
 // 11. Card with full details
 import CardWithFullDetails from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/card_with_full_details";
-import CardWithFullDetailsRaw from "@/components/ui-blocks/ecommerce/components/product-lists/card_with_full_details.jsx?raw";
+import CardWithFullDetailsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/product-lists/card_with_full_details.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

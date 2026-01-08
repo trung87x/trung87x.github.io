@@ -6,35 +6,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With label
 import WithLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_label";
-import WithLabelRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_label.jsx?raw";
+import WithLabelRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_label.jsx?raw";
 
 // 02. With icon
 import WithIcon from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_icon";
-import WithIconRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_icon.jsx?raw";
+import WithIconRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_icon.jsx?raw";
 
 // 03. With label on left
 import WithLabelOnLeft from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_label_on_left";
-import WithLabelOnLeftRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_label_on_left.jsx?raw";
+import WithLabelOnLeftRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_label_on_left.jsx?raw";
 
 // 04. With title
 import WithTitle from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_title";
-import WithTitleRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_title.jsx?raw";
+import WithTitleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_title.jsx?raw";
 
 // 05. With title on left
 import WithTitleOnLeft from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_title_on_left";
-import WithTitleOnLeftRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_title_on_left.jsx?raw";
+import WithTitleOnLeftRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_title_on_left.jsx?raw";
 
 // 06. With button
 import WithButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_button";
-import WithButtonRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_button.jsx?raw";
+import WithButtonRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_button.jsx?raw";
 
 // 07. With title and button
 import WithTitleAndButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_title_and_button";
-import WithTitleAndButtonRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_title_and_button.jsx?raw";
+import WithTitleAndButtonRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_title_and_button.jsx?raw";
 
 // 08. With toolbar
 import WithToolbar from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_toolbar";
-import WithToolbarRaw from "@/components/ui-blocks/application-ui/layout/dividers/with_toolbar.jsx?raw";
+import WithToolbarRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/layout/dividers/with_toolbar.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

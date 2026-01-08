@@ -2,25 +2,40 @@ import { lazy } from "react";
 
 const modules = import.meta.glob("/src/**/pages/**/*.jsx");
 
-// Tạo ra mảng routes ngay lập tức thay vì để trong function
 const routes = Object.keys(modules).map((path) => {
-  let featureName = "none";
-  if (path.includes("/features/")) {
-    featureName = path.split("/features/")[1].split("/")[0];
-  }
+  const parts = path.split("/");
+  const pagesIndex = parts.indexOf("pages");
 
-  let routePath = path
+  const folderTag = pagesIndex > 0 ? parts[pagesIndex - 1] : "root";
+
+  let subPath = path
     .replace(/^.*\/pages/, "")
     .replace(".jsx", "")
+    .replace(/\/index$/, "")
     .toLowerCase();
 
-  routePath = routePath.replace(/\/index$/, "") || "/";
+  const finalPath =
+    (folderTag === "src" ? subPath : `/${folderTag}${subPath}`) || "/";
 
   return {
-    path: routePath,
+    path: finalPath,
     component: lazy(modules[path]),
-    feature: featureName,
+    tag: folderTag,
   };
 });
 
-export default routes; // Export mảng đã xử lý xong
+/* VÍ DỤ KẾT QUẢ (MAPPING):
+  1. /src/pages/index.jsx 
+     => { path: "/", tag: "src", component: ... }
+
+  2. /src/pages/about.jsx 
+     => { path: "/about", tag: "src", component: ... }
+
+  3. /src/features/blog/pages/post-1.jsx 
+     => { path: "/blog/post-1", tag: "blog", component: ... }
+
+  4. /src/features/tailwind-v4/pages/ui-blocks/marketing/hero.jsx 
+     => { path: "/tailwind-v4/ui-blocks/marketing/hero", tag: "tailwind-v4", component: ... }
+*/
+
+export default routes;

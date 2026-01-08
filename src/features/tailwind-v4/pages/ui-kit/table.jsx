@@ -2,51 +2,51 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/table/basic";
-import BasicRaw from "@/components/ui-kit/table/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/table/basic.jsx?raw";
 
 // 02. Responsive tables
 import ResponsiveTable from "@/features/tailwind-v4/components/ui-kit/table/responsive-table";
-import ResponsiveTableRaw from "@/components/ui-kit/table/responsive-table.jsx?raw";
+import ResponsiveTableRaw from "@/features/tailwind-v4/components/ui-kit/table/responsive-table.jsx?raw";
 
 // 03. Full-width tables
 import FullWidthTable from "@/features/tailwind-v4/components/ui-kit/table/full-width";
-import FullWidthTableRaw from "@/components/ui-kit/table/full-width.jsx?raw";
+import FullWidthTableRaw from "@/features/tailwind-v4/components/ui-kit/table/full-width.jsx?raw";
 
 // 04. Rows as links
 import RowsAsLinks from "@/features/tailwind-v4/components/ui-kit/table/rows-as-links";
-import RowsAsLinksRaw from "@/components/ui-kit/table/rows-as-links.jsx?raw";
+import RowsAsLinksRaw from "@/features/tailwind-v4/components/ui-kit/table/rows-as-links.jsx?raw";
 
 // 05. With condensed spacing
 import CondensedTable from "@/features/tailwind-v4/components/ui-kit/table/condensed-spacing";
-import CondensedTableRaw from "@/components/ui-kit/table/condensed-spacing.jsx?raw";
+import CondensedTableRaw from "@/features/tailwind-v4/components/ui-kit/table/condensed-spacing.jsx?raw";
 
 // 06. With grid lines
 import GridLinesTable from "@/features/tailwind-v4/components/ui-kit/table/grid-lines";
-import GridLinesTableRaw from "@/components/ui-kit/table/grid-lines.jsx?raw";
+import GridLinesTableRaw from "@/features/tailwind-v4/components/ui-kit/table/grid-lines.jsx?raw";
 
 // 07. With striped rows
 import StripedRowsTable from "@/features/tailwind-v4/components/ui-kit/table/striped-rows";
-import StripedRowsTableRaw from "@/components/ui-kit/table/striped-rows.jsx?raw";
+import StripedRowsTableRaw from "@/features/tailwind-v4/components/ui-kit/table/striped-rows.jsx?raw";
 
 // 08. With different heading color
 import HeadingColorTable from "@/features/tailwind-v4/components/ui-kit/table/heading-color";
-import HeadingColorTableRaw from "@/components/ui-kit/table/heading-color.jsx?raw";
+import HeadingColorTableRaw from "@/features/tailwind-v4/components/ui-kit/table/heading-color.jsx?raw";
 
 // 09. With complex content
 import ComplexContentTable from "@/features/tailwind-v4/components/ui-kit/table/complex-content";
-import ComplexContentTableRaw from "@/components/ui-kit/table/complex-content.jsx?raw";
+import ComplexContentTableRaw from "@/features/tailwind-v4/components/ui-kit/table/complex-content.jsx?raw";
 
 // 10. With pagination
 import TableWithPagination from "@/features/tailwind-v4/components/ui-kit/table/with-pagination";
-import TableWithPaginationRaw from "@/components/ui-kit/table/with-pagination.jsx?raw";
+import TableWithPaginationRaw from "@/features/tailwind-v4/components/ui-kit/table/with-pagination.jsx?raw";
 
 // 11. With dropdowns
 import TableWithDropdowns from "@/features/tailwind-v4/components/ui-kit/table/with-dropdowns";
-import TableWithDropdownsRaw from "@/components/ui-kit/table/with-dropdowns.jsx?raw";
+import TableWithDropdownsRaw from "@/features/tailwind-v4/components/ui-kit/table/with-dropdowns.jsx?raw";
 
 // 12. In dialog
 import TableInDialog from "@/features/tailwind-v4/components/ui-kit/table/in-dialog";
-import TableInDialogRaw from "@/components/ui-kit/table/in-dialog.jsx?raw";
+import TableInDialogRaw from "@/features/tailwind-v4/components/ui-kit/table/in-dialog.jsx?raw";
 
 const mockUsers = [
   {

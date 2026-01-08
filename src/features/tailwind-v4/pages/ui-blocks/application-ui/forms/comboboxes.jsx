@@ -6,19 +6,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/simple";
-import SimpleRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/simple.jsx?raw";
 
 // 02. With status indicator
 import WithStatusIndicator from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/with_status_indicator";
-import WithStatusIndicatorRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/with_status_indicator.jsx?raw";
+import WithStatusIndicatorRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/with_status_indicator.jsx?raw";
 
 // 03. With image
 import WithImage from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/with_image";
-import WithImageRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/with_image.jsx?raw";
+import WithImageRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/with_image.jsx?raw";
 
 // 04. With secondary text
 import WithSecondaryText from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/with_secondary_text";
-import WithSecondaryTextRaw from "@/components/ui-blocks/application-ui/forms/comboboxes/with_secondary_text.jsx?raw";
+import WithSecondaryTextRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/comboboxes/with_secondary_text.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

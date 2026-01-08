@@ -2,27 +2,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Side-by-side with details
 import SideBySideWithDetails from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_with_details";
-import SideBySideWithDetailsRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_with_details.jsx?raw";
+import SideBySideWithDetailsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_with_details.jsx?raw";
 
 // 02. Simple side-by-side
 import SimpleSideBySide from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side";
-import SimpleSideBySideRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side.jsx?raw";
+import SimpleSideBySideRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side.jsx?raw";
 
 // 03. Simple side-by-side on brand
 import SimpleSideBySideOnBrand from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand";
-import SimpleSideBySideOnBrandRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand.jsx?raw";
+import SimpleSideBySideOnBrandRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_side_by_side_on_brand.jsx?raw";
 
 // 04. Simple stacked
 import SimpleStacked from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_stacked";
-import SimpleStackedRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_stacked.jsx?raw";
+import SimpleStackedRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/simple_stacked.jsx?raw";
 
 // 05. Centered card
 import CenteredCard from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/centered_card";
-import CenteredCardRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/centered_card.jsx?raw";
+import CenteredCardRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/centered_card.jsx?raw";
 
 // 06. Side-by-side on card
 import SideBySideOnCard from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_on_card";
-import SideBySideOnCardRaw from "@/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_on_card.jsx?raw";
+import SideBySideOnCardRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/newsletter-sections/side_by_side_on_card.jsx?raw";
 
 const NewsletterSectionsDemoPage = () => {
   return (

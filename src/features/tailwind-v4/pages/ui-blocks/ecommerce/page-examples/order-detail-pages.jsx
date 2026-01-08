@@ -6,15 +6,15 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With progress bars
 import WithProgressBars from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/order-detail-pages/with_progress_bars";
-import WithProgressBarsRaw from "@/components/ui-blocks/ecommerce/page-examples/order-detail-pages/with_progress_bars.jsx?raw";
+import WithProgressBarsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/order-detail-pages/with_progress_bars.jsx?raw";
 
 // 02. With large images and progress bars
 import WithLargeImagesAndProgressBars from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/order-detail-pages/with_large_images_and_progress_bars";
-import WithLargeImagesAndProgressBarsRaw from "@/components/ui-blocks/ecommerce/page-examples/order-detail-pages/with_large_images_and_progress_bars.jsx?raw";
+import WithLargeImagesAndProgressBarsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/order-detail-pages/with_large_images_and_progress_bars.jsx?raw";
 
 // 03. Simple with full order details
 import SimpleWithFullOrderDetails from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/order-detail-pages/simple_with_full_order_details";
-import SimpleWithFullOrderDetailsRaw from "@/components/ui-blocks/ecommerce/page-examples/order-detail-pages/simple_with_full_order_details.jsx?raw";
+import SimpleWithFullOrderDetailsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/order-detail-pages/simple_with_full_order_details.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

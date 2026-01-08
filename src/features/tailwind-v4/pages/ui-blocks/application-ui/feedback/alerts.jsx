@@ -6,27 +6,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With description
 import WithDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_description";
-import WithDescriptionRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_description.jsx?raw";
+import WithDescriptionRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_description.jsx?raw";
 
 // 02. With list
 import WithList from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_list";
-import WithListRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_list.jsx?raw";
+import WithListRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_list.jsx?raw";
 
 // 03. With actions
 import WithActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_actions";
-import WithActionsRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_actions.jsx?raw";
+import WithActionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_actions.jsx?raw";
 
 // 04. With link on right
 import WithLinkOnRight from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_link_on_right";
-import WithLinkOnRightRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_link_on_right.jsx?raw";
+import WithLinkOnRightRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_link_on_right.jsx?raw";
 
 // 05. With accent border
 import WithAccentBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_accent_border";
-import WithAccentBorderRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_accent_border.jsx?raw";
+import WithAccentBorderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_accent_border.jsx?raw";
 
 // 06. With dismiss button
 import WithDismissButton from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_dismiss_button";
-import WithDismissButtonRaw from "@/components/ui-blocks/application-ui/feedback/alerts/with_dismiss_button.jsx?raw";
+import WithDismissButtonRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/feedback/alerts/with_dismiss_button.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

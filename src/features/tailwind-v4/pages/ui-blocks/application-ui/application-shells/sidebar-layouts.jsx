@@ -6,35 +6,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple sidebar
 import SimpleSidebar from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar";
-import SimpleSidebarRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar.jsx?raw";
+import SimpleSidebarRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar.jsx?raw";
 
 // 02. Simple dark sidebar
 import SimpleDarkSidebar from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/dark_sidebar";
-import SimpleDarkSidebarRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/dark_sidebar.jsx?raw";
+import SimpleDarkSidebarRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/dark_sidebar.jsx?raw";
 
 // 03. Sidebar with header
 import SidebarWithHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_header";
-import SidebarWithHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_header.jsx?raw";
+import SidebarWithHeaderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_header.jsx?raw";
 
 // 04. Dark sidebar with header
 import DarkSidebarWithHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/dark_sidebar_with_header";
-import DarkSidebarWithHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/dark_sidebar_with_header.jsx?raw";
+import DarkSidebarWithHeaderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/dark_sidebar_with_header.jsx?raw";
 
 // 05. With constrained content area
 import WithConstrainedContent from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_constrained_content_area";
-import WithConstrainedContentRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_constrained_content_area.jsx?raw";
+import WithConstrainedContentRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_constrained_content_area.jsx?raw";
 
 // 06. With off-white background
 import WithOffWhiteBackground from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_off_white_background";
-import WithOffWhiteBackgroundRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_off_white_background.jsx?raw";
+import WithOffWhiteBackgroundRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/light_sidebar_with_off_white_background.jsx?raw";
 
 // 07. Simple brand sidebar
 import SimpleBrandSidebar from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/brand_sidebar";
-import SimpleBrandSidebarRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/brand_sidebar.jsx?raw";
+import SimpleBrandSidebarRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/brand_sidebar.jsx?raw";
 
 // 08. Brand sidebar with header
 import BrandSidebarWithHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/brand_sidebar_with_header";
-import BrandSidebarWithHeaderRaw from "@/components/ui-blocks/application-ui/application-shells/sidebar/brand_sidebar_with_header.jsx?raw";
+import BrandSidebarWithHeaderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/application-shells/sidebar/brand_sidebar_with_header.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

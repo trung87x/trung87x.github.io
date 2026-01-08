@@ -6,79 +6,79 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/simple";
-import SimpleRaw from "@/components/ui-blocks/application-ui/lists/tables/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/simple.jsx?raw";
 
 // 02. Simple in card
 import SimpleInCard from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/simple_in_card";
-import SimpleInCardRaw from "@/components/ui-blocks/application-ui/lists/tables/simple_in_card.jsx?raw";
+import SimpleInCardRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/simple_in_card.jsx?raw";
 
 // 03. Full width
 import FullWidth from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/full_width";
-import FullWidthRaw from "@/components/ui-blocks/application-ui/lists/tables/full_width.jsx?raw";
+import FullWidthRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/full_width.jsx?raw";
 
 // 04. Full width with constrained content
 import FullWidthConstrained from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/full_width_with_constrained_content";
-import FullWidthConstrainedRaw from "@/components/ui-blocks/application-ui/lists/tables/full_width_with_constrained_content.jsx?raw";
+import FullWidthConstrainedRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/full_width_with_constrained_content.jsx?raw";
 
 // 05. With striped rows
 import WithStripedRows from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_striped_rows";
-import WithStripedRowsRaw from "@/components/ui-blocks/application-ui/lists/tables/with_striped_rows.jsx?raw";
+import WithStripedRowsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_striped_rows.jsx?raw";
 
 // 06. With uppercase headings
 import WithUppercaseHeadings from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_uppercase_headings";
-import WithUppercaseHeadingsRaw from "@/components/ui-blocks/application-ui/lists/tables/with_uppercase_headings.jsx?raw";
+import WithUppercaseHeadingsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_uppercase_headings.jsx?raw";
 
 // 07. With stacked columns on mobile
 import WithStackedColumnsMobile from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_stacked_columns_on_mobile";
-import WithStackedColumnsMobileRaw from "@/components/ui-blocks/application-ui/lists/tables/with_stacked_columns_on_mobile.jsx?raw";
+import WithStackedColumnsMobileRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_stacked_columns_on_mobile.jsx?raw";
 
 // 08. With hidden columns on mobile
 import WithHiddenColumnsMobile from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_hidden_columns_on_mobile";
-import WithHiddenColumnsMobileRaw from "@/components/ui-blocks/application-ui/lists/tables/with_hidden_columns_on_mobile.jsx?raw";
+import WithHiddenColumnsMobileRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_hidden_columns_on_mobile.jsx?raw";
 
 // 09. With avatars and multi-line content
 import WithAvatarsMultiLine from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_avatars_and_multi_line_content";
-import WithAvatarsMultiLineRaw from "@/components/ui-blocks/application-ui/lists/tables/with_avatars_and_multi_line_content.jsx?raw";
+import WithAvatarsMultiLineRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_avatars_and_multi_line_content.jsx?raw";
 
 // 10. With sticky header
 import WithStickyHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_sticky_header";
-import WithStickyHeaderRaw from "@/components/ui-blocks/application-ui/lists/tables/with_sticky_header.jsx?raw";
+import WithStickyHeaderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_sticky_header.jsx?raw";
 
 // 11. With vertical lines
 import WithVerticalLines from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_vertical_lines";
-import WithVerticalLinesRaw from "@/components/ui-blocks/application-ui/lists/tables/with_vertical_lines.jsx?raw";
+import WithVerticalLinesRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_vertical_lines.jsx?raw";
 
 // 12. With condensed content
 import WithCondensedContent from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_condensed_content";
-import WithCondensedContentRaw from "@/components/ui-blocks/application-ui/lists/tables/with_condensed_content.jsx?raw";
+import WithCondensedContentRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_condensed_content.jsx?raw";
 
 // 13. With sortable headings
 import WithSortableHeadings from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_sortable_headings";
-import WithSortableHeadingsRaw from "@/components/ui-blocks/application-ui/lists/tables/with_sortable_headings.jsx?raw";
+import WithSortableHeadingsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_sortable_headings.jsx?raw";
 
 // 14. With grouped rows
 import WithGroupedRows from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_grouped_rows";
-import WithGroupedRowsRaw from "@/components/ui-blocks/application-ui/lists/tables/with_grouped_rows.jsx?raw";
+import WithGroupedRowsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_grouped_rows.jsx?raw";
 
 // 15. With summary rows
 import WithSummaryRows from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_summary_rows";
-import WithSummaryRowsRaw from "@/components/ui-blocks/application-ui/lists/tables/with_summary_rows.jsx?raw";
+import WithSummaryRowsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_summary_rows.jsx?raw";
 
 // 16. With border
 import WithBorder from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_border";
-import WithBorderRaw from "@/components/ui-blocks/application-ui/lists/tables/with_border.jsx?raw";
+import WithBorderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_border.jsx?raw";
 
 // 17. With checkboxes
 import WithCheckboxes from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_checkboxes";
-import WithCheckboxesRaw from "@/components/ui-blocks/application-ui/lists/tables/with_checkboxes.jsx?raw";
+import WithCheckboxesRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_checkboxes.jsx?raw";
 
 // 18. With hidden headings
 import WithHiddenHeadings from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_hidden_headings";
-import WithHiddenHeadingsRaw from "@/components/ui-blocks/application-ui/lists/tables/with_hidden_headings.jsx?raw";
+import WithHiddenHeadingsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/with_hidden_headings.jsx?raw";
 
 // 19. Full width with avatars
 import FullWidthWithAvatars from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/full_width_with_avatars_on_dark";
-import FullWidthWithAvatarsRaw from "@/components/ui-blocks/application-ui/lists/tables/full_width_with_avatars_on_dark.jsx?raw";
+import FullWidthWithAvatarsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/lists/tables/full_width_with_avatars_on_dark.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

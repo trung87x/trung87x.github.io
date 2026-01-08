@@ -2,39 +2,39 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With small images
 import WithSmallImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_small_images";
-import WithSmallImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/with_small_images.jsx?raw";
+import WithSmallImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_small_images.jsx?raw";
 
 // 02. With large images
 import WithLargeImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_large_images";
-import WithLargeImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/with_large_images.jsx?raw";
+import WithLargeImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_large_images.jsx?raw";
 
 // 03. Grid with round images
 import GridWithRoundImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/grid_with_round_images";
-import GridWithRoundImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/grid_with_round_images.jsx?raw";
+import GridWithRoundImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/grid_with_round_images.jsx?raw";
 
 // 04. Large grid with cards
 import LargeGridWithCards from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/dark_version_with_large_images";
-import LargeGridWithCardsRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/dark_version_with_large_images.jsx?raw";
+import LargeGridWithCardsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/dark_version_with_large_images.jsx?raw";
 
 // 05. With image and short paragraph
 import WithImageAndShortParagraph from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_image_and_short_paragraph";
-import WithImageAndShortParagraphRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/with_image_and_short_paragraph.jsx?raw";
+import WithImageAndShortParagraphRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_image_and_short_paragraph.jsx?raw";
 
 // 06. With vertical images
 import WithVerticalImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_vertical_images";
-import WithVerticalImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/with_vertical_images.jsx?raw";
+import WithVerticalImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_vertical_images.jsx?raw";
 
 // 07. Full width with vertical images
 import FullWidthWithVerticalImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/full_width_with_vertical_images";
-import FullWidthWithVerticalImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/full_width_with_vertical_images.jsx?raw";
+import FullWidthWithVerticalImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/full_width_with_vertical_images.jsx?raw";
 
 // 08. Grid with large round images
 import GridWithLargeRoundImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/grid_with_large_round_images";
-import GridWithLargeRoundImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/grid_with_large_round_images.jsx?raw";
+import GridWithLargeRoundImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/grid_with_large_round_images.jsx?raw";
 
 // 09. With medium images
 import WithMediumImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_medium_images_on_dark";
-import WithMediumImagesRaw from "@/components/ui-blocks/marketing/page-sections/team-sections/with_medium_images_on_dark.jsx?raw";
+import WithMediumImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/team-sections/with_medium_images_on_dark.jsx?raw";
 
 const TeamSectionsDemoPage = () => {
   return (

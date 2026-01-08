@@ -2,35 +2,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With stats
 import WithStats from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/with_stats";
-import WithStatsRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/with_stats.jsx?raw";
+import WithStatsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/with_stats.jsx?raw";
 
 // 02. Centered
 import Centered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/centered";
-import CenteredRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/centered.jsx?raw";
+import CenteredRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/centered.jsx?raw";
 
 // 03. Centered with eyebrow
 import CenteredWithEyebrow from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/centered_with_eyebrow";
-import CenteredWithEyebrowRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/centered_with_eyebrow.jsx?raw";
+import CenteredWithEyebrowRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/centered_with_eyebrow.jsx?raw";
 
 // 04. With cards
 import WithCards from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/with_cards";
-import WithCardsRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/with_cards.jsx?raw";
+import WithCardsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/with_cards.jsx?raw";
 
 // 05. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/simple";
-import SimpleRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/simple.jsx?raw";
 
 // 06. Simple with eyebrow
 import SimpleWithEyebrow from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/simple_with_eyebrow";
-import SimpleWithEyebrowRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/simple_with_eyebrow.jsx?raw";
+import SimpleWithEyebrowRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/simple_with_eyebrow.jsx?raw";
 
 // 07. Simple with background image
 import SimpleWithBackgroundImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/simple_with_background_image";
-import SimpleWithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/simple_with_background_image.jsx?raw";
+import SimpleWithBackgroundImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/simple_with_background_image.jsx?raw";
 
 // 08. Centered with background image
 import CenteredWithBackgroundImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/centered_with_background_image";
-import CenteredWithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/header-sections/centered_with_background_image.jsx?raw";
+import CenteredWithBackgroundImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/header-sections/centered_with_background_image.jsx?raw";
 
 const HeaderSectionsDemoPage = () => {
   return (

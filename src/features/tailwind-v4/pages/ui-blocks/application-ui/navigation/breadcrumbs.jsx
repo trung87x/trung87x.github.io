@@ -6,19 +6,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Contained
 import Contained from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/contained";
-import ContainedRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/contained.jsx?raw";
+import ContainedRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/contained.jsx?raw";
 
 // 02. Full-width bar
 import FullWidthBar from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/full_width_bar";
-import FullWidthBarRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/full_width_bar.jsx?raw";
+import FullWidthBarRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/full_width_bar.jsx?raw";
 
 // 03. Simple with chevrons
 import SimpleWithChevrons from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_chevrons";
-import SimpleWithChevronsRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_chevrons.jsx?raw";
+import SimpleWithChevronsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_chevrons.jsx?raw";
 
 // 04. Simple with slashes
 import SimpleWithSlashes from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_slashes";
-import SimpleWithSlashesRaw from "@/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_slashes.jsx?raw";
+import SimpleWithSlashesRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/breadcrumbs/simple_with_slashes.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

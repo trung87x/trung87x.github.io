@@ -6,23 +6,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/simple";
-import SimpleRaw from "@/components/ui-blocks/application-ui/elements/dropdowns/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/simple.jsx?raw";
 
 // 02. With dividers
 import WithDividers from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_dividers";
-import WithDividersRaw from "@/components/ui-blocks/application-ui/elements/dropdowns/with_dividers.jsx?raw";
+import WithDividersRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_dividers.jsx?raw";
 
 // 03. With icons
 import WithIcons from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_icons";
-import WithIconsRaw from "@/components/ui-blocks/application-ui/elements/dropdowns/with_icons.jsx?raw";
+import WithIconsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_icons.jsx?raw";
 
 // 04. With minimal menu icon
 import WithMinimalMenuIcon from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_minimal_menu_icon";
-import WithMinimalMenuIconRaw from "@/components/ui-blocks/application-ui/elements/dropdowns/with_minimal_menu_icon.jsx?raw";
+import WithMinimalMenuIconRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_minimal_menu_icon.jsx?raw";
 
 // 05. With simple header
 import WithSimpleHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_simple_header";
-import WithSimpleHeaderRaw from "@/components/ui-blocks/application-ui/elements/dropdowns/with_simple_header.jsx?raw";
+import WithSimpleHeaderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/dropdowns/with_simple_header.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

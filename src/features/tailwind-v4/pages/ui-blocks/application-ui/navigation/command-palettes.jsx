@@ -2,35 +2,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/simple";
-import SimpleRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/simple.jsx?raw";
 
 // 02. Simple with padding
 import SimpleWithPadding from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/simple_with_padding";
-import SimpleWithPaddingRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/simple_with_padding.jsx?raw";
+import SimpleWithPaddingRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/simple_with_padding.jsx?raw";
 
 // 03. With preview
 import WithPreview from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_preview";
-import WithPreviewRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_preview.jsx?raw";
+import WithPreviewRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_preview.jsx?raw";
 
 // 04. With images and descriptions
 import WithImagesDescriptions from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_images_and_descriptions";
-import WithImagesDescriptionsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_images_and_descriptions.jsx?raw";
+import WithImagesDescriptionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_images_and_descriptions.jsx?raw";
 
 // 05. With icons
 import WithIcons from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_icons";
-import WithIconsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_icons.jsx?raw";
+import WithIconsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_icons.jsx?raw";
 
 // 06. Semi-transparent with icons
 import SemiTransparentWithIcons from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/semi_transparent_with_icons";
-import SemiTransparentWithIconsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/semi_transparent_with_icons.jsx?raw";
+import SemiTransparentWithIconsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/semi_transparent_with_icons.jsx?raw";
 
 // 07. With groups
 import WithGroups from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_groups";
-import WithGroupsRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_groups.jsx?raw";
+import WithGroupsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_groups.jsx?raw";
 
 // 08. With footer
 import WithFooter from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_footer";
-import WithFooterRaw from "@/components/ui-blocks/application-ui/navigation/command-palettes/with_footer.jsx?raw";
+import WithFooterRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/command-palettes/with_footer.jsx?raw";
 
 const FlyoutMenusDemoPage = () => {
   const layouts = [

@@ -2,19 +2,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/pagination/basic";
-import BasicRaw from "@/components/ui-kit/pagination/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/pagination/basic.jsx?raw";
 
 // 02. Disabling previous/next links
 import DisabledLinks from "@/features/tailwind-v4/components/ui-kit/pagination/disabled-links";
-import DisabledLinksRaw from "@/components/ui-kit/pagination/disabled-links.jsx?raw";
+import DisabledLinksRaw from "@/features/tailwind-v4/components/ui-kit/pagination/disabled-links.jsx?raw";
 
 // 03. Current page active state
 import ActiveState from "@/features/tailwind-v4/components/ui-kit/pagination/active-state";
-import ActiveStateRaw from "@/components/ui-kit/pagination/active-state.jsx?raw";
+import ActiveStateRaw from "@/features/tailwind-v4/components/ui-kit/pagination/active-state.jsx?raw";
 
 // 04. Without page links
 import WithoutPageLinks from "@/features/tailwind-v4/components/ui-kit/pagination/no-page-links";
-import WithoutPageLinksRaw from "@/components/ui-kit/pagination/no-page-links.jsx?raw";
+import WithoutPageLinksRaw from "@/features/tailwind-v4/components/ui-kit/pagination/no-page-links.jsx?raw";
 
 const Page = () => {
   const layouts = [

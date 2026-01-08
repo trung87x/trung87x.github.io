@@ -6,47 +6,47 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Avatar group stacked bottom to top
 import AvatarGroupStackedBottomToTop from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/avatar_group_stacked_bottom_to_top";
-import AvatarGroupStackedBottomToTopRaw from "@/components/ui-blocks/application-ui/elements/avatars/avatar_group_stacked_bottom_to_top.jsx?raw";
+import AvatarGroupStackedBottomToTopRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/avatar_group_stacked_bottom_to_top.jsx?raw";
 
 // 02. Circular avatars
 import CircularAvatars from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars";
-import CircularAvatarsRaw from "@/components/ui-blocks/application-ui/elements/avatars/circular_avatars.jsx?raw";
+import CircularAvatarsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars.jsx?raw";
 
 // 03. Rounded avatars
 import RoundedAvatars from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/rounded_avatars";
-import RoundedAvatarsRaw from "@/components/ui-blocks/application-ui/elements/avatars/rounded_avatars.jsx?raw";
+import RoundedAvatarsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/rounded_avatars.jsx?raw";
 
 // 04. Circular avatars with top notification
 import CircularAvatarsWithTopNotification from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_top_notification";
-import CircularAvatarsWithTopNotificationRaw from "@/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_top_notification.jsx?raw";
+import CircularAvatarsWithTopNotificationRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_top_notification.jsx?raw";
 
 // 05. Rounded avatars with top notification
 import RoundedAvatarsWithTopNotification from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/rounded_avatars_with_top_notification";
-import RoundedAvatarsWithTopNotificationRaw from "@/components/ui-blocks/application-ui/elements/avatars/rounded_avatars_with_top_notification.jsx?raw";
+import RoundedAvatarsWithTopNotificationRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/rounded_avatars_with_top_notification.jsx?raw";
 
 // 06. Circular avatars with bottom notification
 import CircularAvatarsWithBottomNotification from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_bottom_notification";
-import CircularAvatarsWithBottomNotificationRaw from "@/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_bottom_notification.jsx?raw";
+import CircularAvatarsWithBottomNotificationRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_bottom_notification.jsx?raw";
 
 // 07. Rounded avatars with bottom notification
 import RoundedAvatarsWithBottomNotification from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/rounded_avatars_with_bottom_notification";
-import RoundedAvatarsWithBottomNotificationRaw from "@/components/ui-blocks/application-ui/elements/avatars/rounded_avatars_with_bottom_notification.jsx?raw";
+import RoundedAvatarsWithBottomNotificationRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/rounded_avatars_with_bottom_notification.jsx?raw";
 
 // 08. Circular avatars with placeholder icon
 import CircularAvatarsWithPlaceholderIcon from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_placeholder_icon";
-import CircularAvatarsWithPlaceholderIconRaw from "@/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_placeholder_icon.jsx?raw";
+import CircularAvatarsWithPlaceholderIconRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_placeholder_icon.jsx?raw";
 
 // 09. Circular avatars with placeholder initials
 import CircularAvatarsWithPlaceholderInitials from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_placeholder_initials";
-import CircularAvatarsWithPlaceholderInitialsRaw from "@/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_placeholder_initials.jsx?raw";
+import CircularAvatarsWithPlaceholderInitialsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/circular_avatars_with_placeholder_initials.jsx?raw";
 
 // 10. Avatar group stacked top to bottom
 import AvatarGroupStackedTopToBottom from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/avatar_group_stacked_top_to_bottom";
-import AvatarGroupStackedTopToBottomRaw from "@/components/ui-blocks/application-ui/elements/avatars/avatar_group_stacked_top_to_bottom.jsx?raw";
+import AvatarGroupStackedTopToBottomRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/avatar_group_stacked_top_to_bottom.jsx?raw";
 
 // 11. With text
 import WithText from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/with_text";
-import WithTextRaw from "@/components/ui-blocks/application-ui/elements/avatars/with_text.jsx?raw";
+import WithTextRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/elements/avatars/with_text.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

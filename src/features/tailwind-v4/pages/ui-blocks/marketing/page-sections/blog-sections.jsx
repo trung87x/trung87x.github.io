@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Three-column
 import ThreeColumn from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/three_column";
-import ThreeColumnRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/three_column.jsx?raw";
+import ThreeColumnRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/three_column.jsx?raw";
 
 // 02. Three-column with images
 import ThreeColumnWithImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/three_column_with_images";
-import ThreeColumnWithImagesRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/three_column_with_images.jsx?raw";
+import ThreeColumnWithImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/three_column_with_images.jsx?raw";
 
 // 03. Three-column with background images
 import ThreeColumnWithBackgroundImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/three_column_with_background_images";
-import ThreeColumnWithBackgroundImagesRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/three_column_with_background_images.jsx?raw";
+import ThreeColumnWithBackgroundImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/three_column_with_background_images.jsx?raw";
 
 // 04. Single-column
 import SingleColumn from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/single_column";
-import SingleColumnRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/single_column.jsx?raw";
+import SingleColumnRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/single_column.jsx?raw";
 
 // 05. Single-column with images
 import SingleColumnWithImages from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/single_column_with_images";
-import SingleColumnWithImagesRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/single_column_with_images.jsx?raw";
+import SingleColumnWithImagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/single_column_with_images.jsx?raw";
 
 // 06. With featured post
 import WithFeaturedPost from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/with_featured_post";
-import WithFeaturedPostRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/with_featured_post.jsx?raw";
+import WithFeaturedPostRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/with_featured_post.jsx?raw";
 
 // 07. With photo and list
 import WithPhotoAndList from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/with_photo_and_list";
-import WithPhotoAndListRaw from "@/components/ui-blocks/marketing/page-sections/blog-sections/with_photo_and_list.jsx?raw";
+import WithPhotoAndListRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/blog-sections/with_photo_and_list.jsx?raw";
 
 const BlogSectionsDemoPage = () => {
   return (

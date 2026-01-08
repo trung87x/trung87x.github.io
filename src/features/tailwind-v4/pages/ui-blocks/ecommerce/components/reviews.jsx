@@ -6,19 +6,19 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Multi-column
 import MultiColumn from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/multi_column";
-import MultiColumnRaw from "@/components/ui-blocks/ecommerce/components/reviews/multi_column.jsx?raw";
+import MultiColumnRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/multi_column.jsx?raw";
 
 // 02. With summary chart
 import WithSummaryChart from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/with_summary_chart";
-import WithSummaryChartRaw from "@/components/ui-blocks/ecommerce/components/reviews/with_summary_chart.jsx?raw";
+import WithSummaryChartRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/with_summary_chart.jsx?raw";
 
 // 03. Avatars with separate description
 import AvatarsWithSeparateDescription from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/avatars_with_separate_description";
-import AvatarsWithSeparateDescriptionRaw from "@/components/ui-blocks/ecommerce/components/reviews/avatars_with_separate_description.jsx?raw";
+import AvatarsWithSeparateDescriptionRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/avatars_with_separate_description.jsx?raw";
 
 // 04. Simple with avatars
 import SimpleWithAvatars from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/simple_with_avatars";
-import SimpleWithAvatarsRaw from "@/components/ui-blocks/ecommerce/components/reviews/simple_with_avatars.jsx?raw";
+import SimpleWithAvatarsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/reviews/simple_with_avatars.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

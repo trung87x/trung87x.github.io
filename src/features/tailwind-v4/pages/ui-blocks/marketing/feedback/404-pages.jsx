@@ -2,23 +2,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple
 import Simple from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/simple";
-import SimpleRaw from "@/components/ui-blocks/marketing/feedback/404-pages/simple.jsx?raw";
+import SimpleRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/simple.jsx?raw";
 
 // 02. Split with image
 import SplitWithImage from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/split_with_image";
-import SplitWithImageRaw from "@/components/ui-blocks/marketing/feedback/404-pages/split_with_image.jsx?raw";
+import SplitWithImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/split_with_image.jsx?raw";
 
 // 03. With popular pages
 import WithPopularPages from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/with_popular_pages";
-import WithPopularPagesRaw from "@/components/ui-blocks/marketing/feedback/404-pages/with_popular_pages.jsx?raw";
+import WithPopularPagesRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/with_popular_pages.jsx?raw";
 
 // 04. With background image
 import WithBackgroundImage from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/with_background_image";
-import WithBackgroundImageRaw from "@/components/ui-blocks/marketing/feedback/404-pages/with_background_image.jsx?raw";
+import WithBackgroundImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/with_background_image.jsx?raw";
 
 // 05. With navbar and footer
 import WithNavbarAndFooter from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/with_navbar_and_footer";
-import WithNavbarAndFooterRaw from "@/components/ui-blocks/marketing/feedback/404-pages/with_navbar_and_footer.jsx?raw";
+import WithNavbarAndFooterRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/feedback/404-pages/with_navbar_and_footer.jsx?raw";
 
 const NotFoundPagesDemoPage = () => {
   return (

@@ -1,12 +1,11 @@
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
+import routes from "@/core/routing/routes";
 import NotFound from "@/pages/not-found";
 
-import routes from "@/core/routing/routes";
-
-import TailwindV4Layout from "@/features/tailwind-v4/layouts/ui-blocks-layout";
-import CatalystLayout from "@/features/tailwind-v4/layouts/ui-kit-layout";
+// Layouts
+import UiBlocksLayout from "@/features/tailwind-v4/layouts/ui-blocks-layout";
+import UiKitLayout from "@/features/tailwind-v4/layouts/ui-kit-layout";
 import Layout from "@/layouts/layout";
 
 const LoadingFallback = () => (
@@ -16,8 +15,20 @@ const LoadingFallback = () => (
 );
 
 function App() {
+  /**
+   * GỌI: renderByTag("ui-blocks")
+   * TRẢ VỀ: <Route key="..." path="..." element={<Component />} />
+   */
+  const renderByTag = (tag) =>
+    routes
+      .filter((r) => r.tag === tag)
+      .map((r) => (
+        <Route key={r.path} path={r.path} element={<r.component />} />
+      ));
+
   return (
     <BrowserRouter>
+      {/* Navigation - Giữ nguyên của bạn */}
       <nav className="flex gap-4 bg-gray-100 p-4">
         <Link to="/" className="text-blue-600 hover:underline">
           Trang chủ
@@ -27,13 +38,13 @@ function App() {
         </Link>
         <Link
           to="/tailwind-v4/ui-blocks/marketing/page-sections/hero-sections"
-          className="font-medium text-indigo-600 hover:underline"
+          className="font-medium text-indigo-600"
         >
           Preview Hero
         </Link>
         <Link
-          to="/ui-blocks/alert"
-          className="font-medium text-indigo-600 hover:underline"
+          to="/tailwind-v4/ui-kit/alert"
+          className="font-medium text-indigo-600"
         >
           Alert
         </Link>
@@ -41,42 +52,19 @@ function App() {
 
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
-          {/* Group Tailwind V4: Tự động prefix /tailwindv4 cho tất cả con */}
-          <Route path="/tailwind-v4" element={<TailwindV4Layout />}>
-            {routes
-              .filter((r) => r.feature === "tailwind-v4")
-              .map(({ path, component: Component }) => (
-                // Xóa dấu / ở đầu path con nếu có để nó nối vào cha
-                <Route
-                  key={path}
-                  path={path.replace(/^\//, "")}
-                  element={<Component />}
-                />
-              ))}
-          </Route>
+          {/* Nhóm 1: Tailwind V4 UI Blocks */}
+          <Route element={<UiBlocksLayout />}>{renderByTag("ui-blocks")}</Route>
 
-          {/* Group Catalyst */}
-          <Route path="/catalyst" element={<CatalystLayout />}>
-            {routes
-              .filter((r) => r.feature === "catalyst")
-              .map(({ path, component: Component }) => (
-                <Route
-                  key={path}
-                  path={path.replace(/^\//, "")}
-                  element={<Component />}
-                />
-              ))}
-          </Route>
+          {/* Nhóm 2: UI Kit (Catalyst) */}
+          <Route element={<UiKitLayout />}>{renderByTag("ui-kit")}</Route>
 
-          {/* Group mặc định */}
-          <Route element={<Layout />}>
-            {routes
-              .filter((r) => r.feature === "none")
-              .map(({ path, component: Component }) => (
-                <Route key={path} path={path} element={<Component />} />
-              ))}
-          </Route>
+          {/* Nhóm 3: Các trang chính (About, Home...) nằm trong src/pages */}
+          <Route element={<Layout />}>{renderByTag("src")}</Route>
 
+          {/* Nhóm 4: Các tính năng khác nếu có (ví dụ Blog) */}
+          <Route element={<Layout />}>{renderByTag("blog")}</Route>
+
+          {/* Trang 404 */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

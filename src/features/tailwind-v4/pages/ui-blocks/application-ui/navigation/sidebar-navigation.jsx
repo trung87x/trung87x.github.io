@@ -2,23 +2,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Light
 import Light from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/light";
-import LightRaw from "@/components/ui-blocks/application-ui/navigation/sidebar-navigation/light.jsx?raw";
+import LightRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/light.jsx?raw";
 
 // 02. Dark
 import Dark from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/dark";
-import DarkRaw from "@/components/ui-blocks/application-ui/navigation/sidebar-navigation/dark.jsx?raw";
+import DarkRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/dark.jsx?raw";
 
 // 03. With expandable sections
 import WithExpandableSections from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/with_expandable_sections";
-import WithExpandableSectionsRaw from "@/components/ui-blocks/application-ui/navigation/sidebar-navigation/with_expandable_sections.jsx?raw";
+import WithExpandableSectionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/with_expandable_sections.jsx?raw";
 
 // 04. With secondary navigation
 import WithSecondaryNavigation from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/with_secondary_navigation";
-import WithSecondaryNavigationRaw from "@/components/ui-blocks/application-ui/navigation/sidebar-navigation/with_secondary_navigation.jsx?raw";
+import WithSecondaryNavigationRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/with_secondary_navigation.jsx?raw";
 
 // 05. Brand
 import Brand from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/brand";
-import BrandRaw from "@/components/ui-blocks/application-ui/navigation/sidebar-navigation/brand.jsx?raw";
+import BrandRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/sidebar-navigation/brand.jsx?raw";
 
 const SidebarNavigationDemoPage = () => {
   const layouts = [

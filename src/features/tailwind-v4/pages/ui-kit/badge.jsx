@@ -2,15 +2,15 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Badge colors
 import BadgeColors from "@/features/tailwind-v4/components/ui-kit/badge/badge-colors";
-import BadgeColorsRaw from "@/components/ui-kit/badge/badge-colors.jsx?raw";
+import BadgeColorsRaw from "@/features/tailwind-v4/components/ui-kit/badge/badge-colors.jsx?raw";
 
 // 02. Using as buttons
 import BadgeButtons from "@/features/tailwind-v4/components/ui-kit/badge/badge-button";
-import BadgeButtonsRaw from "@/components/ui-kit/badge/badge-button.jsx?raw";
+import BadgeButtonsRaw from "@/features/tailwind-v4/components/ui-kit/badge/badge-button.jsx?raw";
 
 // 03. Using as links
 import BadgeLinks from "@/features/tailwind-v4/components/ui-kit/badge/badge-link";
-import BadgeLinksRaw from "@/components/ui-kit/badge/badge-link.jsx?raw";
+import BadgeLinksRaw from "@/features/tailwind-v4/components/ui-kit/badge/badge-link.jsx?raw";
 
 const Page = () => {
   const layouts = [

@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Offset with supporting text
 import OffsetWithSupportingText from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/offset_with_supporting_text";
-import OffsetWithSupportingTextRaw from "@/components/ui-blocks/marketing/page-sections/faqs/offset_with_supporting_text.jsx?raw";
+import OffsetWithSupportingTextRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/offset_with_supporting_text.jsx?raw";
 
 // 02. Centered accordion
 import CenteredAccordion from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/centered_accordion";
-import CenteredAccordionRaw from "@/components/ui-blocks/marketing/page-sections/faqs/centered_accordion.jsx?raw";
+import CenteredAccordionRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/centered_accordion.jsx?raw";
 
 // 03. Side-by-side
 import SideBySide from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/side_by_side";
-import SideBySideRaw from "@/components/ui-blocks/marketing/page-sections/faqs/side_by_side.jsx?raw";
+import SideBySideRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/side_by_side.jsx?raw";
 
 // 04. Three columns
 import ThreeColumns from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/three_columns";
-import ThreeColumnsRaw from "@/components/ui-blocks/marketing/page-sections/faqs/three_columns.jsx?raw";
+import ThreeColumnsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/three_columns.jsx?raw";
 
 // 05. Three columns with centered introduction
 import ThreeColumnsWithCenteredIntro from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/three_columns_with_centered_introduction";
-import ThreeColumnsWithCenteredIntroRaw from "@/components/ui-blocks/marketing/page-sections/faqs/three_columns_with_centered_introduction.jsx?raw";
+import ThreeColumnsWithCenteredIntroRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/three_columns_with_centered_introduction.jsx?raw";
 
 // 06. Two columns
 import TwoColumns from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/two_columns";
-import TwoColumnsRaw from "@/components/ui-blocks/marketing/page-sections/faqs/two_columns.jsx?raw";
+import TwoColumnsRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/two_columns.jsx?raw";
 
 // 07. Two columns with centered introduction
 import TwoColumnsWithCenteredIntro from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/two_columns_with_centered_introduction";
-import TwoColumnsWithCenteredIntroRaw from "@/components/ui-blocks/marketing/page-sections/faqs/two_columns_with_centered_introduction.jsx?raw";
+import TwoColumnsWithCenteredIntroRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/faqs/two_columns_with_centered_introduction.jsx?raw";
 
 const FaqDemoPage = () => {
   return (

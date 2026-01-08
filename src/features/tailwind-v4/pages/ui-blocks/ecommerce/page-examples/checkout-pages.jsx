@@ -6,23 +6,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With order summary sidebar
 import WithOrderSummarySidebar from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar";
-import WithOrderSummarySidebarRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar.jsx?raw";
+import WithOrderSummarySidebarRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_order_summary_sidebar.jsx?raw";
 
 // 02. Single step with order summary
 import SingleStepWithOrderSummary from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/single_step_with_order_summary";
-import SingleStepWithOrderSummaryRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/single_step_with_order_summary.jsx?raw";
+import SingleStepWithOrderSummaryRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/single_step_with_order_summary.jsx?raw";
 
 // 03. With mobile order summary overlay
 import WithMobileOrderSummaryOverlay from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay";
-import WithMobileOrderSummaryOverlayRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay.jsx?raw";
+import WithMobileOrderSummaryOverlayRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/with_mobile_order_summary_overlay.jsx?raw";
 
 // 04. Multi-step
 import MultiStep from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/multi_step";
-import MultiStepRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/multi_step.jsx?raw";
+import MultiStepRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/multi_step.jsx?raw";
 
 // 05. Split with order summary
 import SplitWithOrderSummary from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/split_with_order_summary";
-import SplitWithOrderSummaryRaw from "@/components/ui-blocks/ecommerce/page-examples/checkout-pages/split_with_order_summary.jsx?raw";
+import SplitWithOrderSummaryRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/page-examples/checkout-pages/split_with_order_summary.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

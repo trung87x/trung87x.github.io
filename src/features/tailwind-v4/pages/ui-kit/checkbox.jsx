@@ -2,51 +2,51 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic example
 import Basic from "@/features/tailwind-v4/components/ui-kit/checkbox/basic";
-import BasicRaw from "@/components/ui-kit/checkbox/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/basic.jsx?raw";
 
 // 02. With label
 import WithLabel from "@/features/tailwind-v4/components/ui-kit/checkbox/with-label";
-import WithLabelRaw from "@/components/ui-kit/checkbox/with-label.jsx?raw";
+import WithLabelRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/with-label.jsx?raw";
 
 // 03. With description
 import WithDescription from "@/features/tailwind-v4/components/ui-kit/checkbox/with-description";
-import WithDescriptionRaw from "@/components/ui-kit/checkbox/with-description.jsx?raw";
+import WithDescriptionRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/with-description.jsx?raw";
 
 // 04. With custom layout
 import CustomLayout from "@/features/tailwind-v4/components/ui-kit/checkbox/custom-layout";
-import CustomLayoutRaw from "@/components/ui-kit/checkbox/custom-layout.jsx?raw";
+import CustomLayoutRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/custom-layout.jsx?raw";
 
 // 05. With accent color
 import AccentColor from "@/features/tailwind-v4/components/ui-kit/checkbox/accent-color";
-import AccentColorRaw from "@/components/ui-kit/checkbox/accent-color.jsx?raw";
+import AccentColorRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/accent-color.jsx?raw";
 
 // 06. With custom value
 import CustomValue from "@/features/tailwind-v4/components/ui-kit/checkbox/custom-value";
-import CustomValueRaw from "@/components/ui-kit/checkbox/custom-value.jsx?raw";
+import CustomValueRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/custom-value.jsx?raw";
 
 // 07. Default checked state
 import DefaultChecked from "@/features/tailwind-v4/components/ui-kit/checkbox/default-checked";
-import DefaultCheckedRaw from "@/components/ui-kit/checkbox/default-checked.jsx?raw";
+import DefaultCheckedRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/default-checked.jsx?raw";
 
 // 08. Indeterminate state
 import Indeterminate from "@/features/tailwind-v4/components/ui-kit/checkbox/indeterminate";
-import IndeterminateRaw from "@/components/ui-kit/checkbox/indeterminate.jsx?raw";
+import IndeterminateRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/indeterminate.jsx?raw";
 
 // 09. Controlled component
 import Controlled from "@/features/tailwind-v4/components/ui-kit/checkbox/controlled";
-import ControlledRaw from "@/components/ui-kit/checkbox/controlled.jsx?raw";
+import ControlledRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/controlled.jsx?raw";
 
 // 10. Multiple checkboxes
 import MultipleCheckboxes from "@/features/tailwind-v4/components/ui-kit/checkbox/multiple";
-import MultipleCheckboxesRaw from "@/components/ui-kit/checkbox/multiple.jsx?raw";
+import MultipleCheckboxesRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/multiple.jsx?raw";
 
 // 11. With fieldset
 import WithFieldset from "@/features/tailwind-v4/components/ui-kit/checkbox/with-fieldset";
-import WithFieldsetRaw from "@/components/ui-kit/checkbox/with-fieldset.jsx?raw";
+import WithFieldsetRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/with-fieldset.jsx?raw";
 
 // 12. Disabled state
 import DisabledState from "@/features/tailwind-v4/components/ui-kit/checkbox/disabled";
-import DisabledStateRaw from "@/components/ui-kit/checkbox/disabled.jsx?raw";
+import DisabledStateRaw from "@/features/tailwind-v4/components/ui-kit/checkbox/disabled.jsx?raw";
 
 const Page = () => {
   const layouts = [

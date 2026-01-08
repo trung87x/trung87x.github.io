@@ -6,27 +6,27 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Three-column
 import ThreeColumn from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/three_column";
-import ThreeColumnRaw from "@/components/ui-blocks/ecommerce/components/category-previews/three_column.jsx?raw";
+import ThreeColumnRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/three_column.jsx?raw";
 
 // 02. With image backgrounds
 import WithImageBackgrounds from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_image_backgrounds";
-import WithImageBackgroundsRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_image_backgrounds.jsx?raw";
+import WithImageBackgroundsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_image_backgrounds.jsx?raw";
 
 // 03. With background image and detail overlay
 import WithBackgroundImageAndDetailOverlay from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_background_image_and_detail_overlay";
-import WithBackgroundImageAndDetailOverlayRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_background_image_and_detail_overlay.jsx?raw";
+import WithBackgroundImageAndDetailOverlayRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_background_image_and_detail_overlay.jsx?raw";
 
 // 04. Three-column with description
 import ThreeColumnWithDescription from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/three_column_with_description";
-import ThreeColumnWithDescriptionRaw from "@/components/ui-blocks/ecommerce/components/category-previews/three_column_with_description.jsx?raw";
+import ThreeColumnWithDescriptionRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/three_column_with_description.jsx?raw";
 
 // 05. With scrolling cards
 import WithScrollingCards from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_scrolling_cards";
-import WithScrollingCardsRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_scrolling_cards.jsx?raw";
+import WithScrollingCardsRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_scrolling_cards.jsx?raw";
 
 // 06. With split images
 import WithSplitImages from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_split_images";
-import WithSplitImagesRaw from "@/components/ui-blocks/ecommerce/components/category-previews/with_split_images.jsx?raw";
+import WithSplitImagesRaw from "@/features/tailwind-v4/components/ui-blocks/ecommerce/components/category-previews/with_split_images.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

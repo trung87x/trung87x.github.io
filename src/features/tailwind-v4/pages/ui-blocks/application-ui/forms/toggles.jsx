@@ -6,23 +6,23 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple toggle
 import SimpleToggle from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/simple_toggle";
-import SimpleToggleRaw from "@/components/ui-blocks/application-ui/forms/toggles/simple_toggle.jsx?raw";
+import SimpleToggleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/simple_toggle.jsx?raw";
 
 // 02. Short toggle
 import ShortToggle from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/short_toggle";
-import ShortToggleRaw from "@/components/ui-blocks/application-ui/forms/toggles/short_toggle.jsx?raw";
+import ShortToggleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/short_toggle.jsx?raw";
 
 // 03. Toggle with icon
 import ToggleWithIcon from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/toggle_with_icon";
-import ToggleWithIconRaw from "@/components/ui-blocks/application-ui/forms/toggles/toggle_with_icon.jsx?raw";
+import ToggleWithIconRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/toggle_with_icon.jsx?raw";
 
 // 04. With left label and description
 import WithLeftLabelAndDescription from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/with_left_label_and_description";
-import WithLeftLabelAndDescriptionRaw from "@/components/ui-blocks/application-ui/forms/toggles/with_left_label_and_description.jsx?raw";
+import WithLeftLabelAndDescriptionRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/with_left_label_and_description.jsx?raw";
 
 // 05. With right label
 import WithRightLabel from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/with_right_label";
-import WithRightLabelRaw from "@/components/ui-blocks/application-ui/forms/toggles/with_right_label.jsx?raw";
+import WithRightLabelRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/forms/toggles/with_right_label.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

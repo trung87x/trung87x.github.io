@@ -2,35 +2,35 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Simple centered
 import SimpleCentered from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/simple_centered";
-import SimpleCenteredRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/simple_centered.jsx?raw";
+import SimpleCenteredRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/simple_centered.jsx?raw";
 
 // 02. With large avatar
 import WithLargeAvatar from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_large_avatar";
-import WithLargeAvatarRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_large_avatar.jsx?raw";
+import WithLargeAvatarRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_large_avatar.jsx?raw";
 
 // 03. With overlapping image
 import WithOverlappingImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_overlapping_image";
-import WithOverlappingImageRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_overlapping_image.jsx?raw";
+import WithOverlappingImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_overlapping_image.jsx?raw";
 
 // 04. With background image
 import WithBackgroundImage from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_background_image";
-import WithBackgroundImageRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_background_image.jsx?raw";
+import WithBackgroundImageRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_background_image.jsx?raw";
 
 // 05. Side-by-side
 import SideBySide from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/side_by_side";
-import SideBySideRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/side_by_side.jsx?raw";
+import SideBySideRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/side_by_side.jsx?raw";
 
 // 06. With star rating
 import WithStarRating from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_star_rating";
-import WithStarRatingRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/with_star_rating.jsx?raw";
+import WithStarRatingRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/with_star_rating.jsx?raw";
 
 // 07. Grid
 import Grid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/grid";
-import GridRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/grid.jsx?raw";
+import GridRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/grid.jsx?raw";
 
 // 08. Subtle grid
 import OffWhiteGrid from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/off_white_grid";
-import OffWhiteGridRaw from "@/components/ui-blocks/marketing/page-sections/testimonials/off_white_grid.jsx?raw";
+import OffWhiteGridRaw from "@/features/tailwind-v4/components/ui-blocks/marketing/page-sections/testimonials/off_white_grid.jsx?raw";
 
 const TestimonialsDemoPage = () => {
   return (

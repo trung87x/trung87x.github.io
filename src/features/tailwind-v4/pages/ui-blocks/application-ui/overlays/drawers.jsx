@@ -6,51 +6,51 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With close button on outside
 import WithCloseButtonOutside from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_close_button_on_outside";
-import WithCloseButtonOutsideRaw from "@/components/ui-blocks/application-ui/overlays/drawers/with_close_button_on_outside.jsx?raw";
+import WithCloseButtonOutsideRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_close_button_on_outside.jsx?raw";
 
 // 02. Empty
 import Empty from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/empty";
-import EmptyRaw from "@/components/ui-blocks/application-ui/overlays/drawers/empty.jsx?raw";
+import EmptyRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/empty.jsx?raw";
 
 // 03. Wide empty
 import WideEmpty from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/wide_empty";
-import WideEmptyRaw from "@/components/ui-blocks/application-ui/overlays/drawers/wide_empty.jsx?raw";
+import WideEmptyRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/wide_empty.jsx?raw";
 
 // 04. With background overlay
 import WithBackgroundOverlay from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_background_overlay";
-import WithBackgroundOverlayRaw from "@/components/ui-blocks/application-ui/overlays/drawers/with_background_overlay.jsx?raw";
+import WithBackgroundOverlayRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_background_overlay.jsx?raw";
 
 // 05. With branded header
 import WithBrandedHeader from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_branded_header";
-import WithBrandedHeaderRaw from "@/components/ui-blocks/application-ui/overlays/drawers/with_branded_header.jsx?raw";
+import WithBrandedHeaderRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_branded_header.jsx?raw";
 
 // 06. With sticky footer
 import WithStickyFooter from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_sticky_footer";
-import WithStickyFooterRaw from "@/components/ui-blocks/application-ui/overlays/drawers/with_sticky_footer.jsx?raw";
+import WithStickyFooterRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/with_sticky_footer.jsx?raw";
 
 // 07. Create project form example
 import CreateProjectFormExample from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/create_project_form_example";
-import CreateProjectFormExampleRaw from "@/components/ui-blocks/application-ui/overlays/drawers/create_project_form_example.jsx?raw";
+import CreateProjectFormExampleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/create_project_form_example.jsx?raw";
 
 // 08. Wide create project form example
 import WideCreateProjectFormExample from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/wide_create_project_form_example";
-import WideCreateProjectFormExampleRaw from "@/components/ui-blocks/application-ui/overlays/drawers/wide_create_project_form_example.jsx?raw";
+import WideCreateProjectFormExampleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/wide_create_project_form_example.jsx?raw";
 
 // 09. User profile example
 import UserProfileExample from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/user_profile_example";
-import UserProfileExampleRaw from "@/components/ui-blocks/application-ui/overlays/drawers/user_profile_example.jsx?raw";
+import UserProfileExampleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/user_profile_example.jsx?raw";
 
 // 10. Wide horizontal user profile example
 import WideHorizontalUserProfileExample from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/wide_horizontal_user_profile_example";
-import WideHorizontalUserProfileExampleRaw from "@/components/ui-blocks/application-ui/overlays/drawers/wide_horizontal_user_profile_example.jsx?raw";
+import WideHorizontalUserProfileExampleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/wide_horizontal_user_profile_example.jsx?raw";
 
 // 11. Contact list example
 import ContactListExample from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/contact_list_example";
-import ContactListExampleRaw from "@/components/ui-blocks/application-ui/overlays/drawers/contact_list_example.jsx?raw";
+import ContactListExampleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/contact_list_example.jsx?raw";
 
 // 12. File details example
 import FileDetailsExample from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/file_details_example";
-import FileDetailsExampleRaw from "@/components/ui-blocks/application-ui/overlays/drawers/file_details_example.jsx?raw";
+import FileDetailsExampleRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/overlays/drawers/file_details_example.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

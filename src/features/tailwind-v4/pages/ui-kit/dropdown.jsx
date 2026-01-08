@@ -2,59 +2,59 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/dropdown/basic";
-import BasicRaw from "@/components/ui-kit/dropdown/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/basic.jsx?raw";
 
 // 02. Button style
 import ButtonStyle from "@/features/tailwind-v4/components/ui-kit/dropdown/button-style";
-import ButtonStyleRaw from "@/components/ui-kit/dropdown/button-style.jsx?raw";
+import ButtonStyleRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/button-style.jsx?raw";
 
 // 03. Menu placement
 import MenuPlacement from "@/features/tailwind-v4/components/ui-kit/dropdown/menu-placement";
-import MenuPlacementRaw from "@/components/ui-kit/dropdown/menu-placement.jsx?raw";
+import MenuPlacementRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/menu-placement.jsx?raw";
 
 // 04. With disabled items
 import WithDisabled from "@/features/tailwind-v4/components/ui-kit/dropdown/with-disabled";
-import WithDisabledRaw from "@/components/ui-kit/dropdown/with-disabled.jsx?raw";
+import WithDisabledRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/with-disabled.jsx?raw";
 
 // 05. With sections
 import WithSections from "@/features/tailwind-v4/components/ui-kit/dropdown/with-sections";
-import WithSectionsRaw from "@/components/ui-kit/dropdown/with-sections.jsx?raw";
+import WithSectionsRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/with-sections.jsx?raw";
 
 // 06. With descriptions
 import WithDescriptions from "@/features/tailwind-v4/components/ui-kit/dropdown/with-descriptions";
-import WithDescriptionsRaw from "@/components/ui-kit/dropdown/with-descriptions.jsx?raw";
+import WithDescriptionsRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/with-descriptions.jsx?raw";
 
 // 07. With icons
 import WithIcons from "@/features/tailwind-v4/components/ui-kit/dropdown/with-icons";
-import WithIconsRaw from "@/components/ui-kit/dropdown/with-icons.jsx?raw";
+import WithIconsRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/with-icons.jsx?raw";
 
 // 08. With keyboard shortcuts
 import WithShortcuts from "@/features/tailwind-v4/components/ui-kit/dropdown/with-shortcuts";
-import WithShortcutsRaw from "@/components/ui-kit/dropdown/with-shortcuts.jsx?raw";
+import WithShortcutsRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/with-shortcuts.jsx?raw";
 
 // 09. With header
 import WithHeader from "@/features/tailwind-v4/components/ui-kit/dropdown/with-header";
-import WithHeaderRaw from "@/components/ui-kit/dropdown/with-header.jsx?raw";
+import WithHeaderRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/with-header.jsx?raw";
 
 // 10. With disabled button
 import DisabledButton from "@/features/tailwind-v4/components/ui-kit/dropdown/disabled-button";
-import DisabledButtonRaw from "@/components/ui-kit/dropdown/disabled-button.jsx?raw";
+import DisabledButtonRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/disabled-button.jsx?raw";
 
 // 11. With icon trigger
 import IconTrigger from "@/features/tailwind-v4/components/ui-kit/dropdown/icon-trigger";
-import IconTriggerRaw from "@/components/ui-kit/dropdown/icon-trigger.jsx?raw";
+import IconTriggerRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/icon-trigger.jsx?raw";
 
 // 12. With avatar trigger
 import AvatarTrigger from "@/features/tailwind-v4/components/ui-kit/dropdown/avatar-trigger";
-import AvatarTriggerRaw from "@/components/ui-kit/dropdown/avatar-trigger.jsx?raw";
+import AvatarTriggerRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/avatar-trigger.jsx?raw";
 
 // 13. With custom trigger
 import CustomTrigger from "@/features/tailwind-v4/components/ui-kit/dropdown/custom-trigger";
-import CustomTriggerRaw from "@/components/ui-kit/dropdown/custom-trigger.jsx?raw";
+import CustomTriggerRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/custom-trigger.jsx?raw";
 
 // 14. With custom menu width
 import CustomMenuWidth from "@/features/tailwind-v4/components/ui-kit/dropdown/custom-width";
-import CustomMenuWidthRaw from "@/components/ui-kit/dropdown/custom-width.jsx?raw";
+import CustomMenuWidthRaw from "@/features/tailwind-v4/components/ui-kit/dropdown/custom-width.jsx?raw";
 
 const currentUser = {
   name: "Đinh Quang Trung",

@@ -6,15 +6,15 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Card footer with page buttons
 import CardFooterWithPageButtons from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/pagination/card_footer_with_page_buttons";
-import CardFooterWithPageButtonsRaw from "@/components/ui-blocks/application-ui/navigation/pagination/card_footer_with_page_buttons.jsx?raw";
+import CardFooterWithPageButtonsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/pagination/card_footer_with_page_buttons.jsx?raw";
 
 // 02. Centered page numbers
 import CenteredPageNumbers from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/pagination/centered_page_numbers";
-import CenteredPageNumbersRaw from "@/components/ui-blocks/application-ui/navigation/pagination/centered_page_numbers.jsx?raw";
+import CenteredPageNumbersRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/pagination/centered_page_numbers.jsx?raw";
 
 // 03. Simple card footer
 import SimpleCardFooter from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/pagination/simple_card_footer";
-import SimpleCardFooterRaw from "@/components/ui-blocks/application-ui/navigation/pagination/simple_card_footer.jsx?raw";
+import SimpleCardFooterRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/navigation/pagination/simple_card_footer.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT

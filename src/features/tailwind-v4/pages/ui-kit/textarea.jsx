@@ -2,31 +2,31 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. Basic
 import Basic from "@/features/tailwind-v4/components/ui-kit/textarea/basic";
-import BasicRaw from "@/components/ui-kit/textarea/basic.jsx?raw";
+import BasicRaw from "@/features/tailwind-v4/components/ui-kit/textarea/basic.jsx?raw";
 
 // 02. With label
 import WithLabel from "@/features/tailwind-v4/components/ui-kit/textarea/with-label";
-import WithLabelRaw from "@/components/ui-kit/textarea/with-label.jsx?raw";
+import WithLabelRaw from "@/features/tailwind-v4/components/ui-kit/textarea/with-label.jsx?raw";
 
 // 03. With description
 import WithDescription from "@/features/tailwind-v4/components/ui-kit/textarea/with-description";
-import WithDescriptionRaw from "@/components/ui-kit/textarea/with-description.jsx?raw";
+import WithDescriptionRaw from "@/features/tailwind-v4/components/ui-kit/textarea/with-description.jsx?raw";
 
 // 04. Disabled state
 import DisabledState from "@/features/tailwind-v4/components/ui-kit/textarea/disabled";
-import DisabledStateRaw from "@/components/ui-kit/textarea/disabled.jsx?raw";
+import DisabledStateRaw from "@/features/tailwind-v4/components/ui-kit/textarea/disabled.jsx?raw";
 
 // 05. Validation errors
 import ValidationErrors from "@/features/tailwind-v4/components/ui-kit/textarea/validation-errors";
-import ValidationErrorsRaw from "@/components/ui-kit/textarea/validation-errors.jsx?raw";
+import ValidationErrorsRaw from "@/features/tailwind-v4/components/ui-kit/textarea/validation-errors.jsx?raw";
 
 // 06. With custom layout
 import CustomLayout from "@/features/tailwind-v4/components/ui-kit/textarea/custom-layout";
-import CustomLayoutRaw from "@/components/ui-kit/textarea/custom-layout.jsx?raw";
+import CustomLayoutRaw from "@/features/tailwind-v4/components/ui-kit/textarea/custom-layout.jsx?raw";
 
 // 07. Controlled component
 import Controlled from "@/features/tailwind-v4/components/ui-kit/textarea/controlled";
-import ControlledRaw from "@/components/ui-kit/textarea/controlled.jsx?raw";
+import ControlledRaw from "@/features/tailwind-v4/components/ui-kit/textarea/controlled.jsx?raw";
 
 const mockErrors = new Map([
   [

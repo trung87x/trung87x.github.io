@@ -6,39 +6,39 @@ import PreviewWrapper from "@/core/preview-system/PreviewWrapper";
 
 // 01. With meta and actions
 import WithMetaAndActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_meta_and_actions";
-import WithMetaAndActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_meta_and_actions.jsx?raw";
+import WithMetaAndActionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_meta_and_actions.jsx?raw";
 
 // 02. With actions
 import WithActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_actions";
-import WithActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_actions.jsx?raw";
+import WithActionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_actions.jsx?raw";
 
 // 03. With actions and breadcrumbs
 import WithActionsAndBreadcrumbs from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_actions_and_breadcrumbs";
-import WithActionsAndBreadcrumbsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_actions_and_breadcrumbs.jsx?raw";
+import WithActionsAndBreadcrumbsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_actions_and_breadcrumbs.jsx?raw";
 
 // 04. With banner image
 import WithBannerImage from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_banner_image";
-import WithBannerImageRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_banner_image.jsx?raw";
+import WithBannerImageRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_banner_image.jsx?raw";
 
 // 05. With avatar and actions
 import WithAvatarAndActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_avatar_and_actions";
-import WithAvatarAndActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_avatar_and_actions.jsx?raw";
+import WithAvatarAndActionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_avatar_and_actions.jsx?raw";
 
 // 06. Card with avatar and stats
 import CardWithAvatarAndStats from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/card_with_avatar_and_stats";
-import CardWithAvatarAndStatsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/card_with_avatar_and_stats.jsx?raw";
+import CardWithAvatarAndStatsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/card_with_avatar_and_stats.jsx?raw";
 
 // 07. With meta, actions, and breadcrumbs
 import WithMetaActionsAndBreadcrumbs from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs";
-import WithMetaActionsAndBreadcrumbsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs.jsx?raw";
+import WithMetaActionsAndBreadcrumbsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_meta__actions__and_breadcrumbs.jsx?raw";
 
 // 08. With filters and action
 import WithFiltersAndAction from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_filters_and_action";
-import WithFiltersAndActionRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_filters_and_action.jsx?raw";
+import WithFiltersAndActionRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_filters_and_action.jsx?raw";
 
 // 09. With logo, meta and actions
 import WithLogoMetaAndActions from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_logo__meta_and_actions";
-import WithLogoMetaAndActionsRaw from "@/components/ui-blocks/application-ui/headings/page-headings/with_logo__meta_and_actions.jsx?raw";
+import WithLogoMetaAndActionsRaw from "@/features/tailwind-v4/components/ui-blocks/application-ui/headings/page-headings/with_logo__meta_and_actions.jsx?raw";
 
 // ----------------------------------------------------------------------
 // COMPONENT
