@@ -8,8 +8,7 @@ export default function Home() {
       navbar={<Navbar>{/* Your navbar content */}</Navbar>}
       sidebar={<Sidebar>{/* Your sidebar content */}</Sidebar>}
     >
-      {/* Your page content */}
-      {children}
+      abc
     </StackedLayout>
   );
   // return (
