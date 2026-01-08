@@ -9,7 +9,7 @@ import routes from "@/core/routing/autoRoutes";
 
 import TailwindV4Layout from "@/layouts/tailwind-v4-layout";
 import CatalystLayout from "@/layouts/catalyst-layout";
-import Layout from "@/layouts/layout";
+import Layout from "@/layouts/main-layout";
 
 const LoadingFallback = () => (
   <div className="flex min-h-screen items-center justify-center">
