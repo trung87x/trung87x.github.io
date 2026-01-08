@@ -22,11 +22,11 @@ const Layout = () => {
           items: [
             {
               name: "Sidebar layout",
-              path: "/catalyst/sidebar-layout",
+              path: "/tailwind-v4/ui-kit/sidebar-layout",
             },
             {
               name: "Stacked layout",
-              path: "/catalyst/stacked-layout",
+              path: "/tailwind-v4/ui-kit/stacked-layout",
             },
           ],
         },
@@ -35,91 +35,91 @@ const Layout = () => {
           items: [
             {
               name: "Alert",
-              path: "/catalyst/alert",
+              path: "/tailwind-v4/ui-kit/alert",
             },
             {
               name: "Avatar",
-              path: "/catalyst/avatar",
+              path: "/tailwind-v4/ui-kit/avatar",
             },
             {
               name: "Badge",
-              path: "/catalyst/badge",
+              path: "/tailwind-v4/ui-kit/badge",
             },
             {
               name: "Button",
-              path: "/catalyst/button",
+              path: "/tailwind-v4/ui-kit/button",
             },
             {
               name: "Checkbox",
-              path: "/catalyst/checkbox",
+              path: "/tailwind-v4/ui-kit/checkbox",
             },
             {
               name: "Description list",
-              path: "/catalyst/description-list",
+              path: "/tailwind-v4/ui-kit/description-list",
             },
             {
               name: "Dialog",
-              path: "/catalyst/dialog",
+              path: "/tailwind-v4/ui-kit/dialog",
             },
             {
               name: "Divider",
-              path: "/catalyst/divider",
+              path: "/tailwind-v4/ui-kit/divider",
             },
             {
               name: "Dropdown",
-              path: "/catalyst/dropdown",
+              path: "/tailwind-v4/ui-kit/dropdown",
             },
             {
               name: "Fieldset",
-              path: "/catalyst/fieldset",
+              path: "/tailwind-v4/ui-kit/fieldset",
             },
             {
               name: "Heading",
-              path: "/catalyst/heading",
+              path: "/tailwind-v4/ui-kit/heading",
             },
             {
               name: "Input",
-              path: "/catalyst/input",
+              path: "/tailwind-v4/ui-kit/input",
             },
             {
               name: "Listbox",
-              path: "/catalyst/listbox",
+              path: "/tailwind-v4/ui-kit/listbox",
             },
             {
               name: "Navbar",
-              path: "/catalyst/navbar",
+              path: "/tailwind-v4/ui-kit/navbar",
             },
             {
               name: "Pagination",
-              path: "/catalyst/pagination",
+              path: "/tailwind-v4/ui-kit/pagination",
             },
             {
               name: "Radio Button",
-              path: "/catalyst/radio-button",
+              path: "/tailwind-v4/ui-kit/radio-button",
             },
             {
               name: "Select",
-              path: "/catalyst/select",
+              path: "/tailwind-v4/ui-kit/select",
             },
             {
               name: "Sidebar",
-              path: "/catalyst/sidebar",
+              path: "/tailwind-v4/ui-kit/sidebar",
             },
             {
               name: "Switch",
-              path: "/catalyst/switch",
+              path: "/tailwind-v4/ui-kit/switch",
             },
             {
               name: "Table",
-              path: "/catalyst/table",
+              path: "/tailwind-v4/ui-kit/table",
             },
             {
               name: "Text",
-              path: "/catalyst/text",
+              path: "/tailwind-v4/ui-kit/text",
             },
             {
               name: "Textarea",
-              path: "/catalyst/textarea",
+              path: "/tailwind-v4/ui-kit/textarea",
             },
           ],
         },
