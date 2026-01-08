@@ -7,7 +7,7 @@ import {
   ShoppingBagIcon,
 } from "@heroicons/react/24/outline";
 
-const CatalystLayout = () => {
+const Layout = () => {
   const { pathname } = useLocation();
 
   // DỮ LIỆU ĐÃ ĐỒNG NHẤT
@@ -228,4 +228,4 @@ const CatalystLayout = () => {
   );
 };
 
-export default CatalystLayout;
+export default Layout;

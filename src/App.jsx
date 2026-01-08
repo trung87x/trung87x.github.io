@@ -7,9 +7,9 @@ import NotFound from "@/pages/not-found";
 
 import routes from "@/core/routing/autoRoutes";
 
-import TailwindV4Layout from "@/layouts/tailwind-v4-layout";
-import CatalystLayout from "@/layouts/catalyst-layout";
-import Layout from "@/layouts/main-layout";
+import TailwindV4Layout from "@/features/tailwind-v4/layouts/ui-blocks-layout";
+import CatalystLayout from "@/features/tailwind-v4/layouts/ui-kit-layout";
+import MainLayout from "@/layouts/main-layout";
 
 const LoadingFallback = () => (
   <div className="flex min-h-screen items-center justify-center">
@@ -20,27 +20,6 @@ const LoadingFallback = () => (
 function App() {
   return (
     <BrowserRouter>
-      <nav className="flex gap-4 bg-gray-100 p-4">
-        <Link to="/" className="text-blue-600 hover:underline">
-          Trang chủ
-        </Link>
-        <Link to="/about" className="text-blue-600 hover:underline">
-          Giới thiệu
-        </Link>
-        <Link
-          to="/tailwindv4/marketing/page-sections/hero-sections"
-          className="font-medium text-indigo-600 hover:underline"
-        >
-          Preview Hero
-        </Link>
-        <Link
-          to="/catalyst/alert"
-          className="font-medium text-indigo-600 hover:underline"
-        >
-          Alert
-        </Link>
-      </nav>
-
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
           <Route element={<TailwindV4Layout />}>
@@ -59,7 +38,7 @@ function App() {
               ))}
           </Route>
 
-          <Route element={<Layout />}>
+          <Route element={<MainLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
           </Route>

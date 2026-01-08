@@ -1,6 +1,4 @@
-import { Navbar } from "@/components/ui-kit/navbar";
-import { Sidebar } from "@/components/ui-kit/sidebar";
-import { StackedLayout } from "@/components/ui-kit/stacked-layout";
+import React from "react";
 
 export default function Home() {
   return (
