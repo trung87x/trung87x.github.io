@@ -1,1 +1,0 @@
-import{r as f}from"./index-BUE_4nSx.js";import{b as u}from"./render-CNyBWpu3.js";function E(r,e,i,t){let n=u(i);f.useEffect(()=>{r=r??window;function o(s){n.current(s)}return r.addEventListener(e,o,t),()=>r.removeEventListener(e,o,t)},[r,e,t])}export{E};

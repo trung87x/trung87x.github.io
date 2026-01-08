@@ -1,1 +1,0 @@
-import{r as e,G as o}from"./index-BUE_4nSx.js";let t=e.createContext(void 0);function u(){return e.useContext(t)}function c({value:r,children:n}){return o.createElement(t.Provider,{value:r},n)}export{u as a,c as l};
