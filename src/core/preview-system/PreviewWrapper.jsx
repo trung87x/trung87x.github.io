@@ -73,7 +73,7 @@ const PreviewWrapper = ({ children, code, name }) => {
         {tab === "preview" ? (
           <div className="flex min-h-[400px] items-center justify-center bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] p-0 sm:p-8">
             <div
-              className="relative isolate max-h-[600px] w-full overflow-auto rounded-lg bg-white shadow-2xl ring-1 ring-gray-900/5"
+              className="relative isolate max-h-[600px] min-h-[400px] w-full overflow-auto rounded-lg bg-white shadow-2xl ring-1 ring-gray-900/5"
               style={{ transform: "translate(0, 0)" }}
             >
               {children}

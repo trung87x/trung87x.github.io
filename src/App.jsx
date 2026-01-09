@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import routes from "@/core/routing/routes";
+import { createRouteManager } from "@/core/routing/routes";
+
 import NotFound from "@/pages/not-found";
 
 // Layouts
@@ -15,41 +16,38 @@ const LoadingFallback = () => (
 );
 
 function App() {
-  /**
-   * GỌI: renderByTag("ui-blocks")
-   * TRẢ VỀ: <Route key="..." path="..." element={<Component />} />
-   */
-  const renderByTag = (tag) =>
-    routes
-      .filter((r) => r.tag === tag)
-      .map((r) => (
-        <Route key={r.path} path={r.path} element={<r.component />} />
-      ));
-
+  const { renderByTag } = createRouteManager();
   return (
     <BrowserRouter>
       {/* Navigation - Giữ nguyên của bạn */}
-      <nav className="flex gap-4 bg-gray-100 p-4">
-        <Link to="/" className="text-blue-600 hover:underline">
-          Trang chủ
-        </Link>
-        <Link to="/about" className="text-blue-600 hover:underline">
-          Giới thiệu
-        </Link>
-        <Link
-          to="/tailwind-v4/ui-blocks/marketing/page-sections/hero-sections"
-          className="font-medium text-indigo-600"
-        >
-          Preview Hero
-        </Link>
-        <Link
-          to="/tailwind-v4/ui-kit/alert"
-          className="font-medium text-indigo-600"
-        >
-          Alert
-        </Link>
-      </nav>
-
+      <div className="relative z-50">
+        <nav className="flex gap-4 bg-gray-100 p-4">
+          <Link to="/" className="text-blue-600 hover:underline">
+            Trang chủ
+          </Link>
+          <Link to="/about" className="text-blue-600 hover:underline">
+            Giới thiệu
+          </Link>
+          <Link
+            to="/tailwind-v4/ui-blocks/marketing/page-sections/hero-sections"
+            className="font-medium text-indigo-600"
+          >
+            Preview Hero
+          </Link>
+          <Link
+            to="/tailwind-v4/ui-kit/alert"
+            className="font-medium text-indigo-600"
+          >
+            Alert
+          </Link>
+          <Link
+            to="/marketing/landing/with_large_screenshot_and_testimonial"
+            className="font-medium text-indigo-600"
+          >
+            Landing Page
+          </Link>
+        </nav>
+      </div>
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
           {/* Nhóm 1: Tailwind V4 UI Blocks */}
@@ -63,6 +61,9 @@ function App() {
 
           {/* Nhóm 4: Các tính năng khác nếu có (ví dụ Blog) */}
           <Route element={<Layout />}>{renderByTag("blog")}</Route>
+
+          {/* path="all" */}
+          {renderByTag()}
 
           {/* Trang 404 */}
           <Route path="*" element={<NotFound />} />
