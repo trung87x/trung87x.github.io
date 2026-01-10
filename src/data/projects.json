@@ -1,0 +1,26 @@
+[
+  {
+    "title": "TailwindCSS Docs",
+    "desc": "Trang tài liệu học Tailwind CSS (tiếng Việt).",
+    "link": "https://tailwindcss.trung87.link/",
+    "tags": ["tailwind", "docs", "learning"]
+  },
+  {
+    "title": "TailwindCSS Playground",
+    "desc": "Playground để thử nghiệm Tailwind CSS trực tiếp.",
+    "link": "https://play-tailwindcss.trung87.link/",
+    "tags": ["tailwind", "playground", "demo"]
+  },
+  {
+    "title": "Tailwind UI v4 Explorer",
+    "desc": "Kho duyệt component Tailwind UI v4.",
+    "link": "https://tailwinduiv4.trung87.link/",
+    "tags": ["tailwind", "components", "explorer"]
+  },
+  {
+    "title": "Blog Trung87",
+    "desc": "Blog cá nhân chạy Sanity + Next.js.",
+    "link": "https://blog.trung87.link/",
+    "tags": ["blog", "sanity", "nextjs"]
+  }
+]
