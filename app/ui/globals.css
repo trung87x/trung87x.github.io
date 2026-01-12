@@ -1,11 +1,17 @@
-/* 1. Nhập thư viện Tailwind */
 @import "tailwindcss";
 
-/* 2. Định nghĩa Theme (Design Tokens) */
 @theme {
-  --font-display: "Satoshi", "sans-serif";
-  --color-avocado-500: oklch(0.84 0.18 117.33);
-  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --font-sans: "Inter Variable", sans-serif;
+  --font-sans--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  --font-display: "Satoshi", sans-serif;
+}
+
+@layer base {
+  html {
+    @apply bg-white antialiased dark:bg-gray-950;
+    font-family: var(--font-sans);
+    color-scheme: light dark;
+  }
 }
 
 /* 3. Thêm các Utility tùy chỉnh (Dùng được ở mọi nơi bằng class) */

@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "strict": false,
+    "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    },
-    "jsx": "react-jsx",
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "checkJs": true
+    }
   },
   "exclude": ["node_modules", ".next"]
 }
