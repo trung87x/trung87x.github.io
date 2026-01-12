@@ -1,0 +1,17 @@
+/* 1. Nhập thư viện Tailwind */
+@import "tailwindcss";
+
+/* 2. Định nghĩa Theme (Design Tokens) */
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+}
+
+/* 3. Thêm các Utility tùy chỉnh (Dùng được ở mọi nơi bằng class) */
+@utility tab-4 {
+  tab-size: 4;
+}
+
+/* 4. Cấu hình Legacy (nếu có) */
+@plugin "@tailwindcss/typography";
