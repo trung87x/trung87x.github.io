@@ -26,7 +26,7 @@ export default function Example() {
     <Navbar>
       <Dropdown>
         <DropdownButton as={NavbarItem} aria-label="Account menu">
-          <Avatar src="/src/assets/images/tailwind-logo.svg" />
+          <Avatar src="/images/tailwind-logo.svg" />
           <NavbarLabel>Tailwind Labs</NavbarLabel>
           <ChevronDownIcon />
         </DropdownButton>
@@ -37,7 +37,7 @@ export default function Example() {
           </DropdownItem>
           <DropdownDivider />
           <DropdownItem href="/teams/1">
-            <Avatar slot="icon" src="/src/assets/images/tailwind-logo.svg" />
+            <Avatar slot="icon" src="/images/tailwind-logo.svg" />
             <DropdownLabel>Tailwind Labs</DropdownLabel>
           </DropdownItem>
           <DropdownItem href="/teams/2">

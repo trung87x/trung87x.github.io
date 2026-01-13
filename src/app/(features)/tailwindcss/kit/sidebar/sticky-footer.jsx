@@ -46,7 +46,7 @@ export default function Example() {
       <SidebarFooter>
         <SidebarSection>
           <SidebarItem>
-            <Avatar src="/src/assets/images/profile-photo.svg" />
+            <Avatar src="/images/profile-photo.svg" />
             <SidebarLabel>Erica</SidebarLabel>
             <ChevronRightIcon />
           </SidebarItem>

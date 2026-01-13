@@ -52,7 +52,7 @@ function TeamDropdownMenu() {
       </DropdownItem>
       <DropdownDivider />
       <DropdownItem href="/teams/1">
-        <Avatar slot="icon" src="/src/assets/images/tailwind-logo.svg" />
+        <Avatar slot="icon" src="/images/tailwind-logo.svg" />
         <DropdownLabel>Tailwind Labs</DropdownLabel>
       </DropdownItem>
       <DropdownItem href="/teams/2">
@@ -79,7 +79,7 @@ export default function Example({ children }) {
         <Navbar>
           <Dropdown>
             <DropdownButton as={NavbarItem} className="max-lg:hidden">
-              <Avatar src="/src/assets/images/tailwind-logo.svg" />
+              <Avatar src="/images/tailwind-logo.svg" />
               <NavbarLabel>Tailwind Labs</NavbarLabel>
               <ChevronDownIcon />
             </DropdownButton>
@@ -103,7 +103,7 @@ export default function Example({ children }) {
             </NavbarItem>
             <Dropdown>
               <DropdownButton as={NavbarItem}>
-                <Avatar src="/profile-photo.jpg" square />
+                <Avatar src="/images/profile-photo.svg" square />
               </DropdownButton>
               <DropdownMenu className="min-w-64" anchor="bottom end">
                 <DropdownItem href="/my-profile">
@@ -138,7 +138,7 @@ export default function Example({ children }) {
           <SidebarHeader>
             <Dropdown>
               <DropdownButton as={SidebarItem} className="lg:mb-2.5">
-                <Avatar src="/src/assets/images/tailwind-logo.svg" />
+                <Avatar src="/images/tailwind-logo.svg" />
                 <SidebarLabel>Tailwind Labs</SidebarLabel>
                 <ChevronDownIcon />
               </DropdownButton>

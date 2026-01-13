@@ -47,6 +47,13 @@ export default function RootLayout({ children }) {
                 >
                   Landing page with large screenshot and testimonial
                 </NavbarItem>
+                <NavbarItem
+                  href="/tailwindcss/kit/alert"
+                  className=""
+                  current={false}
+                >
+                  Alert
+                </NavbarItem>
               </NavbarSection>
               <NavbarSpacer className="" />
               <NavbarSection className="">

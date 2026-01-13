@@ -1,3 +1,5 @@
+'use client'
+
 import { Label } from "@/ui/catalyst/fieldset";
 import { Radio, RadioField, RadioGroup } from "@/ui/catalyst/radio";
 import { useState } from "react";

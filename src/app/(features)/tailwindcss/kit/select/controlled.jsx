@@ -1,3 +1,5 @@
+"use client";
+
 import { Field, Label } from "@/ui/catalyst/fieldset";
 import { Select } from "@/ui/catalyst/select";
 import { useState } from "react";

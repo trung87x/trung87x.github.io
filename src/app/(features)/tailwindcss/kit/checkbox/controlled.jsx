@@ -1,3 +1,5 @@
+"use client";
+
 import { Checkbox } from "@/ui/catalyst/checkbox";
 import { useState } from "react";
 

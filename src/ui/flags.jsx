@@ -8,6 +8,8 @@ export function Flag({ code, className }) {
       src={`https://purecatamphetamine.github.io/country-flag-icons/3x2/${code}.svg`}
       className={className}
       alt={code}
+      width={24}
+      height={16}
     />
   );
 }

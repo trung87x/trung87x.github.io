@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/ui/catalyst/button";
 import {
   Dialog,

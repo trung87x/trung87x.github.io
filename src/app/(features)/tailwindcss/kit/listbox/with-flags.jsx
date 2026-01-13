@@ -1,6 +1,6 @@
 import { Field, Label } from "@/ui/catalyst/fieldset";
 import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
-import { Flag } from "@/flags";
+import { Flag } from "@/ui/flags";
 
 export default function Example({ currentCountry, countries }) {
   return (

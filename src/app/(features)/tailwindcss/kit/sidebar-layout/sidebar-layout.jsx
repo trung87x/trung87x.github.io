@@ -62,7 +62,7 @@ export default function Example() {
             </NavbarItem>
             <Dropdown>
               <DropdownButton as={NavbarItem}>
-                <Avatar src="/src/assets/images/profile-photo.svg" square />
+                <Avatar src="/images/profile-photo.svg" square />
               </DropdownButton>
               <DropdownMenu className="min-w-64" anchor="bottom end">
                 <DropdownItem href="/my-profile">
@@ -97,7 +97,7 @@ export default function Example() {
           <SidebarHeader>
             <Dropdown>
               <DropdownButton as={SidebarItem} className="lg:mb-2.5">
-                <Avatar src="/src/assets/images/tailwind-logo.svg" />
+                <Avatar src="/images/tailwind-logo.svg" />
                 <SidebarLabel>Tailwind Labs</SidebarLabel>
                 <ChevronDownIcon />
               </DropdownButton>
@@ -111,10 +111,7 @@ export default function Example() {
                 </DropdownItem>
                 <DropdownDivider />
                 <DropdownItem href="/teams/1">
-                  <Avatar
-                    slot="icon"
-                    src="/src/assets/images/tailwind-logo.svg"
-                  />
+                  <Avatar slot="icon" src="/images/tailwind-logo.svg" />
                   <DropdownLabel>Tailwind Labs</DropdownLabel>
                 </DropdownItem>
                 <DropdownItem href="/teams/2">
@@ -192,7 +189,7 @@ export default function Example() {
               <DropdownButton as={SidebarItem}>
                 <span className="flex min-w-0 items-center gap-3">
                   <Avatar
-                    src="/src/assets/images/profile-photo.svg"
+                    src="/images/profile-photo.svg"
                     className="size-10"
                     square
                     alt=""

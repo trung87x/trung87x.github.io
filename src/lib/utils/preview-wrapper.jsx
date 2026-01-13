@@ -1,15 +1,3 @@
-/* 
-const nextConfig = {
-  webpack: (config) => {
-    config.module.rules.push({
-      resourceQuery: /raw/,
-      type: "asset/source",
-    });
-    return config;
-  },
-};
-*/
-
 "use client";
 
 import { useState } from "react";
@@ -20,6 +8,12 @@ import {
   EyeIcon,
 } from "@heroicons/react/24/outline";
 
+/**
+ * PreviewWrapper - Component bao bọc để hiển thị bản xem trước và mã nguồn.
+ * * @param {ReactNode} children - Component thực tế sẽ được render trong tab Preview.
+ * @param {string} code - Chuỗi mã nguồn tương ứng để hiển thị trong tab Code.
+ * @param {string} name - Tên của component hoặc tiêu đề hiển thị ở góc trái.
+ */
 const PreviewWrapper = ({ children, code, name }) => {
   const [tab, setTab] = useState("preview"); // 'preview' | 'code'
   const [copied, setCopied] = useState(false);

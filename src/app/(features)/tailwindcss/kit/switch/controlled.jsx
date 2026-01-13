@@ -1,3 +1,5 @@
+"use client";
+
 import { Switch } from "@/ui/catalyst/switch";
 import { useState } from "react";
 
