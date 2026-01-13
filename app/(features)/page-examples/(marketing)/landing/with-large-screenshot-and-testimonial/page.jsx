@@ -10,7 +10,7 @@ import FAQs from "@/features/marketing/components/FAQs";
 import CTASections from "@/features/marketing/components/CTASections";
 import Footer from "@/features/marketing/components/Footers";
 
-export default function WithLargeScreenshotAndTestimonialPage() {
+export default function Example() {
   return (
     <div>
       <Headers />
