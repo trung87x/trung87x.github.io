@@ -15,9 +15,9 @@
 }
 
 /* 3. Thêm các Utility tùy chỉnh (Dùng được ở mọi nơi bằng class) */
-@utility tab-4 {
+/* @utility tab-4 {
   tab-size: 4;
-}
+} */
 
 /* 4. Cấu hình Legacy (nếu có) */
 /* @plugin "@tailwindcss/typography"; */

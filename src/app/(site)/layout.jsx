@@ -3,15 +3,15 @@ import {
   NavbarItem,
   NavbarSection,
   NavbarSpacer,
-} from "@/ui/catalyst/navbar";
+} from "ui/catalyst/navbar";
 import {
   Sidebar,
   SidebarBody,
   SidebarHeader,
   SidebarItem,
   SidebarSection,
-} from "@/ui/catalyst/sidebar";
-import { StackedLayout } from "@/ui/catalyst/stacked-layout";
+} from "ui/catalyst/sidebar";
+import { StackedLayout } from "ui/catalyst/stacked-layout";
 import Link from "next/link";
 
 export default function MarketingLayout({ children }) {
