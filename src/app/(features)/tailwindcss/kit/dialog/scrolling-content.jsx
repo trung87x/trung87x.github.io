@@ -1,11 +1,11 @@
-import { Button } from "@/features/tailwind-v4/components/ui-kit/button";
+import { Button } from "@/ui/catalyst/button";
 import {
   Dialog,
   DialogActions,
   DialogBody,
   DialogDescription,
   DialogTitle,
-} from "@/features/tailwind-v4/components/ui-kit/dialog";
+} from "@/ui/catalyst/dialog";
 import { useState } from "react";
 
 export default function Example() {

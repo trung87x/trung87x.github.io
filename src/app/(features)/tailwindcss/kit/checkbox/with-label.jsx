@@ -1,8 +1,5 @@
-import {
-  Checkbox,
-  CheckboxField,
-} from "@/features/tailwind-v4/components/ui-kit/checkbox";
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
+import { Checkbox, CheckboxField } from "@/ui/catalyst/checkbox";
+import { Label } from "@/ui/catalyst/fieldset";
 
 export default function Example() {
   return (

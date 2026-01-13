@@ -1,4 +1,4 @@
-import { Switch } from "@/features/tailwind-v4/components/ui-kit/switch";
+import { Switch } from "@/ui/catalyst/switch";
 import { useState } from "react";
 
 export default function Example() {

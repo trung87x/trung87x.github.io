@@ -1,11 +1,7 @@
 // import { Navbar } from "@/components/ui-kit/navbar";
-import {
-  Navbar,
-  NavbarItem,
-  NavbarSection,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
-import { Sidebar } from "@/features/tailwind-v4/components/ui-kit/sidebar";
-import { SidebarLayout } from "@/features/tailwind-v4/components/ui-kit/sidebar-layout";
+import { Navbar, NavbarItem, NavbarSection } from "@/ui/catalyst/navbar";
+import { Sidebar } from "@/ui/catalyst/sidebar";
+import { SidebarLayout } from "@/ui/catalyst/sidebar-layout";
 
 export default function Example({ children }) {
   return (

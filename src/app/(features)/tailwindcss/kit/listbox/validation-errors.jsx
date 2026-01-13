@@ -1,13 +1,5 @@
-import {
-  ErrorMessage,
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxOption,
-} from "@/features/tailwind-v4/components/ui-kit/listbox";
+import { ErrorMessage, Field, Label } from "@/ui/catalyst/fieldset";
+import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
 
 export default function Example({ errors }) {
   return (

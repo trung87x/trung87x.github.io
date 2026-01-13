@@ -5,7 +5,7 @@ import {
   SidebarItem,
   SidebarLabel,
   SidebarSection,
-} from "@/features/tailwind-v4/components/ui-kit/sidebar";
+} from "@/ui/catalyst/sidebar";
 import {
   Cog6ToothIcon,
   HomeIcon,

@@ -1,10 +1,10 @@
-import { Link } from "@/features/tailwind-v4/components/ui-kit/link";
+import { Link } from "@/ui/catalyst/link";
 import {
   Navbar,
   NavbarItem,
   NavbarSection,
   NavbarDivider,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
+} from "@/ui/catalyst/navbar";
 import { Logo } from "./logo";
 
 export default function Example() {

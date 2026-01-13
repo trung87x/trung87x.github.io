@@ -1,9 +1,5 @@
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Radio,
-  RadioField,
-  RadioGroup,
-} from "@/features/tailwind-v4/components/ui-kit/radio";
+import { Label } from "@/ui/catalyst/fieldset";
+import { Radio, RadioField, RadioGroup } from "@/ui/catalyst/radio";
 import { useState } from "react";
 
 export default function Example() {

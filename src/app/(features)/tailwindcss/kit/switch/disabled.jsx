@@ -1,15 +1,6 @@
-import {
-  Description,
-  Fieldset,
-  Label,
-  Legend,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Switch,
-  SwitchField,
-  SwitchGroup,
-} from "@/features/tailwind-v4/components/ui-kit/switch";
-import { Text } from "@/features/tailwind-v4/components/ui-kit/text";
+import { Description, Fieldset, Label, Legend } from "@/ui/catalyst/fieldset";
+import { Switch, SwitchField, SwitchGroup } from "@/ui/catalyst/switch";
+import { Text } from "@/ui/catalyst/text";
 
 export default function Example() {
   return (

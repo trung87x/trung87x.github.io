@@ -1,8 +1,5 @@
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Switch,
-  SwitchField,
-} from "@/features/tailwind-v4/components/ui-kit/switch";
+import { Label } from "@/ui/catalyst/fieldset";
+import { Switch, SwitchField } from "@/ui/catalyst/switch";
 
 export default function Example() {
   return (

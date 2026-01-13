@@ -3,7 +3,7 @@ import {
   DropdownButton,
   DropdownItem,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
+} from "@/ui/catalyst/dropdown";
 import {
   Table,
   TableBody,
@@ -11,7 +11,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/features/tailwind-v4/components/ui-kit/table";
+} from "@/ui/catalyst/table";
 import { EllipsisHorizontalIcon } from "@heroicons/react/16/solid";
 
 export default function Example({ users }) {

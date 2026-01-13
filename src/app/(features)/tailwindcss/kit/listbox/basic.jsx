@@ -1,8 +1,4 @@
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxOption,
-} from "@/features/tailwind-v4/components/ui-kit/listbox";
+import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
 
 export default function Example() {
   return (

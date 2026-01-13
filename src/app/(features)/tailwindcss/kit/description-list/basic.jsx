@@ -2,7 +2,7 @@ import {
   DescriptionDetails,
   DescriptionList,
   DescriptionTerm,
-} from "@/features/tailwind-v4/components/ui-kit/description-list";
+} from "@/ui/catalyst/description-list";
 
 export default function Example() {
   return (

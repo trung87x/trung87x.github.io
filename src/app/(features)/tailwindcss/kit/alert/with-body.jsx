@@ -1,12 +1,14 @@
+"use client";
+
 import {
   Alert,
   AlertActions,
   AlertBody,
   AlertDescription,
   AlertTitle,
-} from "@/features/tailwind-v4/components/ui-kit/alert";
-import { Button } from "@/features/tailwind-v4/components/ui-kit/button";
-import { Input } from "@/features/tailwind-v4/components/ui-kit/input";
+} from "@/ui/catalyst/alert";
+import { Button } from "@/ui/catalyst/button";
+import { Input } from "@/ui/catalyst/input";
 import { useState } from "react";
 
 export default function Example() {

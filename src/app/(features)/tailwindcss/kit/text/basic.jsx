@@ -1,4 +1,4 @@
-import { Text } from "@/features/tailwind-v4/components/ui-kit/text";
+import { Text } from "@/ui/catalyst/text";
 
 export default function Example() {
   return (

@@ -1,9 +1,5 @@
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxOption,
-} from "@/features/tailwind-v4/components/ui-kit/listbox";
+import { Label } from "@/ui/catalyst/fieldset";
+import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

@@ -5,7 +5,7 @@ import {
   DropdownItem,
   DropdownLabel,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
+} from "@/ui/catalyst/dropdown";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 
 export default function Example({ url, renameFile, deleteFile }) {

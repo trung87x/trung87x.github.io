@@ -1,4 +1,4 @@
-import { Button } from "@/features/tailwind-v4/components/ui-kit/button";
+import { Button } from "@/ui/catalyst/button";
 import { PlusIcon } from "@heroicons/react/16/solid";
 
 export default function Example() {

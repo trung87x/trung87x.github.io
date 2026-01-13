@@ -1,4 +1,4 @@
-import { Checkbox } from "@/features/tailwind-v4/components/ui-kit/checkbox";
+import { Checkbox } from "@/ui/catalyst/checkbox";
 import { useState } from "react";
 
 export default function Example() {

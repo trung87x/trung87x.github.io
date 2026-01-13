@@ -1,4 +1,4 @@
-import { Avatar } from "@/features/tailwind-v4/components/ui-kit/avatar";
+import { Avatar } from "@/ui/catalyst/avatar";
 import {
   Dropdown,
   DropdownButton,
@@ -6,13 +6,13 @@ import {
   DropdownItem,
   DropdownLabel,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
+} from "@/ui/catalyst/dropdown";
 import {
   Navbar,
   NavbarItem,
   NavbarSection,
   NavbarSpacer,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
+} from "@/ui/catalyst/navbar";
 import {
   Sidebar,
   SidebarBody,
@@ -23,8 +23,8 @@ import {
   SidebarLabel,
   SidebarSection,
   SidebarSpacer,
-} from "@/features/tailwind-v4/components/ui-kit/sidebar";
-import { SidebarLayout } from "@/features/tailwind-v4/components/ui-kit/sidebar-layout";
+} from "@/ui/catalyst/sidebar";
+import { SidebarLayout } from "@/ui/catalyst/sidebar-layout";
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronDownIcon,

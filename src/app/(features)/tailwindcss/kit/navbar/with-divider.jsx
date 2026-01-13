@@ -3,8 +3,8 @@ import {
   NavbarDivider,
   NavbarItem,
   NavbarSection,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
-import { Link } from "@/features/tailwind-v4/components/ui-kit/link";
+} from "@/ui/catalyst/navbar";
+import { Link } from "@/ui/catalyst/link";
 import { Logo } from "./logo";
 
 export default function Example() {

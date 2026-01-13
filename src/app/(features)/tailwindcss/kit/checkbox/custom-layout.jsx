@@ -1,5 +1,5 @@
-import { Checkbox } from "@/features/tailwind-v4/components/ui-kit/checkbox";
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
+import { Checkbox } from "@/ui/catalyst/checkbox";
+import { Label } from "@/ui/catalyst/fieldset";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

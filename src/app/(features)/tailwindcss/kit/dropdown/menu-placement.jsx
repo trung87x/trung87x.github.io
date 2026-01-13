@@ -3,7 +3,7 @@ import {
   DropdownButton,
   DropdownItem,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
+} from "@/ui/catalyst/dropdown";
 import { ChevronUpIcon } from "@heroicons/react/16/solid";
 
 export default function Example() {

@@ -1,5 +1,5 @@
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Select } from "@/features/tailwind-v4/components/ui-kit/select";
+import { Label } from "@/ui/catalyst/fieldset";
+import { Select } from "@/ui/catalyst/select";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

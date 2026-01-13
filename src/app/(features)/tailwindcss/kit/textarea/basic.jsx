@@ -1,4 +1,4 @@
-import { Textarea } from "@/features/tailwind-v4/components/ui-kit/textarea";
+import { Textarea } from "@/ui/catalyst/textarea";
 
 export default function Example() {
   return <Textarea aria-label="Description" name="description" />;

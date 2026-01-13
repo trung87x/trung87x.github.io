@@ -1,4 +1,4 @@
-import { Radio } from "@/features/tailwind-v4/components/ui-kit/radio";
+import { Radio } from "@/ui/catalyst/radio";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

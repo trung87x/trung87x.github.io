@@ -1,8 +1,4 @@
-import {
-  Navbar,
-  NavbarItem,
-  NavbarSection,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
+import { Navbar, NavbarItem, NavbarSection } from "@/ui/catalyst/navbar";
 
 export default function Example() {
   return (

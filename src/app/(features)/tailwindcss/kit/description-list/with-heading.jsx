@@ -2,8 +2,8 @@ import {
   DescriptionDetails,
   DescriptionList,
   DescriptionTerm,
-} from "@/features/tailwind-v4/components/ui-kit/description-list";
-import { Subheading } from "@/features/tailwind-v4/components/ui-kit/heading";
+} from "@/ui/catalyst/description-list";
+import { Subheading } from "@/ui/catalyst/heading";
 
 export default function Example() {
   return (

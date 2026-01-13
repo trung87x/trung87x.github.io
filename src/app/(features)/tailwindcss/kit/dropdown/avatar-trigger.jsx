@@ -1,11 +1,11 @@
-import { AvatarButton } from "@/features/tailwind-v4/components/ui-kit/avatar";
+import { AvatarButton } from "@/ui/catalyst/avatar";
 import {
   Dropdown,
   DropdownButton,
   DropdownDivider,
   DropdownItem,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
+} from "@/ui/catalyst/dropdown";
 
 export default function Example({ currentUser, signOut }) {
   return (

@@ -1,4 +1,4 @@
-import { Badge } from "@/features/tailwind-v4/components/ui-kit/badge";
+import { Badge } from "@/ui/catalyst/badge";
 
 export default function Example() {
   return (

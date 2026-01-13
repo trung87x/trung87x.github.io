@@ -1,16 +1,13 @@
-import { Button } from "@/features/tailwind-v4/components/ui-kit/button";
+import { Button } from "@/ui/catalyst/button";
 import {
   Dialog,
   DialogActions,
   DialogBody,
   DialogDescription,
   DialogTitle,
-} from "@/features/tailwind-v4/components/ui-kit/dialog";
-import {
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Input } from "@/features/tailwind-v4/components/ui-kit/input";
+} from "@/ui/catalyst/dialog";
+import { Field, Label } from "@/ui/catalyst/fieldset";
+import { Input } from "@/ui/catalyst/input";
 import { useState } from "react";
 
 export default function Example() {

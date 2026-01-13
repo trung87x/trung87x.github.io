@@ -1,6 +1,6 @@
-import { Navbar } from "@/features/tailwind-v4/components/ui-kit/navbar";
-import { Sidebar } from "@/features/tailwind-v4/components/ui-kit/sidebar";
-import { StackedLayout } from "@/features/tailwind-v4/components/ui-kit/stacked-layout";
+import { Navbar } from "@/ui/catalyst/navbar";
+import { Sidebar } from "@/ui/catalyst/sidebar";
+import { StackedLayout } from "@/ui/catalyst/stacked-layout";
 
 export default function Example({ children }) {
   return (

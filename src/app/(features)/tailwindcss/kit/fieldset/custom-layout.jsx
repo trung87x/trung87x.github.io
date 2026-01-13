@@ -1,12 +1,8 @@
-import {
-  Fieldset,
-  Label,
-  Legend,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Input } from "@/features/tailwind-v4/components/ui-kit/input";
-import { Select } from "@/features/tailwind-v4/components/ui-kit/select";
-import { Text } from "@/features/tailwind-v4/components/ui-kit/text";
-import { Textarea } from "@/features/tailwind-v4/components/ui-kit/textarea";
+import { Fieldset, Label, Legend } from "@/ui/catalyst/fieldset";
+import { Input } from "@/ui/catalyst/input";
+import { Select } from "@/ui/catalyst/select";
+import { Text } from "@/ui/catalyst/text";
+import { Textarea } from "@/ui/catalyst/textarea";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

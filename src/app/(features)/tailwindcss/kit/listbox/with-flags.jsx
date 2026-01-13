@@ -1,12 +1,5 @@
-import {
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxOption,
-} from "@/features/tailwind-v4/components/ui-kit/listbox";
+import { Field, Label } from "@/ui/catalyst/fieldset";
+import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
 import { Flag } from "@/flags";
 
 export default function Example({ currentCountry, countries }) {

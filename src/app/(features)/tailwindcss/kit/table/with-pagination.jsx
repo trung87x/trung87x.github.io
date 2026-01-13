@@ -5,7 +5,7 @@ import {
   PaginationNext,
   PaginationPage,
   PaginationPrevious,
-} from "@/features/tailwind-v4/components/ui-kit/pagination";
+} from "@/ui/catalyst/pagination";
 import {
   Table,
   TableBody,
@@ -13,7 +13,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/features/tailwind-v4/components/ui-kit/table";
+} from "@/ui/catalyst/table";
 
 export default function Example({ users }) {
   return (

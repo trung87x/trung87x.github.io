@@ -1,8 +1,5 @@
-import {
-  Description,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Textarea } from "@/features/tailwind-v4/components/ui-kit/textarea";
+import { Description, Label } from "@/ui/catalyst/fieldset";
+import { Textarea } from "@/ui/catalyst/textarea";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

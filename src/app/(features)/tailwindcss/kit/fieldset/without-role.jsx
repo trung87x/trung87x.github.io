@@ -1,12 +1,7 @@
-import {
-  Description,
-  Field,
-  FieldGroup,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Input } from "@/features/tailwind-v4/components/ui-kit/input";
-import { Select } from "@/features/tailwind-v4/components/ui-kit/select";
-import { Textarea } from "@/features/tailwind-v4/components/ui-kit/textarea";
+import { Description, Field, FieldGroup, Label } from "@/ui/catalyst/fieldset";
+import { Input } from "@/ui/catalyst/input";
+import { Select } from "@/ui/catalyst/select";
+import { Textarea } from "@/ui/catalyst/textarea";
 
 export default function Example() {
   return (

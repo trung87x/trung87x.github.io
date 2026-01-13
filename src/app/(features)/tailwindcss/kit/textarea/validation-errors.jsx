@@ -1,9 +1,5 @@
-import {
-  ErrorMessage,
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Textarea } from "@/features/tailwind-v4/components/ui-kit/textarea";
+import { ErrorMessage, Field, Label } from "@/ui/catalyst/fieldset";
+import { Textarea } from "@/ui/catalyst/textarea";
 
 export default function Example({ errors }) {
   return (

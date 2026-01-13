@@ -3,7 +3,7 @@ import {
   SidebarBody,
   SidebarItem,
   SidebarSection,
-} from "@/features/tailwind-v4/components/ui-kit/sidebar";
+} from "@/ui/catalyst/sidebar";
 
 export default function Example() {
   return (

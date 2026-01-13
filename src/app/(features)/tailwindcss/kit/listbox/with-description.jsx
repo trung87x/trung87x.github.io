@@ -1,13 +1,5 @@
-import {
-  Description,
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxOption,
-} from "@/features/tailwind-v4/components/ui-kit/listbox";
+import { Description, Field, Label } from "@/ui/catalyst/fieldset";
+import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
 
 export default function Example() {
   return (

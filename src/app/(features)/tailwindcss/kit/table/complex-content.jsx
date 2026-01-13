@@ -1,5 +1,5 @@
-import { Avatar } from "@/features/tailwind-v4/components/ui-kit/avatar";
-import { Badge } from "@/features/tailwind-v4/components/ui-kit/badge";
+import { Avatar } from "@/ui/catalyst/avatar";
+import { Badge } from "@/ui/catalyst/badge";
 import {
   Table,
   TableBody,
@@ -7,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/features/tailwind-v4/components/ui-kit/table";
+} from "@/ui/catalyst/table";
 
 export default function ComplexExample({ users }) {
   return (

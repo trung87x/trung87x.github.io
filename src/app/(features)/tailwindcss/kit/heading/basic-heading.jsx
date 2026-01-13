@@ -1,4 +1,4 @@
-import { Heading } from "@/features/tailwind-v4/components/ui-kit/heading";
+import { Heading } from "@/ui/catalyst/heading";
 
 export default function Example() {
   return <Heading>Recent orders</Heading>;

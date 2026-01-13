@@ -1,12 +1,5 @@
-import {
-  Description,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Radio,
-  RadioField,
-  RadioGroup,
-} from "@/features/tailwind-v4/components/ui-kit/radio";
+import { Description, Label } from "@/ui/catalyst/fieldset";
+import { Radio, RadioField, RadioGroup } from "@/ui/catalyst/radio";
 
 export default function Example() {
   return (

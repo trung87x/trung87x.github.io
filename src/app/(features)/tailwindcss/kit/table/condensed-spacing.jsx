@@ -5,7 +5,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/features/tailwind-v4/components/ui-kit/table";
+} from "@/ui/catalyst/table";
 
 export default function Example({ players }) {
   return (

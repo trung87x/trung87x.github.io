@@ -1,5 +1,5 @@
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Switch } from "@/features/tailwind-v4/components/ui-kit/switch";
+import { Label } from "@/ui/catalyst/fieldset";
+import { Switch } from "@/ui/catalyst/switch";
 import * as Headless from "@headlessui/react";
 
 export default function Example() {

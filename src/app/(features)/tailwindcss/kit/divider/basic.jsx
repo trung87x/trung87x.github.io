@@ -1,4 +1,4 @@
-import { Divider } from "@/features/tailwind-v4/components/ui-kit/divider";
+import { Divider } from "@/ui/catalyst/divider";
 
 export default function Example() {
   return <Divider />;

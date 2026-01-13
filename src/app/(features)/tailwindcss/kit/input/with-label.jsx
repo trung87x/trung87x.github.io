@@ -1,8 +1,5 @@
-import {
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Input } from "@/features/tailwind-v4/components/ui-kit/input";
+import { Field, Label } from "@/ui/catalyst/fieldset";
+import { Input } from "@/ui/catalyst/input";
 
 export default function Example() {
   return (

@@ -1,4 +1,4 @@
-import { Avatar } from "@/features/tailwind-v4/components/ui-kit/avatar";
+import { Avatar } from "@/ui/catalyst/avatar";
 
 export default function Example({ users }) {
   return (

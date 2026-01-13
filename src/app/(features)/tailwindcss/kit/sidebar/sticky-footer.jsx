@@ -1,4 +1,4 @@
-import { Avatar } from "@/features/tailwind-v4/components/ui-kit/avatar";
+import { Avatar } from "@/ui/catalyst/avatar";
 import {
   Sidebar,
   SidebarBody,
@@ -6,7 +6,7 @@ import {
   SidebarItem,
   SidebarLabel,
   SidebarSection,
-} from "@/features/tailwind-v4/components/ui-kit/sidebar";
+} from "@/ui/catalyst/sidebar";
 import { ChevronRightIcon } from "@heroicons/react/16/solid";
 import {
   Cog6ToothIcon,

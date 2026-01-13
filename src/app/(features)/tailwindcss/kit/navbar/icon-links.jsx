@@ -3,8 +3,8 @@ import {
   NavbarItem,
   NavbarSection,
   NavbarSpacer,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
-import { Link } from "@/features/tailwind-v4/components/ui-kit/link";
+} from "@/ui/catalyst/navbar";
+import { Link } from "@/ui/catalyst/link";
 import { InboxIcon, MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Logo } from "./logo";
 

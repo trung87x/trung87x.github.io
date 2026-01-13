@@ -1,13 +1,6 @@
-import { Avatar } from "@/features/tailwind-v4/components/ui-kit/avatar";
-import {
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxOption,
-} from "@/features/tailwind-v4/components/ui-kit/listbox";
+import { Avatar } from "@/ui/catalyst/avatar";
+import { Field, Label } from "@/ui/catalyst/fieldset";
+import { Listbox, ListboxLabel, ListboxOption } from "@/ui/catalyst/listbox";
 
 export default function Example({ users }) {
   return (

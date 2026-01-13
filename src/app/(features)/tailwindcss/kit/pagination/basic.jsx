@@ -5,7 +5,7 @@ import {
   PaginationNext,
   PaginationPage,
   PaginationPrevious,
-} from "@/features/tailwind-v4/components/ui-kit/pagination";
+} from "@/ui/catalyst/pagination";
 
 export default function Example() {
   return (

@@ -1,4 +1,4 @@
-import { Button } from "@/features/tailwind-v4/components/ui-kit/button";
+import { Button } from "@/ui/catalyst/button";
 
 export default function Example() {
   return <Button plain>Save draft</Button>;

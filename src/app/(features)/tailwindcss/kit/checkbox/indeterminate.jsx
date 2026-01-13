@@ -1,9 +1,5 @@
-import {
-  Checkbox,
-  CheckboxField,
-  CheckboxGroup,
-} from "@/features/tailwind-v4/components/ui-kit/checkbox";
-import { Label } from "@/features/tailwind-v4/components/ui-kit/fieldset";
+import { Checkbox, CheckboxField, CheckboxGroup } from "@/ui/catalyst/checkbox";
+import { Label } from "@/ui/catalyst/fieldset";
 import { useState } from "react";
 
 const options = ["Show on events page", "Allow embedding"];

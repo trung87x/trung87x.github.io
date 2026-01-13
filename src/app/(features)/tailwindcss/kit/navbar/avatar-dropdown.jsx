@@ -1,4 +1,4 @@
-import { Avatar } from "@/features/tailwind-v4/components/ui-kit/avatar";
+import { Avatar } from "@/ui/catalyst/avatar";
 import {
   DropdownButton,
   Dropdown,
@@ -6,13 +6,9 @@ import {
   DropdownItem,
   DropdownLabel,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
-import {
-  Navbar,
-  NavbarItem,
-  NavbarSpacer,
-} from "@/features/tailwind-v4/components/ui-kit/navbar";
-import { Link } from "@/features/tailwind-v4/components/ui-kit/link";
+} from "@/ui/catalyst/dropdown";
+import { Navbar, NavbarItem, NavbarSpacer } from "@/ui/catalyst/navbar";
+import { Link } from "@/ui/catalyst/link";
 import {
   ArrowRightStartOnRectangleIcon,
   Cog8ToothIcon,

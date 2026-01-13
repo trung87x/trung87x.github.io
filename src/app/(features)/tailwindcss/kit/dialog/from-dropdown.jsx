@@ -1,22 +1,19 @@
-import { Button } from "@/features/tailwind-v4/components/ui-kit/button";
+import { Button } from "@/ui/catalyst/button";
 import {
   Dialog,
   DialogActions,
   DialogBody,
   DialogDescription,
   DialogTitle,
-} from "@/features/tailwind-v4/components/ui-kit/dialog";
+} from "@/ui/catalyst/dialog";
 import {
   Dropdown,
   DropdownButton,
   DropdownItem,
   DropdownMenu,
-} from "@/features/tailwind-v4/components/ui-kit/dropdown";
-import {
-  Field,
-  Label,
-} from "@/features/tailwind-v4/components/ui-kit/fieldset";
-import { Input } from "@/features/tailwind-v4/components/ui-kit/input";
+} from "@/ui/catalyst/dropdown";
+import { Field, Label } from "@/ui/catalyst/fieldset";
+import { Input } from "@/ui/catalyst/input";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { useState } from "react";
 

@@ -1,4 +1,4 @@
-import { Text, TextLink } from "@/features/tailwind-v4/components/ui-kit/text";
+import { Text, TextLink } from "@/ui/catalyst/text";
 
 export default function Example() {
   return (
