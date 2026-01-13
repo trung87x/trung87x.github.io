@@ -9,7 +9,9 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"],
+      "@/catalyst/*": ["./app/ui/catalyst/*"],
+      "@/blocks/*": ["./app/ui/blocks/*"]
     }
   },
   "exclude": ["node_modules", ".next"]

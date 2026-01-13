@@ -1,4 +1,4 @@
-import "@/app/ui/globals.css";
+import "@/ui/globals.css";
 
 export const metadata = {
   title: "Trang web của tôi",
