@@ -59,12 +59,10 @@
   --color-surface-container-high: #e8e7ee;
   --color-surface-container-highest: #e2e2e9;
 
-  /* Inverse */
+  /* Inverse & Others */
   --color-inverse-surface: #2f3036;
   --color-inverse-on-surface: #f0f0f7;
   --color-inverse-primary: #adc6ff;
-
-  /* Outline & Others */
   --color-outline: #74777f;
   --color-outline-variant: #c4c6d0;
   --color-shadow: #000000;
