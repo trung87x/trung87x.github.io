@@ -54,6 +54,13 @@ export default function RootLayout({ children }) {
                 >
                   Alert
                 </NavbarItem>
+                <NavbarItem
+                  href="/tailwindcss/marketing/page-sections/blog-sections"
+                  className=""
+                  current={false}
+                >
+                  Blog sections
+                </NavbarItem>
               </NavbarSection>
               <NavbarSpacer className="" />
               <NavbarSection className="">

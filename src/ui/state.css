@@ -6,48 +6,46 @@
   --opacity-state-dragged: 16%; /* 0.16 */
 }
 
-@layer utilities {
-  /* Các class opacity thuần túy như bạn yêu cầu */
-  @utility hover-state-layer {
+/* Các class opacity thuần túy như bạn yêu cầu */
+@utility hover-state-layer {
+  opacity: var(--opacity-state-hover);
+}
+@utility focus-state-layer {
+  opacity: var(--opacity-state-focus);
+}
+@utility pressed-state-layer {
+  opacity: var(--opacity-state-pressed);
+}
+@utility dragged-state-layer {
+  opacity: var(--opacity-state-dragged);
+}
+
+/* --- Cách dùng nâng cao: Tự động hóa State Layer --- */
+/* Class này tạo ra một lớp phủ màu On-Surface khi tương tác */
+@utility interactive-surface {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: currentColor; /* Lấy màu của chữ làm màu lớp phủ */
+    opacity: 0;
+    transition: opacity var(--transition-duration-200)
+      var(--transition-timing-function-standard);
+  }
+
+  &:hover::before {
     opacity: var(--opacity-state-hover);
   }
-  @utility focus-state-layer {
+
+  &:focus::before {
     opacity: var(--opacity-state-focus);
   }
-  @utility pressed-state-layer {
+
+  &:active::before {
     opacity: var(--opacity-state-pressed);
-  }
-  @utility dragged-state-layer {
-    opacity: var(--opacity-state-dragged);
-  }
-
-  /* --- Cách dùng nâng cao: Tự động hóa State Layer --- */
-  /* Class này tạo ra một lớp phủ màu On-Surface khi tương tác */
-  @utility interactive-surface {
-    position: relative;
-    overflow: hidden;
-
-    &::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background-color: currentColor; /* Lấy màu của chữ làm màu lớp phủ */
-      opacity: 0;
-      transition: opacity var(--transition-duration-200)
-        var(--transition-timing-function-standard);
-    }
-
-    &:hover::before {
-      opacity: var(--opacity-state-hover);
-    }
-
-    &:focus::before {
-      opacity: var(--opacity-state-focus);
-    }
-
-    &:active::before {
-      opacity: var(--opacity-state-pressed);
-    }
   }
 }
 

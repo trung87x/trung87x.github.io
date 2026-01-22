@@ -19,27 +19,30 @@ const Page = () => {
       id: "01",
       name: "Basic",
       component: <Basic />,
-      raw: getRaw("src/app/(features)/tailwindcss/kit/alert/basic.jsx"),
+      fileName: "basic.jsx",
     },
     {
       id: "02",
       name: "Alert Width",
       component: <AlertWidth />,
-      raw: getRaw("src/app/(features)/tailwindcss/kit/alert/alert-width.jsx"),
+      fileName: "alert-width.jsx",
     },
     {
       id: "03",
       name: "With Body",
       component: <WithBody />,
-      raw: getRaw("src/app/(features)/tailwindcss/kit/alert/with-body.jsx"),
+      fileName: "with-body.jsx",
     },
     {
       id: "04",
       name: "Auto-focusing Elements",
       component: <AutoFocus />,
-      raw: getRaw("src/app/(features)/tailwindcss/kit/alert/auto-focusing.jsx"),
+      fileName: "auto-focusing.jsx",
     },
   ];
+
+  // Đường dẫn cơ sở đến thư mục chứa các file alert
+  const baseDir = "src/app/(features)/tailwindcss/kit/alert";
 
   return (
     <div className="space-y-10 pb-20">
@@ -51,7 +54,11 @@ const Page = () => {
           <h2 className="mb-4 text-lg font-bold text-gray-800">
             {layout.id}. {layout.name}
           </h2>
-          <PreviewWrapper name={layout.name} code={layout.raw}>
+          <PreviewWrapper
+            name={layout.name}
+            // Gọi getRaw trực tiếp tại đây để nối chuỗi đường dẫn hoàn chỉnh
+            code={getRaw(`${baseDir}/${layout.fileName}`)}
+          >
             {layout.component}
           </PreviewWrapper>
         </section>

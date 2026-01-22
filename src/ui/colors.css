@@ -1,155 +1,153 @@
-@layer utilities {
-  /* --- Primary (Màu chính: Dùng cho các hành động quan trọng nhất) --- */
-  @utility primary {
-    /* Nút bấm chính (FAB, Primary Button), trạng thái đang chọn nổi bật */
-    color: var(--color-on-primary);
-    background-color: var(--color-primary);
-  }
-  @utility on-primary {
-    /* Đảo ngược: Chữ màu chính trên nền phụ, dùng để nhấn mạnh văn bản */
-    color: var(--color-primary);
-    background-color: var(--color-on-primary);
-  }
-  @utility primary-container {
-    /* Các mảng diện tích lớn (Card, Side Nav) cần sự chú ý nhưng nhẹ nhàng hơn Primary */
-    color: var(--color-on-primary-container);
-    background-color: var(--color-primary-container);
-  }
-  @utility on-primary-container {
-    /* Nội dung hoặc icon nằm bên trong primary-container */
-    color: var(--color-primary-container);
-    background-color: var(--color-on-primary-container);
-  }
+/* --- Primary (Màu chính: Dùng cho các hành động quan trọng nhất) --- */
+@utility primary {
+  /* Nút bấm chính (FAB, Primary Button), trạng thái đang chọn nổi bật */
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
+}
+@utility on-primary {
+  /* Đảo ngược: Chữ màu chính trên nền phụ, dùng để nhấn mạnh văn bản */
+  color: var(--color-primary);
+  background-color: var(--color-on-primary);
+}
+@utility primary-container {
+  /* Các mảng diện tích lớn (Card, Side Nav) cần sự chú ý nhưng nhẹ nhàng hơn Primary */
+  color: var(--color-on-primary-container);
+  background-color: var(--color-primary-container);
+}
+@utility on-primary-container {
+  /* Nội dung hoặc icon nằm bên trong primary-container */
+  color: var(--color-primary-container);
+  background-color: var(--color-on-primary-container);
+}
 
-  /* --- Secondary (Màu phụ: Dùng cho các thành phần ít nổi bật hơn) --- */
-  @utility secondary {
-    /* Chip, Filter, các nút phụ (Secondary buttons) */
-    color: var(--color-on-secondary);
-    background-color: var(--color-secondary);
-  }
-  @utility on-secondary {
-    /* Chữ màu phụ trên nền tương ứng */
-    color: var(--color-secondary);
-    background-color: var(--color-on-secondary);
-  }
-  @utility secondary-container {
-    /* Nền cho các thành phần có độ ưu tiên thấp (Search bar, background của icon) */
-    color: var(--color-on-secondary-container);
-    background-color: var(--color-secondary-container);
-  }
-  @utility on-secondary-container {
-    /* Văn bản hoặc icon bên trong nền secondary-container */
-    color: var(--color-secondary-container);
-    background-color: var(--color-on-secondary-container);
-  }
+/* --- Secondary (Màu phụ: Dùng cho các thành phần ít nổi bật hơn) --- */
+@utility secondary {
+  /* Chip, Filter, các nút phụ (Secondary buttons) */
+  color: var(--color-on-secondary);
+  background-color: var(--color-secondary);
+}
+@utility on-secondary {
+  /* Chữ màu phụ trên nền tương ứng */
+  color: var(--color-secondary);
+  background-color: var(--color-on-secondary);
+}
+@utility secondary-container {
+  /* Nền cho các thành phần có độ ưu tiên thấp (Search bar, background của icon) */
+  color: var(--color-on-secondary-container);
+  background-color: var(--color-secondary-container);
+}
+@utility on-secondary-container {
+  /* Văn bản hoặc icon bên trong nền secondary-container */
+  color: var(--color-secondary-container);
+  background-color: var(--color-on-secondary-container);
+}
 
-  /* --- Tertiary (Màu nhấn/Bậc ba: Dùng để tạo sự cân bằng hoặc điểm nhấn khác biệt) --- */
-  @utility tertiary {
-    /* Các thành phần cần tách biệt với Primary/Secondary hoặc thông báo trung lập */
-    color: var(--color-on-tertiary);
-    background-color: var(--color-tertiary);
-  }
-  @utility on-tertiary {
-    color: var(--color-tertiary);
-    background-color: var(--color-on-tertiary);
-  }
-  @utility tertiary-container {
-    /* Nền cho các vùng input hoặc các block nội dung cần phân tách thị giác */
-    color: var(--color-on-tertiary-container);
-    background-color: var(--color-tertiary-container);
-  }
-  @utility on-tertiary-container {
-    color: var(--color-tertiary-container);
-    background-color: var(--color-on-tertiary-container);
-  }
+/* --- Tertiary (Màu nhấn/Bậc ba: Dùng để tạo sự cân bằng hoặc điểm nhấn khác biệt) --- */
+@utility tertiary {
+  /* Các thành phần cần tách biệt với Primary/Secondary hoặc thông báo trung lập */
+  color: var(--color-on-tertiary);
+  background-color: var(--color-tertiary);
+}
+@utility on-tertiary {
+  color: var(--color-tertiary);
+  background-color: var(--color-on-tertiary);
+}
+@utility tertiary-container {
+  /* Nền cho các vùng input hoặc các block nội dung cần phân tách thị giác */
+  color: var(--color-on-tertiary-container);
+  background-color: var(--color-tertiary-container);
+}
+@utility on-tertiary-container {
+  color: var(--color-tertiary-container);
+  background-color: var(--color-on-tertiary-container);
+}
 
-  /* --- Error (Trạng thái lỗi: Dùng cho cảnh báo và nguy hiểm) --- */
-  @utility error {
-    /* Thông báo lỗi quan trọng, nút Xóa, trạng thái Error cực kỳ khẩn cấp */
-    color: var(--color-on-error);
-    background-color: var(--color-error);
-  }
-  @utility on-error {
-    color: var(--color-error);
-    background-color: var(--color-on-error);
-  }
-  @utility error-container {
-    /* Nền của các banner/alert thông báo lỗi để nội dung dễ đọc hơn */
-    color: var(--color-on-error-container);
-    background-color: var(--color-error-container);
-  }
-  @utility on-error-container {
-    color: var(--color-error-container);
-    background-color: var(--color-on-error-container);
-  }
+/* --- Error (Trạng thái lỗi: Dùng cho cảnh báo và nguy hiểm) --- */
+@utility error {
+  /* Thông báo lỗi quan trọng, nút Xóa, trạng thái Error cực kỳ khẩn cấp */
+  color: var(--color-on-error);
+  background-color: var(--color-error);
+}
+@utility on-error {
+  color: var(--color-error);
+  background-color: var(--color-on-error);
+}
+@utility error-container {
+  /* Nền của các banner/alert thông báo lỗi để nội dung dễ đọc hơn */
+  color: var(--color-on-error-container);
+  background-color: var(--color-error-container);
+}
+@utility on-error-container {
+  color: var(--color-error-container);
+  background-color: var(--color-on-error-container);
+}
 
-  /* --- Background & Surface (Nền và Bề mặt: Bộ khung của giao diện) --- */
-  @utility background {
-    /* Màu nền thấp nhất của toàn bộ trang web/ứng dụng */
-    color: var(--color-on-background);
-    background-color: var(--color-background);
-  }
-  @utility surface {
-    /* Màu của các tấm Card, Dialog, Menu, Sheets */
-    color: var(--color-on-surface);
-    background-color: var(--color-surface);
-  }
-  @utility surface-variant {
-    /* Dùng để tạo sự khác biệt nhẹ giữa các vùng (ví dụ: Sidebar khác với Main content) */
-    color: var(--color-on-surface-variant);
-    background-color: var(--color-surface-variant);
-  }
-  @utility on-surface-variant {
-    /* Dùng cho text có độ ưu tiên thấp hơn trên bề mặt surface */
-    color: var(--color-surface-variant);
-    background-color: var(--color-on-surface-variant);
-  }
-  @utility surface-tint {
-    /* Dùng để phủ màu lên bề mặt khi phần tử được nâng lên (elevation) */
-    background-color: var(--color-surface-tint);
-  }
+/* --- Background & Surface (Nền và Bề mặt: Bộ khung của giao diện) --- */
+@utility background {
+  /* Màu nền thấp nhất của toàn bộ trang web/ứng dụng */
+  color: var(--color-on-background);
+  background-color: var(--color-background);
+}
+@utility surface {
+  /* Màu của các tấm Card, Dialog, Menu, Sheets */
+  color: var(--color-on-surface);
+  background-color: var(--color-surface);
+}
+@utility surface-variant {
+  /* Dùng để tạo sự khác biệt nhẹ giữa các vùng (ví dụ: Sidebar khác với Main content) */
+  color: var(--color-on-surface-variant);
+  background-color: var(--color-surface-variant);
+}
+@utility on-surface-variant {
+  /* Dùng cho text có độ ưu tiên thấp hơn trên bề mặt surface */
+  color: var(--color-surface-variant);
+  background-color: var(--color-on-surface-variant);
+}
+@utility surface-tint {
+  /* Dùng để phủ màu lên bề mặt khi phần tử được nâng lên (elevation) */
+  background-color: var(--color-surface-tint);
+}
 
-  /* --- Inverse (Màu đảo ngược: Dùng cho Snackbar hoặc Toast) --- */
-  @utility inverse-surface {
-    /* Nền tối trên giao diện sáng (và ngược lại) cho các thông báo tạm thời */
-    color: var(--color-inverse-on-surface);
-    background-color: var(--color-inverse-surface);
-  }
-  @utility on-inverse-surface {
-    color: var(--color-inverse-surface);
-    background-color: var(--color-inverse-on-surface);
-  }
-  @utility inverse-primary {
-    /* Nút hành động (ví dụ: "Undo") nằm bên trong vùng Inverse Surface */
-    color: var(--color-on-inverse-primary);
-    background-color: var(--color-inverse-primary);
-  }
-  @utility on-inverse-primary {
-    color: var(--color-inverse-primary);
-    background-color: var(--color-on-inverse-primary);
-  }
+/* --- Inverse (Màu đảo ngược: Dùng cho Snackbar hoặc Toast) --- */
+@utility inverse-surface {
+  /* Nền tối trên giao diện sáng (và ngược lại) cho các thông báo tạm thời */
+  color: var(--color-inverse-on-surface);
+  background-color: var(--color-inverse-surface);
+}
+@utility on-inverse-surface {
+  color: var(--color-inverse-surface);
+  background-color: var(--color-inverse-on-surface);
+}
+@utility inverse-primary {
+  /* Nút hành động (ví dụ: "Undo") nằm bên trong vùng Inverse Surface */
+  color: var(--color-on-inverse-primary);
+  background-color: var(--color-inverse-primary);
+}
+@utility on-inverse-primary {
+  color: var(--color-inverse-primary);
+  background-color: var(--color-on-inverse-primary);
+}
 
-  /* --- Outline & Others --- */
-  @utility outline {
-    /* Đường kẻ phân cách cho Input, Outlined Button hoặc đường viền Card */
-    border: 1px solid var(--color-outline);
-  }
-  @utility black {
-    /* Ép nền màu đen tuyệt đối (không theo theme) */
-    background-color: #000000;
-  }
-  @utility black-text {
-    /* Ép chữ màu đen tuyệt đối */
-    color: #000000;
-  }
-  @utility white {
-    /* Ép nền màu trắng tuyệt đối (không theo theme) */
-    background-color: #ffffff;
-  }
-  @utility white-text {
-    /* Ép chữ màu trắng tuyệt đối */
-    color: #ffffff;
-  }
+/* --- Outline & Others --- */
+@utility outline {
+  /* Đường kẻ phân cách cho Input, Outlined Button hoặc đường viền Card */
+  border: 1px solid var(--color-outline);
+}
+@utility black {
+  /* Ép nền màu đen tuyệt đối (không theo theme) */
+  background-color: #000000;
+}
+@utility black-text {
+  /* Ép chữ màu đen tuyệt đối */
+  color: #000000;
+}
+@utility white {
+  /* Ép nền màu trắng tuyệt đối (không theo theme) */
+  background-color: #ffffff;
+}
+@utility white-text {
+  /* Ép chữ màu trắng tuyệt đối */
+  color: #ffffff;
 }
 
 /* 1. Ví dụ: Card Sản phẩm (Sử dụng Surface và Primary)
