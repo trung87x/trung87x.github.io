@@ -1,0 +1,74 @@
+@theme {
+  /* --- Elevation (Shadow) chuẩn M3 --- */
+  /* Khi đặt tên biến là --shadow-X, Tailwind v4 tự đẻ ra class .shadow-X */
+
+  /* Elevation 1 */
+  --shadow-1:
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  /* Elevation 2 */
+  --shadow-2:
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+
+  /* Elevation 3 */
+  --shadow-3:
+    0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+
+  /* Elevation 4 */
+  --shadow-4:
+    0px 2px 3px 0px rgba(0, 0, 0, 0.3), 0px 6px 10px 4px rgba(0, 0, 0, 0.15);
+
+  /* Elevation 5 */
+  --shadow-5:
+    0px 4px 4px 0px rgba(0, 0, 0, 0.3), 0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* 1. Shadow-1 (Card hoặc Surface cố định)
+Dùng cho các thành phần nằm sát bề mặt nền, cần một chút độ nổi để phân biệt.
+
+HTML
+
+<div class="bg-surface shadow-1 rounded-shape-medium p-4">
+  <p class="body-medium">Nội dung card nằm ở Elevation 1</p>
+</div>
+*/
+
+/* 2. Shadow-2 (Button hoặc Card khi Hover)
+Dùng cho các nút bấm hoặc các thẻ khi người dùng tương tác vào.
+
+HTML
+
+<button class="bg-primary-40 shadow-1 hover:shadow-2 transition-all duration-200">
+  Bấm vào đây
+</button>
+*/
+
+/* 3. Shadow-3 (Menu, Dropdown, Search Bar)
+Dùng cho các thành phần bắt đầu "bay" trên bề mặt nền chính.
+
+HTML
+
+<div class="bg-neutral-99 shadow-3 rounded-shape-full px-6 py-2">
+  <input type="text" placeholder="Tìm kiếm..." />
+</div>
+*/
+
+/* 4. Shadow-4 (Dialog, Bottom Sheet)
+Dùng cho các cửa sổ bật lên (Pop-up) che phủ một phần nội dung bên dưới.
+
+HTML
+
+<div class="fixed top-1/2 left-1/2 -translate-x-1/2 bg-white shadow-4 rounded-shape-large p-8">
+  <h2 class="headline-small">Xác nhận xóa?</h2>
+</div>
+*/
+
+/* 5. Shadow-5 (FAB - Floating Action Button)
+Dùng cho các nút hành động chính, luôn nằm trên cùng của giao diện.
+
+HTML
+
+<button class="fixed bottom-6 right-6 bg-secondary-90 shadow-3 hover:shadow-5 transition-all duration-300 p-4 rounded-shape-extra-large">
+  <icon>Add</icon>
+</button> 
+*/

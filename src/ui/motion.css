@@ -1,0 +1,63 @@
+@theme {
+  /* --- Duration (Thời gian) --- */
+  /* Sử dụng class: duration-50, duration-250, duration-450... */
+
+  --transition-duration-50: 50ms;
+  --transition-duration-100: 100ms;
+  --transition-duration-150: 150ms;
+  --transition-duration-200: 200ms;
+  --transition-duration-250: 250ms;
+  --transition-duration-300: 300ms;
+  --transition-duration-350: 350ms;
+  --transition-duration-400: 400ms;
+  --transition-duration-450: 450ms;
+  --transition-duration-500: 500ms;
+  --transition-duration-550: 550ms;
+  --transition-duration-600: 600ms;
+  --transition-duration-700: 700ms;
+  --transition-duration-800: 800ms;
+  --transition-duration-900: 900ms;
+  --transition-duration-1000: 1000ms;
+
+  /* --- Easing (Kiểu chuyển động) --- */
+  /* Sử dụng class bắt đầu bằng prefix "ease-" */
+
+  --transition-timing-function-linear: cubic-bezier(0, 0, 1, 1);
+  /* Class: ease-linear */
+
+  --transition-timing-function-standard: cubic-bezier(0.2, 0, 0, 1);
+  /* Class: ease-standard */
+
+  --transition-timing-function-standard-decelerate: cubic-bezier(0, 0, 0, 1);
+  /* Class: ease-standard-decelerate */
+
+  --transition-timing-function-standard-accelerate: cubic-bezier(0.3, 0, 1, 1);
+  /* Class: ease-standard-accelerate */
+
+  --transition-timing-function-emphasized: cubic-bezier(0.2, 0, 0, 1);
+  /* Class: ease-emphasized */
+
+  --transition-timing-function-emphasized-decelerate: cubic-bezier(
+    0.05,
+    0.7,
+    0.1,
+    1
+  );
+  /* Class: ease-emphasized-decelerate */
+
+  --transition-timing-function-emphasized-accelerate: cubic-bezier(
+    0.3,
+    0,
+    0.8,
+    0.15
+  );
+  /* Class: ease-emphasized-accelerate */
+}
+
+/* 
+Ví dụ một cái nút: 
+<button class="transition-all duration-450 ease-emphasized">Click me</button>
+
+Ví dụ menu hiện ra: 
+<div class="transition-transform duration-500 ease-emphasized-decelerate">Menu</div> 
+*/

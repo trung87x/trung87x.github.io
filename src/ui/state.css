@@ -1,0 +1,78 @@
+@theme {
+  /* State Layer Opacity */
+  --opacity-state-hover: 8%; /* 0.08 */
+  --opacity-state-focus: 12%; /* 0.12 */
+  --opacity-state-pressed: 12%; /* 0.12 */
+  --opacity-state-dragged: 16%; /* 0.16 */
+}
+
+@layer utilities {
+  /* Các class opacity thuần túy như bạn yêu cầu */
+  @utility hover-state-layer {
+    opacity: var(--opacity-state-hover);
+  }
+  @utility focus-state-layer {
+    opacity: var(--opacity-state-focus);
+  }
+  @utility pressed-state-layer {
+    opacity: var(--opacity-state-pressed);
+  }
+  @utility dragged-state-layer {
+    opacity: var(--opacity-state-dragged);
+  }
+
+  /* --- Cách dùng nâng cao: Tự động hóa State Layer --- */
+  /* Class này tạo ra một lớp phủ màu On-Surface khi tương tác */
+  @utility interactive-surface {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: currentColor; /* Lấy màu của chữ làm màu lớp phủ */
+      opacity: 0;
+      transition: opacity var(--transition-duration-200)
+        var(--transition-timing-function-standard);
+    }
+
+    &:hover::before {
+      opacity: var(--opacity-state-hover);
+    }
+
+    &:focus::before {
+      opacity: var(--opacity-state-focus);
+    }
+
+    &:active::before {
+      opacity: var(--opacity-state-pressed);
+    }
+  }
+}
+
+/* 
+Cách 1: Dùng class interactive-surface (Nhanh nhất)
+Cách này tự động lấy màu chữ làm màu hover, rất đúng chuẩn Material 3.
+
+HTML
+
+<button class="primary shape-full px-6 py-2 interactive-surface">
+  Filled Button
+</button>
+
+<div class="surface-variant on-surface-variant p-4 shape-medium interactive-surface cursor-pointer">
+  List Item
+</div> 
+*/
+
+/* 
+Cách 2: Dùng trực tiếp Modifier của Tailwind v4 (Linh hoạt)
+Bạn có thể dùng cú pháp / để gán trực tiếp mức opacity đã định nghĩa.
+
+HTML
+
+<div class="bg-primary text-on-primary hover:bg-on-primary/8 active:bg-on-primary/12 transition-colors">
+  Custom Interaction
+</div> 
+*/

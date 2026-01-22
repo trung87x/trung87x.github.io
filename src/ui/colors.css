@@ -1,0 +1,215 @@
+@layer utilities {
+  /* --- Primary (Màu chính: Dùng cho các hành động quan trọng nhất) --- */
+  @utility primary {
+    /* Nút bấm chính (FAB, Primary Button), trạng thái đang chọn nổi bật */
+    color: var(--color-on-primary);
+    background-color: var(--color-primary);
+  }
+  @utility on-primary {
+    /* Đảo ngược: Chữ màu chính trên nền phụ, dùng để nhấn mạnh văn bản */
+    color: var(--color-primary);
+    background-color: var(--color-on-primary);
+  }
+  @utility primary-container {
+    /* Các mảng diện tích lớn (Card, Side Nav) cần sự chú ý nhưng nhẹ nhàng hơn Primary */
+    color: var(--color-on-primary-container);
+    background-color: var(--color-primary-container);
+  }
+  @utility on-primary-container {
+    /* Nội dung hoặc icon nằm bên trong primary-container */
+    color: var(--color-primary-container);
+    background-color: var(--color-on-primary-container);
+  }
+
+  /* --- Secondary (Màu phụ: Dùng cho các thành phần ít nổi bật hơn) --- */
+  @utility secondary {
+    /* Chip, Filter, các nút phụ (Secondary buttons) */
+    color: var(--color-on-secondary);
+    background-color: var(--color-secondary);
+  }
+  @utility on-secondary {
+    /* Chữ màu phụ trên nền tương ứng */
+    color: var(--color-secondary);
+    background-color: var(--color-on-secondary);
+  }
+  @utility secondary-container {
+    /* Nền cho các thành phần có độ ưu tiên thấp (Search bar, background của icon) */
+    color: var(--color-on-secondary-container);
+    background-color: var(--color-secondary-container);
+  }
+  @utility on-secondary-container {
+    /* Văn bản hoặc icon bên trong nền secondary-container */
+    color: var(--color-secondary-container);
+    background-color: var(--color-on-secondary-container);
+  }
+
+  /* --- Tertiary (Màu nhấn/Bậc ba: Dùng để tạo sự cân bằng hoặc điểm nhấn khác biệt) --- */
+  @utility tertiary {
+    /* Các thành phần cần tách biệt với Primary/Secondary hoặc thông báo trung lập */
+    color: var(--color-on-tertiary);
+    background-color: var(--color-tertiary);
+  }
+  @utility on-tertiary {
+    color: var(--color-tertiary);
+    background-color: var(--color-on-tertiary);
+  }
+  @utility tertiary-container {
+    /* Nền cho các vùng input hoặc các block nội dung cần phân tách thị giác */
+    color: var(--color-on-tertiary-container);
+    background-color: var(--color-tertiary-container);
+  }
+  @utility on-tertiary-container {
+    color: var(--color-tertiary-container);
+    background-color: var(--color-on-tertiary-container);
+  }
+
+  /* --- Error (Trạng thái lỗi: Dùng cho cảnh báo và nguy hiểm) --- */
+  @utility error {
+    /* Thông báo lỗi quan trọng, nút Xóa, trạng thái Error cực kỳ khẩn cấp */
+    color: var(--color-on-error);
+    background-color: var(--color-error);
+  }
+  @utility on-error {
+    color: var(--color-error);
+    background-color: var(--color-on-error);
+  }
+  @utility error-container {
+    /* Nền của các banner/alert thông báo lỗi để nội dung dễ đọc hơn */
+    color: var(--color-on-error-container);
+    background-color: var(--color-error-container);
+  }
+  @utility on-error-container {
+    color: var(--color-error-container);
+    background-color: var(--color-on-error-container);
+  }
+
+  /* --- Background & Surface (Nền và Bề mặt: Bộ khung của giao diện) --- */
+  @utility background {
+    /* Màu nền thấp nhất của toàn bộ trang web/ứng dụng */
+    color: var(--color-on-background);
+    background-color: var(--color-background);
+  }
+  @utility surface {
+    /* Màu của các tấm Card, Dialog, Menu, Sheets */
+    color: var(--color-on-surface);
+    background-color: var(--color-surface);
+  }
+  @utility surface-variant {
+    /* Dùng để tạo sự khác biệt nhẹ giữa các vùng (ví dụ: Sidebar khác với Main content) */
+    color: var(--color-on-surface-variant);
+    background-color: var(--color-surface-variant);
+  }
+  @utility on-surface-variant {
+    /* Dùng cho text có độ ưu tiên thấp hơn trên bề mặt surface */
+    color: var(--color-surface-variant);
+    background-color: var(--color-on-surface-variant);
+  }
+  @utility surface-tint {
+    /* Dùng để phủ màu lên bề mặt khi phần tử được nâng lên (elevation) */
+    background-color: var(--color-surface-tint);
+  }
+
+  /* --- Inverse (Màu đảo ngược: Dùng cho Snackbar hoặc Toast) --- */
+  @utility inverse-surface {
+    /* Nền tối trên giao diện sáng (và ngược lại) cho các thông báo tạm thời */
+    color: var(--color-inverse-on-surface);
+    background-color: var(--color-inverse-surface);
+  }
+  @utility on-inverse-surface {
+    color: var(--color-inverse-surface);
+    background-color: var(--color-inverse-on-surface);
+  }
+  @utility inverse-primary {
+    /* Nút hành động (ví dụ: "Undo") nằm bên trong vùng Inverse Surface */
+    color: var(--color-on-inverse-primary);
+    background-color: var(--color-inverse-primary);
+  }
+  @utility on-inverse-primary {
+    color: var(--color-inverse-primary);
+    background-color: var(--color-on-inverse-primary);
+  }
+
+  /* --- Outline & Others --- */
+  @utility outline {
+    /* Đường kẻ phân cách cho Input, Outlined Button hoặc đường viền Card */
+    border: 1px solid var(--color-outline);
+  }
+  @utility black {
+    /* Ép nền màu đen tuyệt đối (không theo theme) */
+    background-color: #000000;
+  }
+  @utility black-text {
+    /* Ép chữ màu đen tuyệt đối */
+    color: #000000;
+  }
+  @utility white {
+    /* Ép nền màu trắng tuyệt đối (không theo theme) */
+    background-color: #ffffff;
+  }
+  @utility white-text {
+    /* Ép chữ màu trắng tuyệt đối */
+    color: #ffffff;
+  }
+}
+
+/* 1. Ví dụ: Card Sản phẩm (Sử dụng Surface và Primary)
+Cái card này sử dụng surface làm nền, và primary cho nút bấm chính.
+
+HTML
+
+<div class="surface outline max-w-sm rounded-xl p-4 shadow-sm">
+  <div class="surface-variant mb-4 flex h-40 items-center justify-center rounded-lg">
+    <span class="on-surface-variant">Ảnh sản phẩm</span>
+  </div>
+
+  <h3 class="text-xl font-bold">Tên sản phẩm M3</h3>
+  <p class="on-surface-variant mt-2 text-sm">
+    Mô tả ngắn gọn về sản phẩm sử dụng hệ thống màu Material Design 3 để đảm bảo độ tương phản.
+  </p>
+
+  <div class="mt-4 flex gap-2">
+    <span class="tertiary-container rounded-full px-3 py-1 text-xs font-medium">
+      Mới về
+    </span>
+  </div>
+
+  <div class="mt-6 flex justify-end gap-2">
+    <button class="secondary-container rounded-lg px-4 py-2 text-sm font-medium">
+      Chi tiết
+    </button>
+    <button class="primary rounded-lg px-4 py-2 text-sm font-medium shadow-md">
+      Mua ngay
+    </button>
+  </div>
+</div>
+*/
+
+/* 2. Ví dụ: Thông báo lỗi (Alert)
+Sử dụng nhóm error để cảnh báo người dùng.
+
+HTML
+
+<div class="error-container flex items-center gap-3 rounded-lg p-4 border border-red-200">
+  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+  </svg>
+  <div>
+    <p class="font-bold">Lỗi hệ thống</p>
+    <p class="text-sm">Không thể kết nối đến máy chủ, vui lòng thử lại.</p>
+  </div>
+</div>
+*/
+
+/* 3. Ví dụ: Snackbar (Sử dụng Inverse)
+Snackbar thường cần nổi bật hoàn toàn so với nền web, nên ta dùng nhóm inverse.
+
+HTML
+
+<div class="inverse-surface fixed bottom-4 left-4 flex items-center justify-between gap-8 rounded-md px-4 py-3 shadow-lg min-w-[300px]">
+  <span class="text-sm">Đã lưu mục này vào danh sách yêu thích</span>
+  
+  <button class="on-inverse-surface text-sm font-bold uppercase tracking-wider hover:opacity-80">
+    Hoàn tác
+  </button>
+</div> 
+*/

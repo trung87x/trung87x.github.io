@@ -1,0 +1,59 @@
+@theme {
+  /* Định nghĩa các biến Radius chuẩn M3 */
+  --radius-shape-none: 0px; /* TW v4: rounded-none */
+  --radius-shape-extra-small: 4px; /* TW v4: rounded-sm */
+  --radius-shape-small: 8px; /* TW v4: rounded-md */
+  --radius-shape-medium: 12px; /* TW v4: rounded-lg */
+  --radius-shape-large: 16px; /* TW v4: rounded-xl */
+  --radius-shape-extra-large: 24px; /* TW v4: rounded-3xl */
+  --radius-shape-full: 9999px; /* TW v4: rounded-full */
+}
+
+@layer utilities {
+  /* Bo góc đều 4 cạnh */
+  @utility shape-none {
+    border-radius: var(--radius-shape-none); /* Mặc định: rounded-none */
+  }
+  @utility shape-extra-small {
+    border-radius: var(--radius-shape-extra-small); /* Mặc định: rounded-sm */
+  }
+  @utility shape-small {
+    border-radius: var(--radius-shape-small); /* Mặc định: rounded-md */
+  }
+  @utility shape-medium {
+    border-radius: var(--radius-shape-medium); /* Mặc định: rounded-lg */
+  }
+  @utility shape-large {
+    border-radius: var(--radius-shape-large); /* Mặc định: rounded-xl */
+  }
+  @utility shape-extra-large {
+    border-radius: var(--radius-shape-extra-large); /* Mặc định: rounded-3xl */
+  }
+  @utility shape-full {
+    border-radius: var(--radius-shape-full); /* Mặc định: rounded-full */
+  }
+
+  /* Bo góc phía trên (Top) */
+  @utility extra-small-top {
+    /* Mặc định TW v4: rounded-t-sm */
+    border-top-left-radius: var(--radius-shape-extra-small);
+    border-top-right-radius: var(--radius-shape-extra-small);
+  }
+  @utility large-top {
+    /* Mặc định TW v4: rounded-t-xl */
+    border-top-left-radius: var(--radius-shape-large);
+    border-top-right-radius: var(--radius-shape-large);
+  }
+  @utility extra-large-top {
+    /* Mặc định TW v4: rounded-t-3xl */
+    border-top-left-radius: var(--radius-shape-extra-large);
+    border-top-right-radius: var(--radius-shape-extra-large);
+  }
+
+  /* Bo góc bên phải (End) */
+  @utility large-end {
+    /* Mặc định TW v4: rounded-e-xl */
+    border-top-right-radius: var(--radius-shape-large);
+    border-bottom-right-radius: var(--radius-shape-large);
+  }
+}
