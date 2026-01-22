@@ -23,15 +23,15 @@ const NAVIGATION = [
         items: [
           {
             name: "Multi-column Layouts",
-            path: "/tailwindcss/application-ui/application-shells/multi-column-layouts",
+            path: "/tailwindcss/application-ui/application-shells/multi-column",
           },
           {
             name: "Sidebar Layouts",
-            path: "/tailwindcss/application-ui/application-shells/sidebar-layouts",
+            path: "/tailwindcss/application-ui/application-shells/sidebar",
           },
           {
             name: "Stacked Layouts",
-            path: "/tailwindcss/application-ui/application-shells/stacked-layouts",
+            path: "/tailwindcss/application-ui/application-shells/stacked",
           },
         ],
       },
@@ -123,7 +123,7 @@ const NAVIGATION = [
           },
           {
             name: "Sign-in and Registration",
-            path: "/tailwindcss/application-ui/forms/sign-in-and-registration",
+            path: "/tailwindcss/application-ui/forms/sign-in-forms",
           },
           {
             name: "Textareas",

@@ -31,7 +31,9 @@ const people = [
   // More people...
 ];
 
-const recent = [people[5], people[4], people[2], people[10], people[16]];
+// const recent = [people[5], people[4], people[2], people[10], people[16]];
+// Chỉ lấy những người thực sự tồn tại trong mảng people
+const recent = people.filter(Boolean).slice(0, 5);
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
