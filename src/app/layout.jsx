@@ -61,6 +61,9 @@ export default function RootLayout({ children }) {
                 >
                   Blog sections
                 </NavbarItem>
+                <NavbarItem href="/bricksbuilder" className="" current={false}>
+                  Bricks builder
+                </NavbarItem>
               </NavbarSection>
               <NavbarSpacer className="" />
               <NavbarSection className="">
