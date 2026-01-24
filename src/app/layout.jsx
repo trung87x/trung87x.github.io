@@ -16,8 +16,9 @@ import {
 import { StackedLayout } from "ui/catalyst/stacked-layout";
 import Link from "next/link";
 
-// Ép Dynamic toàn cục (Global)
+// Cloudflare.Deploy
 export const dynamic = "force-dynamic";
+export const runtime = "edge";
 
 export const metadata = {
   title: "Trang web của tôi",
