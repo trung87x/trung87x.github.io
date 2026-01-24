@@ -10,6 +10,8 @@ const nextConfig = {
       },
     ],
   },
+  // Giúp giảm tải bộ nhớ khi build các trang tĩnh
+  staticPageGenerationTimeout: 1000,
 };
 
 export default nextConfig;
