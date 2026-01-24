@@ -16,6 +16,9 @@ import {
 import { StackedLayout } from "ui/catalyst/stacked-layout";
 import Link from "next/link";
 
+// Ép Dynamic toàn cục (Global)
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Trang web của tôi",
   description: "Mô tả dự án",
