@@ -6,20 +6,6 @@
   --opacity-state-dragged: 16%; /* 0.16 */
 }
 
-/* Các class opacity thuần túy như bạn yêu cầu */
-@utility hover-state-layer {
-  opacity: var(--opacity-state-hover);
-}
-@utility focus-state-layer {
-  opacity: var(--opacity-state-focus);
-}
-@utility pressed-state-layer {
-  opacity: var(--opacity-state-pressed);
-}
-@utility dragged-state-layer {
-  opacity: var(--opacity-state-dragged);
-}
-
 /* --- Cách dùng nâng cao: Tự động hóa State Layer --- */
 /* Class này tạo ra một lớp phủ màu On-Surface khi tương tác */
 @utility interactive-surface {
@@ -73,4 +59,16 @@ HTML
 <div class="bg-primary text-on-primary hover:bg-on-primary/8 active:bg-on-primary/12 transition-colors">
   Custom Interaction
 </div> 
+*/
+
+/* 
+Cách 3: Cách dùng trực tiếp với class Opacity
+
+<div class="hover:opacity-state-hover transition-opacity">
+  <svg>...</svg>
+</div>
+
+<div class="bg-primary-30/state-hover">
+  Nội dung này có nền tím với độ trong suốt 8%
+</div>
 */

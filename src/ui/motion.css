@@ -19,39 +19,38 @@
   --transition-duration-900: 900ms;
   --transition-duration-1000: 1000ms;
 
-  /* --- Easing (Kiểu chuyển động) --- */
-  /* Sử dụng class bắt đầu bằng prefix "ease-" */
+  /* --- Easing (Kiểu chuyển động) - Đối chiếu từ thông số MD --- */
 
+  /* Linear: (0, 0, 1, 1) */
   --transition-timing-function-linear: cubic-bezier(0, 0, 1, 1);
-  /* Class: ease-linear */
 
+  /* Standard: (0.2, 0, 0, 1) */
   --transition-timing-function-standard: cubic-bezier(0.2, 0, 0, 1);
-  /* Class: ease-standard */
 
+  /* Standard Decelerate: (0, 0, 0, 1) */
   --transition-timing-function-standard-decelerate: cubic-bezier(0, 0, 0, 1);
-  /* Class: ease-standard-decelerate */
 
+  /* Standard Accelerate: (0.3, 0, 1, 1) */
   --transition-timing-function-standard-accelerate: cubic-bezier(0.3, 0, 1, 1);
-  /* Class: ease-standard-accelerate */
 
+  /* Emphasized: (0.2, 0, 0, 1) */
   --transition-timing-function-emphasized: cubic-bezier(0.2, 0, 0, 1);
-  /* Class: ease-emphasized */
 
+  /* Emphasized Decelerate: (0.05, 0.7, 0.1, 1) */
   --transition-timing-function-emphasized-decelerate: cubic-bezier(
     0.05,
     0.7,
     0.1,
     1
   );
-  /* Class: ease-emphasized-decelerate */
 
+  /* Emphasized Accelerate: (0.3, 0, 0.8, 0.15) */
   --transition-timing-function-emphasized-accelerate: cubic-bezier(
     0.3,
     0,
     0.8,
     0.15
   );
-  /* Class: ease-emphasized-accelerate */
 }
 
 /* 
@@ -60,4 +59,12 @@ Ví dụ một cái nút:
 
 Ví dụ menu hiện ra: 
 <div class="transition-transform duration-500 ease-emphasized-decelerate">Menu</div> 
+*/
+
+/* 
+Loại thành phần	Easing khuyên dùng	Thời gian (Duration)
+Nút bấm (Hover/Active)	ease-standard	duration-200
+Menu/Dialog xuất hiện	ease-emphasized-decelerate	duration-500
+Menu/Dialog đóng lại	ease-emphasized-accelerate	duration-200 hoặc duration-250
+Full screen transition	ease-emphasized	duration-600
 */

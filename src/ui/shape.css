@@ -1,57 +1,54 @@
 @theme {
   /* Định nghĩa các biến Radius chuẩn M3 */
-  --radius-shape-none: 0px; /* TW v4: rounded-none */
-  --radius-shape-extra-small: 4px; /* TW v4: rounded-sm */
-  --radius-shape-small: 8px; /* TW v4: rounded-md */
-  --radius-shape-medium: 12px; /* TW v4: rounded-lg */
-  --radius-shape-large: 16px; /* TW v4: rounded-xl */
-  --radius-shape-extra-large: 24px; /* TW v4: rounded-3xl */
-  --radius-shape-full: 9999px; /* TW v4: rounded-full */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-3xl: 24px;
+  --radius-full: 9999px;
 }
 
-/* Bo góc đều 4 cạnh */
-@utility shape-none {
-  border-radius: var(--radius-shape-none); /* Mặc định: rounded-none */
-}
-@utility shape-extra-small {
-  border-radius: var(--radius-shape-extra-small); /* Mặc định: rounded-sm */
-}
-@utility shape-small {
-  border-radius: var(--radius-shape-small); /* Mặc định: rounded-md */
-}
-@utility shape-medium {
-  border-radius: var(--radius-shape-medium); /* Mặc định: rounded-lg */
-}
-@utility shape-large {
-  border-radius: var(--radius-shape-large); /* Mặc định: rounded-xl */
-}
-@utility shape-extra-large {
-  border-radius: var(--radius-shape-extra-large); /* Mặc định: rounded-3xl */
-}
-@utility shape-full {
-  border-radius: var(--radius-shape-full); /* Mặc định: rounded-full */
-}
+/* 
+rounded-t-xs
+rounded-t-lg
+rounded-t-xl
+rounded-e-lg
 
-/* Bo góc phía trên (Top) */
-@utility extra-small-top {
-  /* Mặc định TW v4: rounded-t-sm */
-  border-top-left-radius: var(--radius-shape-extra-small);
-  border-top-right-radius: var(--radius-shape-extra-small);
-}
-@utility large-top {
-  /* Mặc định TW v4: rounded-t-xl */
-  border-top-left-radius: var(--radius-shape-large);
-  border-top-right-radius: var(--radius-shape-large);
-}
-@utility extra-large-top {
-  /* Mặc định TW v4: rounded-t-3xl */
-  border-top-left-radius: var(--radius-shape-extra-large);
-  border-top-right-radius: var(--radius-shape-extra-large);
-}
+1. rounded-t-xs (Extra Small - Top) — 4px
+Thường dùng cho các thành phần nhỏ, nằm sát cạnh nhau hoặc cần sự sắc nét.
 
-/* Bo góc bên phải (End) */
-@utility large-end {
-  /* Mặc định TW v4: rounded-e-xl */
-  border-top-right-radius: var(--radius-shape-large);
-  border-bottom-right-radius: var(--radius-shape-large);
-}
+Khi nào dùng: Dùng cho các thành phần như Tooltip hoặc các Chip khi chúng được xếp chồng hoặc đính kèm vào một cạnh.
+
+Ví dụ: Một thanh nhập liệu (TextField) dạng "Filled" thường có bo góc 4px ở 2 góc trên để tạo cảm giác nó đang đứng trên một đường kẻ ngang.
+
+2. rounded-t-lg (Large - Top) — 16px
+Đây là mức độ bo góc "mạnh", tạo cảm giác mềm mại và hiện đại.
+
+Khi nào dùng: Dùng cho các bề mặt (Surfaces) chứa nội dung quan trọng nhưng chưa phải là lớn nhất.
+
+Ví dụ: Bảng chọn ngày (Date Picker) hoặc các Menu lớn xuất hiện từ phía dưới màn hình nhưng không chiếm toàn bộ không gian.
+
+3. rounded-t-xl (Extra Large - Top) — 24px (hoặc 28px)
+Đây là giá trị bo góc lớn nhất dành cho các khối nội dung chính yếu.
+
+Khi nào dùng: Dùng cho các thành phần "nổi" hẳn lên trên giao diện chính, thường là các Bottom Sheets (bảng điều khiển kéo từ dưới lên trên di động).
+
+Ví dụ: Khi bạn bấm vào một nút và một cửa sổ tùy chọn hiện ra chiếm nửa màn hình dưới, 2 góc trên của nó sẽ dùng rounded-t-xl để tạo sự phân tách rõ rệt với nền phía sau.
+
+4. rounded-e-lg (Large - End) — 16px
+Đây là kiểu bo góc đặc biệt, chỉ bo ở phía bên phải (hoặc bên trái nếu là ngôn ngữ đọc từ phải sang trái).
+
+Khi nào dùng: Dùng cho các thành phần gắn chặt vào cạnh bên của màn hình.
+
+Ví dụ: Navigation Rail hoặc Navigation Drawer (Thanh menu điều hướng bên trái). Khi thanh menu này mở ra, các góc phía "trong" (phía bên phải) sẽ được bo tròn để tạo cảm giác nó là một tấm thẻ đang trượt ra từ cạnh màn hình.
+*/
+
+/* 
+Thành phần M3	Radius chuẩn	Class Tailwind bạn sẽ dùng
+Chips, TextField	8px (Small)	rounded-md
+Cards, Menus	12px (Medium)	rounded-lg
+Dialogs (Hộp thoại)	28px (Extra Large)	rounded-3xl (Hoặc chỉnh lên 28px)
+Buttons	Full	rounded-full
+Navigation Drawers	0px (Top-Right)	rounded-e-none
+*/
