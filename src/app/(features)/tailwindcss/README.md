@@ -1,6 +1,6 @@
 # Tailwind CSS UI Lab
 
-The **Tailwind CSS UI Lab** is a feature module designed to showcase a comprehensive collection of UI components, layouts, and page examples built with Tailwind CSS. It serves as both a development playground and a reference library for the project.
+The **Tailwind CSS UI Lab** is a feature module designed to showcase a comprehensive collection of UI components, layouts, and page examples built with Tailwind CSS. It serves as both a development playground, a reference library, and a learning hub for the project.
 
 ## Directory Structure
 
@@ -8,80 +8,63 @@ The module is located at `src/app/(features)/tailwindcss` and follows a structur
 
 ```
 src/app/(features)/tailwindcss/
-├── items.jsx           # Single source of truth for navigation data
-├── layout.jsx          # Main layout with Sidebar and Content area
-├── page.jsx            # Landing page displaying all categories
-├── application-ui/     # 'Application UI' category routes
-├── marketing/          # 'Marketing' category routes
-├── ecommerce/          # 'Ecommerce' category routes
-└── kit/                # 'UI Kit' category routes
+├── (ui)/               # Core library implementation
+│   ├── items.jsx       # Single source of truth for navigation data
+│   ├── layout.jsx      # Main layout with Sidebar and Content area
+│   ├── page.jsx        # Landing page displaying all categories
+│   ├── application-ui/ # 'Application UI' category routes
+│   ├── marketing/      # 'Marketing' category routes
+│   ├── ecommerce/      # 'Ecommerce' category routes
+│   └── kit/            # 'UI Kit' category routes
+│
+└── learn/              # Educational resources and roadmaps
+    ├── blocks/         # "Building Blocks" Learning Roadmap
+    │   ├── marketing/  # Marketing track exercises
+    │   ├── ecommerce/  # Ecommerce track exercises
+    │   └── page.jsx    # Roadmap overview page
+    │
+    └── kit/            # "Catalyst Kit" Mastery
+        ├── 01-fundamentals/
+        ├── 02-forms/
+        ├── ...
+        └── page.jsx    # Unified Showcase & Tutorial Index
 ```
 
 ## Key Components
 
-### 1. Navigation Data (`items.jsx`)
+### 1. Navigation Data (`(ui)/items.jsx`)
 
 This file exports the `NAVIGATION` constant, which defines the entire structure of the feature.
 
-- **Purpose**: Centralizes the definition of categories (e.g., Application UI), sections (e.g., Forms), and individual items (e.g., Toggles).
-- **Usage**:
-  - Used by `layout.jsx` to render the Sidebar.
-  - Used by `page.jsx` to render the Landing Page cards.
-- **Structure**:
-  ```javascript
-  export const NAVIGATION = [
-    {
-      id: "group-id",
-      title: "Group Title",
-      icon: <Icon />,
-      sections: [
-        {
-          label: "Section Label",
-          items: [{ name: "Item Name", path: "/route/to/item" }],
-        },
-      ],
-    },
-  ];
-  ```
+- **Purpose**: Centralizes the definition of categories regarding the UI Lab.
+- **Updates**: Now includes a **"Learn"** tab with references to:
+  - **Building Blocks**: The structured roadmap for mastering layouts.
+  - **Catalyst Kit**: The dedicated area for mastering the Catalyst component library.
 
-### 2. Layout (`layout.jsx`)
+### 2. Learning Resources (`learn/`)
 
-- **Type**: Client Component (`use client`).
-- **Functionality**:
-  - Persists the Sidebar across page navigation.
-  - Automatically highlights the active group based on the current URL.
-  - Handles the "active group" state (switching between Marketing, App UI, etc.).
+This directory allows for a focused learning experience, separated from the raw component library.
 
-### 3. Landing Page (`page.jsx`)
-
-- **Type**: Client Component.
-- **Functionality**:
-  - Provides a visual entry point.
-  - Renders a grid of all available component groups using data from `items.jsx`.
+- **Blocks (`/learn/blocks`)**: A structured roadmap divided into "Marketing Master", "Application UI Pro", and "Ecommerce Specialist". It guides you through building complex layouts from scratch.
+- **Kit (`/learn/kit`)**: A combined Showcase and Tutorial hub for the Tailwind Catalyst library. It includes interactive modules (Fundamentals, Forms, Data Display) and full-page examples.
 
 ## How to Add New Components
 
-To add a new component or page example to this module:
+To add a new component or page example to the main library:
 
 1.  **Create the Page Component**:
-    - Create your folder and `page.jsx` inside the appropriate category directory (e.g., `src/app/(features)/tailwindcss/application-ui/forms/my-new-form/page.jsx`).
+    - Create your folder and `page.jsx` inside the appropriate category directory in `src/app/(features)/tailwindcss/(ui)/...`.
 
 2.  **Register in Navigation**:
-    - Open `src/app/(features)/tailwindcss/items.jsx`.
-    - Find the appropriate group (e.g., `id: "application-ui"`) and section.
-    - Add your new item to the `items` array:
-      ```javascript
-      {
-        name: "My New Form",
-        path: "/tailwindcss/application-ui/forms/my-new-form",
-      },
-      ```
+    - Open `src/app/(features)/tailwindcss/(ui)/items.jsx`.
+    - Add your new item to the `items` array of the respective section.
 
 3.  **Verify**:
     - The new item will automatically appear in the Sidebar and on the Landing Page.
 
 ## Categories
 
+- **Learn**: Educational roadmaps (Blocks) and component mastery (Kit).
 - **Application UI**: Components for building web application interfaces (Forms, Lists, Navigation).
 - **Marketing**: Components for landing pages and marketing sites (Heroes, Features, Footers).
 - **Ecommerce**: Components for online stores (Product lists, Carts, Checkout).
