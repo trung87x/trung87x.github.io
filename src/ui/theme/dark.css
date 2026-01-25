@@ -1,0 +1,67 @@
+/* dark.css */
+@layer base {
+  .dark {
+    /* Primary */
+    --color-primary: rgb(173 198 255);
+    --color-on-primary: rgb(16 47 96);
+    --color-primary-container: rgb(43 70 120);
+    --color-on-primary-container: rgb(216 226 255);
+    --color-primary-fixed: rgb(216 226 255);
+    --color-on-primary-fixed: rgb(0 26 65);
+    --color-primary-fixed-dim: rgb(173 198 255);
+    --color-on-primary-fixed-variant: rgb(43 70 120);
+
+    /* Secondary */
+    --color-secondary: rgb(191 198 220);
+    --color-on-secondary: rgb(41 48 65);
+    --color-secondary-container: rgb(63 71 89);
+    --color-on-secondary-container: rgb(219 226 249);
+    --color-secondary-fixed: rgb(219 226 249);
+    --color-on-secondary-fixed: rgb(20 27 44);
+    --color-secondary-fixed-dim: rgb(191 198 220);
+    --color-on-secondary-fixed-variant: rgb(63 71 89);
+
+    /* Tertiary */
+    --color-tertiary: rgb(222 188 223);
+    --color-on-tertiary: rgb(64 40 67);
+    --color-tertiary-container: rgb(88 62 91);
+    --color-on-tertiary-container: rgb(251 215 252);
+    --color-tertiary-fixed: rgb(251 215 252);
+    --color-on-tertiary-fixed: rgb(41 19 45);
+    --color-tertiary-fixed-dim: rgb(222 188 223);
+    --color-on-tertiary-fixed-variant: rgb(88 62 91);
+
+    /* Error */
+    --color-error: rgb(255 180 171);
+    --color-on-error: rgb(105 0 5);
+    --color-error-container: rgb(147 0 10);
+    --color-on-error-container: rgb(255 218 214);
+
+    /* Background & Surface */
+    --color-background: rgb(17 19 24);
+    --color-on-background: rgb(226 226 233);
+    --color-surface: rgb(17 19 24);
+    --color-on-surface: rgb(226 226 233);
+    --color-surface-variant: rgb(68 71 79);
+    --color-on-surface-variant: rgb(196 198 208);
+    --color-surface-tint: rgb(173 198 255);
+
+    /* Surface Container Levels */
+    --color-surface-dim: rgb(17 19 24);
+    --color-surface-bright: rgb(55 57 62);
+    --color-surface-container-lowest: rgb(12 14 19);
+    --color-surface-container-low: rgb(26 27 32);
+    --color-surface-container: rgb(30 31 37);
+    --color-surface-container-high: rgb(40 42 47);
+    --color-surface-container-highest: rgb(51 53 58);
+
+    /* Inverse & Others */
+    --color-inverse-surface: rgb(226 226 233);
+    --color-inverse-on-surface: rgb(47 48 54);
+    --color-inverse-primary: rgb(68 94 145);
+    --color-outline: rgb(142 144 153);
+    --color-outline-variant: rgb(68 71 79);
+    --color-shadow: rgb(0 0 0);
+    --color-scrim: rgb(0 0 0);
+  }
+}
