@@ -69,3 +69,5 @@ To add a new component or page example to the main library:
 - **Marketing**: Components for landing pages and marketing sites (Heroes, Features, Footers).
 - **Ecommerce**: Components for online stores (Product lists, Carts, Checkout).
 - **UI Kit**: Atomic components and base elements.
+
+<!--  -->
