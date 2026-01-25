@@ -28,24 +28,14 @@ export default function RootLayout({ children }) {
         <StackedLayout
           navbar={
             /* 1. Phải truyền className cho cả Navbar (như hình 1 của bạn đang thiếu) */
-            <Navbar className="text-white">
+            <Navbar>
               <NavbarSection className="z-50">
                 {/* 2. Dùng href trực tiếp, NavbarItem của Catalyst sẽ tự xử lý Link */}
                 <NavbarItem href="/" className="" current={false}>
                   Trang chủ
                 </NavbarItem>
-                <NavbarItem href="/projects" className="" current={false}>
-                  Dự án
-                </NavbarItem>
-                <NavbarItem href="/about" className="" current={false}>
-                  Giới thiệu
-                </NavbarItem>
-                <NavbarItem
-                  href="/page-examples/landing/with-large-screenshot-and-testimonial"
-                  className=""
-                  current={false}
-                >
-                  Landing page with large screenshot and testimonial
+                <NavbarItem href="/page-examples" className="" current={false}>
+                  Page examples
                 </NavbarItem>
                 <NavbarItem href="/tailwindcss" className="" current={false}>
                   Tailwind CSS
