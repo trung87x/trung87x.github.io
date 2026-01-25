@@ -47,18 +47,26 @@ export default function RootLayout({ children }) {
                 >
                   Landing page with large screenshot and testimonial
                 </NavbarItem>
+                <NavbarItem href="/tailwindcss" className="" current={false}>
+                  Tailwind CSS
+                </NavbarItem>
                 <NavbarItem
-                  href="/tailwindcss/kit/alert"
+                  href="/tailwindcss/learn/blocks"
                   className=""
                   current={false}
                 >
-                  Alert
+                  Blocks
                 </NavbarItem>
+                <NavbarItem
+                  href="/tailwindcss/learn/kit"
+                  className=""
+                  current={false}
+                >
+                  Kit
+                </NavbarItem>
+
                 <NavbarItem href="/bricksbuilder" className="" current={false}>
                   Bricks builder
-                </NavbarItem>
-                <NavbarItem href="/catalyst" className="" current={false}>
-                  Catalyst
                 </NavbarItem>
               </NavbarSection>
               <NavbarSpacer className="" />
