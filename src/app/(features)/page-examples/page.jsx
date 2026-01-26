@@ -80,7 +80,7 @@ export default function PageExamples() {
     <div className="background min-h-screen px-4 py-16 active:cursor-default sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="mb-20 flex flex-col items-center text-center">
-          <Heading className="display-large ease-emphasized mb-6 transition-all duration-700">
+          <Heading className="display-medium sm:display-large ease-emphasized mb-6 transition-all duration-700">
             Page Examples
           </Heading>
 
@@ -97,10 +97,7 @@ export default function PageExamples() {
             <section key={category.name} className="group/section relative">
               <div className="mb-10 flex items-center gap-6">
                 <Divider className="flex-1 opacity-60" />
-                <Heading
-                  level={2}
-                  className="label-large primary-container rounded-full px-4 py-1.5 uppercase"
-                >
+                <Heading level={2} className="uppercase">
                   {category.displayName}
                 </Heading>
                 <Divider className="flex-1 opacity-60" />
@@ -113,7 +110,10 @@ export default function PageExamples() {
                     className="surface-container ease-standard relative flex h-full flex-col overflow-hidden rounded-[24px] p-8 shadow-sm outline transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-md"
                   >
                     <div className="mb-6">
-                      <Subheading className="headline-small mb-4 flex items-center gap-2">
+                      <Subheading
+                        level={3}
+                        className="mb-4 flex items-center gap-2"
+                      >
                         <span className="bg-primary h-6 w-1.5 rounded-full"></span>
                         {subcategory.displayName}
                       </Subheading>
