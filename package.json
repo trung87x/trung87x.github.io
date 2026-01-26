@@ -4,8 +4,7 @@
     "build": "next build && npx @cloudflare/next-on-pages --minimal",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "preinstall": "npx only-allow pnpm"
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
