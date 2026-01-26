@@ -1,7 +1,8 @@
 const nextConfig = {
   // 1. Chuyển sang chế độ xuất file tĩnh
-  output: "export",
+  // output: "export",
   images: {
+    // unoptimized: true,
     // Khai báo danh sách các trang web được phép lấy ảnh
     remotePatterns: [
       {
