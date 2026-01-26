@@ -110,7 +110,9 @@ const Page = () => {
       id: "07",
       name: "Using as links",
       component: <AvatarLinks user={mockUser} />,
-      raw: getRaw("src/app/(features)/tailwindcss/(ui)/kit/avatar/avatar-link.jsx"),
+      raw: getRaw(
+        "src/app/(features)/tailwindcss/(ui)/kit/avatar/avatar-link.jsx",
+      ),
     },
   ];
 
