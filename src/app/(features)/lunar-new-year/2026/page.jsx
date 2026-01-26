@@ -1,5 +1,5 @@
 "use client";
-
+// bads
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Heading, Subheading } from "@/ui/catalyst/heading";
