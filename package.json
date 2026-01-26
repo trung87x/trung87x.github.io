@@ -3,8 +3,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pages:build": "npx @opennextjs/cloudflare build",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "pages:build": "next build",
+    "deploy": "next build && wrangler pages deploy out --project-name trung87",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
@@ -26,7 +26,6 @@
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^9.39.2",
     "@next/eslint-plugin-next": "^16.1.1",
-    "@opennextjs/cloudflare": "^1.15.1",
     "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.1",
     "eslint-config-prettier": "^10.1.8",
