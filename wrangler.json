@@ -3,19 +3,9 @@
   "main": ".open-next/worker.js",
   "name": "trung87x-github-io",
   "compatibility_date": "2026-01-24",
-  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
-  },
-  "services": [
-    {
-      "binding": "WORKER_SELF_REFERENCE",
-      "service": "trung87x-github-io"
-    }
-  ],
-
-  "images": {
-    "binding": "IMAGES"
   }
 }
