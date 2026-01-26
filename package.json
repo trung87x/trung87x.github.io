@@ -3,7 +3,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "build:worker": "npx @opennextjs/cloudflare build",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "preinstall": "npx only-allow pnpm"
