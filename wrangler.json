@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "name": "trung87x-github-io",
+  "name": "trung87",
   "compatibility_date": "2026-01-24",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
