@@ -2,10 +2,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+"pages:build": "npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "preinstall": "npx only-allow pnpm"
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
