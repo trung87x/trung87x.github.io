@@ -58,14 +58,6 @@ export default function RootLayout({ children }) {
                 <NavbarItem href="/bricksbuilder" className="" current={false}>
                   Bricks builder
                 </NavbarItem>
-
-                <NavbarItem
-                  href="/lunar-new-year/2026"
-                  className=""
-                  current={false}
-                >
-                  Lunar New Year 2026
-                </NavbarItem>
               </NavbarSection>
               <NavbarSpacer className="" />
               <NavbarSection className="">
