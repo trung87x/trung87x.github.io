@@ -66,6 +66,13 @@ export default function RootLayout({ children }) {
                 >
                   Lunar New Year 2026
                 </NavbarItem>
+                <NavbarItem
+                  href="/lunar-new-year-del/2026"
+                  className=""
+                  current={false}
+                >
+                  Lunar New Year 2026
+                </NavbarItem>
               </NavbarSection>
               <NavbarSpacer className="" />
               <NavbarSection className="">
