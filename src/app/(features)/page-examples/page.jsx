@@ -1,12 +1,7 @@
 import fs from "fs";
 import path from "path";
-import { Heading, Subheading } from "ui/catalyst/heading";
-import { Text } from "ui/catalyst/text";
-import { Divider } from "ui/catalyst/divider";
-import { Button } from "ui/catalyst/button";
+import Link from "next/link";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-
-import { ThemeSwitcher } from "ui/theme-switcher";
 
 // Helper to format names
 function formatName(slug) {
@@ -33,10 +28,8 @@ export default function PageExamples() {
 
   if (!fs.existsSync(examplesDir)) {
     return (
-      <div className="p-10 text-center">
-        <Text className="text-red-500">
-          Examples directory not found at {examplesDir}
-        </Text>
+      <div className="p-10 text-center text-red-500">
+        Examples directory not found at {examplesDir}
       </div>
     );
   }
@@ -77,64 +70,53 @@ export default function PageExamples() {
     });
 
   return (
-    <div className="background min-h-screen px-4 py-16 active:cursor-default sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-white px-4 py-12 sm:px-6 lg:px-8 dark:bg-zinc-900">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-20 flex flex-col items-center text-center">
-          <Heading className="display-large ease-emphasized mb-6 transition-all duration-700">
+        <div className="mb-16 text-center">
+          <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-5xl md:text-6xl dark:text-white">
             Page Examples
-          </Heading>
-
-          <ThemeSwitcher />
-
-          <Text className="body-large max-w-3xl">
+          </h1>
+          <p className="mx-auto mt-4 max-w-2xl text-xl text-zinc-500 dark:text-zinc-400">
             A comprehensive collection of full-page UI examples collected from
             the sub-pages.
-          </Text>
+          </p>
         </div>
 
-        <div className="space-y-24">
+        <div className="space-y-20">
           {categories.map((category) => (
-            <section key={category.name} className="group/section relative">
-              <div className="mb-10 flex items-center gap-6">
-                <Divider className="flex-1 opacity-60" />
-                <Heading
-                  level={2}
-                  className="label-large primary-container rounded-full px-4 py-1.5 uppercase"
-                >
+            <section key={category.name} className="relative">
+              <div className="mb-8 flex items-center">
+                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800"></div>
+                <h2 className="px-4 text-2xl font-bold tracking-tight tracking-widest text-zinc-900 uppercase dark:text-white">
                   {category.displayName}
-                </Heading>
-                <Divider className="flex-1 opacity-60" />
+                </h2>
+                <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800"></div>
               </div>
 
-              <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3">
+              <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 xl:grid-cols-3">
                 {category.subcategories.map((subcategory) => (
                   <div
                     key={subcategory.name}
-                    className="surface-container ease-standard relative flex h-full flex-col overflow-hidden rounded-[24px] p-8 shadow-sm outline transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-md"
+                    className="flex flex-col rounded-2xl bg-zinc-50 p-6 ring-1 ring-zinc-900/5 transition-all duration-300 hover:ring-indigo-500/50 dark:bg-zinc-800/50 dark:ring-white/10 dark:hover:ring-indigo-400/50"
                   >
-                    <div className="mb-6">
-                      <Subheading className="headline-small mb-4 flex items-center gap-2">
-                        <span className="bg-primary h-6 w-1.5 rounded-full"></span>
-                        {subcategory.displayName}
-                      </Subheading>
-                      <Divider />
-                    </div>
+                    <h3 className="mb-6 border-b border-zinc-900/5 pb-2 text-xl font-semibold text-indigo-600 dark:border-white/5 dark:text-indigo-400">
+                      {subcategory.displayName}
+                    </h3>
 
-                    <ul className="flex-1 space-y-3">
+                    <ul className="flex-1 space-y-4">
                       {subcategory.examples.map((example) => (
                         <li key={example.name}>
-                          <Button
+                          <Link
                             href={example.url}
-                            plain
-                            className="group interactive-surface ease-standard -mx-4 w-full justify-between rounded-xl px-4 py-3 transition-all duration-200"
+                            className="group -mx-3 flex items-center justify-between rounded-lg p-3 transition-colors hover:bg-zinc-100 dark:hover:bg-white/5"
                           >
-                            <span className="title-medium mr-3 truncate transition-colors">
+                            <span className="text-sm font-medium text-zinc-600 transition-colors group-hover:text-zinc-900 dark:text-zinc-300 dark:group-hover:text-white">
                               {example.displayName}
                             </span>
-                            <span className="surface-container-high group-hover:primary flex size-6 items-center justify-center rounded-full transition-all duration-300">
-                              <ChevronRightIcon className="size-4 transition-colors" />
+                            <span className="text-zinc-400 transition-colors group-hover:text-indigo-600 dark:text-zinc-500 dark:group-hover:text-indigo-400">
+                              <ChevronRightIcon className="h-5 w-5" />
                             </span>
-                          </Button>
+                          </Link>
                         </li>
                       ))}
                     </ul>

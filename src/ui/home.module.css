@@ -1,0 +1,20 @@
+/* 1. THAM CHIẾU đến file gốc để lấy biến theme mà không làm tăng dung lượng file */
+@reference "./globals.css";
+
+.hero-section {
+  /* 2. Dùng @apply để lấy các class Tailwind vào CSS Module */
+  @apply bg-avocado-500 p-8 shadow-md;
+
+  /* 3. Dùng @variant để xử lý chế độ Dark mode hoặc Hover */
+  @variant dark {
+    background-color: black;
+  }
+}
+
+.custom-shape {
+  /* 4. Dùng hàm mới --spacing() thay vì theme() */
+  margin-bottom: --spacing(10);
+
+  /* 5. Dùng --alpha() để chỉnh độ trong suốt của màu đã định nghĩa ở theme */
+  color: --alpha(var(--color-avocado-500) / 70%);
+}
