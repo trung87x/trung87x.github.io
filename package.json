@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-  "pages:build": "npx @cloudflare/next-on-pages",
+    "pages:build": "npx @cloudflare/next-on-pages --no-bundle",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix"

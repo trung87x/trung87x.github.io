@@ -30,6 +30,7 @@ export default function LunarNewYear2026Page() {
 
   // Cập nhật tên bài hát dựa trên thời gian thực
   const isDragging = useRef(false);
+  const sliderValueRef = useRef(0);
 
   const updateCurrentTrack = (time) => {
     const track = [...trackList].reverse().find((t) => time >= t.start);
@@ -57,9 +58,21 @@ export default function LunarNewYear2026Page() {
     setDuration(audioRef.current.duration);
   };
 
+  const handleDragStart = () => {
+    isDragging.current = true;
+    sliderValueRef.current = currentTime;
+  };
+
+  const handleDragEnd = () => {
+    if (audioRef.current) {
+      audioRef.current.currentTime = sliderValueRef.current;
+    }
+    isDragging.current = false;
+  };
+
   const handleSeek = (e) => {
     const time = Number(e.target.value);
-    audioRef.current.currentTime = time;
+    sliderValueRef.current = time;
     setCurrentTime(time);
   };
 
@@ -125,10 +138,10 @@ export default function LunarNewYear2026Page() {
                 max={duration || 0}
                 value={currentTime}
                 onChange={handleSeek}
-                onMouseDown={() => (isDragging.current = true)}
-                onMouseUp={() => (isDragging.current = false)}
-                onTouchStart={() => (isDragging.current = true)}
-                onTouchEnd={() => (isDragging.current = false)}
+                onMouseDown={handleDragStart}
+                onMouseUp={handleDragEnd}
+                onTouchStart={handleDragStart}
+                onTouchEnd={handleDragEnd}
                 className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-zinc-200 accent-red-600 dark:bg-zinc-700"
               />
 
